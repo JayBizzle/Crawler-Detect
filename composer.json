@@ -1,0 +1,26 @@
+{
+    "name": "jaybizzle/crawler-detect",
+    "type": "library",
+    "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+    "keywords": ["crawler", "crawler detect", "crawler detector", "php crawler detect"],
+    "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Beech",
+            "email": "mbeech@mark-beech.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jaybizzle\\CrawlerDetect\\": "src/"
+        }
+    }
+}
