@@ -337,7 +337,8 @@ class CrawlerDetect {
 		"Zealbot",
 		"zspider",
 		"ZyBorg",
-		"slider\.com"
+		"slider\.com",
+		"Yahoo Link Preview"
 	];
 
 	/**
