@@ -37,5 +37,19 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.0.2**
+Added ['AbiLogicBot'](http://www.abilogic.com/bot.html)
+Added ['Link Valet'](http://www.htmlhelp.com/tools/valet/)
+Added ['Mrcgiguy'](http://www.w3dir.com/cgi-bin)
+Added ['LinkExaminer'](http://www.analogx.com/contents/download/network/lnkexam/Freeware.htm)
+Added ['LinksManager.com_bot'](http://www.linksmanager.com/)
+Added ['Notifixious'](http://notifixio.us)
+Added ['online link validator'](http://www.dead-links.com/)
+Added ['Ploetz + Zeller'](http://www.ploetz-zeller.de)
+Added ['InfoWizards Reciprocal Link System PRO'](http://www.infowizards.com)
+Added REL Link Checker
+Added ['SiteBar'](http://sitebar.org/)
+Added ['Vivante Link Checker'](http://www.vivante.com)
+
 **v1.0.1**
 Added ['Yahoo Link Preview'](https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html) bot

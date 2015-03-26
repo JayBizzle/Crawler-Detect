@@ -506,3 +506,37 @@ ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@ad
 Mozilla/5.0 (compatible; OrangeBot/2.0; support.orangebot@orange.com
 Mozilla/5.0 (compatible; memorybot/1.21.14 +http://mignify.com/bot.html)
 Mozilla/5.0 (compatible; AdvBot/2.0; +http://advbot.net/bot.html)
+Mozilla/5.0 (compatible; AbiLogicBot/1.0; +http://www.abilogic.com/bot.html)
+Mozilla/5.0 (compatible; AbiLogicBot/1.0; +http://www.abilogic.com)
+Link Valet Online 1.1
+Link Validity Check From: http://www.w3dir.com/cgi-bin (Using: Hot Links SQL by Mrcgiguy.com)
+LinkExaminer/1.01 (Windows)
+Mozilla/5.0 (compatible; LinksManager.com_bot http://linksmanager.com/linkchecker.html)
+Mozilla/5.0 (compatible; LinksManager.com_bot +http://linksmanager.com/linkchecker.html)
+Mojoo Robot (http://www.mojoo.com/)
+Notifixious/LinkChecker (http://notifixio.us)
+online link validator (http://www.dead-links.com/)
+Ploetz + Zeller (http://www.ploetz-zeller.de) Link Validator v1.0 (support@p-und-z.de) for ARIS Business Architect
+InfoWizards Reciprocal Link System PRO - (http://www.infowizards.com)
+REL Link Checker Lite 1.0
+SiteBar/3.3.8 (Bookmark Server; http://sitebar.org/)
+SiteBar/3.3.5 (Bookmark Server; http://sitebar.org/)
+Vivante Link Checker (http://www.vivante.com)
+W3C-checklink/4.5 [4.160] libwww-perl/5.823
+W3C-checklink/4.5 [4.154] libwww-perl/5.823
+W3C-checklink/4.3 [4.42] libwww-perl/5.820
+W3C-checklink/4.3 [4.42] libwww-perl/5.808
+W3C-checklink/4.3 [4.42] libwww-perl/5.805
+W3C-checklink/4.2.1 [4.21] libwww-perl/5.803
+W3C-checklink/4.2 [4.20] libwww-perl/5.803
+W3C-checklink/3.6.2.3 libwww-perl/5.64
+W3C-checklink/2.90 libwww-perl/5.64
+Xenu Link Sleuth 1.2i
+Xenu Link Sleuth 1.2h
+Xenu Link Sleuth 1.2g
+Xenu Link Sleuth 1.2f
+Xenu Link Sleuth 1.2e
+Xenu Link Sleuth 1.2d
+Xenu Link Sleuth 1.2c
+Xenu Link Sleuth 1.2b
+Xenu Link Sleuth/1.3.7
