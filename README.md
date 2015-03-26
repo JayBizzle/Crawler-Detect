@@ -28,6 +28,11 @@ if($CrawlerDetect->isCrawler('Mozilla/5.0 (compatible; Sosospider/2.0; +http://h
 var_dump($CrawlerDetect->getMatches());
 ```
 
+### Contributing
+If you find a bot/spider/crawler user agent that CrawlerDetect fails to detect, please submit a pull request with with the regex pattern added to the `$crawlers` array in `CrawlerDetect.php` and add the failing user agent to `tests/crawlers.txt`.
+
+Failing that, just create an issue with the user agent you have found, and we'll take it from there :)
+
 ### Laravel Package
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
