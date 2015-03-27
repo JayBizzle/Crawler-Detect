@@ -5,7 +5,7 @@ CrawlerDetect
 
 CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect over 300 bots/spiders/crawlers.
 
-### Instalation
+### Installation
 Run `composer require jaybizzle/crawler-detect 1.*` or add `"jaybizzle/crawler-detect" :"1.*"` to your `composer.json`.
 
 ### Usage
