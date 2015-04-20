@@ -53,3 +53,5 @@ If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect
 
 **v1.0.1**
  - Added ['Yahoo Link Preview'](https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html) bot
+
+_Parts of this class are based on the brilliant [MobileDetect](https://github.com/serbanghita/Mobile-Detect)_
