@@ -39,6 +39,7 @@ If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect
 ### Changelog
 **v1.0.3**
  - Added ['BUbiNG'](http://law.di.unimi.it/BUbiNG.html)
+ - Added ['Qwantify'](https://www.qwant.com/)
 
 **v1.0.2**
  - Added ['AbiLogicBot'](http://www.abilogic.com/bot.html)

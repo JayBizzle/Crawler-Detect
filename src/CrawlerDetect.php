@@ -227,6 +227,7 @@ class CrawlerDetect {
 		"Python-urllib",
 		"Qseero",
 		"QuerySeekerSpider",
+		"Qwantify",
 		"Radian6",
 		"RAMPyBot",
 		"REL Link Checker",
