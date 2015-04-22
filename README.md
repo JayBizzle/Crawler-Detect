@@ -42,6 +42,7 @@ If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect
  - Added ['Qwantify'](https://www.qwant.com/)
  - Added ['archive.org_bot'](http://www.archive.org/details/archive.org_bot)
  - Added ['Applebot'](http://www.apple.com/go/applebot)
+ - Added ['TweetmemeBot'](http://datasift.com/bot.html)
 
 **v1.0.2**
  - Added ['AbiLogicBot'](http://www.abilogic.com/bot.html)

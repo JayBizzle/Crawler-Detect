@@ -284,6 +284,7 @@ class CrawlerDetect {
 		"truwoGPS",
 		"turnitinbot",
 		"TweetedTimes Bot",
+		"TweetmemeBot",
 		"twengabot",
 		"Twitterbot",
 		"uMBot",
