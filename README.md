@@ -40,6 +40,7 @@ If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect
 **v1.0.3**
  - Added ['BUbiNG'](http://law.di.unimi.it/BUbiNG.html)
  - Added ['Qwantify'](https://www.qwant.com/)
+ - Added ['archive.org_bot'](http://www.archive.org/details/archive.org_bot)
 
 **v1.0.2**
  - Added ['AbiLogicBot'](http://www.abilogic.com/bot.html)

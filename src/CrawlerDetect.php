@@ -29,6 +29,7 @@ class CrawlerDetect {
 		"arabot",
 		"Arachmo",
 		"archive-com",
+		"archive.org_bot",
 		"B-l-i-t-z-B-O-T",
 		"backlinkcrawler",
 		"baiduspider",
