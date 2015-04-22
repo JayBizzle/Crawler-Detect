@@ -48,6 +48,7 @@ class CrawlerDetect {
 		"boitho\.com-robot",
 		"brainobot",
 		"btbot",
+		"BUbiNG",
 		"buzzbot",
 		"careerbot",
 		"CatchBot",
