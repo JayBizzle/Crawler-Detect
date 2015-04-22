@@ -26,6 +26,7 @@ class CrawlerDetect {
 		"AISearchBot",
 		"antibot",
 		"AnyApexBot",
+		"Applebot",
 		"arabot",
 		"Arachmo",
 		"archive-com",
