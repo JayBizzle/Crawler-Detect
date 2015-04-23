@@ -545,3 +545,9 @@ Mozilla/5.0 (compatible; Qwantify/2.0n; +https://www.qwant.com/)/*
 Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5 (Applebot/0.1)
 Mozilla/5.0 (TweetmemeBot/4.0; +http://datasift.com/bot.html) Gecko/20100101 Firefox/31.0
+SklikBot/2.0 (sklik@firma.seznam.cz;+http://napoveda.sklik.cz/)
+Mozilla/5.0 (compatible; CrawlBot/1.0.0)
+Mozilla/5.0 (compatible; Seznam screenshot-generator 2.1; +http://fulltext.sblog.cz/screenshot/)
+python-requests/2.6.0 CPython/2.7.3 Linux/3.2.0-4-amd64
+Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.0; trendictionbot0.5.0; trendiction search; http://www.trendiction.de/bot; please let us know of any problems; web at trendiction.com) Gecko/20071127 Firefox/3.0.0.11
