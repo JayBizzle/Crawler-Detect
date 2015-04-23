@@ -551,3 +551,4 @@ Mozilla/5.0 (compatible; Seznam screenshot-generator 2.1; +http://fulltext.sblog
 python-requests/2.6.0 CPython/2.7.3 Linux/3.2.0-4-amd64
 Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)
 Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.0; trendictionbot0.5.0; trendiction search; http://www.trendiction.de/bot; please let us know of any problems; web at trendiction.com) Gecko/20071127 Firefox/3.0.0.11
+python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-29-virtual

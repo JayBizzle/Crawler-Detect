@@ -16393,7 +16393,6 @@ Opera/9.80 (X11; Linux x86_64; U; ru) Presto/2.10.289 Version/12.02
 Opera/9.80 (X11; Linux zbov) Presto/2.11.355 Version/12.10
 Pattern/2.6 +http://www.clips.ua.ac.be/pattern
 PB0.6b Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0
-python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-29-virtual
 SAMSUNG GT-S3332 Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.32840/35.5706; U; en) Presto/2.8.119 Version/11.10
 SAMSUNG-GT-C3303/C3303DDJG4 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1
 SAMSUNG-GT-C3312 Opera/9.80 (J2ME/MIDP; Opera Mini/6.5.29390/31.1448; U; en) Presto/2.8.119 Version/11.10
