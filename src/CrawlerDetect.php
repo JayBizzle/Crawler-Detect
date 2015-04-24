@@ -109,7 +109,7 @@ class CrawlerDetect
         'FurlBot',
         'FyberSpider',
         "g00g1e\.net",
-        "GigablastOpenSource",
+        'GigablastOpenSource',
         "grub\.org",
         'g2crawler',
         'Gaisbot',
