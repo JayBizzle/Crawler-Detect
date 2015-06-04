@@ -37,6 +37,11 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.0.6**
+ - Added ['findxbot'](http://www.findxbot.com)
+ - Added ['SemrushBot'](http://www.semrush.com/bot.html)
+ - Added ['yoozBot'](http://yooz.ir)
+
 **v1.0.5**
  - Added ['GigablastOpenSource'](https://github.com/gigablast/open-source-search-engine)
  - Added ['MegaIndex.ru'](http://megaindex.com/crawler)
