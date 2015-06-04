@@ -556,4 +556,7 @@ WeSEE:Ads/PageBot (http://www.wesee.com/bot/)
 Pingdom.com_bot_version_1.4_(http://www.pingdom.com/)
 Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +http://megaindex.com/crawler)
 GigablastOpenSource/1.0
-DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html) 
+DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html)
+Mozilla/5.0 (compatible; Findxbot/1.0; +http://www.findxbot.com)
+Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)
+Mozilla/5.0 (compatible; yoozBot-2.2; http://yooz.ir; info@yooz.ir)
