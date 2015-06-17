@@ -1,6 +1,6 @@
 CrawlerDetect
 =======
-[![Build Status](https://img.shields.io/travis/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://travis-ci.org/JayBizzle/Crawler-Detect) [![Total Downloads](https://img.shields.io/packagist/dt/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect)
+[![Build Status](https://img.shields.io/travis/JayBizzle/Crawler-Detect/master.svg?style=flat-square)](https://travis-ci.org/JayBizzle/Crawler-Detect) [![Total Downloads](https://img.shields.io/packagist/dt/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://scrutinizer-ci.com/g/JayBizzle/Crawler-Detect/?branch=master) [![MIT](https://img.shields.io/badge/license-MIT-ff69b4.svg?style=flat-square)](https://github.com/JayBizzle/Crawler-Detect) [![Version](https://img.shields.io/packagist/v/jaybizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect) [![StyleCI](https://styleci.io/repos/32755917/shield)](https://styleci.io/repos/32755917)
 
 CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect over 330 bots/spiders/crawlers.
