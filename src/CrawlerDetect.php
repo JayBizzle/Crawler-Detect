@@ -111,7 +111,7 @@ class CrawlerDetect
         'FyberSpider',
         'g00g1e\.net',
         'GigablastOpenSource',
-        'grub\.org',
+        'grub-client',
         'g2crawler',
         'Gaisbot',
         'GalaxyBot',
