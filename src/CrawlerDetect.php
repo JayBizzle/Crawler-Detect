@@ -83,7 +83,7 @@ class CrawlerDetect
         'dotbot',
         'drupact',
         'DuckDuckBot',
-        'EARTHCOM\.info',
+        'EARTHCOM',
         'ec2linkfinder',
         'edisterbot',
         'elisabot',
