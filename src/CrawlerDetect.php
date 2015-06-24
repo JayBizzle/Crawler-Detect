@@ -18,7 +18,7 @@ class CrawlerDetect
         'AbiLogicBot',
         'Aboundex',
         'Accoona-AI-Agent',
-        'acoonbot',
+        'acoon',
         'AddSugarSpiderBot',
         'Adidxbot',
         'ADmantX',
