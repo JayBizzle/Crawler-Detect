@@ -284,6 +284,7 @@ class CrawlerDetect
         'StackRambler',
         'suggybot',
         'summify',
+        'SurdotlyBot',
         'SurveyBot',
         'SynooBot',
         'tagoobot',
