@@ -41,7 +41,7 @@ If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect
  - Added ['SurdotlyBot'](http://sur.ly/bot.html)
  - Added ['AddThis'](https://www.addthis.com)
  - Tweaked some regex patterns
- - Fixed ['#10'](https://github.com/JayBizzle/Crawler-Detect/issues/10)
+ - Fixed [#10](https://github.com/JayBizzle/Crawler-Detect/issues/10)
 
 **v1.0.6**
  - Added ['findxbot'](http://www.findxbot.com)
