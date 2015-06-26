@@ -442,6 +442,6 @@ class CrawlerDetect
 
     public function getMatches()
     {
-        return $this->matches;
+        return $this->matches[0];
     }
 }
