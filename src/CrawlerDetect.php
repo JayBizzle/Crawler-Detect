@@ -20,6 +20,7 @@ class CrawlerDetect
         'Accoona-AI-Agent',
         'acoon',
         'AddSugarSpiderBot',
+        'AddThis',
         'Adidxbot',
         'ADmantX',
         'AdvBot',

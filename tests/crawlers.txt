@@ -651,3 +651,4 @@ woriobot (+http://www.worio.com)
 Wotbox/2.0 (bot@wotbox.com; http://www.wotbox.com)
 Wotbox/2.01 (+http://www.wotbox.com/bot/)
 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) Gecko/20100401 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.6) Yanga Gecko/20100625 Firefox/3.6.6 ( .NET CLR 3.5.30729)
+AddThis.com robot tech.support@clearspring.com
