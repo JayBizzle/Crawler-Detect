@@ -37,10 +37,11 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
-**v1.0.6**
+**v1.0.7**
  - Added ['SurdotlyBot'](http://sur.ly/bot.html)
  - Added ['AddThis'](https://www.addthis.com)
- - Added ['yoozBot'](http://yooz.ir)
+ - Tweaked some regex patterns
+ - Fixed ['#10'](https://github.com/JayBizzle/Crawler-Detect/issues/10)
 
 **v1.0.6**
  - Added ['findxbot'](http://www.findxbot.com)
