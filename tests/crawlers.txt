@@ -560,3 +560,95 @@ DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html)
 Mozilla/5.0 (compatible; Findxbot/1.0; +http://www.findxbot.com)
 Mozilla/5.0 (compatible; SemrushBot/0.98~bl; +http://www.semrush.com/bot.html)
 Mozilla/5.0 (compatible; yoozBot-2.2; http://yooz.ir; info@yooz.ir)
+Aboundex/0.2 (http://www.aboundex.com/crawler/)
+Acoon Robot v1.01 (www.acoon.de)
+Acoon v4.10.4 (www.acoon.de)
+Mozilla/5.0 (compatible; AcoonBot/4.10.6; +http://www.acoon.de/robot.asp)
+Mozilla/5.0 (compatible; AcoonBot/4.11.0; +http://www.acoon.de/robot.asp)
+Mozilla/5.0 (compatible; AcoonBot/4.12.1; +http://www.acoon.de/robot.asp)
+Mozilla/5.0 (compatible; SurdotlyBot/1.0; +http://sur.ly/bot.html)
+Mozilla/5.0 (compatible; AhrefsBot/1.0; +http://ahrefs.com/robot/)
+AISearchBot (Email: aisearchbot@gmail.com; If your web site doesn't want to be crawled, please send us a email.)
+antibot-V1.2.0/redhat-linux-9
+Mozilla/5.0 (compatible; Blekkobot; ScoutJet; +http://blekko.com/about/blekkobot)
+Mozilla/5.0 (compatible; BuzzBot/1.0; http://www.buzzlogic.com)
+Mozilla/5.0 (compatible; CareerBot/1.1; +http://www.career-x.de/bot.html)
+CCBot/1.0 (+http://www.commoncrawl.org/bot.html)
+CCBot/2.0 (http://commoncrawl.org/faq/)
+ChangeDetection
+coccoc/1.0 (http://help.coccoc.com/)
+coccoc
+coccoc/1.0 ()
+coccoc/1.0 (http://help.coccoc.vn/)
+Mozilla/5.0 (compatible; coccoc/1.0; +http://help.coccoc.com/)
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; CrystalSemanticsBot http://www.crystalsemantics.com/service-navigation/imprint/useragent/)
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; CrystalSemanticsBot http://www.crystalsemantics.com/user-agent/)
+CyberPatrol SiteCat Webbot (http://www.cyberpatrol.com/cyberpatrolcrawler.asp)
+DomainCrawler/1.0 (info@domaincrawler.com; http://www.domaincrawler.com/domains/view/yourdomain.com)
+Mozilla/5.0 (compatible; EARTHCOM/2.2; +http://enter4u.eu)
+EC2LinkFinder
+EdisterBot (http://www.edister.com/bot.html)
+ElisaBot 1.0
+Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+facebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)
+Facebot/1.0
+Mozilla/4.0 (compatible; grub-client-0.3.0; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.0.4; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.0.5; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.0.6; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.0.7; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.1.1; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.2.1; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.3.1; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.3.7; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.4.3; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.5.3; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-2.3)
+Mozilla/4.0 (compatible; grub-client-2.6.0)
+Mozilla/4.0 (compatible; grub-client-2.6.1)
+GingerCrawler/1.0 (Language Assistant for Dyslexics; www.gingersoftware.com/crawler_agent.htm; support at ginger software dot com)
+Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)
+GSLFbot
+mozilla/5.0 (compatible; heritrix/1.2.0 +http://www.cs.washington.edu/research/networking/websys/)
+mozilla/5.0 (compatible; heritrix/1.3.0 +http://archive.crawler.org)
+Mozilla/5.0 (compatible; heritrix/1.10.1 +http://www.cs.washington.edu/homes/raphaelh)
+Mozilla/5.0 (compatible; woriobot heritrix/1.10.0 +http://worio.com)
+httpunit/1.x
+Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)
+intelium_bot
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12; ips-agent) Gecko/20050922 Fedora/1.0.7-1.1.fc4 Firefox/1.0.7
+Mozilla/5.0 (compatible; Lipperhey SEO Service; http://www.lipperhey.com/)
+MLBot (www.metadatalabs.com/mlbot)
+Mozilla/5.0 (compatible; NerdByNature.Bot; http://www.nerdbynature.net/bot)
+niki-bot
+Mozilla/5.0 (compatible; OpenindexSpider; +http://www.openindex.io/en/webmasters/spider.html)
+Mozilla/5.0 (compatible; Page2RSS/0.4; +http://page2rss.com/)
+Mozilla/5.0 (compatible; Page2RSS/0.5; +http://page2rss.com/)
+panscient.com
+PHPCrawl
+PostRank/2.0 (postrank.com)
+PostRank/2.0 (postrank.com; 1 subscribers)
+Mozilla/5.0 (compatible; proximic; +http://www.proximic.com)
+Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)
+Mozilla/5.0 (compatible; Purebot/1.1; +http://www.puritysearch.net/)
+Python-urllib/1.16
+Python-urllib/2.0a1
+Python-urllib/2.1
+Python-urllib/2.4
+Python-urllib/2.5
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; RetrevoPageAnalyzer; +http://www.retrevo.com/content/about-us)
+Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)
+Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://siteexplorer.info/)
+Summify (Summify/1.0.1; +http://summify.com)
+Mozilla/5.0 (compatible; Tagoobot/3.0; +http://www.tagoo.ru)
+Mozilla/5.0 (compatible; URLAppendBot/1.0; +http://www.profound.net/urlappendbot.html)
+WebCompanyCrawler
+Wget/1.8.2
+woriobot (+http://www.worio.com/)
+Mozilla/5.0 (compatible; woriobot support [at] worio [dot] com +http://worio.com)
+Mozilla/5.0 (compatible; woriobot +http://worio.com)
+woriobot (+http://www.worio.com)
+Wotbox/2.0 (bot@wotbox.com; http://www.wotbox.com)
+Wotbox/2.01 (+http://www.wotbox.com/bot/)
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) Gecko/20100401 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.6) Yanga Gecko/20100625 Firefox/3.6.6 ( .NET CLR 3.5.30729)
+AddThis.com robot tech.support@clearspring.com

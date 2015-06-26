@@ -18,8 +18,9 @@ class CrawlerDetect
         'AbiLogicBot',
         'Aboundex',
         'Accoona-AI-Agent',
-        'acoonbot',
+        'acoon',
         'AddSugarSpiderBot',
+        'AddThis',
         'Adidxbot',
         'ADmantX',
         'AdvBot',
@@ -83,7 +84,7 @@ class CrawlerDetect
         'dotbot',
         'drupact',
         'DuckDuckBot',
-        'EARTHCOM\.info',
+        'EARTHCOM',
         'ec2linkfinder',
         'edisterbot',
         'elisabot',
@@ -100,8 +101,8 @@ class CrawlerDetect
         'FAST Enterprise Crawler',
         'FAST-WebCrawler',
         'FDSE robot',
-        'findlink',
         'FindLinks',
+        'findlink',
         'findthatfile',
         'findxbot',
         'Flamingo_SearchEngine',
@@ -111,7 +112,7 @@ class CrawlerDetect
         'FyberSpider',
         'g00g1e\.net',
         'GigablastOpenSource',
-        'grub\.org',
+        'grub-client',
         'g2crawler',
         'Gaisbot',
         'GalaxyBot',
@@ -123,10 +124,9 @@ class CrawlerDetect
         'Girafabot',
         'Gluten Free Crawler',
         'gnam gnam spider',
-        'Googlebot',
         'Googlebot-Image',
         'Googlebot-Mobile',
-        'googlebot\\/',
+        'Googlebot',
         'GrapeshotCrawler',
         'gslfbot',
         'GurujiBot',
@@ -284,6 +284,7 @@ class CrawlerDetect
         'StackRambler',
         'suggybot',
         'summify',
+        'SurdotlyBot',
         'SurveyBot',
         'SynooBot',
         'tagoobot',
@@ -337,10 +338,10 @@ class CrawlerDetect
         'Yahoo! Slurp',
         'YahooSeeker',
         'YahooSeeker-Testing',
-        'yandex',
         'YandexBot',
         'YandexImages',
         'YandexMetrika',
+        'yandex',
         'yanga',
         'Yasaklibot',
         'yeti',
@@ -441,6 +442,6 @@ class CrawlerDetect
 
     public function getMatches()
     {
-        return $this->matches;
+        return $this->matches[0];
     }
 }

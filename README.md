@@ -38,6 +38,11 @@ If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect
 
 ### Changelog
 **v1.0.6**
+ - Added ['SurdotlyBot'](http://sur.ly/bot.html)
+ - Added ['AddThis'](https://www.addthis.com)
+ - Added ['yoozBot'](http://yooz.ir)
+
+**v1.0.6**
  - Added ['findxbot'](http://www.findxbot.com)
  - Added ['SemrushBot'](http://www.semrush.com/bot.html)
  - Added ['yoozBot'](http://yooz.ir)
