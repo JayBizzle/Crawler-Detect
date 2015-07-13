@@ -70,7 +70,7 @@ class CrawlerDetect
         'content crawler spider',
         'convera',
         'ConveraCrawler',
-        'CoPubbot'
+        'CoPubbot',
         'cosmos',
         'Covario-IDS',
         'CrawlBot',
