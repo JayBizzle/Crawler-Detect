@@ -652,3 +652,23 @@ Wotbox/2.0 (bot@wotbox.com; http://www.wotbox.com)
 Wotbox/2.01 (+http://www.wotbox.com/bot/)
 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) Gecko/20100401 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.6) Yanga Gecko/20100625 Firefox/3.6.6 ( .NET CLR 3.5.30729)
 AddThis.com robot tech.support@clearspring.com
+ShowyouBot (http://showyou.com/crawler)
+ScreenerBot Crawler Beta 2.0 (+http://www.ScreenerBot.com)
+NextGenSearchBot 1 (for information visit http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx)
+NerdyBot
+Mozilla/xintellibot
+Mozilla/5.0 (Windows NT 6.2) Insitesbot/1.0
+Mozilla/5.0 (compatible; YioopBot; +http://173.13.143.74/bot.php)
+Mozilla/5.0 (compatible; UnisterBot; crawler@unister.de)
+Mozilla/5.0 (compatible; TrueBot/1.0)
+Mozilla/5.0 (compatible; SearchmetricsBot; http://www.searchmetrics.com/en/searchmetrics-bot/)
+Mozilla/5.0 (compatible; Plukkie/1.5; http://www.botje.com/plukkie.htm)
+Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)
+Mozilla/5.0 (compatible; lufsbot/0.1; +http://www.lufs.org/bot.html)
+Mozilla/5.0 (compatible; LinkpadBot/1.06; +http://www.linkpad.ru)
+Mozilla/5.0 (compatible; IstellaBot/1.10.2 +http://www.tiscali.it/)
+Healthbot/Health_and_Longevity_Project_(HealthHaven.com)
+Domain Re-Animator Bot (http://domainreanimator.com) - support@domainreanimator.com
+CoPubbot/v1.2 (http://www.copub.com/bot.php)
+classbot (+http://allclasses.com)
+bl.uk_lddc_bot/3.3.0-SNAPSHOT-2014-10-07T09:33:31Z (+http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)

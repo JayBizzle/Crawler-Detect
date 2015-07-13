@@ -3,7 +3,7 @@ CrawlerDetect
 [![Build Status](https://img.shields.io/travis/JayBizzle/Crawler-Detect/master.svg?style=flat-square)](https://travis-ci.org/JayBizzle/Crawler-Detect) [![Total Downloads](https://img.shields.io/packagist/dt/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://scrutinizer-ci.com/g/JayBizzle/Crawler-Detect/?branch=master) [![MIT](https://img.shields.io/badge/license-MIT-ff69b4.svg?style=flat-square)](https://github.com/JayBizzle/Crawler-Detect) [![Version](https://img.shields.io/packagist/v/jaybizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect) [![StyleCI](https://styleci.io/repos/32755917/shield)](https://styleci.io/repos/32755917)
 
-CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect over 330 bots/spiders/crawlers.
+CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect over 360 bots/spiders/crawlers.
 
 ### Installation
 Run `composer require jaybizzle/crawler-detect 1.*` or add `"jaybizzle/crawler-detect" :"1.*"` to your `composer.json`.
@@ -37,6 +37,28 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.0.8**
+ - Added [''bl.uk_lddc_bot','](http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/)
+ - Added ['classbot'](http://allclasses.com)
+ - Added ['CoPubbot'](http://www.copub.com/bot.php)
+ - Added ['Domain Re-Animator Bot'](http://domainreanimator.com)
+ - Added ['Healthbot'](http://HealthHaven.com)
+ - Added ['IstellaBot'](http://www.tiscali.it/)
+ - Added ['LinkpadBot'](http://www.linkpad.ru)
+ - Added ['lufsbot'](http://www.lufs.org/bot.html)
+ - Added ['PaperLiBot'](http://support.paper.li/entries/20023257-what-is-paper-li)
+ - Added ['Plukkie'](http://www.botje.com/plukkie.htm)
+ - Added ['SearchmetricsBot'](http://www.searchmetrics.com/en/searchmetrics-bot/)
+ - Added 'TrueBot'
+ - Added ['UnisterBot'](http://www.unister.de/)
+ - Added ['YioopBot'](http://173.13.143.74/bot.php)
+ - Added 'Insitesbot'
+ - Added 'xintellibot'
+ - Added ['NerdyBot'](http://nerdybot.com/)
+ - Added ['NextGenSearchBot'](http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx)
+ - Added ['ScreenerBot'](http://www.ScreenerBot.com)
+ - Added ['ShowyouBot'](http://showyou.com/crawler)
+
 **v1.0.7**
  - Added ['SurdotlyBot'](http://sur.ly/bot.html)
  - Added ['AddThis'](https://www.addthis.com)
