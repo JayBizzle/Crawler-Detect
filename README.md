@@ -3,7 +3,7 @@ CrawlerDetect
 [![Build Status](https://img.shields.io/travis/JayBizzle/Crawler-Detect/master.svg?style=flat-square)](https://travis-ci.org/JayBizzle/Crawler-Detect) [![Total Downloads](https://img.shields.io/packagist/dt/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://scrutinizer-ci.com/g/JayBizzle/Crawler-Detect/?branch=master) [![MIT](https://img.shields.io/badge/license-MIT-ff69b4.svg?style=flat-square)](https://github.com/JayBizzle/Crawler-Detect) [![Version](https://img.shields.io/packagist/v/jaybizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect) [![StyleCI](https://styleci.io/repos/32755917/shield)](https://styleci.io/repos/32755917)
 
-CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect over 360 bots/spiders/crawlers.
+CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect over 390 bots/spiders/crawlers.
 
 ### Installation
 Run `composer require jaybizzle/crawler-detect 1.*` or add `"jaybizzle/crawler-detect" :"1.*"` to your `composer.json`.
@@ -37,8 +37,42 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.0.9**
+ - Added ['007ac9 Crawler'](http://crawler.007ac9.net/)
+ - Added ['Airmail'](http://airmailapp.com/)
+ - Added ['Anemone'](http://anemone.rubyforge.org/information-and-examples.html)
+ - Added ['Butterfly'](http://labs.topsy.com/butterfly/)
+ - Added 'Content Crawler'
+ - Added ['Digg'](http://digg.com)
+ - Added ['DomainAppender'](http://www.profound.net/domainappender)
+ - Added ['EasouSpider'](http://www.easou.com/search/spider.html)
+ - Added ['ElectricMonk'](https://www.duedil.com/our-crawler/)
+ - Added ['InAGist'](http://inagist.com)
+ - Added ['IODC'](http://iodc.co.uk)
+ - Added ['iZSearch'](http://izsearch.com/)
+ - Added 'FRCrawler'
+ - Added LinksCrawler
+ - Added ['Lipperhey Link Explorer'](http://links.lipperhey.com/)
+ - Added ['ltx71'](http://ltx71.com/)
+ - Added ['MetaURI'](http://ltx71.com/)
+ - Added 'MSIECrawler'
+ - Added 'ocrawler'
+ - Added ['Online Website Link Checker'](http://website-link-checker.online-domain-tools.com)
+ - Added 'OpenWebSpider'
+ - Added ['ow.ly'](http://ow.ly)
+ - Added ['PercolateCrawler'](https://percolate.com/)
+ - Added 'Robosourcer'
+ - Added ['Scrapy'](http://scrapy.org)
+ - Added 'SpiderMan'
+ - Added 'SSL-Crawler'
+ - Added ['UnwindFetchor'](http://www.gnip.com/)
+ - Added 'urlresolver'
+ - Added ['XML Sitemaps Generator'](https://www.xml-sitemaps.com)
+ - Added ['Y!J-ASR'](http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)
+ - Added 'YisouSpider'
+
 **v1.0.8**
- - Added [''bl.uk_lddc_bot','](http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/)
+ - Added ['bl.uk_lddc_bot'](http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/)
  - Added ['classbot'](http://allclasses.com)
  - Added ['CoPubbot'](http://www.copub.com/bot.php)
  - Added ['Domain Re-Animator Bot'](http://domainreanimator.com)
