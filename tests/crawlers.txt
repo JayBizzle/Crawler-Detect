@@ -88,6 +88,7 @@ Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.11) Gecko/20080109 (Ch
 Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.11) Gecko/20080109 (Charlotte/0.9t; http://www.searchme.com/support/)
 Mozilla/5.0 (compatible; Charlotte/0.9t; http://www.searchme.com/support/)
 Mozilla/5.0 (compatible; Charlotte/0.9t; +http://www.searchme.com/support/)
+Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +http://www.cloudflare.com/always-online) AppleWebKit/534.34
 ConveraCrawler/0.9e (+http://ews.converasearch.com/crawl.htm)
 ConveraCrawler/0.9d (+http://www.authoritativeweb.com/crawl)
 ConveraCrawler/0.9d ( http://www.authoritativeweb.com/crawl)
