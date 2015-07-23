@@ -67,6 +67,7 @@ class CrawlerDetect
         'Cerberian Drtrs',
         'changedetection',
         'Charlotte',
+        'CloudFlare-AlwaysOnline',
         'citeseerxbot',
         'coccoc',
         'classbot',
