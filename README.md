@@ -37,6 +37,9 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.0.11**
+ - Made compatible with PHP 5.3
+
 **v1.0.10**
  - Added ['CloudFlare-AlwaysOnline'](https://www.cloudflare.com/always-online)
 
