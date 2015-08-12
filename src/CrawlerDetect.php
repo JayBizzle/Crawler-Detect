@@ -1,7 +1,5 @@
 <?php
 
-namespace Jaybizzle\CrawlerDetect;
-
 class CrawlerDetect
 {
     protected $userAgent = null;
