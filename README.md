@@ -38,7 +38,7 @@ If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect
 
 ### Changelog
 **v1.0.11**
- - Made compatible with PHP 5.3
+ - Made compatible with PHP 5.3 (thanks to [@bLeveque42](https://github.com/bLeveque42))
 
 **v1.0.10**
  - Added ['CloudFlare-AlwaysOnline'](https://www.cloudflare.com/always-online)
