@@ -6,11 +6,11 @@ class CrawlerDetect
 {
     protected $userAgent = null;
 
-    protected $httpHeaders = [];
+    protected $httpHeaders = array();
 
-    protected $matches = [];
+    protected $matches = array();
 
-    protected static $crawlers = [
+    protected static $crawlers = array(
         '007ac9 Crawler',
         '008\\/',
         '360Spider',
@@ -407,7 +407,7 @@ class CrawlerDetect
         'Zealbot',
         'zspider',
         'ZyBorg',
-    ];
+    );
 
     /**
      * All possible HTTP headers that represent the
@@ -415,7 +415,7 @@ class CrawlerDetect
      *
      * @var array
      */
-    protected static $uaHttpHeaders = [
+    protected static $uaHttpHeaders = (
         // The default User-Agent string.
         'HTTP_USER_AGENT',
         // Header can occur on devices using Opera Mini.
@@ -427,7 +427,7 @@ class CrawlerDetect
         'HTTP_X_BOLT_PHONE_UA',
         'HTTP_DEVICE_STOCK_UA',
         'HTTP_X_UCBROWSER_DEVICE_UA',
-    ];
+    );
 
     /**
      * Class constructor.
@@ -445,7 +445,7 @@ class CrawlerDetect
             $httpHeaders = $_SERVER;
         }
         // clear existing headers
-        $this->httpHeaders = [];
+        $this->httpHeaders = array();
         // Only save HTTP headers. In PHP land, that means only _SERVER vars that
         // start with HTTP_.
         foreach ($httpHeaders as $key => $value) {
