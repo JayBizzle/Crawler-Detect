@@ -415,7 +415,7 @@ class CrawlerDetect
      *
      * @var array
      */
-    protected static $uaHttpHeaders = (
+    protected static $uaHttpHeaders = array(
         // The default User-Agent string.
         'HTTP_USER_AGENT',
         // Header can occur on devices using Opera Mini.
