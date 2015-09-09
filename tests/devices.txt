@@ -3971,7 +3971,6 @@ Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64) AppleWebKit/
 Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
 Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64; Trident/7.0; StaffsStudentImage; rv:11.0) like Gecko
 Mozilla/5.0 (compatible;FW 2.0. 5170.p; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
-Mozilla/5.0 (en-us) AppleWebKit/534.14 (KHTML, like Gecko; Google Wireless Transcoder) Chrome/9.0.597 Safari/534.14
 Mozilla/5.0 (en-us;)
 Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.5; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 TouchPad/1.0
 Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.5; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 TouchPad/1.0
