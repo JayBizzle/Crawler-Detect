@@ -407,6 +407,7 @@ class CrawlerDetect
         'Zealbot',
         'zspider',
         'ZyBorg',
+        '[a-z0-9\\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)',
     );
 
     /**
