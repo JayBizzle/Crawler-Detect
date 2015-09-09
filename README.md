@@ -37,6 +37,9 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.0.12**
+ - Added a generic bot detector regular expression `[a-z0-9\\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)`
+
 **v1.0.11**
  - Made compatible with PHP 5.3 (thanks to [@bLeveque42](https://github.com/bLeveque42))
 
