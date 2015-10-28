@@ -143,6 +143,7 @@ class CrawlerDetect
         'Googlebot-Image',
         'Googlebot-Mobile',
         'Googlebot',
+        'Google favicon',
         'GrapeshotCrawler',
         'gslfbot',
         'GurujiBot',
