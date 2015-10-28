@@ -721,4 +721,4 @@ UnwindFetchor/1.0 (+http://www.gnip.com/)
 urlresolver
 Mozilla/5.0 (compatible; XML Sitemaps Generator; https://www.xml-sitemaps.com) Gecko XML-Sitemaps/1.0
 Mozilla/5.0 (en-us) AppleWebKit/534.14 (KHTML, like Gecko; Google Wireless Transcoder) Chrome/9.0.597 Safari/534.14
-Google favicon
+Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google favicon
