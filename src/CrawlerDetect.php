@@ -291,6 +291,7 @@ class CrawlerDetect
         'Riddler',
         'Robosourcer',
         'rogerbot',
+        'Ruby',
         'RufusBot',
         'SandCrawler',
         'SBIder',
