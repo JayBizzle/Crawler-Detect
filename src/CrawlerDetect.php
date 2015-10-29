@@ -280,6 +280,7 @@ class CrawlerDetect
         'Qwantify',
         'Radian6',
         'RAMPyBot',
+        'RebelMouse',
         'REL Link Checker',
         'RetrevoPageAnalyzer',
         'Riddler',
