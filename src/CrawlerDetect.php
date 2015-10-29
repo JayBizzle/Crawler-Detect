@@ -141,6 +141,7 @@ class CrawlerDetect
         'Girafabot',
         'Gluten Free Crawler',
         'gnam gnam spider',
+        'Go-http-client',
         'Googlebot-Image',
         'Googlebot-Mobile',
         'Googlebot',
