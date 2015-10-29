@@ -110,6 +110,7 @@ class CrawlerDetect
         'envolk\[ITS\]spider',
         'EsperanzaBot',
         'europarchive\.org',
+        'EventMachine HttpClient',
         'exabot',
         'ezooms',
         'facebookexternalhit',

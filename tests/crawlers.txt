@@ -732,3 +732,4 @@ Go-http-client\/1.1
 AHC/1.0
 Ruby
 Mozilla\/5.0 (compatible; BuzzSumo; +http:\/\/www.buzzsumo.com\/bot.html)
+EventMachine HttpClient
