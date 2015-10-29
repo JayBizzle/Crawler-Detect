@@ -25,6 +25,7 @@ class CrawlerDetect
         'Adidxbot',
         'ADmantX',
         'AdvBot',
+        'AHC',
         'ahrefsbot',
         'aihitbot',
         'Airmail',
