@@ -348,6 +348,7 @@ class CrawlerDetect
         'TweetedTimes Bot',
         'TweetmemeBot',
         'twengabot',
+        'Twikle',
         'Twitterbot',
         'uMBot',
         'UnisterBot',
