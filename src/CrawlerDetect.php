@@ -61,6 +61,7 @@ class CrawlerDetect
         'BUbiNG',
         'Butterfly\/',
         'buzzbot',
+        'BuzzSumo',
         'careerbot',
         'CatchBot',
         'CC Metadata Scaper',
