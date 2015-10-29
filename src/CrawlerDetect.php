@@ -103,6 +103,7 @@ class CrawlerDetect
         'ElectricMonk',
         'elisabot',
         'emailmarketingrobot',
+        'Embedly',
         'EmeraldShield\.com WebBot',
         'envolk\[ITS\]spider',
         'EsperanzaBot',
