@@ -722,14 +722,14 @@ urlresolver
 Mozilla/5.0 (compatible; XML Sitemaps Generator; https://www.xml-sitemaps.com) Gecko XML-Sitemaps/1.0
 Mozilla/5.0 (en-us) AppleWebKit/534.14 (KHTML, like Gecko; Google Wireless Transcoder) Chrome/9.0.597 Safari/534.14
 Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google favicon
-RebelMouse\/0.1 Mozilla\/5.0 (compatible; http://rebelmouse.com) Gecko\/20100101 Firefox\/7.0.1
+RebelMouse/0.1 Mozilla/5.0 (compatible; http://rebelmouse.com) Gecko/20100101 Firefox/7.0.1
 Twikle/1.0 , http://twikle.com , contact@twikle.com
 Mozilla/5.0 (compatible; Embedly/0.2; http://support.embed.ly/)
 postano
 Google-HTTP-Java-Client/1.17.0-rc (gzip)
 Google-HTTP-Java-Client/1.9.0-alpha
-Go-http-client\/1.1
+Go-http-client/1.1
 AHC/1.0
 Ruby
-Mozilla\/5.0 (compatible; BuzzSumo; +http:\/\/www.buzzsumo.com\/bot.html)
+Mozilla/5.0 (compatible; BuzzSumo; +http://www.buzzsumo.com/bot.html)
 EventMachine HttpClient
