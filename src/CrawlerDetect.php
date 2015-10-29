@@ -144,6 +144,7 @@ class CrawlerDetect
         'Googlebot-Image',
         'Googlebot-Mobile',
         'Googlebot',
+        'Google-HTTP-Java-Client',
         'Google favicon',
         'GrapeshotCrawler',
         'gslfbot',
