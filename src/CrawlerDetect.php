@@ -268,6 +268,7 @@ class CrawlerDetect
         'Plukkie',
         'polybot',
         'Pompos',
+        'postano',
         'PostPost',
         'postrank',
         'proximic',
