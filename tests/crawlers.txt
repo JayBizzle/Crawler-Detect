@@ -734,3 +734,4 @@ Ruby
 Mozilla/5.0 (compatible; BuzzSumo; +http://www.buzzsumo.com/bot.html)
 EventMachine HttpClient
 Mozilla/5.0 (compatible; +http://tweetedtimes.com)
+Python-httplib2/0.7.4 (gzip)

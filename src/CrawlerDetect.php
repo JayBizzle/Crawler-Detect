@@ -280,6 +280,7 @@ class CrawlerDetect
         'psbot',
         'purebot',
         'PycURL',
+        'Python-httplib2',
         'python-requests',
         'Python-urllib',
         'Qseero',
