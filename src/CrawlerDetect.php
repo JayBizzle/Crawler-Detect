@@ -354,6 +354,7 @@ class CrawlerDetect
         'truwoGPS',
         'turnitinbot',
         'TweetedTimes Bot',
+        'tweetedtimes.com',
         'TweetmemeBot',
         'twengabot',
         'Twikle',
