@@ -236,6 +236,7 @@ class CrawlerDetect
         'netresearchserver',
         'NetSeer Crawler',
         'NewsGator',
+        'newsme',
         'NextGenSearchBot',
         'NG-Search',
         'ngbot',
