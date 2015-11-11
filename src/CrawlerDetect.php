@@ -215,6 +215,7 @@ class CrawlerDetect
         'MegaIndex\.ru',
         'mabontland',
         'magpie-crawler',
+        'MagpieRSS',
         'Mediapartners-Google',
         'memorybot',
         'MetaURI',

@@ -738,3 +738,4 @@ Python-httplib2/0.7.4 (gzip)
 newsme/1.0; feedback@news.me
 Pattern/2.6 +http://www.clips.ua.ac.be/pattern
 ScoutURLMonitor/5.9.8
+MagpieRSS/0.72 (+http://magpierss.sf.net)
