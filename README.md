@@ -37,6 +37,10 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.0.16**
+ - Added ['MagpieRSS'](http://magpierss.sourceforge.net/)
+ - Added ['ScoutURLMonitor'](https://scoutapp.com/plugin_urls/2-url-monitoring)
+
 **v1.0.15**
  - Added 3 new bots - see [#30](https://github.com/JayBizzle/Crawler-Detect/pull/30) (thanks to [@romaricdrigon](https://github.com/romaricdrigon))
  - Added ['Pattern'](http://www.clips.ua.ac.be/pattern)
