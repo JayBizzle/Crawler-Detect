@@ -739,3 +739,25 @@ newsme/1.0; feedback@news.me
 Pattern/2.6 +http://www.clips.ua.ac.be/pattern
 ScoutURLMonitor/5.9.8
 MagpieRSS/0.72 (+http://magpierss.sf.net)
+adidxbot/1.1 (+http://search.msn.com/msnbot.htm)
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6 Ara.com.tr AraBot 1.0
+BacklinkCrawler (http://www.backlinktest.com/crawler.html)
+Mozilla/5.0 (compatible; bnf.fr_bot; +http://bibnum.bnf.fr/robot/bnf.html)
+BIGLOTRON (Beta 2;GNU/Linux)
+CC Metadata Scaper http://wiki.creativecommons.org/Metadata_Scraper
+Jakarta Commons-HttpClient/3.1
+Content Crawler Spider
+drupact/0.7; http://www.arocom.de/drupact
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0) (Elisabot 1.0 unforgettable)
+Mozilla/5.0 (compatible; MSIE 7.0 +http://www.europarchive.org)
+Mozilla/3.0 (compatible; Fluffy the spider; http://www.searchhippo.com/; info@searchhippo.com)
+Mozilla/5.0 (compatible; InterfaxScanBot/1.0; http://scan-interfax.ru)
+gnam gnam spider
+it2media-domain-crawler/2.0
+LSSRocketCrawler/1.0 LightspeedSystems
+niki-bot
+Mozilla/5.0 (compatible; Scribdbot/1.0; +http://www.scribd.com)
+archive.org_bot
+Mozilla/3.0 (compatible; WebMon 1.0.11; Windows XP)
+WeSEE:Search/0.1 (Alpha, http://www.wesee.com/en/support/bot/)
+Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)
