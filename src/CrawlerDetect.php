@@ -301,6 +301,7 @@ class CrawlerDetect
         'SandCrawler',
         'SBIder',
         'ScoutJet',
+        'ScoutURLMonitor',
         'Scrapy',
         'ScreenerBot',
         'scribdbot',
