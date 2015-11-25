@@ -206,6 +206,7 @@ class CrawlerDetect
         'Lipperhey Link Explorer',
         'Lipperhey SEO Service',
         'Livelapbot',
+        'LongURL API',
         'lmspider',
         'lssbot',
         'lssrocketcrawler',
