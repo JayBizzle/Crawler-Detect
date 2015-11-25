@@ -376,7 +376,7 @@ class CrawlerDetect
         'Urlfilebot',
         'urlresolver',
         'UsineNouvelleCrawler',
-        'Validator.nu/LV',
+        'Validator.nu\\/LV',
         'Vagabondo',
         'Vivante Link Checker',
         'voilabot',
