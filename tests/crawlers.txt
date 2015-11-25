@@ -763,3 +763,12 @@ WeSEE:Search/0.1 (Alpha, http://www.wesee.com/en/support/bot/)
 Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) (Contact: backend@getprismatic.com)
 LongURL API
+W3C_Validator/1.3
+Validator.nu/LV
+W3C-checklink
+W3C-mobileOK/DDC-1.0
+W3C_I18n-Checker/1.0
+NING/1.0
+FeedValidator/1.3
+Jigsaw/2.3.0 W3C_CSS_Validator_JFouffa/2.0
+W3C_Unicorn/1.0
