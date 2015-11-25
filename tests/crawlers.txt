@@ -761,3 +761,5 @@ archive.org_bot
 Mozilla/3.0 (compatible; WebMon 1.0.11; Windows XP)
 WeSEE:Search/0.1 (Alpha, http://www.wesee.com/en/support/bot/)
 Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) (Contact: backend@getprismatic.com)
+LongURL API
