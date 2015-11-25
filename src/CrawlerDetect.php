@@ -247,7 +247,7 @@ class CrawlerDetect
         'ngbot',
         'nicebot',
         'niki-bot',
-        'NING\/',
+        'NING\/1.0',
         'Notifixious',
         'noxtrumbot',
         'Nusearch Spider',
