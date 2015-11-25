@@ -140,6 +140,7 @@ class CrawlerDetect
         'genieBot',
         'Genieo',
         'GermCrawler',
+        'getprismatic.com',
         'gigabot',
         'GingerCrawler',
         'Girafabot',
