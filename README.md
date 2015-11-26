@@ -37,6 +37,10 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.0.18**
+ - Added ['W3C Validators'](http://validator.w3.org/services)
+ - Fixed some regexes
+
 **v1.0.17**
  - Added ['getprismatic.com'](getprismatic.com)
  - Added ['LongURL API'](http://longurl.org/)
