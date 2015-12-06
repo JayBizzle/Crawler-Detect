@@ -358,6 +358,7 @@ class CrawlerDetect
         'Thumbnail\.CZ robot',
         'TinEye',
         'toplistbot',
+        'Traackr.com',
         'trendictionbot',
         'TrueBot',
         'truwoGPS',
