@@ -16485,7 +16485,6 @@ UCWEB/2.0(Symbian; U; S60 V5; en-US; Nokia5233) U2/1.0.0 UCBrowser/8.8.0.245 U2/
 User-Agent⇥Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
 VPNGate/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/D64567
 WannaBe (Macintosh; PPC)
-WebIndex
 WebProcess/8537.75.14 CFNetwork/596.6.2 Darwin/12.5.0 (x86_64) (MacBookPro9%2C1)
 woot woot
 WordPress/x.x.x.x PHP/4.x.xx
