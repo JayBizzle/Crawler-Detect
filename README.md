@@ -3,7 +3,7 @@ CrawlerDetect
 [![Build Status](https://img.shields.io/travis/JayBizzle/Crawler-Detect/master.svg?style=flat-square)](https://travis-ci.org/JayBizzle/Crawler-Detect) [![Total Downloads](https://img.shields.io/packagist/dt/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://scrutinizer-ci.com/g/JayBizzle/Crawler-Detect/?branch=master) [![MIT](https://img.shields.io/badge/license-MIT-ff69b4.svg?style=flat-square)](https://github.com/JayBizzle/Crawler-Detect) [![Version](https://img.shields.io/packagist/v/jaybizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect) [![StyleCI](https://styleci.io/repos/32755917/shield)](https://styleci.io/repos/32755917)
 
-CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect over 390 bots/spiders/crawlers.
+CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect over 400 bots/spiders/crawlers.
 
 ### Installation
 Run `composer require jaybizzle/crawler-detect 1.*` or add `"jaybizzle/crawler-detect" :"1.*"` to your `composer.json`.
@@ -37,6 +37,31 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.0.19**
+ - Added ['Traackr.com'](Traackr.com)
+
+**v1.0.18**
+ - Added ['W3C Validators'](http://validator.w3.org/services)
+ - Fixed some regexes
+
+**v1.0.17**
+ - Added ['getprismatic.com'](getprismatic.com)
+ - Added ['LongURL API'](http://longurl.org/)
+
+**v1.0.16**
+ - Added ['MagpieRSS'](http://magpierss.sourceforge.net/)
+ - Added ['ScoutURLMonitor'](https://scoutapp.com/plugin_urls/2-url-monitoring)
+
+**v1.0.15**
+ - Added 3 new bots - see [#30](https://github.com/JayBizzle/Crawler-Detect/pull/30) (thanks to [@romaricdrigon](https://github.com/romaricdrigon))
+ - Added ['Pattern'](http://www.clips.ua.ac.be/pattern)
+
+**v1.0.14**
+ - Added 10 new bots - see [#27](https://github.com/JayBizzle/Crawler-Detect/pull/27) (thanks to [@romaricdrigon](https://github.com/romaricdrigon))
+
+**v1.0.13**
+ - Added 'Google favicon' (thanks to [@castevinz](https://github.com/castevinz))
+
 **v1.0.12**
  - Added a generic bot detector regular expression `[a-z0-9\\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)`
 
