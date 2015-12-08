@@ -11,7 +11,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
     public function testBots()
     {
-        $lines = file(__DIR__.'/crawlers.txt');
+        $lines = file(__DIR__.'/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES));
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
@@ -21,7 +21,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
     public function testDevices()
     {
-        $lines = file(__DIR__.'/devices.txt');
+        $lines = file(__DIR__.'/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES));
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
