@@ -773,3 +773,7 @@ FeedValidator/1.3
 Jigsaw/2.3.0 W3C_CSS_Validator_JFouffa/2.0
 W3C_Unicorn/1.0
 Traackr.com
+Stratagems Kumo
+eZ Publish Link Validator
+Mozilla/5.0 (compatible; theoldreader.com)
+
