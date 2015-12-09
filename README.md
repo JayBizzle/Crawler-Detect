@@ -37,6 +37,9 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.0.20**
+ - Added more bots see [#40](https://github.com/JayBizzle/Crawler-Detect/pull/40) and [#41](https://github.com/JayBizzle/Crawler-Detect/pull/41)
+
 **v1.0.19**
  - Added ['Traackr.com'](Traackr.com)
 
