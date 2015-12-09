@@ -274,7 +274,6 @@ class CrawlerDetect
         'page2rss',
         'PageBitesHyperBot',
         'panscient',
-        'Pattern\\/',
         'Peew',
         'PercolateCrawler',
         'phpcrawl',
