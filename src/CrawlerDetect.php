@@ -207,7 +207,7 @@ class CrawlerDetect
         'SearchSight',
         'semanticdiscovery',
         'SEOstats',
-        'Seznam screenshot-generator', 
+        'Seznam screenshot-generator',
         'ShopWiki',
         'SiteBar',
         'siteexplorer\.info',
