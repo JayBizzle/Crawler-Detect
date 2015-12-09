@@ -56,7 +56,6 @@ class CrawlerDetect
     );
 
     protected static $crawlers = array(
-        '007ac9 Crawler',
         '008\\/',
         'A6-Indexer',
         'Aboundex',
@@ -88,7 +87,6 @@ class CrawlerDetect
         'convera',
         'cosmos',
         'Covario-IDS',
-        'crawler4j',
         'curl',
         'CyberPatrol',
         'DataparkSearch',
@@ -118,8 +116,6 @@ class CrawlerDetect
         'grub-client',
         'Genieo',
         'Go-http-client',
-        'Googlebot-Image',
-        'Googlebot-Mobile',
         'Google-HTTP-Java-Client',
         'Google favicon',
         'heritrix',
@@ -198,7 +194,6 @@ class CrawlerDetect
         'Riddler',
         'Robosourcer',
         'Ruby',
-        'SandCrawler',
         'SBIder',
         'ScoutJet',
         'ScoutURLMonitor',
@@ -255,7 +250,6 @@ class CrawlerDetect
         'XML Sitemaps Generator',
         'Y!J-ASR',
         'yacy',
-        'yacybot',
         'Yahoo Link Preview',
         'Yahoo! Slurp China',
         'Yahoo! Slurp',
