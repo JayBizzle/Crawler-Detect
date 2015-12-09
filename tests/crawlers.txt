@@ -776,6 +776,5 @@ Traackr.com
 Stratagems Kumo
 eZ Publish Link Validator
 Mozilla/5.0 (compatible; theoldreader.com)
-Pattern/2.6 +http://www.clips.ua.ac.be/pattern
 WebIndex
 Screaming Frog SEO Spider/3.3
