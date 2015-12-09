@@ -10,6 +10,46 @@ class CrawlerDetect
 
     protected $matches = array();
 
+    /**
+     * List of strings to remove from the user agent before running the crawler regex
+     * Over a large list of user agents, this gives us about a 55% speed increase!
+     * 
+     * @var array
+     */
+    protected static $ignore = array(
+        'Safari.[\d\.]*',
+        'Firefox.[\d\.]*',
+        'Chrome.[\d\.]*',
+        'Chromium.[\d\.]*',
+        'MSIE.[\d\.]',
+        'Opera\/[\d\.]*',
+        'Mozilla.[\d\.]*',
+        'AppleWebKit.[\d\.]*',
+        'Trident.[\d\.]*',
+        'Windows NT.[\d\.]*',
+        'Macintosh.',
+        'Ubuntu',
+        'Linux',
+        'Intel',
+        'Mac OS X',
+        'Gecko.[\d\.]*',
+        'KHTML',
+        'iPhone',
+        'like Gecko',
+        'compatible',
+        'x86_..',
+        'i686',
+        'x64',
+        'X11',
+        'rv:[\d\.]*',
+        'Version.[\d\.]*',
+        'WOW64',
+        'Win64',
+        '\.NET CLR [\d\.]*',
+        'Presto.[\d\.]*',
+        'Media Center PC',
+    );
+
     protected static $crawlers = array(
         '007ac9 Crawler',
         '008\\/',
@@ -515,9 +555,16 @@ class CrawlerDetect
         return '('.implode('|', self::$crawlers).')';
     }
 
+    public function getIgnored()
+    {
+        return '('.implode('|', self::$ignore).')';
+    }
+
     public function isCrawler($userAgent = null)
     {
         $agent = is_null($userAgent) ? $this->userAgent : $userAgent;
+
+        $agent = preg_replace('/'.$this->getIgnored().'/i', '', $agent);
 
         $result = preg_match('/'.$this->getRegex().'/i', $agent, $matches);
 
