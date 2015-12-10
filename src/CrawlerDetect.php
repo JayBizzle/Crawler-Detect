@@ -5,21 +5,21 @@ namespace Jaybizzle\CrawlerDetect;
 class CrawlerDetect
 {
     /**
-     * The user agent
+     * The user agent.
      * 
      * @var null
      */
     protected $userAgent = null;
 
     /**
-     * Headers that container user agent
+     * Headers that container user agent.
      * 
      * @var array
      */
     protected $httpHeaders = array();
 
     /**
-     * Store regex matches
+     * Store regex matches.
      * 
      * @var array
      */
@@ -71,7 +71,7 @@ class CrawlerDetect
     );
 
     /**
-     * Array of regular expressions to match against the user agent
+     * Array of regular expressions to match against the user agent.
      * 
      * @var array
      */
@@ -315,7 +315,7 @@ class CrawlerDetect
     }
 
     /**
-     * Set HTTP headers
+     * Set HTTP headers.
      * 
      * @param array $httpHeaders
      */
@@ -337,7 +337,7 @@ class CrawlerDetect
     }
 
     /**
-     * Return user agent headers
+     * Return user agent headers.
      * 
      * @return array
      */
@@ -347,7 +347,7 @@ class CrawlerDetect
     }
 
     /**
-     * Set the user agent
+     * Set the user agent.
      * 
      * @param string $userAgent
      */
@@ -368,7 +368,7 @@ class CrawlerDetect
     }
 
     /**
-     * Build the user agent regex
+     * Build the user agent regex.
      * 
      * @return string
      */
@@ -378,7 +378,7 @@ class CrawlerDetect
     }
 
     /**
-     * Build the replacement regex
+     * Build the replacement regex.
      * 
      * @return string
      */
@@ -388,10 +388,11 @@ class CrawlerDetect
     }
 
     /**
-     * Check user aganet string against the regex
+     * Check user aganet string against the regex.
      * 
-     * @param  string  $userAgent
-     * @return boolean
+     * @param string $userAgent
+     *
+     * @return bool
      */
     public function isCrawler($userAgent = null)
     {
@@ -409,7 +410,7 @@ class CrawlerDetect
     }
 
     /**
-     * Return the matches
+     * Return the matches.
      * 
      * @return array
      */
