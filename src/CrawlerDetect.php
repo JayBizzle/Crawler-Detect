@@ -123,7 +123,6 @@ class CrawlerDetect
         'htdig',
         'httpunit',
         'httrack',
-        'ia_archiver',
         'ichiro',
         'igdeSpyder',
         'InAGist',
