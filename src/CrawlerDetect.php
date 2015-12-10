@@ -4,10 +4,25 @@ namespace Jaybizzle\CrawlerDetect;
 
 class CrawlerDetect
 {
+    /**
+     * The user agent
+     * 
+     * @var null
+     */
     protected $userAgent = null;
 
+    /**
+     * Headers that container user agent
+     * 
+     * @var array
+     */
     protected $httpHeaders = array();
 
+    /**
+     * Store regex matches
+     * 
+     * @var array
+     */
     protected $matches = array();
 
     /**
@@ -55,6 +70,11 @@ class CrawlerDetect
         'Media Center PC',
     );
 
+    /**
+     * Array of regular expressions to match against the user agent
+     * 
+     * @var array
+     */
     protected static $crawlers = array(
         '008\\/',
         'A6-Indexer',
@@ -294,6 +314,11 @@ class CrawlerDetect
         $this->setUserAgent($userAgent);
     }
 
+    /**
+     * Set HTTP headers
+     * 
+     * @param array $httpHeaders
+     */
     public function setHttpHeaders($httpHeaders = null)
     {
         // use global _SERVER if $httpHeaders aren't defined
@@ -311,11 +336,21 @@ class CrawlerDetect
         }
     }
 
+    /**
+     * Return user agent headers
+     * 
+     * @return array
+     */
     public function getUaHttpHeaders()
     {
         return self::$uaHttpHeaders;
     }
 
+    /**
+     * Set the user agent
+     * 
+     * @param string $userAgent
+     */
     public function setUserAgent($userAgent = null)
     {
         if (false === empty($userAgent)) {
@@ -323,7 +358,7 @@ class CrawlerDetect
         } else {
             $this->userAgent = null;
             foreach ($this->getUaHttpHeaders() as $altHeader) {
-                if (false === empty($this->httpHeaders[$altHeader])) { // @todo: should use getHttpHeader(), but it would be slow. (Serban)
+                if (false === empty($this->httpHeaders[$altHeader])) { // @todo: should use getHttpHeader(), but it would be slow.
                     $this->userAgent .= $this->httpHeaders[$altHeader].' ';
                 }
             }
@@ -332,16 +367,32 @@ class CrawlerDetect
         }
     }
 
+    /**
+     * Build the user agent regex
+     * 
+     * @return string
+     */
     public function getRegex()
     {
         return '('.implode('|', self::$crawlers).')';
     }
 
+    /**
+     * Build the replacement regex
+     * 
+     * @return string
+     */
     public function getIgnored()
     {
         return '('.implode('|', self::$ignore).')';
     }
 
+    /**
+     * Check user aganet string against the regex
+     * 
+     * @param  string  $userAgent
+     * @return boolean
+     */
     public function isCrawler($userAgent = null)
     {
         $agent = is_null($userAgent) ? $this->userAgent : $userAgent;
@@ -357,6 +408,11 @@ class CrawlerDetect
         return (bool) $result;
     }
 
+    /**
+     * Return the matches
+     * 
+     * @return array
+     */
     public function getMatches()
     {
         return $this->matches[0];
