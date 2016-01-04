@@ -778,3 +778,5 @@ eZ Publish Link Validator
 Mozilla/5.0 (compatible; theoldreader.com)
 WebIndex
 Screaming Frog SEO Spider/3.3
+Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
