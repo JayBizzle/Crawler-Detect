@@ -3,7 +3,7 @@ CrawlerDetect
 [![Build Status](https://img.shields.io/travis/JayBizzle/Crawler-Detect/master.svg?style=flat-square)](https://travis-ci.org/JayBizzle/Crawler-Detect) [![Total Downloads](https://img.shields.io/packagist/dt/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://scrutinizer-ci.com/g/JayBizzle/Crawler-Detect/?branch=master) [![MIT](https://img.shields.io/badge/license-MIT-ff69b4.svg?style=flat-square)](https://github.com/JayBizzle/Crawler-Detect) [![Version](https://img.shields.io/packagist/v/jaybizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect) [![StyleCI](https://styleci.io/repos/32755917/shield)](https://styleci.io/repos/32755917)
 
-CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect over 400 bots/spiders/crawlers.
+CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect 100's of bots/spiders/crawlers.
 
 ### Installation
 Run `composer require jaybizzle/crawler-detect 1.*` or add `"jaybizzle/crawler-detect" :"1.*"` to your `composer.json`.
@@ -37,6 +37,14 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+### v1.1.0
+Massive performance gains! Over 77% faster in some cases! Firstly, by removing common strings from the user agent so the regex parser doesn't have to do as many steps to find a match i.e. there is no point matching against terms such as `Mozzila`, `Android`, `Chrome` etc as these strings are never going to match as a bot. Secondly, as we have this generic regex pattern `[a-z0-9\\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)` there was no point having any other bots in our regex array that had the term `bot`, `spider`, `crawler` etc.
+
+See [#42](https://github.com/JayBizzle/Crawler-Detect/pull/42) for some simple benchmarks.
+ 
+**v1.0.20**
+ - Added more bots see [#40](https://github.com/JayBizzle/Crawler-Detect/pull/40) and [#41](https://github.com/JayBizzle/Crawler-Detect/pull/41)
+
 **v1.0.19**
  - Added ['Traackr.com'](Traackr.com)
 
