@@ -138,6 +138,7 @@ class CrawlerDetect
         'Go-http-client',
         'Google-HTTP-Java-Client',
         'Google favicon',
+        'Google Keyword Suggestion',
         'heritrix',
         'Holmes',
         'htdig',
