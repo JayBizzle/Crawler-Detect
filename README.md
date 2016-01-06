@@ -37,6 +37,9 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.1.1**
+ - Added 'Google Keyword Suggestion'
+
 ### v1.1.0
 Massive performance gains! Over 77% faster in some cases! Firstly, by removing common strings from the user agent so the regex parser doesn't have to do as many steps to find a match i.e. there is no point matching against terms such as `Mozzila`, `Android`, `Chrome` etc as these strings are never going to match as a bot. Secondly, as we have this generic regex pattern `[a-z0-9\\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)` there was no point having any other bots in our regex array that had the term `bot`, `spider`, `crawler` etc.
 
