@@ -778,3 +778,4 @@ eZ Publish Link Validator
 Mozilla/5.0 (compatible; theoldreader.com)
 WebIndex
 Screaming Frog SEO Spider/3.3
+Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko, Google Keyword Suggestion) Chrome/10.0.648.127 Safari/534.16
