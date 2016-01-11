@@ -389,7 +389,7 @@ class CrawlerDetect
     }
 
     /**
-     * Check user aganet string against the regex.
+     * Check user agent string against the regex.
      * 
      * @param string $userAgent
      *
