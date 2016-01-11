@@ -92,7 +92,7 @@ class CrawlerDetect
         'bibnum\.bnf',
         'biglotron',
         'binlar',
-        'BingPreview'
+        'BingPreview',
         'boitho\.com-dc',
         'BUbiNG',
         'Butterfly\\/',
