@@ -12419,7 +12419,6 @@ Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; BOIE9;ENGB; rv:11.0) like 
 Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; MATM; rv:11.0) like Gecko
 Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko
 Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; School of Engineering; rv:11.0) like Gecko
-Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.0 Safari/534.24
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.14 Safari/534.24
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.77 Safari/534.24
