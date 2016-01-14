@@ -28,4 +28,14 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
             $this->assertEquals($test, false, $line);
         }
     }
+
+    public function testReturnsCorrectMatchedBotName()
+    {
+        $test = $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
+
+        $matches = $this->CrawlerDetect->getMatches();
+
+        $this->assertEquals($this->CrawlerDetect->getMatches(), 'Yahoo Ad monitoring', $matches);
+
+    }
 }
