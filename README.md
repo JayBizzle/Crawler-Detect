@@ -24,8 +24,8 @@ if($CrawlerDetect->isCrawler('Mozilla/5.0 (compatible; Sosospider/2.0; +http://h
 	// true if crawler user agent detected
 }
 
-// Output which regex rules matched (if any)
-var_dump($CrawlerDetect->getMatches());
+// Output the name of the bot that matched (if any)
+echo $CrawlerDetect->getMatches();
 ```
 
 ### Contributing
