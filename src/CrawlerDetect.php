@@ -12,7 +12,7 @@ class CrawlerDetect
     protected $userAgent = null;
 
     /**
-     * Headers that container user agent.
+     * Headers that contain a user agent.
      * 
      * @var array
      */
@@ -391,7 +391,7 @@ class CrawlerDetect
     }
 
     /**
-     * Check user aganet string against the regex.
+     * Check user agent string against the regex.
      * 
      * @param string $userAgent
      *
