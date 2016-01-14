@@ -46,7 +46,7 @@ class CrawlerDetect
         'Macintosh.',
         'Ubuntu',
         'Linux',
-        'Intel',
+        '[ ]Intel',
         'Mac OS X',
         'Gecko.[\d\.]*',
         'KHTML',
