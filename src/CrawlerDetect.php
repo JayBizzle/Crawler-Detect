@@ -271,6 +271,7 @@ class CrawlerDetect
         'XML Sitemaps Generator',
         'Y!J-ASR',
         'yacy',
+        'Yahoo Ad monitoring',
         'Yahoo Link Preview',
         'Yahoo! Slurp China',
         'Yahoo! Slurp',
