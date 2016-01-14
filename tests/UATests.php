@@ -36,6 +36,5 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
         $matches = $this->CrawlerDetect->getMatches();
 
         $this->assertEquals($this->CrawlerDetect->getMatches(), 'Yahoo Ad monitoring', $matches);
-
     }
 }
