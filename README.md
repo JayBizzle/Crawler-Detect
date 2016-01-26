@@ -37,6 +37,10 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.1.4**
+ - Added 'YandexDirectDyn'
+ - Non-critical fixes/updates
+
 **v1.1.3**
  - Added ['Yahoo Ad Monitoring'](https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)
 
