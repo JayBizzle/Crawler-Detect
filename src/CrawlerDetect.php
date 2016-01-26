@@ -279,6 +279,7 @@ class CrawlerDetect
         'YahooSeeker-Testing',
         'YandexImages',
         'YandexMetrika',
+        'YandexDirectDyn',
         'yandex',
         'yanga',
         'yeti',
@@ -415,7 +416,7 @@ class CrawlerDetect
     /**
      * Return the matches.
      * 
-     * @return array
+     * @return string
      */
     public function getMatches()
     {
