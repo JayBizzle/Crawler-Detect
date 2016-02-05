@@ -37,6 +37,10 @@ Failing that, just create an issue with the user agent you have found, and we'll
 If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 ### Changelog
+**v1.1.5**
+ - Added ['CapsuleChecker'](http://www.capsulink.com/)
+ - Added ['infegy'](http://infegy.com)
+
 **v1.1.4**
  - Added 'YandexDirectDyn'
  - Non-critical fixes/updates
