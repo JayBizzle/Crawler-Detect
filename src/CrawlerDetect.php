@@ -179,6 +179,7 @@ class CrawlerDetect
         'Morning Paper',
         'Mrcgiguy',
         'MVAClient',
+        'Netcraft Web Server Survey',
         'netresearchserver',
         'NewsGator',
         'newsme',
