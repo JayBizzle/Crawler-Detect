@@ -146,6 +146,7 @@ class CrawlerDetect
         'htdig',
         'httpunit',
         'httrack',
+        'HubSpot Marketing Grader',
         'ichiro',
         'infegy',
         'igdeSpyder',
