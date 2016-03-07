@@ -6,21 +6,21 @@ class CrawlerDetect
 {
     /**
      * The user agent.
-     * 
+     *
      * @var null
      */
     protected $userAgent = null;
 
     /**
      * Headers that contain a user agent.
-     * 
+     *
      * @var array
      */
     protected $httpHeaders = array();
 
     /**
      * Store regex matches.
-     * 
+     *
      * @var array
      */
     protected $matches = array();
@@ -28,7 +28,7 @@ class CrawlerDetect
     /**
      * List of strings to remove from the user agent before running the crawler regex
      * Over a large list of user agents, this gives us about a 55% speed increase!
-     * 
+     *
      * @var array
      */
     protected static $ignore = array(
@@ -72,7 +72,7 @@ class CrawlerDetect
 
     /**
      * Array of regular expressions to match against the user agent.
-     * 
+     *
      * @var array
      */
     protected static $crawlers = array(
@@ -324,7 +324,7 @@ class CrawlerDetect
 
     /**
      * Set HTTP headers.
-     * 
+     *
      * @param array $httpHeaders
      */
     public function setHttpHeaders($httpHeaders = null)
@@ -346,7 +346,7 @@ class CrawlerDetect
 
     /**
      * Return user agent headers.
-     * 
+     *
      * @return array
      */
     public function getUaHttpHeaders()
@@ -356,7 +356,7 @@ class CrawlerDetect
 
     /**
      * Set the user agent.
-     * 
+     *
      * @param string $userAgent
      */
     public function setUserAgent($userAgent = null)
@@ -377,7 +377,7 @@ class CrawlerDetect
 
     /**
      * Build the user agent regex.
-     * 
+     *
      * @return string
      */
     public function getRegex()
@@ -387,7 +387,7 @@ class CrawlerDetect
 
     /**
      * Build the replacement regex.
-     * 
+     *
      * @return string
      */
     public function getIgnored()
@@ -397,7 +397,7 @@ class CrawlerDetect
 
     /**
      * Check user agent string against the regex.
-     * 
+     *
      * @param string $userAgent
      *
      * @return bool
@@ -419,7 +419,7 @@ class CrawlerDetect
 
     /**
      * Return the matches.
-     * 
+     *
      * @return string
      */
     public function getMatches()
