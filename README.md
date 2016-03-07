@@ -74,7 +74,7 @@ See [#42](https://github.com/JayBizzle/Crawler-Detect/pull/42) for some simple b
  - Fixed some regexes
 
 **v1.0.17**
- - Added ['getprismatic.com'](getprismatic.com)
+ - Added ['getprismatic.com'](http://getprismatic.com)
  - Added ['LongURL API'](http://longurl.org/)
 
 **v1.0.16**
