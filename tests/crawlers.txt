@@ -788,3 +788,10 @@ Mozilla/5.0 (compatible) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526
 Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36 HubSpot Marketing Grader
 Mozilla/4.0 (compatible; Netcraft Web Server Survey)
 ECCP/1.2.1+(productlists@eniro.com)
+Dragonfly File Reader
+ExactSearch
+JetBrains Omea Reader 1.0.x (http://www.jetbrains.com/omea_reader/)
+JetBrains Omea Reader 2.0 Release Candidate 1 (http://www.jetbrains.com/omea_reader/)
+Pinterest/0.2 (+http://www.pinterest.com/)
+UdmSearch/3.1.x
+FeedBurner/1.0 (http://www.FeedBurner.com)
