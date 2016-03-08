@@ -128,6 +128,7 @@ class CrawlerDetect
         'ezooms',
         'eZ Publish Link Validator',
         'facebookexternalhit',
+        'FeedBurner',
         'Feedfetcher-Google',
         'FeedValidator',
         'FindLinks',
