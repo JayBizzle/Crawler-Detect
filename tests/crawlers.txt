@@ -795,3 +795,4 @@ JetBrains Omea Reader 2.0 Release Candidate 1 (http://www.jetbrains.com/omea_rea
 Pinterest/0.2 (+http://www.pinterest.com/)
 UdmSearch/3.1.x
 FeedBurner/1.0 (http://www.FeedBurner.com)
+Typhoeus - https://github.com/typhoeus/typhoeus
