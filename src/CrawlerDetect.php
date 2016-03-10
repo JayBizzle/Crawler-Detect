@@ -251,6 +251,7 @@ class CrawlerDetect
         'TinEye',
         'Traackr.com',
         'truwoGPS',
+        'Typhoeus',
         'tweetedtimes\.com',
         'Twikle',
         'UdmSearch',
