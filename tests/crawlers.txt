@@ -801,3 +801,8 @@ Springshare Link Checker
 Pulsepoint XT3 web scraper
 Netvibes (http://www.netvibes.com)
 GoogleProducer; (+http://goo.gl/7y4SX)
+http://www.nominet.org.uk/privacypolicy
+URLChecker
+Mozilla/5.0 (Windows NT 5.1) BrokenLinkCheck.com/1.1
+PagePeeker
+Kimengi/nineconnections.com
