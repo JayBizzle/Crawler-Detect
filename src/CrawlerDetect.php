@@ -431,7 +431,11 @@ class CrawlerDetect
 
         $agent = preg_replace('/'.$this->getIgnored().'/i', '', $agent);
 
-        $result = preg_match('/'.$this->getRegex().'/i', trim($agent), $matches);
+        if (empty(trim($agent))) {
+            return false;
+        } else {
+            $result = preg_match('/'.$this->getRegex().'/i', trim($agent), $matches);
+        }
 
         if ($matches) {
             $this->matches = $matches;
