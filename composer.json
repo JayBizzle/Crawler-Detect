@@ -2,7 +2,7 @@
     "name": "jaybizzle/crawler-detect",
     "type": "library",
     "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
-    "keywords": ["crawler", "crawler detect", "crawler detector", "php crawler detect"],
+    "keywords": ["crawler", "crawler detect", "crawler detector", "crawlerdetect", "php crawler detect"],
     "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
     "license": "MIT",
     "authors": [
