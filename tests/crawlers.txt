@@ -806,3 +806,5 @@ URLChecker
 Mozilla/5.0 (Windows NT 5.1) BrokenLinkCheck.com/1.1
 PagePeeker
 Kimengi/nineconnections.com
+Mozilla/5.0 (compatible; Jobrapido/1.1; +http://www.jobrapido.com)
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) LinkCheck by Siteimprove.com
