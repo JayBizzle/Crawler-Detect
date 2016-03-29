@@ -64,14 +64,14 @@ class CrawlerDetect
         'WOW64',
         'Win64',
         'Dalvik.[\d\.]*',
-        '\.NET CLR [\d\.]*',
+        ' \.NET CLR [\d\.]*',
         'Presto.[\d\.]*',
         'Media Center PC',
         'BlackBerry',
         'Build',
         'Opera Mini\/\d{1,2}\.\d{1,2}\.[\d\.]*\/\d{1,2}\.',
         'Opera',
-        '\.NET[\d\.]*',
+        ' \.NET[\d\.]*',
         '\(|\)|;|,', // Remove the following characters ( ) : ,
     );
 
