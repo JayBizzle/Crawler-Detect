@@ -809,3 +809,9 @@ Kimengi/nineconnections.com
 Mozilla/5.0 (compatible; Jobrapido/1.1; +http://www.jobrapido.com)
 Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) LinkCheck by Siteimprove.com
 Mozilla/5.0 (compatible; Lipperhey-Kaus-Australis/5.0; +https://www.lipperhey.com/en/about/)
+PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)
+Mozilla/5.0 (compatible; +http://servernfo.com/)
+Mediapartners-Google
+www.deadlinkchecker.com Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) web-capture.net/0.9 Safari/537.21
+SortSite/4.4.500.0
