@@ -34,7 +34,7 @@ If you find a bot/spider/crawler user agent that CrawlerDetect fails to detect, 
 Failing that, just create an issue with the user agent you have found, and we'll take it from there :)
 
 ### Laravel Package
-If you would like to use this with Laravel 5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
+If you would like to use this with Laravel 4/5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
 _Parts of this class are based on the brilliant [MobileDetect](https://github.com/serbanghita/Mobile-Detect)_
 
