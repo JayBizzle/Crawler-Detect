@@ -37,4 +37,21 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals($this->CrawlerDetect->getMatches(), 'Yahoo Ad monitoring', $matches);
     }
+    
+
+    public function testForRegexCollision()
+    {
+        $crawlers = $this->CrawlerDetect->getCrawlers();
+        
+        foreach($crawlers as $regex) {
+            foreach ($crawlers as $compare) {
+                // Dont check this regex against itself
+                if($regex != $compare){
+                    $result = preg_match('/'.$regex.'/i', stripslashes($compare), $matches);
+                
+                    $this->assertEquals([], $matches, $regex.' collided with '.$compare);
+                }   
+            }
+        }
+    }
 }

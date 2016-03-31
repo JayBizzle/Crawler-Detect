@@ -455,6 +455,16 @@ class CrawlerDetect
     }
 
     /**
+     * Return the array of crawler regexs
+     *
+     * @return array
+     */
+    public function getCrawlers()
+    {
+        return self::$crawlers;
+    }
+
+    /**
      * Build the user agent regex.
      *
      * @return string
