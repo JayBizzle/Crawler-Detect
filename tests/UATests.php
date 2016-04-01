@@ -49,7 +49,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
                 if($regex != $compare){
                     $result = preg_match('/'.$regex.'/i', stripslashes($compare), $matches);
                 
-                    $this->assertEquals([], $matches, $regex.' collided with '.$compare);
+                    $this->assertEmpty($matches, $regex.' collided with '.$compare);
                 }   
             }
         }
