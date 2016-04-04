@@ -494,7 +494,6 @@ binlar_2.6.3 larbin2.6.3@unspecified.mail
 binlar_2.6.3 phanendra_kalapala@McAfee.com
 binlar_2.6.3 test@mgmt.mic
 SimpleCrawler/0.1
-SimpleCrawler/0.1
 Livelapbot/0.1
 Twitterbot/0.1
 Twitterbot/1.0
@@ -701,7 +700,6 @@ ltx71 - (http://ltx71.com/)
 MetaURI API/2.0 +metauri.com
 Mozilla/5.0 (compatible) Feedfetcher-Google;(+http://www.google.com/feedfetcher.html)
 Mozilla/5.0 (compatible; Butterfly/1.0; +http://labs.topsy.com/butterfly/) Gecko/2009032608 Firefox/3.0.8
-Scrapy/0.18.4 (+http://scrapy.org)
 Mozilla/5.0 (Digg/1.0; support@digg.com)
 Mozilla/5.0 (compatible; DomainAppender /1.0; +http://www.profound.net/domainappender)
 Mozilla/5.0 (compatible; IODC-Internet Engineering Odysseus 001; +http://iodc.co.uk)
@@ -755,7 +753,6 @@ Mozilla/5.0 (compatible; InterfaxScanBot/1.0; http://scan-interfax.ru)
 gnam gnam spider
 it2media-domain-crawler/2.0
 LSSRocketCrawler/1.0 LightspeedSystems
-niki-bot
 Mozilla/5.0 (compatible; Scribdbot/1.0; +http://www.scribd.com)
 archive.org_bot
 Mozilla/3.0 (compatible; WebMon 1.0.11; Windows XP)
