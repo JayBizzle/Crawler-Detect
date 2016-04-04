@@ -494,7 +494,6 @@ binlar_2.6.3 larbin2.6.3@unspecified.mail
 binlar_2.6.3 phanendra_kalapala@McAfee.com
 binlar_2.6.3 test@mgmt.mic
 SimpleCrawler/0.1
-SimpleCrawler/0.1
 Livelapbot/0.1
 Twitterbot/0.1
 Twitterbot/1.0
@@ -701,7 +700,6 @@ ltx71 - (http://ltx71.com/)
 MetaURI API/2.0 +metauri.com
 Mozilla/5.0 (compatible) Feedfetcher-Google;(+http://www.google.com/feedfetcher.html)
 Mozilla/5.0 (compatible; Butterfly/1.0; +http://labs.topsy.com/butterfly/) Gecko/2009032608 Firefox/3.0.8
-Scrapy/0.18.4 (+http://scrapy.org)
 Mozilla/5.0 (Digg/1.0; support@digg.com)
 Mozilla/5.0 (compatible; DomainAppender /1.0; +http://www.profound.net/domainappender)
 Mozilla/5.0 (compatible; IODC-Internet Engineering Odysseus 001; +http://iodc.co.uk)
@@ -755,7 +753,6 @@ Mozilla/5.0 (compatible; InterfaxScanBot/1.0; http://scan-interfax.ru)
 gnam gnam spider
 it2media-domain-crawler/2.0
 LSSRocketCrawler/1.0 LightspeedSystems
-niki-bot
 Mozilla/5.0 (compatible; Scribdbot/1.0; +http://www.scribd.com)
 archive.org_bot
 Mozilla/3.0 (compatible; WebMon 1.0.11; Windows XP)
@@ -818,3 +815,11 @@ SortSite/4.4.500.0
 Embed PHP Library
 IDG Twitter Links Resolver
 Mozilla/5.0 (compatible; linkCheckV3.0)
+Mozilla/5.0 (compatible; um-FC/1.0; mailto: techinfo@ubermetrics-technologies.com)
+Mozilla/5.0 (compatible; um-LN/1.0; mailto: techinfo@ubermetrics-technologies.com)
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36 XaxisSemanticsClassifier/1.0 http://crystalsemantics.com
+HTTP_Request2/2.2.1 (http://pear.php.net/package/http_request2) PHP/5.5.33
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0 (NetShelter ContentScan, contact abuse@inpwrd.com for information)
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+SalesIntelligent/v1.1
+SNK Siteshooter B0t 2.1 (abuse-snk .4t. service .d0t. moquadv .d0t. com)
