@@ -815,3 +815,11 @@ SortSite/4.4.500.0
 Embed PHP Library
 IDG Twitter Links Resolver
 Mozilla/5.0 (compatible; linkCheckV3.0)
+Mozilla/5.0 (compatible; um-FC/1.0; mailto: techinfo@ubermetrics-technologies.com)
+Mozilla/5.0 (compatible; um-LN/1.0; mailto: techinfo@ubermetrics-technologies.com)
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36 XaxisSemanticsClassifier/1.0 http://crystalsemantics.com
+HTTP_Request2/2.2.1 (http://pear.php.net/package/http_request2) PHP/5.5.33
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0 (NetShelter ContentScan, contact abuse@inpwrd.com for information)
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+SalesIntelligent/v1.1
+SNK Siteshooter B0t 2.1 (abuse-snk .4t. service .d0t. moquadv .d0t. com)
