@@ -101,6 +101,7 @@ class CrawlerDetect
         'BazQux',
         'bibnum\.bnf',
         'biglotron',
+        'BingLocalSearch',
         'BingPreview',
         'binlar',
         'Bloglovin',
