@@ -205,6 +205,7 @@ htdig/3.1.6 (unconfigured@htdig.searchengine.maintainer)
 http://www.almaden.ibm.com/cs/crawler [wf84]
 http://www.mabontland.com
 http://www.nominet.org.uk/privacypolicy
+http_requester/0.1
 HTTP_Request2/2.2.1 (http://pear.php.net/package/http_request2) PHP/5.5.33
 httpunit/1.x
 HubSpot Links Crawler 2.0 http://www.hubspot.com/

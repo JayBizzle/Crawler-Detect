@@ -177,6 +177,7 @@ class CrawlerDetect
         'Holmes',
         'htdig',
         'HTTPMon',
+        'http_requester',
         'httpunit',
         'http_request2',
         'httrack',
