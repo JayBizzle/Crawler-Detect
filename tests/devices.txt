@@ -9,15 +9,6 @@ amovision
 AndroidDownloadManager
 AndroidDownloadManager/4.1.2 (Linux; U; Android 4.1.2; Connect-3G-2.0 Build/HCL)
 AndroidDownloadManager/4.4.2 (Linux; U; Android 4.4.2; SM-G900H Build/KOT49H)
-Apache-HttpClient/4.2.3 (java 1.5)
-Apache-HttpClient/4.2.5 (java 1.5)
-Apache-HttpClient/4.3.1 (java 1.5)
-Apache-HttpClient/4.3.2 (java 1.5)
-Apache-HttpClient/4.3.3 (java 1.5)
-Apache-HttpClient/4.3.5 (java 1.5)
-Apache-HttpClient/4.5 (Java/1.8.0_72)
-Apache-HttpClient/4.5 (Java/1.8.0_74)
-Apache-HttpClient/4.5.1 (Java/1.8.0_40)
 AppEngine-Google; (+http://code.google.com/appengine; appid: nr-022)
 Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)
 BlackBerry8520/4.6.1.272 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/168
@@ -185,29 +176,11 @@ ht://check/2.0.0-rc1 (Linux 2.6.32-573.18.1.el6.x86_64 x86_64)
 HTC_Desire_616_dual_sim /V1 Linux/3.4.39 Android/4.2.2 Release/05.02.2013 Browser/AppleWebKit534.30 Mobile Safari/534.30;
 HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; en)
 http-kit/2.0
-http_requester/0.1
 HUAWEI Y325-T00_TD/V1 Linux/3.4.5 Android/2.3.6 Release/03.26.2013 Browser/AppleWebKit533.1 Mobile Safari/533.1;
 ICE Browser/5.05 (Java 1.4.0; Windows 2000 5.0 x86)
 iCoreService (unknown version) CFNetwork/520.5.1 Darwin/11.4.2 (x86_64) (MacBookPro9%2C2)
 Inboxcube/3.0.17 CFNetwork/758.3.15 Darwin/15.4.0
 iTunes/11.1.3 (Macintosh; Intel Mac OS X 10.7) AppleWebKit/534.20.8
-Java/1.4.1_04
-Java/1.6.0_04
-Java/1.6.0_24
-Java/1.6.0_26
-Java/1.6.0_30
-Java/1.6.0_31
-Java/1.6.0_34
-Java/1.7.0_45
-Java/1.7.0_51
-Java/1.7.0_80
-Java/1.8.0_05
-Java/1.8.0_20
-Java/1.8.0_31
-Java/1.8.0_40
-Java/1.8.0_45
-Java/1.8.0_65
-Java/1.8.0_73
 Karbonn A35/V1 Linux/3.4.5 Android/4.2.2 Release/03.26.2013 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2;
 Karbonn Titanium S9/Linux/3.4.5 Android/4.2.2  Release/12.24.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 System/Android 4.2.2;
 lee clemmer - twitter: @leeclemmer | email: clemmerl@gmail.com AppEngine-Google; (+http://code.google.com/appengine; appid: s~corporatetwitnews)
