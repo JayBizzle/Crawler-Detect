@@ -82,8 +82,8 @@ class CrawlerDetect
      */
     protected static $crawlers = array(
         '.*Java.*outbrain',
-        '008\\/',
-        '^NING\\/',
+        '008\/',
+        '^NING\/',
         'A6-Indexer',
         'Aboundex',
         'Accoona-AI-Agent',
@@ -109,7 +109,7 @@ class CrawlerDetect
         'boitho\.com-dc',
         'Browsershots',
         'BUbiNG',
-        'Butterfly\\/',
+        'Butterfly\/',
         'BuzzSumo',
         'CapsuleChecker',
         'CC Metadata Scaper',
@@ -129,7 +129,7 @@ class CrawlerDetect
         'CyberPatrol',
         'DataparkSearch',
         'dataprovider',
-        'Daum(oa)?[ \\/][0-9]',
+        'Daum(oa)?[ \/][0-9]',
         'Digg',
         'DomainAppender',
         'Dragonfly File Reader',
@@ -326,11 +326,11 @@ class CrawlerDetect
         'URLChecker',
         'urlresolver',
         'Vagabondo',
-        'Validator\.nu\\/LV',
+        'Validator\.nu\/LV',
         'via ggpht\.com GoogleImageProxy',
         'Vivante Link Checker',
         'Vortex',
-        'voyager\\/',
+        'voyager\/',
         'VYU2',
         'W3C-checklink',
         'W3C-mobileOK',
@@ -366,7 +366,7 @@ class CrawlerDetect
         'YottaaMonitor',
         'Zao',
         'ZyBorg',
-        '[a-z0-9\\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)',
+        '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)',
     );
 
     /**
