@@ -15,6 +15,54 @@ ADmantX Platform Semantic Analyzer - Turn EU - ADmantX Inc. - www.admantx.com - 
 ADmantX Platform Semantic Analyzer Appnexus - ADmantX Inc. - www.admantx.com - support@admantx.com
 AdsBot-Google (+http://www.google.com/adsbot.html)
 AHC/1.0
+Mozilla/4.0 (compatible; cron-job.org; http://cron-job.org/abuse/)
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Web Link Validator
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:28.0) Gecko/20100101 Firefox/28.0 (FlipboardProxy/1.1; +http://flipboard.com/browserproxy)
+Mozilla/5.0 (compatible; WebCorp/5.0; +http://www.webcorp.org.uk)
+lee clemmer - twitter: @leeclemmer | email: clemmerl@gmail.com AppEngine-Google; (+http://code.google.com/appengine; appid: s~corporatetwitnews)
+Mozilla/5.0 (compatible; Funnelback) RPT-HTTPClient/0.3-3E
+SMRF URL Expander
+Mozilla/5.0 zgrab/0.x
+Go 1.1 package http
+WhatsApp
+WhatsApp/2.12.15/i
+WhatsApp/2.12.16/i
+WhatsApp/2.12.17/i
+WhatsApp/2.12.449 A
+WhatsApp/2.12.453 A
+WhatsApp/2.12.510 A
+WhatsApp/2.12.540 A
+WhatsApp/2.12.548 A
+WhatsApp/2.12.555 A
+WhatsApp/2.12.556 A
+WhatsApp/2.16.1/i
+WhatsApp/2.16.13 A
+WordPress/4.4.2; http://chemicalengineering.xyz
+WordPress/4.4.2; http://chemicalengineeringinfo.xyz
+WordPress/4.4.2; http://chemicalengineeringrequisites.xyz
+WordPress/4.4.2; http://citycollegeinmiami.com
+WordPress/4.4.2; http://cookingideabook.com
+WordPress/4.4.2; http://coursesforchemicalengineering.xyz
+WordPress/4.4.2; http://learnchemcialengineeringonline.xyz
+WordPress/4.4.2; http://oldmanhealth.com
+WordPress/4.4.2; http://onlinechemicalengineering.xyz
+WordPress/4.4.2; http://sapcrmarchitecture.com
+WordPress/4.4.2; http://studychemicalengineering.xyz
+WordPress/x.x.x.x PHP/4.x.xxMozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34
+Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34
+Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34
+Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1
+Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1 Prerender (+https://github.com/prerender/prerender)
+http-kit/2.0
+Mozilla/3.0 (compatible; WebCapture 2.0; Auto; Windows)
+omgili/0.5 +http://omgili.com
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36
+Nuzzel
+Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)
+WebFetch
+Grammarly/1.0 (http://www.grammarly.com)
+Mozilla/5.0 (compatible; Google-Site-Verification/1.0)
+Mozilla/5.0 (Linux;u;Android 2.3.7;zh-cn;) AppleWebKit/533.1 (KHTML,like Gecko) Version/4.0 Mobile Safari/533.1 (compatible; +http://www.baidu.com/search/spi_der.html)
 Airmail 1.3.3 rv:237 (Macintosh; Mac OS X 10.9.3; sk_SK)
 AISearchBot (Email: aisearchbot@gmail.com; If your web site doesn't want to be crawled, please send us a email.)
 Anemone/0.7.2

@@ -167,7 +167,6 @@ Firefox/33.1.1 (Windows NT 6.1; WOW64) Gecko/20141113143407
 fliptop
 FLY MV300/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1
 Foo
-Go 1.1 package http
 Google Talk
 gvfs/1.12.1
 gvfs/1.18.2
@@ -175,7 +174,6 @@ HotmailBuzzr/4831 CFNetwork/758.2.8 Darwin/15.0.0
 ht://check/2.0.0-rc1 (Linux 2.6.32-573.18.1.el6.x86_64 x86_64)
 HTC_Desire_616_dual_sim /V1 Linux/3.4.39 Android/4.2.2 Release/05.02.2013 Browser/AppleWebKit534.30 Mobile Safari/534.30;
 HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; en)
-http-kit/2.0
 HUAWEI Y325-T00_TD/V1 Linux/3.4.5 Android/2.3.6 Release/03.26.2013 Browser/AppleWebKit533.1 Mobile Safari/533.1;
 ICE Browser/5.05 (Java 1.4.0; Windows 2000 5.0 x86)
 iCoreService (unknown version) CFNetwork/520.5.1 Darwin/11.4.2 (x86_64) (MacBookPro9%2C2)
@@ -183,7 +181,6 @@ Inboxcube/3.0.17 CFNetwork/758.3.15 Darwin/15.4.0
 iTunes/11.1.3 (Macintosh; Intel Mac OS X 10.7) AppleWebKit/534.20.8
 Karbonn A35/V1 Linux/3.4.5 Android/4.2.2 Release/03.26.2013 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2;
 Karbonn Titanium S9/Linux/3.4.5 Android/4.2.2  Release/12.24.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 System/Android 4.2.2;
-lee clemmer - twitter: @leeclemmer | email: clemmerl@gmail.com AppEngine-Google; (+http://code.google.com/appengine; appid: s~corporatetwitnews)
 Lenovo-A828t_TD/S100 Linux/3.4.5 Android/4.2.1 Release/08.15.2013 Browser/AppleWebkit534.30 Mobile Safari/534.30
 Lenovo-A880/S100 Linux/3.4.5 Android/4.2 Release/08.07.2013 Browser/AppleWebKit 534.30 Profile/ Configuration;
 LG-D690 Mozilla/5.0 (Linux; Android 5.0.2; LG-D690 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.1847.118 Mobile Safari/537.36
@@ -238,7 +235,6 @@ Mozilla/1.1 (compatible; MSPIE 2.0; Windows CE)
 Mozilla/2.0 (compatible; crw)
 Mozilla/2.0 (compatible; MSIE 3.0; AK; Windows 95)
 Mozilla/3.0 (compatible; Indy Library)
-Mozilla/3.0 (compatible; WebCapture 2.0; Auto; Windows)
 mozilla/3.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/5.0.1
 Mozilla/3.6 (compatible; MSIE 7.0; Windows NT 6.1; en-US; rv:1.9.2.16) Gecko/20110319 MRA 5.6 (build 03278) Firefox/3.6.16
 Mozilla/37.0.2 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)
@@ -247,7 +243,6 @@ Mozilla/4.0   (compatible;   MSIE   7.0;   Windows   NT   5.1;   SV1;   Maxthon;
 Mozilla/4.0 (compatible  MSIE 6.0  Windows NT 5.1  SV1  MRSPUTNIK 2, 4, 0, 197  .NET CLR 2.0.50727  .NET CLR 3.0.04506.648  .NET CLR 3.5.21022  InfoPath.1)
 Mozilla/4.0 (compatible  MSIE 7.0  Windows NT 5.1  MRSPUTNIK 2, 3, 0, 289  .NET CLR 1.1.4322  .NET CLR 2.0.50727  InfoPath.2)
 Mozilla/4.0 (compatible  MSIE 7.0  Windows NT 5.1  Trident/4.0  MyIE2  MRSPUTNIK 2, 3, 0, 293  MRA 5.7 (build 03773)  .NET CLR 2.0.50727  .NET CLR 3.0.4506.2152  .NET CLR 3.5.30729)
-Mozilla/4.0 (compatible; cron-job.org; http://cron-job.org/abuse/)
 Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)
 Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt)
 Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt; DTS Agent
@@ -272,7 +267,6 @@ Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; iOpus-I-M; .NET CLR 1.1.4322;
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0;)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Opera 7.54 [en]
-Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Web Link Validator
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;  SV1;  .NET CLR 1.1.4325)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Avast Browser [avastye.com]; .NET CLR 1.1.4322)
@@ -3898,8 +3892,6 @@ Mozilla/5.0 (BlackBerry; U; BlackBerry 9930; en-US) AppleWebKit/534.11+ (KHTML, 
 Mozilla/5.0 (compatible)
 Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
 Mozilla/5.0 (compatible; evc-batch/2.0)
-Mozilla/5.0 (compatible; Funnelback) RPT-HTTPClient/0.3-3E
-Mozilla/5.0 (compatible; Google-Site-Verification/1.0)
 Mozilla/5.0 (compatible; Konqueror/2.2.1; Linux)
 Mozilla/5.0 (compatible; Konqueror/4.1; Linux) KHTML/4.1.3 (like Gecko) SUSE
 Mozilla/5.0 (compatible; MSIE 10.0; AOL 9.0; Windows NT 6.1; WOW64; Trident/6.0)
@@ -4501,8 +4493,6 @@ Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64) AppleWebKit/
 Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0
 Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
 Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64; Trident/7.0; StaffsStudentImage; rv:11.0) like Gecko
-Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)
-Mozilla/5.0 (compatible; WebCorp/5.0; +http://www.webcorp.org.uk)
 Mozilla/5.0 (compatible; Windows; U; Windows NT 6.2; en-US; rv:12.0) Gecko/20120403211507 Firefox/12.0
 Mozilla/5.0 (compatible; Windows; U; Windows NT 6.2; WOW64; en-US; rv:12.0) Gecko/20120403211507 Firefox/12.0
 Mozilla/5.0 (compatible;FW 2.0. 5170.p; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
@@ -12832,7 +12822,6 @@ Mozilla/5.0 (Linux; U;Android 4.4.2; LG-D855 Build/KVT49L.A1412087656) AppleWebK
 Mozilla/5.0 (Linux; U;Android 4.4.2; LG-D855 Build/KVT49L.A1418111566) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.1847.118 Mobile Safari/537.36
 Mozilla/5.0 (Linux; webOS/2.2.4; U; en-GB) AppleWebKit/534.6 (KHTML, like Gecko) webOSBrowser/221.56 Safari/534.6 Pre/3.0
 Mozilla/5.0 (Linux;U; Android 4.1; en-gb; ST10216-1Build/ST10216-1) AppleWebKit/534.30 (KHTML,like Gecko) Version/4.0 Safari/534.30
-Mozilla/5.0 (Linux;u;Android 2.3.7;zh-cn;) AppleWebKit/533.1 (KHTML,like Gecko) Version/4.0 Mobile Safari/533.1 (compatible; +http://www.baidu.com/search/spi_der.html)
 Mozilla/5.0 (Macintosh; ARM Mac OS X) AppleWebKit/538.15 (KHTML, like Gecko) Safari/538.15 Version/6.0 Raspbian/8.0 (1:3.8.2.0-0rpi23rpi1g) Epiphany/3.8.2
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:25.0) Gecko/20100101 Firefox/25.0
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:28.0) Gecko/20100101 Firefox/28.0
@@ -12996,7 +12985,6 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:26.0) Gecko/20100101 Firefox/26.
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:27.0) Gecko/20100101 Firefox/27.0
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:27.0) Gecko/20100101 Firefox/27.0 AlexaToolbar/pw2DORFf-2.1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:28.0) Gecko/20100101 Firefox/28.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:28.0) Gecko/20100101 Firefox/28.0 (FlipboardProxy/1.1; +http://flipboard.com/browserproxy)
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:29.0) Gecko/20100101 Firefox/29.0
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:30.0) Gecko/20100101 Firefox/30.0
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:31.0) Gecko/20100101 Firefox/31.0
@@ -14955,12 +14943,6 @@ Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaC5-03/11.0.024; Profile/MIDP-2.1 C
 Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 Nokia5800d-1/21.0.025; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413
 Mozilla/5.0 (U; Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
 Mozilla/5.0 (UaM; Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
-Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.10.0 (development) Safari/534.34
-Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34
-Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34
-Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34
-Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1
-Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1 Prerender (+https://github.com/prerender/prerender)
 Mozilla/5.0 (Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36 Edge/14.9200
 Mozilla/5.0 (Windows 10; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
 Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
@@ -20096,7 +20078,6 @@ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Ch
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/49.0.2623.87 Chrome/49.0.2623.87 Safari/537.36
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Safari/537.36
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2657.12 Safari/537.36
-Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36(KHTML,like Gecko) Chrome/40.0.2214.115 Safari/537.36
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.79 Safari/537.4
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) splash Safari/538.1
@@ -20367,7 +20348,6 @@ Mozilla/5.0 ;Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; like Gecko
 Mozilla/5.0 ArchLinux (X11; U; Linux x86_64; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100
 Mozilla/5.0 Firefox/26.0
 Mozilla/5.0 Firefox/35.0
-Mozilla/5.0 zgrab/0.x
 Mozilla/5.0(Linux/3.4.5; U; Android 4.4.2; zh-cn; Lenovo A536 Build/KOT49H)AppleWebKit/534.30 (KHTML, like Gecko) Version/4.4.2 Mobile Safari/534.30 Release/01.17.2014
 Mozilla/5.0+(Windows+NT+5.1;+rv:25.0)+Gecko/20100101+Firefox/25.0
 Mozilla/5.0; iPhone; CPU iPhone OS 8_1_2 like Mac OS X; AppleWebKit/600.1.4; KHTML, like Gecko; Version/8.0 Mobile/12B440 Safari/600.1.4
@@ -21607,7 +21587,6 @@ SAMSUNG-GT-S5292 Opera/9.80 (J2ME/MIDP; Opera Mini/7.0.32584/35.4183; U; en) Pre
 SAMSUNG-SGH-A887/A887UCIJ1 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
 SAMSUNG-SM-B313E Opera/9.80 (J2ME/MIDP; Opera Mini/4.5.40318/37.8069; U; en) Presto/2.12.423 Version/12.16
 Sleipnir/2.xx
-SMRF URL Expander
 snk
 SonyEricssonK700c/R2AE SEMC-Browser/4.0.3 Profile/MIDP-2.0 Configuration/CLDC-1.1
 TeamSoft WinInet Component
@@ -21721,35 +21700,10 @@ User-Agent⇥Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
 VB Project
 VPNGate/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/D64567
 WannaBe (Macintosh; PPC)
-WebFetch
 WebFuck V2.1 T0PHackTeam www.t0p.xyz
 WebProcess/8537.75.14 CFNetwork/596.6.2 Darwin/12.5.0 (x86_64) (MacBookPro9%2C1)
 webster-internet.de pad browser
-WhatsApp
-WhatsApp/2.12.15/i
-WhatsApp/2.12.16/i
-WhatsApp/2.12.17/i
-WhatsApp/2.12.449 A
-WhatsApp/2.12.453 A
-WhatsApp/2.12.510 A
-WhatsApp/2.12.540 A
-WhatsApp/2.12.548 A
-WhatsApp/2.12.555 A
-WhatsApp/2.12.556 A
-WhatsApp/2.16.1/i
 woot woot
 WordPress.com; http://careersblog.warwick.ac.uk
-WordPress/4.4.2; http://chemicalengineering.xyz
-WordPress/4.4.2; http://chemicalengineeringinfo.xyz
-WordPress/4.4.2; http://chemicalengineeringrequisites.xyz
-WordPress/4.4.2; http://citycollegeinmiami.com
-WordPress/4.4.2; http://cookingideabook.com
-WordPress/4.4.2; http://coursesforchemicalengineering.xyz
-WordPress/4.4.2; http://learnchemcialengineeringonline.xyz
-WordPress/4.4.2; http://oldmanhealth.com
-WordPress/4.4.2; http://onlinechemicalengineering.xyz
-WordPress/4.4.2; http://sapcrmarchitecture.com
-WordPress/4.4.2; http://studychemicalengineering.xyz
-WordPress/x.x.x.x PHP/4.x.xx
 www.splashaccess.net
 Zend_Http_Client
