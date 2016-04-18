@@ -292,6 +292,7 @@ class CrawlerDetect
         'Qseero',
         'Qwantify',
         'Radian6',
+        'Readability',
         'RebelMouse',
         'RetrevoPageAnalyzer',
         'Riddler',
