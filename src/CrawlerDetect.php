@@ -309,7 +309,7 @@ class CrawlerDetect
         'SearchSight',
         'semanticdiscovery',
         'SEOstats',
-        'Server Density Service Monitoring.*',
+        'Server Density Service Monitoring',
         'servernfo\.com',
         'Seznam screenshot-generator',
         'ShopWiki',
