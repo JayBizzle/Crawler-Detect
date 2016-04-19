@@ -344,6 +344,7 @@ MLBot (www.metadatalabs.com/mlbot)
 Mnogosearch-3.1.21
 mogimogi/1.0
 MojeekBot/0.2 (archi; http://www.mojeek.com/bot.html)
+Mojolicious (Perl)
 Mojoo Robot (http://www.mojoo.com/)
 Moreoverbot/5.00 (+http://www.moreover.com; webmaster@moreover.com)
 Moreoverbot/5.00 (+http://www.moreover.com)
@@ -711,6 +712,7 @@ Netvibes (http://www.netvibes.com)
 NewsGator/2.0 Bot (http://www.newsgator.com)
 NewsGator/2.5 (http://www.newsgator.com; Microsoft Windows NT 5.1.2600.0; .NET CLR 1.1.4322.2032)
 newsme/1.0; feedback@news.me
+newspaper/0.0.9.8
 NextGenSearchBot 1 (for information visit http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx)
 NG-Search/0.86 ( http://www.ng-search.com)
 NG-Search/0.86 (+http://www.ng-search.com)
@@ -969,6 +971,7 @@ woriobot (+http://www.worio.com)
 woriobot (+http://www.worio.com/)
 Wotbox/2.0 (bot@wotbox.com; http://www.wotbox.com)
 Wotbox/2.01 (+http://www.wotbox.com/bot/)
+WWW-Mechanize/1.73
 www.deadlinkchecker.com Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
 www.integromedb.org/Crawler
 Xaldon_WebSpider/2.0.b1
