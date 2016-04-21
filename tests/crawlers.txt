@@ -28,6 +28,7 @@ Apache-HttpClient/4.5 (Java/1.8.0_72)
 Apache-HttpClient/4.5 (Java/1.8.0_74)
 Apache-HttpClient/4.5.1 (Java/1.8.0_40)
 AppEngine-Google; (+http://code.google.com/appengine; appid: s~gce-spider)
+AppEngine-Google; (+http://code.google.com/appengine; appid: s~snapchat-proxy)
 AppleNewsBot
 archive.org_bot
 BacklinkCrawler (http://www.backlinktest.com/crawler.html)
@@ -398,6 +399,7 @@ Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; MSIECrawler)
 Mozilla/4.0 (compatible; Netcraft Web Server Survey)
 Mozilla/4.0 (compatible; Vagabondo/2.2; webcrawler at wise-guys dot nl; http://webagent.wise-guys.nl/)
 Mozilla/4.0 (compatible; Vagabondo/4.0Beta; webcrawler at wise-guys dot nl; http://webagent.wise-guys.nl/; http://www.wise-guys.nl/)
+Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
 Mozilla/4.0 (compatible; Zealbot 1.0)
 Mozilla/4.0 (compatible: FDSE robot)
 Mozilla/4.0 (compatible: Shoula robot)
@@ -971,6 +973,7 @@ woriobot (+http://www.worio.com)
 woriobot (+http://www.worio.com/)
 Wotbox/2.0 (bot@wotbox.com; http://www.wotbox.com)
 Wotbox/2.01 (+http://www.wotbox.com/bot/)
+wscheck.com/1.0.0 (+http://wscheck.com/)
 WWW-Mechanize/1.73
 www.deadlinkchecker.com Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
 www.integromedb.org/Crawler
