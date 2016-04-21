@@ -236,7 +236,6 @@ class CrawlerDetect
         'mabontland',
         'MagpieRSS',
         'Mediapartners-Google',
-        'Mediapartners-Google',
         'MegaIndex\.ru',
         'MetaURI',
         'MergeFlow-PageReader',
