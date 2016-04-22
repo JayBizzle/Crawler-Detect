@@ -9,13 +9,16 @@
  * with this source code in the file LICENSE.
  */
 
+use Jaybizzle\CrawlerDetect\CrawlerDetect;
+use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
+
 class UserAgentTest extends PHPUnit_Framework_TestCase
 {
     protected $CrawlerDetect;
 
     public function setUp()
     {
-        $this->CrawlerDetect = new Jaybizzle\CrawlerDetect\CrawlerDetect();
+        $this->CrawlerDetect = new CrawlerDetect();
     }
 
     public function testBots()
@@ -49,7 +52,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
     public function testForRegexCollision()
     {
-        $crawlers = $this->CrawlerDetect->getCrawlers();
+        $crawlers = (new Crawlers)->getAll();
 
         foreach ($crawlers as $key1 => $regex) {
             foreach ($crawlers as $key2 => $compare) {

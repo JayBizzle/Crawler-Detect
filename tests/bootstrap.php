@@ -8,5 +8,10 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
+$dot = dirname(__FILE__);
 
-require_once dirname(__FILE__).'/../src/CrawlerDetect.php';
+if (!file_exists($composer = dirname($dot).'/vendor/autoload.php')) {
+    throw new RuntimeException("Please run 'composer install' first to set up autoloading. $composer");
+}
+/** @var \Composer\Autoload\ClassLoader $autoloader */
+$autoloader = include $composer;
