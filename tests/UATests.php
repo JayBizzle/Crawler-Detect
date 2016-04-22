@@ -52,7 +52,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
     public function testForRegexCollision()
     {
-        $crawlers = (new Crawlers)->getAll();
+        $crawlers = (new Crawlers())->getAll();
 
         foreach ($crawlers as $key1 => $regex) {
             foreach ($crawlers as $key2 => $compare) {

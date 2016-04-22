@@ -1,10 +1,19 @@
 <?php
 
+/*
+ * This file is part of Crawler Detect - the web crawler detection library.
+ *
+ * (c) Mark Beech <m@rkbee.ch>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 namespace Jaybizzle\CrawlerDetect\Fixtures;
 
 class Exclusions extends AbstractProvider
 {
-	/**
+    /**
      * List of strings to remove from the user agent before running the crawler regex
      * Over a large list of user agents, this gives us about a 55% speed increase!
      *
