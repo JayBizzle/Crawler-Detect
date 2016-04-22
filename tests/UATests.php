@@ -51,10 +51,10 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
     {
         $crawlers = $this->CrawlerDetect->getCrawlers();
 
-        foreach ($crawlers as $regex) {
-            foreach ($crawlers as $compare) {
+        foreach ($crawlers as $key1 => $regex) {
+            foreach ($crawlers as $key2 => $compare) {
                 // Dont check this regex against itself
-                if ($regex != $compare) {
+                if ($key1 != $key2) {
                     preg_match('/'.$regex.'/i', stripslashes($compare), $matches);
 
                     $this->assertEmpty($matches, $regex.' collided with '.$compare);
