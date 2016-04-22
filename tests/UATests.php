@@ -52,10 +52,10 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
     public function testForRegexCollision()
     {
-        $crawlers = (new Crawlers())->getAll();
+        $crawlers = new Crawlers();
 
-        foreach ($crawlers as $key1 => $regex) {
-            foreach ($crawlers as $key2 => $compare) {
+        foreach ($crawlers->getAll() as $key1 => $regex) {
+            foreach ($crawlers->getAll() as $key2 => $compare) {
                 // Dont check this regex against itself
                 if ($key1 != $key2) {
                     preg_match('/'.$regex.'/i', stripslashes($compare), $matches);
