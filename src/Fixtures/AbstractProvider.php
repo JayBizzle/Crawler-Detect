@@ -13,7 +13,7 @@ namespace Jaybizzle\CrawlerDetect\Fixtures;
 
 abstract class AbstractProvider
 {
-	protected $data;
+    protected $data;
 
     public function getAll()
     {

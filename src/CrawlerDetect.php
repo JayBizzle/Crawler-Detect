@@ -38,15 +38,15 @@ class CrawlerDetect
     protected $matches = array();
 
     /**
-     * Crawlers object
-     * 
+     * Crawlers object.
+     *
      * @var Jaybizzle\CrawlerDetect\Fixtures\Crawlers
      */
     protected $crawlers;
 
     /**
-     * Exclusions object
-     * 
+     * Exclusions object.
+     *
      * @var Jaybizzle\CrawlerDetect\Fixtures\Exclusions
      */
     protected $exclusions;
