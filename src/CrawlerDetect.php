@@ -38,6 +38,20 @@ class CrawlerDetect
     protected $matches = array();
 
     /**
+     * Crawlers object
+     * 
+     * @var Jaybizzle\CrawlerDetect\Fixtures\Crawlers
+     */
+    protected $crawlers;
+
+    /**
+     * Exclusions object
+     * 
+     * @var Jaybizzle\CrawlerDetect\Fixtures\Exclusions
+     */
+    protected $exclusions;
+
+    /**
      * All possible HTTP headers that represent the
      * User-Agent string.
      *
@@ -136,7 +150,7 @@ class CrawlerDetect
      *
      * @return string
      */
-    public function getIgnored()
+    public function getExclusions()
     {
         return '('.implode('|', $this->exclusions->getAll()).')';
     }
@@ -152,7 +166,7 @@ class CrawlerDetect
     {
         $agent = is_null($userAgent) ? $this->userAgent : $userAgent;
 
-        $agent = preg_replace('/'.$this->getIgnored().'/i', '', $agent);
+        $agent = preg_replace('/'.$this->getExclusions().'/i', '', $agent);
 
         if (trim($agent) === false) {
             return false;
