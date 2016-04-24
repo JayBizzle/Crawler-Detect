@@ -11,6 +11,9 @@
 
 namespace Jaybizzle\CrawlerDetect;
 
+use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
+use Jaybizzle\CrawlerDetect\Fixtures\Exclusions;
+
 class CrawlerDetect
 {
     /**
@@ -35,375 +38,18 @@ class CrawlerDetect
     protected $matches = array();
 
     /**
-     * List of strings to remove from the user agent before running the crawler regex
-     * Over a large list of user agents, this gives us about a 55% speed increase!
+     * Crawlers object.
      *
-     * @var array
+     * @var \Jaybizzle\CrawlerDetect\Fixtures\Crawlers
      */
-    protected static $ignore = array(
-        'Safari.[\d\.]*',
-        'Firefox.[\d\.]*',
-        'Chrome.[\d\.]*',
-        'Chromium.[\d\.]*',
-        'MSIE.[\d\.]',
-        'Opera\/[\d\.]*',
-        'Mozilla.[\d\.]*',
-        'AppleWebKit.[\d\.]*',
-        'Trident.[\d\.]*',
-        'Windows NT.[\d\.]*',
-        'Android.[\d\.]*',
-        'Macintosh.',
-        'Ubuntu',
-        'Linux',
-        '[ ]Intel',
-        'Mac OS X [\d_]*',
-        '(like )?Gecko(.[\d\.]*)?',
-        'KHTML',
-        'CriOS.[\d\.]*',
-        'CPU iPhone OS ([0-9_])* like Mac OS X',
-        'CPU OS ([0-9_])* like Mac OS X',
-        'iPod',
-        'compatible',
-        'x86_..',
-        'i686',
-        'x64',
-        'X11',
-        'rv:[\d\.]*',
-        'Version.[\d\.]*',
-        'WOW64',
-        'Win64',
-        'Dalvik.[\d\.]*',
-        ' \.NET CLR [\d\.]*',
-        'Presto.[\d\.]*',
-        'Media Center PC',
-        'BlackBerry',
-        'Build',
-        'Opera Mini\/\d{1,2}\.\d{1,2}\.[\d\.]*\/\d{1,2}\.',
-        'Opera',
-        ' \.NET[\d\.]*',
-        '\(|\)|;|,', // Remove the following characters ( ) : ,
-    );
+    protected $crawlers;
 
     /**
-     * Array of regular expressions to match against the user agent.
+     * Exclusions object.
      *
-     * @var array
+     * @var \Jaybizzle\CrawlerDetect\Fixtures\Exclusions
      */
-    protected static $crawlers = array(
-        '.*Java.*outbrain',
-        '008\/',
-        '^NING\/',
-        'A6-Indexer',
-        'Aboundex',
-        'Accoona-AI-Agent',
-        'acoon',
-        'AddThis',
-        'ADmantX',
-        'AHC',
-        'Airmail',
-        'alexa site audit',
-        'Anemone',
-        'Apache-HttpClient\/',
-        'Arachmo',
-        'archive-com',
-        'B-l-i-t-z-B-O-T',
-        'Backlink-Ceck\.de',
-        'baidu\.com',
-        'BazQux',
-        'bibnum\.bnf',
-        'biglotron',
-        'BingLocalSearch',
-        'BingPreview',
-        'binlar',
-        'Bloglovin',
-        'Blogtrottr',
-        'boitho\.com-dc',
-        'Browsershots',
-        'BUbiNG',
-        'Butterfly\/',
-        'BuzzSumo',
-        'CapsuleChecker',
-        'CC Metadata Scaper',
-        'Cerberian Drtrs',
-        'changedetection',
-        'Charlotte',
-        'clips\.ua\.ac\.be',
-        'CloudFlare-AlwaysOnline',
-        'coccoc',
-        'CommaFeed',
-        'Commons-HttpClient',
-        'convera',
-        'cosmos',
-        'corporatetwitnews',
-        'Covario-IDS',
-        'cron-job\.org',
-        'Curious George',
-        'curl',
-        'CyberPatrol',
-        'DataparkSearch',
-        'dataprovider',
-        'Daum(oa)?[ \/][0-9]',
-        'developers\.google\.com\/\+\/web\/snippet\/',
-        'Digg',
-        'DomainAppender',
-        'Dragonfly File Reader',
-        'drupact',
-        'EARTHCOM',
-        'ec2linkfinder',
-        'ECCP',
-        'ElectricMonk',
-        'EMail Exractor',
-        'EmailWolf',
-        'Embed PHP Library',
-        'Embedly',
-        'europarchive\.org',
-        'EventMachine HttpClient',
-        'ExactSearch',
-        'ExaleadCloudview',
-        'ezooms',
-        'facebookexternalhit',
-        'facebookplatform',
-        'Feed Wrangler',
-        'Feedbin',
-        'FeedBurner',
-        'Feedfetcher-Google',
-        'Feedly',
-        'Feedspot',
-        'FeedValidator',
-        'Fever',
-        'findlink',
-        'findthatfile',
-        'Flamingo_SearchEngine',
-        'FlipboardProxy',
-        'fluffy',
-        'Funnelback',
-        'g00g1e\.net',
-        'Genieo',
-        'getprismatic\.com',
-        'GigablastOpenSource',
-        'Go-http-client',
-        'Google favicon',
-        'Google Keyword Suggestion',
-        'Google Page Speed Insights',
-        'Google Web Preview',
-        'Google-HTTP-Java-Client',
-        'Google-Site-Verification',
-        'google_partner_monitoring',
-        'GoogleProducer',
-        'Grammarly',
-        'grub-client',
-        'heritrix',
-        'Holmes',
-        'htdig',
-        'HTTPMon',
-        'http-kit',
-        'http_requester',
-        'httpunit',
-        'http_request2',
-        'httrack',
-        'HubPages.*crawlingpolicy',
-        'HubSpot Marketing Grader',
-        'ichiro',
-        'IDG Twitter Links Resolver',
-        'igdeSpyder',
-        'InAGist',
-        'infegy',
-        'InfoWizards Reciprocal Link System PRO',
-        'inpwrd\.com',
-        'integromedb',
-        'IODC',
-        'IOI',
-        'ips-agent',
-        'iZSearch',
-        '^Java\/',
-        'Jigsaw',
-        'Jobrapido',
-        'kouio',
-        'L\.webis',
-        'Larbin',
-        'libwww',
-        'Link Valet',
-        'linkCheck',
-        'linkdex',
-        'LinkExaminer',
-        'LinkWalker',
-        'Lipperhey',
-        'link checker',
-        'link validator',
-        'LongURL API',
-        'ltx71',
-        'lwp-trivial',
-        'lycos',
-        'mabontland',
-        'MagpieRSS',
-        'Mediapartners-Google',
-        'MegaIndex\.ru',
-        'MetaURI',
-        'MergeFlow-PageReader',
-        'Mnogosearch',
-        'mogimogi',
-        'Mojolicious (Perl)',
-        'Morning Paper',
-        'Mrcgiguy',
-        'MVAClient',
-        'Netcraft Web Server Survey',
-        'NetcraftSurveyAgent',
-        'NetLyzer FastProbe',
-        'netresearch',
-        'Netvibes',
-        'NewsBlur .*(Fetcher|Finder)',
-        'NewsGator',
-        'newsme',
-        'newspaper\/',
-        'NG-Search',
-        'nineconnections\.com',
-        'nominet\.org\.uk',
-        'Notifixious',
-        'nuhk',
-        'nutch',
-        'Nuzzel',
-        'Nymesis',
-        'oegp',
-        'Omea Reader',
-        'omgili',
-        'Orbiter',
-        'ow\.ly',
-        'Go [\d\.]* package http',
-        'page2rss',
-        'PagePeeker',
-        'panscient',
-        'Peew',
-        'PhantomJS\/',
-        'phpcrawl',
-        'phpservermon',
-        'Pingdom\.com',
-        'Pinterest',
-        'Pizilla',
-        'Ploetz \+ Zeller',
-        'Plukkie',
-        'PocketParser',
-        'Pompos',
-        'postano',
-        'PostPost',
-        'postrank',
-        'proximic',
-        'Pulsepoint XT3 web scraper',
-        'Python-httplib2',
-        'python-requests',
-        'Python-urllib',
-        'Qseero',
-        'Qwantify',
-        'Radian6',
-        'Readability',
-        'RebelMouse',
-        'RetrevoPageAnalyzer',
-        'Riddler',
-        'Robosourcer',
-        'ROI Hunter',
-        'Ruby',
-        'SalesIntelligent',
-        'SBIder',
-        'scooter',
-        'ScoutJet',
-        'ScoutURLMonitor',
-        'Scrapy',
-        'Scrubby',
-        'SearchSight',
-        'semanticdiscovery',
-        'SEOstats',
-        'Server Density Service Monitoring',
-        'servernfo\.com',
-        'Seznam screenshot-generator',
-        'ShopWiki',
-        'SilverReader',
-        'SimplePie',
-        'Site24x7',
-        'SiteBar',
-        'siteexplorer\.info',
-        'Siteimprove\.com',
-        'SkypeUriPreview',
-        'slider\.com',
-        'slurp',
-        'SMRF URL Expander',
-        'snapchat-proxy',
-        'Snappy',
-        'SNK Siteshooter B0t',
-        'sogou',
-        'SortSite',
-        'speedy',
-        'Spinn3r',
-        'Sqworm',
-        'StackRambler',
-        'Stratagems Kumo',
-        'summify',
-        'teoma',
-        'theoldreader\.com',
-        'TinEye',
-        'Tiny Tiny RSS',
-        'Traackr.com',
-        'truwoGPS',
-        'tweetedtimes\.com',
-        'Twikle',
-        'Typhoeus',
-        'ubermetrics-technologies',
-        'UdmSearch',
-        'UnwindFetchor',
-        'updated',
-        'URLChecker',
-        'urlresolver',
-        'Vagabondo',
-        'Validator\.nu\/LV',
-        'via ggpht\.com GoogleImageProxy',
-        'vkShare',
-        'Vortex',
-        'voyager\/',
-        'VYU2',
-        'W3C-checklink',
-        'W3C-mobileOK',
-        'W3C_CSS_Validator_JFouffa',
-        'W3C_I18n-Checker',
-        'W3C_Unicorn',
-        'W3C_Validator',
-        'Wappalyzer',
-        'WinHttpRequest',
-        'web-capture\.net',
-        'WebCapture',
-        'WebCorp',
-        'webcollage',
-        'WebIndex',
-        'WebFetch',
-        'webmon ',
-        'websitepulse[+ ]checker',
-        'Websquash\.com',
-        'WebThumbnail',
-        'WeSEE:Search',
-        'wf84',
-        'wget',
-        'WhatsApp',
-        'WomlpeFactory',
-        'WordPress\/',
-        'wotbox',
-        'wscheck',
-        'WWW-Mechanize',
-        'www\.monitor\.us',
-        'XaxisSemanticsClassifier',
-        'Xenu Link Sleuth',
-        'XML Sitemaps Generator',
-        'Y!J-ASR',
-        'yacy',
-        'Yahoo Ad monitoring',
-        'Yahoo Link Preview',
-        'YahooSeeker',
-        'yandex',
-        'yanga',
-        'yeti',
-        'yoogliFetchAgent',
-        'YottaaMonitor',
-        'Zao',
-        'zgrab',
-        'ZyBorg',
-        '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)',
-    );
+    protected $exclusions;
 
     /**
      * All possible HTTP headers that represent the
@@ -432,6 +78,8 @@ class CrawlerDetect
     {
         $this->setHttpHeaders($headers);
         $this->setUserAgent($userAgent);
+        $this->crawlers = new Crawlers();
+        $this->exclusions = new Exclusions();
     }
 
     /**
@@ -488,23 +136,13 @@ class CrawlerDetect
     }
 
     /**
-     * Return the array of crawler regexs.
-     *
-     * @return array
-     */
-    public function getCrawlers()
-    {
-        return self::$crawlers;
-    }
-
-    /**
      * Build the user agent regex.
      *
      * @return string
      */
     public function getRegex()
     {
-        return '('.implode('|', self::$crawlers).')';
+        return '('.implode('|', $this->crawlers->getAll()).')';
     }
 
     /**
@@ -512,9 +150,9 @@ class CrawlerDetect
      *
      * @return string
      */
-    public function getIgnored()
+    public function getExclusions()
     {
-        return '('.implode('|', self::$ignore).')';
+        return '('.implode('|', $this->exclusions->getAll()).')';
     }
 
     /**
@@ -528,7 +166,7 @@ class CrawlerDetect
     {
         $agent = is_null($userAgent) ? $this->userAgent : $userAgent;
 
-        $agent = preg_replace('/'.$this->getIgnored().'/i', '', $agent);
+        $agent = preg_replace('/'.$this->getExclusions().'/i', '', $agent);
 
         if (trim($agent) === false) {
             return false;
