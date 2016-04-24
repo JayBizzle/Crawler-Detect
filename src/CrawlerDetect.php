@@ -40,14 +40,14 @@ class CrawlerDetect
     /**
      * Crawlers object.
      *
-     * @var Jaybizzle\CrawlerDetect\Fixtures\Crawlers
+     * @var \Jaybizzle\CrawlerDetect\Fixtures\Crawlers
      */
     protected $crawlers;
 
     /**
      * Exclusions object.
      *
-     * @var Jaybizzle\CrawlerDetect\Fixtures\Exclusions
+     * @var \Jaybizzle\CrawlerDetect\Fixtures\Exclusions
      */
     protected $exclusions;
 
