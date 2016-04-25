@@ -168,7 +168,7 @@ class CrawlerDetect
 
         $agent = preg_replace('/'.$this->getExclusions().'/i', '', $agent);
 
-        if (trim($agent) === false) {
+        if (strlen(trim($agent)) == 0) {
             return false;
         } else {
             $result = preg_match('/'.$this->getRegex().'/i', trim($agent), $matches);
