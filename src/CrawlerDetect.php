@@ -53,7 +53,7 @@ class CrawlerDetect
     protected $exclusions;
 
     /**
-     * Headers object
+     * Headers object.
      *
      * @var \Jaybizzle\CrawlerDetect\Fixtures\Headers
      */
