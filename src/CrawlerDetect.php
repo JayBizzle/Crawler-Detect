@@ -13,6 +13,7 @@ namespace Jaybizzle\CrawlerDetect;
 
 use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
 use Jaybizzle\CrawlerDetect\Fixtures\Exclusions;
+use Jaybizzle\CrawlerDetect\Fixtures\Headers;
 
 class CrawlerDetect
 {
@@ -52,34 +53,23 @@ class CrawlerDetect
     protected $exclusions;
 
     /**
-     * All possible HTTP headers that represent the
-     * User-Agent string.
+     * Headers object
      *
-     * @var array
+     * @var \Jaybizzle\CrawlerDetect\Fixtures\Headers
      */
-    protected static $uaHttpHeaders = array(
-        // The default User-Agent string.
-        'HTTP_USER_AGENT',
-        // Header can occur on devices using Opera Mini.
-        'HTTP_X_OPERAMINI_PHONE_UA',
-        // Vodafone specific header: http://www.seoprinciple.com/mobile-web-community-still-angry-at-vodafone/24/
-        'HTTP_X_DEVICE_USER_AGENT',
-        'HTTP_X_ORIGINAL_USER_AGENT',
-        'HTTP_X_SKYFIRE_PHONE',
-        'HTTP_X_BOLT_PHONE_UA',
-        'HTTP_DEVICE_STOCK_UA',
-        'HTTP_X_UCBROWSER_DEVICE_UA',
-    );
+    protected $uaHttpHeaders;
 
     /**
      * Class constructor.
      */
     public function __construct(array $headers = null, $userAgent = null)
     {
-        $this->setHttpHeaders($headers);
-        $this->setUserAgent($userAgent);
         $this->crawlers = new Crawlers();
         $this->exclusions = new Exclusions();
+        $this->uaHttpHeaders = new Headers();
+
+        $this->setHttpHeaders($headers);
+        $this->setUserAgent($userAgent);
     }
 
     /**
@@ -111,7 +101,7 @@ class CrawlerDetect
      */
     public function getUaHttpHeaders()
     {
-        return self::$uaHttpHeaders;
+        return $this->uaHttpHeaders->getAll();
     }
 
     /**
