@@ -54,7 +54,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
     {
         $test = $this->CrawlerDetect->isCrawler('      ');
 
-        $this->assertEquals($test, false);       
+        $this->assertEquals($test, false);
     }
 
     public function testForRegexCollision()
