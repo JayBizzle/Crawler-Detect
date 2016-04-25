@@ -13,7 +13,7 @@ before_script:
   - travis_retry composer install --prefer-source --no-interaction --dev
 
 before_install:
-  - composer require phpunit/phpunit:4.8.* satooshi/php-coveralls:dev-master
+  - composer require phpunit/phpunit:4.8.* satooshi/php-coveralls:1.*
   - composer install --dev
  
 script:
