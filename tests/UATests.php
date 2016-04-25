@@ -50,6 +50,13 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($this->CrawlerDetect->getMatches(), 'Yahoo Ad monitoring', $matches);
     }
 
+    public function testEmptyUserAgent()
+    {
+        $test = $this->CrawlerDetect->isCrawler('      ');
+
+        $this->assertEquals($test, false);       
+    }
+
     public function testForRegexCollision()
     {
         $crawlers = new Crawlers();
