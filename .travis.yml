@@ -12,4 +12,12 @@ before_script:
   - travis_retry composer self-update
   - travis_retry composer install --prefer-source --no-interaction --dev
 
-script: phpunit
+before_install:
+  - composer require phpunit/phpunit:4.8.* satooshi/php-coveralls:dev-master
+  - composer install --dev
+ 
+script:
+  - ./vendor/bin/phpunit --coverage-clover ./tests/logs/clover.xml
+ 
+after_script:
+  - php vendor/bin/coveralls -v
