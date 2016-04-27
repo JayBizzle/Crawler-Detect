@@ -31,5 +31,7 @@ class Headers extends AbstractProvider
         'HTTP_X_BOLT_PHONE_UA',
         'HTTP_DEVICE_STOCK_UA',
         'HTTP_X_UCBROWSER_DEVICE_UA',
+        // Sometimes, bots (especially Google) use a genuine user agent, but fill this header in with their email address
+        'HTTP_FROM',
     );
 }
