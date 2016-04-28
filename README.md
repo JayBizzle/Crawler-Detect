@@ -2,7 +2,7 @@ CrawlerDetect
 =======
 [![Build Status](https://img.shields.io/travis/JayBizzle/Crawler-Detect/master.svg?style=flat-square)](https://travis-ci.org/JayBizzle/Crawler-Detect) [![Total Downloads](https://img.shields.io/packagist/dt/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://scrutinizer-ci.com/g/JayBizzle/Crawler-Detect/?branch=master) [![MIT](https://img.shields.io/badge/license-MIT-ff69b4.svg?style=flat-square)](https://github.com/JayBizzle/Crawler-Detect) [![Version](https://img.shields.io/packagist/v/jaybizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect) [![StyleCI](https://styleci.io/repos/32755917/shield)](https://styleci.io/repos/32755917)
-[![Coveralls branch](https://img.shields.io/coveralls/JayBizzle/Crawler-Detect/master.svg?maxAge=2592000&style=flat-square)](https://coveralls.io/github/JayBizzle/Crawler-Detect)
+[![Coveralls branch](https://img.shields.io/coveralls/JayBizzle/Crawler-Detect/master.svg?style=flat-square)](https://coveralls.io/github/JayBizzle/Crawler-Detect)
 
 CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect 100's of bots/spiders/crawlers.
 
@@ -30,7 +30,7 @@ echo $CrawlerDetect->getMatches();
 ```
 
 ### Contributing
-If you find a bot/spider/crawler user agent that CrawlerDetect fails to detect, please submit a pull request with with the regex pattern added to the `$crawlers` array in `CrawlerDetect.php` and add the failing user agent to `tests/crawlers.txt`.
+If you find a bot/spider/crawler user agent that CrawlerDetect fails to detect, please submit a pull request with with the regex pattern added to the `$data` array in `Fixtures/Crawlers.php` and add the failing user agent to `tests/crawlers.txt`.
 
 Failing that, just create an issue with the user agent you have found, and we'll take it from there :)
 
