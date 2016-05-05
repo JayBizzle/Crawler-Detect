@@ -314,6 +314,7 @@ class Crawlers extends AbstractProvider
         'WinHttpRequest',
         'web-capture\.net',
         'WeCrawlForThePeace',
+        'WeLikeLinks',
         'WebCapture',
         'WebCorp',
         'webcollage',
