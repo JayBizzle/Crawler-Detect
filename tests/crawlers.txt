@@ -955,6 +955,7 @@ WebFetch
 WebIndex
 Websquash.com (Add url robot)
 WeCrawlForThePeace - We are not Evil
+WeLikeLinks - WeAreNotEvil
 WeSEE:Ads/PageBot (http://www.wesee.com/bot/)
 WeSEE:Search/0.1 (Alpha, http://www.wesee.com/en/support/bot/)
 Wget/1.11.4 Red Hat modified
