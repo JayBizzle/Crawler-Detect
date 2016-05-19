@@ -897,7 +897,7 @@ MVAClient
 My Nutch Spider/Nutch-1.7
 NerdyBot
 netEstate NE Crawler (+http://www.website-datenbank.de/)
-NetLyzer FastProbe (See http://netlyzer.com/report/www.gradcracker.com for info)
+NetLyzer FastProbe (See http://netlyzer.com/report/www.domain.com for info)
 NetResearchServer(http://www.look.com)
 NetResearchServer/2.5(loopimprovements.com/robot.html)
 NetResearchServer/2.7(loopimprovements.com/robot.html)
