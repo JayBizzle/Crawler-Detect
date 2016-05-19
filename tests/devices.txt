@@ -4484,7 +4484,6 @@ Mozilla/5.0 (compatible; MSIE 9.0;IPMS/0C85FA8A-15121F5B3A3-10000084558E; Window
 Mozilla/5.0 (compatible; MSIE 9.0;IPMS/B4B3FA8A-1518D0BE1A1-10000084558E; Windows NT 6.1; WOW64; Trident/6.0)
 Mozilla/5.0 (compatible; MSIE 9.10; Windows NT 6.1; WOW64; Trident/6.0; SiteKiosk 7.8 Build 332)
 Mozilla/5.0 (compatible; Prlog/1.0; +http://prlog.ru/)
-Mozilla/5.0 (compatible; Snacktory; +https://flynxapp.com)
 Mozilla/5.0 (compatible; StaffsStudentImage; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
 Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
 Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0
@@ -21699,4 +21698,3 @@ webster-internet.de pad browser
 woot woot
 WordPress.com; http://careersblog.warwick.ac.uk
 www.splashaccess.net
-Zend_Http_Client
