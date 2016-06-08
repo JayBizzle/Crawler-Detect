@@ -32,6 +32,7 @@ Apache-HttpClient/4.5.1 (Java/1.8.0_40)
 Apache-HttpClient/4.5.2 (Java/1.8.0_72)
 Apache-HttpClient/UNAVAILABLE (java 1.4)
 AppEngine-Google; (+http://code.google.com/appengine; appid: s~e2pagemakker)
+AppEngine-Google; (+http://code.google.com/appengine; appid: s~fullstoryapp)
 AppEngine-Google; (+http://code.google.com/appengine; appid: s~gce-spider)
 AppEngine-Google; (+http://code.google.com/appengine; appid: s~snapchat-proxy)
 AppleNewsBot
@@ -92,6 +93,7 @@ CoPubbot/v1.2 (http://www.copub.com/bot.php)
 cosmos/0.9_(robot@xyleme.com)
 Covario-IDS/1.0 (Covario; http://www.covario.com/ids; support at covario dot com)
 crawler4j (http://code.google.com/p/crawler4j/)
+Crowsnest/0.5 (+http://www.crowsnest.tv/)
 curb
 Curious George - www.analyticsseo.com/crawler
 Curl
@@ -106,12 +108,14 @@ Declarabot/1.0
 DiamondBot
 Digg Deeper/v1 (http://digg.com/about)
 Dispatch/0.11.1-SNAPSHOT
+Docoloc crawl@docoloc.de
 DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
 Domain Re-Animator Bot (http://domainreanimator.com) - support@domainreanimator.com
 DomainCrawler/1.0 (info@domaincrawler.com; http://www.domaincrawler.com/domains/view/yourdomain.com)
 DotBot/1.0.1 (http://www.dotnetdotcom.org/#info, crawler@dotnetdotcom.org)
 Dragonfly File Reader
 drupact/0.7; http://www.arocom.de/drupact
+Drupal (+http://drupal.org/)
 DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html)
 EasyBib AutoCite (http://autocite-info.citation-api.com/)
 EC2LinkFinder
@@ -208,11 +212,14 @@ Googlebot/2.1 (+http://www.google.com/bot.html)
 Googlebot/2.1 (+http://www.googlebot.com/bot.html)
 Googlebot/2.1; +http://www.google.com/bot.html
 GoogleProducer; (+http://goo.gl/7y4SX)
+GoScraper
 Grammarly/1.0 (http://www.grammarly.com)
 GSLFbot
 GurujiBot/1.0 (+http://www.guruji.com/en/WebmasterFAQ.html)
 GurujiBot/1.0 (+http://www.guruji.com/WebmasterFAQ.html)
 HappyFunBot/1.1 ( http://www.happyfunsearch.com/bot.html)
+Hatena::Bookmark/2.00 (Hatena::Bookmark; master;)
+HatenaBookmark/0.03 (Hatena::Bookmark; master;) Furl/3.01
 HEADMasterSEO
 Healthbot/Health_and_Longevity_Project_(HealthHaven.com)
 hello@knows.is
@@ -384,6 +391,7 @@ MagpieRSS/0.72 (+http://magpierss.sf.net)
 Magus Bot 1.0
 MailChimp.com
 Mandrill-Webhook/1.0
+marketinggrader.com
 Mechanize/2.7.2 Ruby/2.0.0p481 (http://github.com/sparklemotion/mechanize/)
 Mediapartners-Google
 Mediapartners-Google/2.1
@@ -393,6 +401,30 @@ Melvil Rawi/1.0
 MergeFlow-PageReader/0.91;+(+http://mergeflow.net/info/pagereader) Mozilla/5.0 (Windows) compatible
 MetaCommentBot; http://metacomment.io/about
 MetaURI API/2.0 +metauri.com
+Microsoft Office Excel 2013
+Microsoft Office Excel 2014
+Microsoft Office Excel 2014 (16.0.6528) Windows NT 10.0
+Microsoft Office Existence Discovery
+Microsoft Office Mobile/15.0
+Microsoft Office OneNote 2013
+Microsoft Office PowerPoint 2013
+Microsoft Office PowerPoint 2013 (15.0.4420) Windows NT 6.2
+Microsoft Office PowerPoint 2013 (15.0.4641) Windows NT 6.2
+Microsoft Office PowerPoint 2013 (15.0.4797) Windows NT 10.0
+Microsoft Office PowerPoint 2013 (15.0.4797) Windows NT 6.2
+Microsoft Office PowerPoint 2013 (15.0.4805) Windows NT 6.1
+Microsoft Office PowerPoint 2013 (15.0.4805) Windows NT 6.2
+Microsoft Office PowerPoint 2013 (15.0.4815) Windows NT 10.0
+Microsoft Office PowerPoint 2014
+Microsoft Office Word 2013
+Microsoft Office Word 2013 (15.0.4623) Windows NT 6.2
+Microsoft Office Word 2013 (15.0.4701) Windows NT 6.1
+Microsoft Office Word 2013 (15.0.4797) Windows NT 10.0
+Microsoft Office Word 2013 (15.0.4805) Windows NT 10.0
+Microsoft Office Word 2013 (15.0.4805) Windows NT 6.1
+Microsoft Office Word 2013 (15.0.4823) Windows NT 10.0
+Microsoft Office Word 2014
+Microsoft Windows Network Diagnostics
 MJ12bot/v1.0.5 (http://majestic12.co.uk/bot.php?+)
 MJ12bot/v1.0.6 (http://majestic12.co.uk/bot.php?+)
 MJ12bot/v1.0.7 (http://majestic12.co.uk/bot.php?+)
@@ -442,6 +474,7 @@ Mozilla/4.0 (compatible; MSIE 4.01; MSIECrawler; Windows 95)
 Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) VoilaBot BETA 1.2 (http://www.voila.com/)
 Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; Girafabot; girafabot at girafa dot com; http://www.girafa.com)
 Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0; obot)
+Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0) Fetch API Request
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.0; Girafabot; girafabot at girafa dot com; http://www.girafa.com)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) SEOChat::Bot v1.1
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1;  http://www.changedetection.com/bot.html )
@@ -539,12 +572,14 @@ Mozilla/5.0 (compatible; Embedly/0.2; snap; +http://support.embed.ly/)
 Mozilla/5.0 (compatible; EveryoneSocialBot/1.0; support@everyonesocial.com http://everyonesocial.com/)
 Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)
 Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+Mozilla/5.0 (compatible; Faveeo/1.0; +http://www.faveeo.com)
 Mozilla/5.0 (compatible; Findxbot/1.0; +http://www.findxbot.com)
 Mozilla/5.0 (compatible; FlipboardProxy/1.1; +http://flipboard.com/browserproxy)
 Mozilla/5.0 (compatible; fr-crawler/1.1)
 Mozilla/5.0 (compatible; Funnelback) RPT-HTTPClient/0.3-3E
 Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)
 Mozilla/5.0 (compatible; Gluten Free Crawler/1.0; +http://glutenfreepleasure.com/)
+Mozilla/5.0 (compatible; Google-Apps-Script)
 Mozilla/5.0 (compatible; Google-Site-Verification/1.0)
 Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html)
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
@@ -741,6 +776,7 @@ Mozilla/5.0 (Windows NT 5.2; rv:2.0.1) Java/1.7.0_04 Gecko/20100101 Firefox/4.0.
 Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google (+https://developers.google.com/+/web/snippet/)
 Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google favicon
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) KomodiaBot/1.0
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) Safari/534.34; +http://sniptracker.com
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36 XaxisSemanticsClassifier/1.0 http://crystalsemantics.com
 Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5
@@ -771,6 +807,7 @@ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) web-captu
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36 hello@knows.is
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36 http://notifyninja.com/monitoring
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google (+https://developers.google.com/+/web/snippet/)
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
 Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.11) Gecko/20080109 (Charlotte/0.9t; http://www.searchme.com/support/)
@@ -877,6 +914,7 @@ Mozilla/5.0 GurujiBot/1.0 ( http://www.guruji.com/en/WebmasterFAQ.html)
 Mozilla/5.0 GurujiBot/1.0 (+http://www.guruji.com/en/WebmasterFAQ.html)
 Mozilla/5.0 larbin@unspecified.mail
 Mozilla/5.0 PhantomJS (compatible; Seznam screenshot-generator 2.1; +http://fulltext.sblog.cz/screenshot/)
+Mozilla/5.0 Tweetminster
 Mozilla/5.0 zgrab/0.x
 Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
 Mozilla/5.0+(compatible;+CukBot;+Not+a+spammer;+++https://www.companiesintheuk.co.uk/bot.html)
@@ -904,6 +942,7 @@ NetResearchServer/2.7(loopimprovements.com/robot.html)
 NetResearchServer/2.8(loopimprovements.com/robot.html)
 NetResearchServer/3.5(loopimprovements.com/robot.html)
 NetResearchServer/4.0(loopimprovements.com/robot.html)
+NetTrack Anonymous Web Statistics https://nettrack.info/support.php
 NetTrack.info Crawler
 Netvibes (http://qa.nvdev.com)
 Netvibes (http://www.netvibes.com)
@@ -919,6 +958,7 @@ NG-Search/0.9.8 (http://www.ng-search.com)
 nicebot
 niki-bot
 NING/1.0
+node-superagent/1.8.3
 node.io
 Notifixious/LinkChecker (http://notifixio.us)
 noxtrumbot/1.0 (crawler@noxtrum.com)
@@ -1149,6 +1189,7 @@ Vortex/2.2 (+http://marty.anstey.ca/robots/vortex/)
 voyager/1.0
 voyager/2.0 (http://www.kosmix.com/crawler.html)
 VYU2 (GNU; OpenRISC)
+w3af.org
 W3C_I18n-Checker/1.0
 W3C_Unicorn/1.0
 W3C_Validator/1.3
@@ -1172,6 +1213,7 @@ webcollage/1.93
 WebCompanyCrawler
 WebFetch
 WebIndex
+Webshot/0.9 ( http://www.shrinktheweb.com/ )
 Websquash.com (Add url robot)
 WeCrawlForThePeace - We are not Evil
 WeLikeLinks - WeAreNotEvil
@@ -1278,45 +1320,3 @@ YOURLS v1.7.1 +http://yourls.org/ (running on http://flnx.co)
 Zao/0.1 (http://www.kototoi.org/zao/)
 Zend_Http_Client
 zspider/0.9-dev http://feedback.redkolibri.com/
-Microsoft Office Word 2013 (15.0.4823) Windows NT 10.0
-Microsoft Office PowerPoint 2013
-Microsoft Office Excel 2014
-Microsoft Office PowerPoint 2013 (15.0.4815) Windows NT 10.0
-Microsoft Office Word 2014
-Microsoft Office Excel 2013
-Microsoft Office Mobile/15.0
-Microsoft Office Word 2013
-Microsoft Office Excel 2014 (16.0.6528) Windows NT 10.0
-Microsoft Office Existence Discovery
-Microsoft Office OneNote 2013
-Microsoft Office PowerPoint 2013 (15.0.4420) Windows NT 6.2
-Microsoft Office PowerPoint 2013 (15.0.4641) Windows NT 6.2
-Microsoft Office PowerPoint 2013 (15.0.4797) Windows NT 10.0
-Microsoft Office PowerPoint 2013 (15.0.4797) Windows NT 6.2
-Microsoft Office PowerPoint 2013 (15.0.4805) Windows NT 6.1
-Microsoft Office PowerPoint 2013 (15.0.4805) Windows NT 6.2
-Microsoft Office PowerPoint 2014
-Microsoft Office Word 2013 (15.0.4623) Windows NT 6.2
-Microsoft Office Word 2013 (15.0.4701) Windows NT 6.1
-Microsoft Office Word 2013 (15.0.4797) Windows NT 10.0
-Microsoft Office Word 2013 (15.0.4805) Windows NT 10.0
-Microsoft Office Word 2013 (15.0.4805) Windows NT 6.1
-Crowsnest/0.5 (+http://www.crowsnest.tv/)
-Webshot/0.9 ( http://www.shrinktheweb.com/ )
-w3af.org
-Mozilla/5.0 (compatible; Faveeo/1.0; +http://www.faveeo.com)
-Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) Safari/534.34; +http://sniptracker.com
-Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36 http://notifyninja.com/monitoring
-GoScraper
-Docoloc crawl@docoloc.de
-NetTrack Anonymous Web Statistics https://nettrack.info/support.php
-Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0) Fetch API Request
-AppEngine-Google; (+http://code.google.com/appengine; appid: s~fullstoryapp)
-node-superagent/1.8.3
-Mozilla/5.0 Tweetminster
-Mozilla/5.0 (compatible; Google-Apps-Script)
-marketinggrader.com
-Drupal (+http://drupal.org/)
-Microsoft Windows Network Diagnostics
-Hatena::Bookmark/2.00 (Hatena::Bookmark; master;)
-HatenaBookmark/0.03 (Hatena::Bookmark; master;) Furl/3.01
