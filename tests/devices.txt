@@ -157,7 +157,6 @@ Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-G925F Build/MMB29K)
 Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-G930F Build/MMB29K)
 DLME
 Dorado WAP-Browser/1.0.0/powerplay/2
-Drupal (+http://drupal.org/)
 elikia eS Linux/2.6.35 Android/2.3.6 Release/05.21.2013 Browser/AppleWebKit533.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/533.1
 Express WebPictures (www.express-soft.com)
 Filter
@@ -206,28 +205,6 @@ Mail/3124 CFNetwork/760.4.2 Darwin/15.4.0 (x86_64)
 MAUI WAP Browser
 Maui_Browser_Karbonn_K9 (MRE/3.1.00(1536);MAUI/nn_K9NEWM_V0013;BDATE/2013/11/22 13:54;LCD/240320;CHIP/MT6260;KEY/Normal;TOUCH/1;CAMERA/1;SENSOR/0;DEV/Maui_Browser_Karbonn_K9;WAP Browser/MAUI (HTTP PGDL;HTTPS);GMOBI/001;MBOUNCE/002;MOMAGIC/003;INDEX/004;SP
 Microsoft Data Access Internet Publishing Provider Protocol Discovery
-Microsoft Office Excel 2013
-Microsoft Office Excel 2014
-Microsoft Office Excel 2014 (16.0.6528) Windows NT 10.0
-Microsoft Office Existence Discovery
-Microsoft Office Mobile/15.0
-Microsoft Office OneNote 2013
-Microsoft Office PowerPoint 2013
-Microsoft Office PowerPoint 2013 (15.0.4420) Windows NT 6.2
-Microsoft Office PowerPoint 2013 (15.0.4641) Windows NT 6.2
-Microsoft Office PowerPoint 2013 (15.0.4797) Windows NT 10.0
-Microsoft Office PowerPoint 2013 (15.0.4797) Windows NT 6.2
-Microsoft Office PowerPoint 2013 (15.0.4805) Windows NT 6.1
-Microsoft Office PowerPoint 2013 (15.0.4805) Windows NT 6.2
-Microsoft Office PowerPoint 2014
-Microsoft Office Word 2013
-Microsoft Office Word 2013 (15.0.4623) Windows NT 6.2
-Microsoft Office Word 2013 (15.0.4701) Windows NT 6.1
-Microsoft Office Word 2013 (15.0.4797) Windows NT 10.0
-Microsoft Office Word 2013 (15.0.4805) Windows NT 10.0
-Microsoft Office Word 2013 (15.0.4805) Windows NT 6.1
-Microsoft Office Word 2014
-Microsoft Windows Network Diagnostics
 mobile
 Mozilla
 Mozilla/1.1 (compatible; MSPIE 2.0; Windows CE)
@@ -248,7 +225,6 @@ Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt; DTS Agent
 Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)
 Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; Crazy Browser 1.x.x)
 Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0)
-Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0) Fetch API Request
 Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0; AIRF)
 Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0; T312461)
 Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)
