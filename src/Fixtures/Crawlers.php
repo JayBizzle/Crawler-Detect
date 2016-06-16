@@ -234,6 +234,7 @@ class Crawlers extends AbstractProvider
         'okhttp',
         'Omea Reader',
         'omgili',
+        'Optimizer',
         'Orbiter',
         'ow\.ly',
         'Go [\d\.]* package http',
