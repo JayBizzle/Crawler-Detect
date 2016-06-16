@@ -660,6 +660,7 @@ Mozilla/5.0 (compatible; ProspectB2B/2.0; http://prospectb2b.com)
 Mozilla/5.0 (compatible; proximic; +http://www.proximic.com)
 Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)
 Mozilla/5.0 (compatible; Purebot/1.1; +http://www.puritysearch.net/)
+Mozilla/5.0 (compatible; Optimizer)
 Mozilla/5.0 (compatible; Qwantify/2.0n; +https://www.qwant.com/)/*
 Mozilla/5.0 (compatible; Qwantify/2.2w; +https://www.qwant.com/)/*
 Mozilla/5.0 (compatible; RavenCrawler/2.0; +https://raventools.com/seo-website-auditor/)
