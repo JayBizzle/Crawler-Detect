@@ -169,7 +169,6 @@ Google Talk
 gvfs/1.12.1
 gvfs/1.18.2
 HotmailBuzzr/4831 CFNetwork/758.2.8 Darwin/15.0.0
-ht://check/2.0.0-rc1 (Linux 2.6.32-573.18.1.el6.x86_64 x86_64)
 HTC_Desire_616_dual_sim /V1 Linux/3.4.39 Android/4.2.2 Release/05.02.2013 Browser/AppleWebKit534.30 Mobile Safari/534.30;
 HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; en)
 HUAWEI Y325-T00_TD/V1 Linux/3.4.5 Android/2.3.6 Release/03.26.2013 Browser/AppleWebKit533.1 Mobile Safari/533.1;
@@ -4459,7 +4458,6 @@ Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9
 Mozilla/5.0 (compatible; MSIE 9.0;IPMS/0C85FA8A-15121F5B3A3-10000084558E; Windows NT 6.1; WOW64; Trident/5.0)
 Mozilla/5.0 (compatible; MSIE 9.0;IPMS/B4B3FA8A-1518D0BE1A1-10000084558E; Windows NT 6.1; WOW64; Trident/6.0)
 Mozilla/5.0 (compatible; MSIE 9.10; Windows NT 6.1; WOW64; Trident/6.0; SiteKiosk 7.8 Build 332)
-Mozilla/5.0 (compatible; Prlog/1.0; +http://prlog.ru/)
 Mozilla/5.0 (compatible; StaffsStudentImage; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
 Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36
 Mozilla/5.0 (compatible; StaffsStudentImage; Windows NT 6.3; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0
@@ -14659,36 +14657,6 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.4.4 (KHTML, like 
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.5.17 (KHTML, like Gecko) Version/9.1 Safari/537.86.5
 Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit (KHTML, like Gecko)
 Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/0600.1.25 (KHTML, like Gecko) Version/8.0 Safari/0600.1.25
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Excel/14.31.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Excel/14.39.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Excel/14.45.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Excel/14.46.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Excel/14.55.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Excel/14.60.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Excel/14.61.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/12.36.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.0.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.10.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.12.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.20.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.21.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.23.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.25.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.30.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.31.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.32.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.36.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.38.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.39.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.41.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.42.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.44.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.45.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.46.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.47.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.59.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.60.0
-Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.61.0
 Mozilla/5.0 (Macintosh; PPC Mac OS X 10_5_8) AppleWebKit/534.50.2 (KHTML, like Gecko) Version/5.0.6 Safari/533.22.3
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.2.2) Gecko/20100316 Firefox/3.6.2
 Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.2.27) Gecko/20120216 Firefox/3.6.27
