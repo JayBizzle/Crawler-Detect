@@ -35,7 +35,7 @@ class Crawlers extends AbstractProvider
         'agentslug',
         'AHC',
         'Airmail',
-        'akula\\/k311',
+        'akula\/k311',
         'alertra',
         'alexa site audit',
         'Anemone',
