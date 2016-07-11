@@ -557,6 +557,7 @@ class Crawlers extends AbstractProvider
         'zgrab',
         'ZnajdzFoto',
         'ZyBorg',
+        'www.uptimedoctor.com',
         '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider)',
     );
 }
