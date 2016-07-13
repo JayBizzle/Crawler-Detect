@@ -1542,6 +1542,7 @@ YOURLS v1.7.1 +http://yourls.org/ (running on http://flnx.co)
 Zao/0.1 (http://www.kototoi.org/zao/)
 Zemanta Aggregator/0.9 +http://www.zemanta.com
 Zend_Http_Client
+Zend\Http\Client
 ZnajdzFoto/Image 2.0
 zspider/0.9-dev http://feedback.redkolibri.com/
 www.uptimedoctor.com

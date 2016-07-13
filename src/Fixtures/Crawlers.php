@@ -555,6 +555,7 @@ class Crawlers extends AbstractProvider
         'Zao',
         'Zemanta Aggregator',
         'Zend_Http_Client',
+        'Zend\\\\Http\\\\Client',
         'zgrab',
         'ZnajdzFoto',
         'ZyBorg',
