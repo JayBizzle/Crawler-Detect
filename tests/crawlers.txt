@@ -64,6 +64,7 @@ binlar_2.6.3 test@mgmt.mic
 bitlybot
 bitlybot/3.0 (+http://bit.ly/)
 bl.uk_lddc_bot/3.3.0-SNAPSHOT-2014-10-07T09:33:31Z (+http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)
+Blackboard Safeassign
 BlitzBOT@tricus.com (Mozilla compatible)
 BlitzBOT@tricus.net (Mozilla compatible)
 BlogSearch/2 +http://www.icerocket.com/
@@ -298,6 +299,8 @@ http://arachnode.net 1.4
 http://www.almaden.ibm.com/cs/crawler [wf84]
 http://www.mabontland.com
 http://www.nominet.org.uk/privacypolicy
+httpscheck (unknown version) CFNetwork/760.5.1 Darwin/15.5.0 (x86_64)
+httpssites_power/1 CFNetwork/758.3.15 Darwin/15.4.0
 httpunit/1.x
 HubSpot Connect 1.0 (http://dev.hubspot.com/)
 HubSpot Links Crawler 2.0 http://www.hubspot.com/
@@ -328,6 +331,7 @@ iisbot/1.0 (+http://www.iis.net/iisbot.html)
 IlTrovatore-Setaccio/1.2 (http://www.iltrovatore.it/aiuto/faq.html)
 InAGist URL Resolver (http://inagist.com)
 inbound.li parser
+InDesign%20CC/11300 CFNetwork/720.4.4 Darwin/14.4.0 (x86_64)
 infohelfer/1.1.0 (http://www.infohelfer.de/)
 InfoWizards Reciprocal Link System PRO - (http://www.infowizards.com)
 Integrity/6
@@ -927,6 +931,7 @@ Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome
 Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake)
 Mozilla/5.0 (Windows NT 6.2) Insitesbot/1.0
 Mozilla/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0 (NetShelter ContentScan, contact abuse@inpwrd.com for information)
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.170 Safari/537.36 Thumbshots/10.0.0.0
 Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 (BingLocalSearch)
 Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 530) like Gecko BingPreview/1.0b
 Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US) AppEngine-Google; (+http://code.google.com/appengine; appid: s~virustotalcloud)
@@ -947,8 +952,11 @@ Mozilla/5.0 (X11; Linux i686; rv:6.0) Gecko/20100101 Firefox/6.0 (Freshbot/1.0/E
 Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36; SSL-Crawler: http://crawler.dcsec.uni-hannover.de
 Mozilla/5.0 (X11; Linux x86_64; GTmetrix http://gtmetrix.com/) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
 Mozilla/5.0 (X11; Linux x86_64; rv:10.0.12) Gecko/20100101 Firefox/21.0 WordPress.com mShots
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltoimage Safari/534.34
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltopdf Safari/534.34
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/11.10 Chromium/18.0.1025.142 Chrome/18.0.1025.142 Safari/535.19/Nutch-1.9
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) web-capture.net/0.9 Safari/537.21
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) webscreenie Safari/537.21
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Chrome/27.0.1453 Safari/537.36
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Search Console) Chrome/27.0.1453 Safari/537.36
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36
@@ -1457,6 +1465,7 @@ WhatsApp/2.16.42 A
 WhatsApp/2.16.57 A
 WhatWeb/0.4.8-dev
 Whibse
+Windows-RSS-Platform/2.0 (IE 11.0; Windows NT 10.0)
 WoFindeIch Robot 1.0( http://www.search.wofindeich.com/robot.php)
 WoFindeIch Robot 1.0(+http://www.search.wofindeich.com/robot.php)
 Woko 3.0
@@ -1491,6 +1500,7 @@ WWW-Mechanize/1.73
 WWW::LayeredExtractor::Handler::Feed/0.01
 www.deadlinkchecker.com Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
 www.integromedb.org/Crawler
+www.uptimedoctor.com
 Xaldon_WebSpider/2.0.b1
 Xenu Link Sleuth 1.2b
 Xenu Link Sleuth 1.2c
@@ -1545,4 +1555,3 @@ Zend_Http_Client
 Zend\Http\Client
 ZnajdzFoto/Image 2.0
 zspider/0.9-dev http://feedback.redkolibri.com/
-www.uptimedoctor.com

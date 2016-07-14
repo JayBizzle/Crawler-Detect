@@ -46,7 +46,6 @@ BlackBerry9630/5.0.0.975 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105
 BlackBerry9650/5.0.0.1006 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/105
 BlackBerry9700/5.0.0.351 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/102
 BlackBerry9700/5.0.0.862 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/120
-Blackboard Safeassign
 Chrome
 Chrome/41.0.2228.0
 ColdFusion
