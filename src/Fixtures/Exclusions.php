@@ -37,7 +37,7 @@ class Exclusions extends AbstractProvider
         '[ ]Intel',
         'Mac OS X [\d_]*',
         '(like )?Gecko(.[\d\.]*)?',
-        'KHTML',
+        'KHTML,',
         'CriOS.[\d\.]*',
         'CPU iPhone OS ([0-9_])* like Mac OS X',
         'CPU OS ([0-9_])* like Mac OS X',
