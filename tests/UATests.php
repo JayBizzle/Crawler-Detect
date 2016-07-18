@@ -56,7 +56,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
         $matches = $this->CrawlerDetect->getMatches();
 
-        $this->assertEquals($this->CrawlerDetect->getMatches(), null, $matches);    
+        $this->assertEquals($this->CrawlerDetect->getMatches(), null, $matches);
     }
 
     public function testEmptyUserAgent()
