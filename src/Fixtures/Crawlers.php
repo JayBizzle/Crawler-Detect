@@ -154,7 +154,7 @@ class Crawlers extends AbstractProvider
         'Feedspot',
         'FeedValidator',
         'Fetch API',
-        'Fever',
+        'Fever\/[0-9]',
         'findlink',
         'findthatfile',
         'Flamingo_SearchEngine',

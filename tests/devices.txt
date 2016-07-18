@@ -10779,6 +10779,7 @@ Mozilla/5.0 (Linux; Android 5.1; E5563 Build/29.1.B.0.87) AppleWebKit/537.36 (KH
 Mozilla/5.0 (Linux; Android 5.1; E5563 Build/29.1.B.0.87) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36
 Mozilla/5.0 (Linux; Android 5.1; E5663 Build/30.1.B.1.55) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.95 Mobile Safari/537.36
 Mozilla/5.0 (Linux; Android 5.1; Excite Prime Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 5.1; FEVER Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.105 Mobile Safari/537.36
 Mozilla/5.0 (Linux; Android 5.1; H1 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.95 Mobile Safari/537.36
 Mozilla/5.0 (Linux; Android 5.1; Harrier Tab from EE Build/LMY47O; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.106 Safari/537.36
 Mozilla/5.0 (Linux; Android 5.1; HTC Desire 626 Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.95 Mobile Safari/537.36
