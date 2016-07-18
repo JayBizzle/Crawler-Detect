@@ -178,6 +178,6 @@ class CrawlerDetect
      */
     public function getMatches()
     {
-        return count($this->matches[0] > 0) ? $this->matches[0] : null;
+        return isset($this->matches[0]) ? $this->matches[0] : null;
     }
 }
