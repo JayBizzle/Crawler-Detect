@@ -319,6 +319,7 @@ class Crawlers extends AbstractProvider
         'NeutrinoAPI',
         'NewsBlur .*(Fetcher|Finder)',
         'NewsGator',
+        'nagios',
         'newsme',
         'newspaper\/',
         'NG-Search',

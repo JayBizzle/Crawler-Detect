@@ -94,6 +94,7 @@ CCBot/2.0 (http://commoncrawl.org/faq/)
 cg-eye interactive
 cg-eye live
 ChangeDetection
+check_http/v2.0.3 (nagios-plugins 2.0.3)
 CheckHost (http://check-host.net/)
 Chrome/49.0.2623.87 (compatible; Wappalyzer; +https://github.com/AliasIO/Wappalyzer)
 cis455-crawler
