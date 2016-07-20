@@ -340,6 +340,7 @@ class Crawlers extends AbstractProvider
         'omgili',
         'Online Domain Tools',
         'OpenCalaisSemanticProxy',
+        'OpenVAS',
         'Optimizer',
         'Orbiter',
         'ow\.ly',
