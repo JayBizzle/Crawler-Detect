@@ -398,7 +398,7 @@ Kimengi/nineconnections.com
 Kiodia Spider/Nutch-1.11
 KOCMOHABT (+http://www.KOCMOHABT.tk/) AppEngine-Google; (+http://code.google.com/appengine; appid: s~web-explorer)
 KrOWLer/0.0.1, matentzn at cs dot man dot ac dot uk
-L.webis/0.87 (http://webalgo.iit.cnr.it/index.php?pg                                                    =lwebis)
+L.webis/0.87 (http://webalgo.iit.cnr.it/index.php?pg=lwebis)
 LapozzBot/1.4 (+http://robot.lapozz.com)
 LARBIN-EXPERIMENTAL efp@gmx.net
 larbin_2.5.0 (larbin2.5.0@unspecified.mail)
