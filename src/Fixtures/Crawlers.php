@@ -441,7 +441,7 @@ class Crawlers extends AbstractProvider
         'sniptracker',
         'SNK Siteshooter B0t',
         'Snoopy',
-        'sogou',
+        'sogou web',
         'SortSite',
         'Specificfeeds',
         'speedy',
