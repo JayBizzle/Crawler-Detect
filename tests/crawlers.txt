@@ -1588,3 +1588,91 @@ Zend_Http_Client
 Zend\Http\Client
 ZnajdzFoto/Image 2.0
 zspider/0.9-dev http://feedback.redkolibri.com/
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11 GotSiteMonitor.com
+Uptime.com_(http://uptime.com/)
+NETCRAFT
+Mozilla/5.0 (compatible; value/1.1; +http://www.aihit.com/)
+Mozilla/5.0 Project 25499 (project25499.com)
+Mozilla/5.0 (X11; Linux x86_64) adbeat.com/policy AppleWebKit/537.21 (KHTML, like Gecko) Firefox/34.0 Safari/537.21
+IDG/IT (http://spaziodati.eu/)
+Openstat/0.1
+ImageEngine/1.0
+Mozilla/5.0 (compatible; WbSrch/1.0; +https://wbsrch.com)
+Statastico/4.0
+LoadImpactPageAnalyzer/1.3.0 (Load Impact; http://loadimpact.com/)
+Mozilla/5.0 (compatible; Web-Monitoring/1.0; +http://monoid.nic.ru/)
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 PTST/284
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) PTST/284
+Mozilla/5.0 (Linux; Android 5.0; Nexus 5 Build/LRX21O) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36 PTST/281
+Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 PTST/201
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2 PTST/278
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0 PTST/277
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2 PTST/277
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; GWX:RED; PTST 2.386)
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 PTST/277
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) PTST/277
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 PTST/277
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0 PTST/277
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36 PTST/277
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 PTST/276
+Mozilla/5.0 (Windows NT 6.0; rv:45.0) Gecko/20100101 Firefox/45.0 PTST/276
+Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 PTST/276
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0 PTST/276
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36 PTST/276
+Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko PTST/276
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; MDDS; PTST 2.386)
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; PTST 2.386)
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) PTST/276
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36 PTST/276
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) PTST/276
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0 PTST/276
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 PTST/276
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; PTST 2.385)
+Mozilla/5.0 (compatible; parsijoo; +http://www.parsijoo.ir/; ehsan.mousakazemi@gmail.com)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) Site-Shot/2.1 (http://www.site-shot.com/) Safari/534.34
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) Websnapr/3.0 Safari/534.34
+CopperEgg/RevealUptime/TokyoJapan
+CopperEgg/RevealUptime/Singapore(aws)
+CopperEgg/RevealUptime/
+CopperEgg/RevealUptime/TokyoJP(aws)
+CopperEgg/RevealUptime/FremontCAUSA
+CopperEgg/RevealUptime/FremontCA(linode)
+CopperEgg/RevealUptime/DallasTX(linode)
+CopperEgg/RevealUptime/AtlantaGA(linode)
+CopperEgg/RevealUptime/AmsterdamNL(softlayer)
+CopperEgg/RevealUptime/AmsterdamHolland
+CopperEgg/RevealUptime/TokyoJP
+CopperEgg/RevealUptime/TokyoJP(linode)
+CopperEgg/RevealUptime/SydneyAU(aws)
+Mozilla/5.0 (compatible; Najdi.si/3.1)
+Seo Servis - Analyza zdrojoveho kodu
+Mozilla/5.0 (Anturis Agent)
+a.pr-cy.ru
+Port Monitor check service 1.0 | http://www.port-monitor.com
+Mozilla/5.0 (compatible; RTGI; http://linkfluence.net/)
+uclassify.com/1.0
+SauceNAO/1.0 (+http://saucenao.com/)
+Mozilla/4.0 (compatible;HostTracker/2.0;+http://www.host-tracker.com/)
+Page Analyzer v4.0 ( http://www.ranks.nl/ )
+webnumbrFetcher/1.0 (http://webnumbr.com/)
+Mozilla/5.0 (compatible; http://alyze.info)
+Putin (+http://semanticjuice.com/)
+TipTop http://feeltiptop.com
+Is is up? (+http://isitup.org)
+Mozilla/5.0 (compatible; Website Analyzer/1.1; +http://www.check-domains.com/website-analysis/website-analyzer.php)
+LYT.SR v1.5 +http://lyt.sr/ (running on http://lyt.sr)
+Mozilla/5.0 (compatible; Whynder Magnet; http://whynder.com/magnet)
+YandeG 1.03
+Mozilla/5.0 (KeepRight OpenStreetMap Checker; http://keepright.at) Gecko/20100101 Firefox/22.0
+Priceonomics Analysis Engine - Fetch/1.0
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) SPEng
+Mozilla/5.0 (compatible; BegunAdvertising/3.0; +http://begun.ru/begun/technology/indexer/)
+Qirina Hurdler v. 1.05 10.11.01 (+http://www.qirina.com/hurdler.html)
+AskQuickly v2 (http://askquickly.org/)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11 KimonoLabs/0.2
+www.adressendeutschland.de
+CirrusExplorer/1.1 (http://www.cireu.com/explorer.php)
+page_verifier (http://www.securecomputing.com/goto/pv)
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1 + FairShare-http://fairshare.cc)
+baypup/colbert (Baypup; http://www.baypup.com/webmasters; jason@baypup.com)
+^Nail (http://CaretNail.com)
