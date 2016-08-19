@@ -22,5 +22,8 @@
         "psr-4": {
             "Jaybizzle\\CrawlerDetect\\": "src/"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
