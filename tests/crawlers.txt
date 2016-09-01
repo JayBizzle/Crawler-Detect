@@ -1683,3 +1683,5 @@ FDM 3.x
 Favicon downloader (http://favicon.netk6.com/)
 SD4M-fetcher (contact:SD4M@gmx.de;  details:https://sd4m.net/)
 bluefish 0.6 HTML editor
+iskanie (+http://www.iskanie.com)
+Sprinklr 2.0
