@@ -1676,3 +1676,10 @@ page_verifier (http://www.securecomputing.com/goto/pv)
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1 + FairShare-http://fairshare.cc)
 baypup/colbert (Baypup; http://www.baypup.com/webmasters; jason@baypup.com)
 ^Nail (http://CaretNail.com)
+Python/3.5 aiohttp/0.21.6
+Symfony2 BrowserKit
+redback/v0-570-g26f8c96
+FDM 3.x
+Favicon downloader (http://favicon.netk6.com/)
+SD4M-fetcher (contact:SD4M@gmx.de;  details:https://sd4m.net/)
+bluefish 0.6 HTML editor
