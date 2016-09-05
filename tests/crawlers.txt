@@ -1685,3 +1685,56 @@ SD4M-fetcher (contact:SD4M@gmx.de;  details:https://sd4m.net/)
 bluefish 0.6 HTML editor
 iskanie (+http://www.iskanie.com)
 Sprinklr 2.0
+SeoCheck (FischerNetzDesign Seo Checker, info@fischernetzdesign.de)
+Mozilla/5.0 (compatible; Goodzer/1.0)
+VSB-TUO/1.0 (+http://www.vsb.cz)
+www.probethenet.com scanner
+cuwhois/1.0 (+http://www.cuwhois.com/)
+Mozilla/5.0 (compatible; Pagespeed/1.1 Fetcher; +http://www.pagespeed.de)
+Mozilla/5.0+(compatible; Monitority/1.0; http://www.monitority.com/)
+ThumbSniper (http://thumbsniper.com)
+BCKLINKS 1.0
+Mozilla/5.0 (GetLinkInfo.com - http://www.getlinkinfo.com)
+GetURLInfo/1.0
+Mozilla/4.0 (compatible;  MSIE 5.01; GomezAgent 2.0; Windows NT)
+Mozilla/5.0 (compatible; FoundSeoTool/1.0; +http://www.found.co.uk/seo-tool/)
+Fetch/2.0a (CMS Detection/Web/SEO analysis tool, see http://guess.scritch.org)
+Mozilla/5.0 (WhatsMyIP.org HTTP_Headers) http://whatsmyip.org/ua
+Mozilla/5.0 (WhatsMyIP.org Text_to_Code_Ratio_Tool) http://whatsmyip.org/ua
+ipv6-test.com validator
+GetURLInfo/1.0
+Promotion_Tools_www.searchenginepromotionhelp.com
+iqdb/0.1 (+http://iqdb.org/)
+iqdb/0.2 (+http://iqdb.harry.lu/)
+XmlSitemapGenerator - http://xmlsitemapgenerator.org
+iskanie (+http://www.iskanie.com)
+NG/2.0
+Mozilla/4.0 (compatible; IDwhois/2.0alpha-10102619; Linux; en-US; +http://idwhois.info/about)
+Mozilla/5.0 (compatible; SiteCondor; http://www.sitecondor.com)
+XING-contenttabreceiver/2.0
+Robozilla/1.0
+seo-nastroj.cz
+Stroke.cz (http://stroke.cz)
+192.comAgent
+Mozilla/5.0 (compatible; akula/12.0rc-2; +http://k311.fd.cvut.cz/)
+nWormFeedFinder (http://www.nworm.com)
+Ocelli/1.4 (http://www.globalspec.com/Ocelli)
+Mozilla/5.0 (compatible; AportWorm/3.2; +http://www.aport.ru/help)
+Surphace Scout&v4.0 - scout at surphace dot com
+WebImages 0.3 ( http://herbert.groot.jebbink.nl/?app=WebImages )
+Irokez.cz monitoring v1.2 - (http://www.irokez.cz, Irokez.cz, crawl)
+Mozilla/5.0 (compatible; janforman.com/2.4; +http://janforman.com/)
+Mozilla/5.0 (compatible; ImageFetcher/5.6; +http://images.weserv.nl/)
+asafaweb.com
+URLitor.com
+VSE/1.0 (rabraham@multiview.com)
+Mozilla/5.0 (compatible; VSAgent/1.2)
+ResponseCodeTest/1.1
+404 Checker [http://www.404checker.com/user-agent]
+SEOCentro Page Keyword Analyzer v1.2
+Tarantula/BETA-0.5 (Tarantula de la Enlle, el mejor buscador en la red; http://www.enlle.com; tarantula@enlle.com)
+XRL/3.00 (Linux; i686; en-us) (+http://metamark.net/about)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535. Safari/535.22+; (+http://immediatenet.com/thumbnail_api.html; free thumbnails)
+BlogPulseLive (support@blogpulse.com)
+http://www.amagit.com/
+baypup/1.1 (Baypup; http://www.baypup.com/; jason@baypup.com)
