@@ -18,7 +18,7 @@ class Crawlers extends AbstractProvider
      *
      * @var array
      */
-    protected $data = [
+    protected $data = array(
         '.*Java.*outbrain',
         '008\/',
         '192.comAgent',
@@ -674,5 +674,5 @@ class Crawlers extends AbstractProvider
         'ZnajdzFoto',
         'ZyBorg',
         '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider|uptime)',
-    ];
+    );
 }
