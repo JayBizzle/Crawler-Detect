@@ -18,7 +18,7 @@ class Crawlers extends AbstractProvider
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         '.*Java.*outbrain',
         '008\/',
         '192.comAgent',
@@ -212,7 +212,6 @@ class Crawlers extends AbstractProvider
         'GentleSource',
         'GetLinkInfo',
         'getprismatic\.com',
-        'GetURLInfo\/[0-9]',
         'GetURLInfo\/[0-9]',
         'GigablastOpenSource',
         'Go [\d\.]* package http',
@@ -675,5 +674,5 @@ class Crawlers extends AbstractProvider
         'ZnajdzFoto',
         'ZyBorg',
         '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider|uptime)',
-    );
+    ];
 }

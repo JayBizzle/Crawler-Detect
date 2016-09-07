@@ -100,6 +100,14 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
     }
 
     /** @test */
+    public function the_regex_patterns_are_unique()
+    {
+        $crawlers = new Crawlers();
+
+        $this->assertEquals(count($crawlers->getAll()), count(array_unique($crawlers->getAll())));
+    }
+
+    /** @test */
     public function there_are_no_regex_collisions()
     {
         $crawlers = new Crawlers();
