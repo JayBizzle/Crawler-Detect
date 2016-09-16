@@ -1738,3 +1738,10 @@ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535. Safari/535.22+; (+http://immedi
 BlogPulseLive (support@blogpulse.com)
 http://www.amagit.com/
 baypup/1.1 (Baypup; http://www.baypup.com/; jason@baypup.com)
+2ip.ru CMS Detector (http://2ip.ru/cms/)
+Mget/0.1.9
+Branch-Passthrough
+Branch Metrics API
+HttpComponents/1.1
+Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.22; +http://software.schmorp.de/pkg/AnyEvent)
+Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.23; +http://software.schmorp.de/pkg/AnyEvent)
