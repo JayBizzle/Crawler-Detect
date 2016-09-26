@@ -6,9 +6,6 @@
 =Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16
 Amazon CloudFront
 amovision
-AndroidDownloadManager
-AndroidDownloadManager/4.1.2 (Linux; U; Android 4.1.2; Connect-3G-2.0 Build/HCL)
-AndroidDownloadManager/4.4.2 (Linux; U; Android 4.4.2; SM-G900H Build/KOT49H)
 Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)
 BlackBerry8520/4.6.1.272 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/168
 BlackBerry8520/4.6.1.286 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/604

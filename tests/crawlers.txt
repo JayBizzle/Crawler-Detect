@@ -1745,3 +1745,14 @@ Branch Metrics API
 HttpComponents/1.1
 Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.22; +http://software.schmorp.de/pkg/AnyEvent)
 Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.23; +http://software.schmorp.de/pkg/AnyEvent)
+Goose/1.0.25
+looksystems.net
+scrutiny/6
+The Expert HTML Source Viewer (http://www.expert-html.com)
+Pearltrees
+Pulp/1.5.2 (iPad; http://www.acrylicapps.com/pulp/)
+RMA/1.0 (compatible; RealMedia)
+VLC/2.2.4 LibVLC/2.2.4
+AndroidDownloadManager/6.0.1 (Linux; U; Android 6.0.1; SM-G900F Build/MMB29M)
+AndroidDownloadManager/4.4.2 (Linux; U; Android 4.4.2; SM-T310 Build/KOT49H)
+AndroidDownloadManager/4.4.2 (Linux; U; Android 4.4.2; SM-T210 Build/KOT49H)
