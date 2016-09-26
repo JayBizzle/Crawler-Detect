@@ -30,7 +30,7 @@ class Exclusions extends AbstractProvider
         'AppleWebKit.[\d\.]*',
         'Trident.[\d\.]*',
         'Windows NT.[\d\.]*',
-        'Android.[\d\.]*',
+        'Android [\d\.]*',
         'Macintosh.',
         'Ubuntu',
         'Linux',
