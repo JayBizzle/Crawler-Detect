@@ -526,6 +526,7 @@ class Crawlers extends AbstractProvider
         'Sitemap(s)? Generator',
         'SiteTruth',
         'SkypeUriPreview',
+        'Slackbot-LinkExpanding',
         'slider\.com',
         'slurp',
         'SMRF URL Expander',
