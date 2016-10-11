@@ -4,7 +4,7 @@ CrawlerDetect
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/JayBizzle/Crawler-Detect.svg?style=flat-square)](https://scrutinizer-ci.com/g/JayBizzle/Crawler-Detect/?branch=master) [![MIT](https://img.shields.io/badge/license-MIT-ff69b4.svg?style=flat-square)](https://github.com/JayBizzle/Crawler-Detect) [![Version](https://img.shields.io/packagist/v/jaybizzle/Crawler-Detect.svg?style=flat-square)](https://packagist.org/packages/jaybizzle/crawler-detect) [![StyleCI](https://styleci.io/repos/32755917/shield)](https://styleci.io/repos/32755917)
 [![Coveralls branch](https://img.shields.io/coveralls/JayBizzle/Crawler-Detect/master.svg?style=flat-square)](https://coveralls.io/github/JayBizzle/Crawler-Detect)
 
-CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent. Currently able to detect 100's of bots/spiders/crawlers.
+CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent and http_from header. Currently able to detect 100's of bots/spiders/crawlers.
 
 ### Installation
 Run `composer require jaybizzle/crawler-detect 1.*` or add `"jaybizzle/crawler-detect" :"1.*"` to your `composer.json`.
