@@ -2383,3 +2383,6 @@ Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0; mowser; http://www.mowser.com
 www.probethenet.com scanner
 Mozilla/5.0 (compatible; Crawlera/1.10.2; UID 6573)
 LCC (+http://corpora.informatik.uni-leipzig.de/crawler_faq.html)
+Imagga Downloader/v0.14.3
+SeopultContentAnalyzer/1.0
+Mozilla/5.0 (compatible; +http://www.hosterstats.com/newgtld-websurvey.php)
