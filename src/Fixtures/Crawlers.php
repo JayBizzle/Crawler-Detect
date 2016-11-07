@@ -253,6 +253,7 @@ class Crawlers extends AbstractProvider
         'Google-Site-Verification',
         'Google-Structured-Data-Testing-Tool',
         'google_partner_monitoring',
+        'GoogleDocs',
         'GoogleHC\/',
         'GoogleProducer',
         'GoScraper',
