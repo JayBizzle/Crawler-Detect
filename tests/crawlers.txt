@@ -2387,3 +2387,4 @@ Imagga Downloader/v0.14.3
 SeopultContentAnalyzer/1.0
 Mozilla/5.0 (compatible; +http://www.hosterstats.com/newgtld-websurvey.php)
 Mozilla/5.0 (compatible; GoogleDocs; apps-spreadsheets; +http://docs.google.com)
+Mozilla/5.0 (compatible;acapbot/0.1)
