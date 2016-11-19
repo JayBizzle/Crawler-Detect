@@ -59,6 +59,7 @@ class Crawlers extends AbstractProvider
         'akula\/',
         'alertra',
         'alexa site audit',
+        'Alibaba\.Security\.Heimdall',
         'alyze\.info',
         'amagit',
         'AndroidDownloadManager',
