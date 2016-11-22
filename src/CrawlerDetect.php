@@ -80,7 +80,7 @@ class CrawlerDetect
     public function setHttpHeaders($httpHeaders = null)
     {
         // Use global _SERVER if $httpHeaders aren't defined.
-        if (!is_array($httpHeaders) || !count($httpHeaders)) {
+        if (! is_array($httpHeaders) || ! count($httpHeaders)) {
             $httpHeaders = $_SERVER;
         }
 
@@ -123,7 +123,7 @@ class CrawlerDetect
                 }
             }
 
-            $this->userAgent = (!empty($this->userAgent) ? trim($this->userAgent) : null);
+            $this->userAgent = (! empty($this->userAgent) ? trim($this->userAgent) : null);
         }
     }
 
