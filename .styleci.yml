@@ -63,6 +63,3 @@ enabled:
  - unary_operators_spaces
  - visibility
  - whitespacy_lines
-  
-disabled:
-  - short_array_syntax
