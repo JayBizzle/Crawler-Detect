@@ -11,9 +11,7 @@
 
 namespace Jaybizzle\CrawlerDetect;
 
-use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
-use Jaybizzle\CrawlerDetect\Fixtures\Exclusions;
-use Jaybizzle\CrawlerDetect\Fixtures\Headers;
+use Jaybizzle\CrawlerDetect\Fixtures\{Crawlers, Exclusions, Headers};
 
 class CrawlerDetect
 {

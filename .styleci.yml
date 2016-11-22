@@ -24,7 +24,6 @@ enabled:
  - method_argument_space
  - multiline_array_trailing_comma
  - multiline_spaces_before_semicolon
- - multiple_use
  - namespace_no_leading_whitespace
  - no_blank_lines_after_class_opening
  - no_empty_lines_after_phpdocs
