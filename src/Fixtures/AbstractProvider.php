@@ -13,11 +13,11 @@ namespace Jaybizzle\CrawlerDetect\Fixtures;
 
 abstract class AbstractProvider
 {
-	/**
-	 * The data set.
-	 * 
-	 * @var array
-	 */
+    /**
+     * The data set.
+     * 
+     * @var array
+     */
     protected $data;
 
     /**

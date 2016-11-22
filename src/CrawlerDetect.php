@@ -11,7 +11,9 @@
 
 namespace Jaybizzle\CrawlerDetect;
 
-use Jaybizzle\CrawlerDetect\Fixtures\{Crawlers, Exclusions, Headers};
+use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
+use Jaybizzle\CrawlerDetect\Fixtures\Exclusions;
+use Jaybizzle\CrawlerDetect\Fixtures\Headers;
 
 class CrawlerDetect
 {
@@ -81,7 +83,7 @@ class CrawlerDetect
     public function setHttpHeaders(array $httpHeaders = null)
     {
         // Use global _SERVER if $httpHeaders aren't defined.
-        if (!is_array($httpHeaders) || !count($httpHeaders)) {
+        if (! is_array($httpHeaders) || ! count($httpHeaders)) {
             $httpHeaders = $_SERVER;
         }
 
@@ -115,7 +117,7 @@ class CrawlerDetect
     public function setUserAgent(string $userAgent = null)
     {
         if (false === empty($userAgent)) {
-           $this->userAgent = $userAgent;
+            $this->userAgent = $userAgent;
         } else {
             $this->userAgent = null;
             foreach ($this->getUaHttpHeaders() as $altHeader) {
@@ -124,7 +126,7 @@ class CrawlerDetect
                 }
             }
 
-            $this->userAgent = !empty($this->userAgent) ? trim($this->userAgent) : null;
+            $this->userAgent = ! empty($this->userAgent) ? trim($this->userAgent) : null;
         }
     }
 
