@@ -13,9 +13,19 @@ namespace Jaybizzle\CrawlerDetect\Fixtures;
 
 abstract class AbstractProvider
 {
+	/**
+	 * The data set.
+	 * 
+	 * @var array
+	 */
     protected $data;
 
-    public function getAll()
+    /**
+     * Return the data set.
+     * 
+     * @return array
+     */
+    public function getAll(): array
     {
         return $this->data;
     }

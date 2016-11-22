@@ -14,12 +14,11 @@ namespace Jaybizzle\CrawlerDetect\Fixtures;
 class Headers extends AbstractProvider
 {
     /**
-     * All possible HTTP headers that represent the
-     * User-Agent string.
+     * All possible HTTP headers that represent the user agent string.
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         // The default User-Agent string.
         'HTTP_USER_AGENT',
         // Header can occur on devices using Opera Mini.
@@ -33,5 +32,5 @@ class Headers extends AbstractProvider
         'HTTP_X_UCBROWSER_DEVICE_UA',
         // Sometimes, bots (especially Google) use a genuine user agent, but fill this header in with their email address
         'HTTP_FROM',
-    );
+    ];
 }
