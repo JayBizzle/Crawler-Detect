@@ -79,14 +79,16 @@ class CrawlerDetect
      */
     public function setHttpHeaders($httpHeaders = null)
     {
-        // use global _SERVER if $httpHeaders aren't defined
+        // Use global _SERVER if $httpHeaders aren't defined.
         if (!is_array($httpHeaders) || !count($httpHeaders)) {
             $httpHeaders = $_SERVER;
         }
-        // clear existing headers
+
+        // Clear existing headers.
         $this->httpHeaders = array();
-        // Only save HTTP headers. In PHP land, that means only _SERVER vars that
-        // start with HTTP_.
+
+        // Only save HTTP headers. In PHP land, that means
+        // only _SERVER vars that start with HTTP_.
         foreach ($httpHeaders as $key => $value) {
             if (substr($key, 0, 5) === 'HTTP_') {
                 $this->httpHeaders[$key] = $value;
@@ -112,7 +114,7 @@ class CrawlerDetect
     public function setUserAgent($userAgent = null)
     {
         if (false === empty($userAgent)) {
-            return $this->userAgent = $userAgent;
+            $this->userAgent = $userAgent;
         } else {
             $this->userAgent = null;
             foreach ($this->getUaHttpHeaders() as $altHeader) {
@@ -121,7 +123,7 @@ class CrawlerDetect
                 }
             }
 
-            return $this->userAgent = (!empty($this->userAgent) ? trim($this->userAgent) : null);
+            $this->userAgent = (!empty($this->userAgent) ? trim($this->userAgent) : null);
         }
     }
 
@@ -154,15 +156,15 @@ class CrawlerDetect
      */
     public function isCrawler($userAgent = null)
     {
-        $agent = is_null($userAgent) ? $this->userAgent : $userAgent;
+        $agent = $userAgent ?: $this->userAgent;
 
         $agent = preg_replace('/'.$this->getExclusions().'/i', '', $agent);
 
         if (strlen(trim($agent)) == 0) {
             return false;
-        } else {
-            $result = preg_match('/'.$this->getRegex().'/i', trim($agent), $matches);
         }
+
+        $result = preg_match('/'.$this->getRegex().'/i', trim($agent), $matches);
 
         if ($matches) {
             $this->matches = $matches;
@@ -174,7 +176,7 @@ class CrawlerDetect
     /**
      * Return the matches.
      *
-     * @return string
+     * @return string|null
      */
     public function getMatches()
     {

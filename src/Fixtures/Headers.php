@@ -14,8 +14,7 @@ namespace Jaybizzle\CrawlerDetect\Fixtures;
 class Headers extends AbstractProvider
 {
     /**
-     * All possible HTTP headers that represent the
-     * User-Agent string.
+     * All possible HTTP headers that represent the user agent string.
      *
      * @var array
      */
