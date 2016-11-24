@@ -37,6 +37,9 @@ Failing that, just create an issue with the user agent you have found, and we'll
 ### Laravel Package
 If you would like to use this with Laravel 4/5, please see [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect)
 
+### Symfony Bundle
+To use this library with Symfony 2/3, check out the [CrawlerDetectBundle](https://github.com/nicolasmure/CrawlerDetectBundle).
+
 _Parts of this class are based on the brilliant [MobileDetect](https://github.com/serbanghita/Mobile-Detect)_
 
 [![Analytics](https://ga-beacon.appspot.com/UA-72430465-1/Crawler-Detect/readme?pixel)](https://github.com/JayBizzle/Crawler-Detect)
