@@ -161,8 +161,6 @@ fliptop
 FLY MV300/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1
 Foo
 Google Talk
-gvfs/1.12.1
-gvfs/1.18.2
 HotmailBuzzr/4831 CFNetwork/758.2.8 Darwin/15.0.0
 HTC_Desire_616_dual_sim /V1 Linux/3.4.39 Android/4.2.2 Release/05.02.2013 Browser/AppleWebKit534.30 Mobile Safari/534.30;
 HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; en)
