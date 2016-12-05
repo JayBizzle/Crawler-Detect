@@ -2404,3 +2404,8 @@ gvfs/1.20.3
 request.js
 Microsoft URL Control - 6.01.9782
 git/2.1.4
+IPS/1.0
+OxfordCloudService/1.0
+Mozilla/5.0 (compatible; informatique at mixdata dot com/0.6; +http://t.co/GSRLLKex24; informatique at mixdata dot com)
+Mozilla/5.0 (compatible; Feedwind/2.0; +http://feed.mikle.com/support/description/)
+Mozilla/5.0 (compatible; Feedwind/3.0; +http://feed.mikle.com/support/description/)
