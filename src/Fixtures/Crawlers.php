@@ -116,6 +116,7 @@ class Crawlers extends AbstractProvider
         'BUbiNG',
         'Butterfly\/',
         'BuzzSumo',
+        'CAAM\/[0-9]',
         'CakePHP',
         'CapsuleChecker',
         'CaretNail',

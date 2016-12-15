@@ -2409,3 +2409,4 @@ OxfordCloudService/1.0
 Mozilla/5.0 (compatible; informatique at mixdata dot com/0.6; +http://t.co/GSRLLKex24; informatique at mixdata dot com)
 Mozilla/5.0 (compatible; Feedwind/2.0; +http://feed.mikle.com/support/description/)
 Mozilla/5.0 (compatible; Feedwind/3.0; +http://feed.mikle.com/support/description/)
+CAAM/0.1 (CAAM; caam dot crwlr at gmail dot com)
