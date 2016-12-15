@@ -149,7 +149,6 @@ class Crawlers extends AbstractProvider
         'CrawlForMe\/[0-9]',
         'cron-job\.org',
         'Crowsnest',
-        'crwlr',
         'curb',
         'Curious George',
         'curl',
