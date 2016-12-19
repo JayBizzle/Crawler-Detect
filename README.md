@@ -48,6 +48,9 @@ If you would like to use this with Laravel 4/5, please see [Laravel-Crawler-Dete
 ### Symfony Bundle
 To use this library with Symfony 2/3, check out the [CrawlerDetectBundle](https://github.com/nicolasmure/CrawlerDetectBundle).
 
+### YII2 Extension
+To use this library with the YII2 framework, check out [yii2-crawler-detect](https://github.com/AlikDex/yii2-crawler-detect).
+
 _Parts of this class are based on the brilliant [MobileDetect](https://github.com/serbanghita/Mobile-Detect)_
 
 [![Analytics](https://ga-beacon.appspot.com/UA-72430465-1/Crawler-Detect/readme?pixel)](https://github.com/JayBizzle/Crawler-Detect)
