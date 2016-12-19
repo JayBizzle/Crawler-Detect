@@ -343,6 +343,7 @@ class Crawlers extends AbstractProvider
         'jobo',
         'Jobrapido',
         'KeepRight OpenStreetMap Checker',
+        'Keywords Research',
         'KickFire',
         'KimonoLabs\/',
         'knows\.is',
