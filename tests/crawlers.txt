@@ -2410,3 +2410,7 @@ Mozilla/5.0 (compatible; informatique at mixdata dot com/0.6; +http://t.co/GSRLL
 Mozilla/5.0 (compatible; Feedwind/2.0; +http://feed.mikle.com/support/description/)
 Mozilla/5.0 (compatible; Feedwind/3.0; +http://feed.mikle.com/support/description/)
 Mozilla/5.0 (compatible; Keywords Research; http://www.check-domains.com/keyword-research/keywords-adwords.php)
+CAAM/0.1 (CAAM; caam dot crwlr at gmail dot com)
+i2kconnect/"1.7.0"
+resolver/0.1.12 (+http://github.com/andris9/resolver)
+DangDang
