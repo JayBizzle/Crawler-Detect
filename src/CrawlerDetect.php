@@ -90,7 +90,7 @@ class CrawlerDetect
         // Only save HTTP headers. In PHP land, that means
         // only _SERVER vars that start with HTTP_.
         foreach ($httpHeaders as $key => $value) {
-            if (substr($key, 0, 5) === 'HTTP_') {
+            if (strpos($key, 'HTTP_') === 0) {
                 $this->httpHeaders[$key] = $value;
             }
         }
