@@ -299,7 +299,7 @@ class Crawlers extends AbstractProvider
         'HttpComponents',
         'httphr',
         'HTTPMon',
-        'HTTPRequest',
+        'PEAR HTTPRequest',
         'httpscheck',
         'httpssites_power',
         'httpunit',
