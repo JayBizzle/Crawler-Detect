@@ -2399,7 +2399,12 @@ asynchttp
 SMUrlExpander
 KickFire
 HAAARTLAND http client
+PEAR HTTPRequest class ( http://pear.php.net/ )
+Mozilla/4.0 (vBSEO; http://www.vbseo.com)
 HAARTLAND http client
+JS-Kit URL Resolver http://js-kit.com/
+http://www.checkprivacy.or.kr:6600/RS/PRIVACY_ENFAQ.jsp
+Kml-Google; (+http://code.google.com/apis/kml) gzip
 gvfs/1.20.3
 request.js
 Microsoft URL Control - 6.01.9782
@@ -2409,6 +2414,7 @@ OxfordCloudService/1.0
 Mozilla/5.0 (compatible; informatique at mixdata dot com/0.6; +http://t.co/GSRLLKex24; informatique at mixdata dot com)
 Mozilla/5.0 (compatible; Feedwind/2.0; +http://feed.mikle.com/support/description/)
 Mozilla/5.0 (compatible; Feedwind/3.0; +http://feed.mikle.com/support/description/)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 1068) AppleWebKit/534.50 (KHTML like Gecko) Version/5.1 Instapaper/4.0 (+http://www.instapaper.com/)
 Mozilla/5.0 (compatible; Keywords Research; http://www.check-domains.com/keyword-research/keywords-adwords.php)
 CAAM/0.1 (CAAM; caam dot crwlr at gmail dot com)
 i2kconnect/"1.7.0"
