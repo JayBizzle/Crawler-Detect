@@ -614,6 +614,7 @@ class Crawlers extends AbstractProvider
         'Tarantula\/',
         'teoma',
         'terrainformatica\.com',
+        'Tetrahedron\/[0-9]',
         'The Expert HTML Source Viewer',
         'theinternetrules',
         'theoldreader\.com',
