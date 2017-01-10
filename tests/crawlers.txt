@@ -2421,3 +2421,7 @@ i2kconnect/"1.7.0"
 resolver/0.1.12 (+http://github.com/andris9/resolver)
 DangDang
 Mozilla/5.0 (compatible; Tetrahedron/1.0; +https://compute.info/tet)
+PritTorrent/0.1
+FeedBunch/1.0 (+http://www.feedbunch.com)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) www.HomepageScreenshot.de - Free ScreenShotService/1.0 Safari/537.21
+Mozilla/5.0 (compatible; Licorne Image Snapshot 1.0; +http://www.jednorozec.cz)
