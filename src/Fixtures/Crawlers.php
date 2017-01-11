@@ -485,7 +485,7 @@ class Crawlers extends AbstractProvider
         'Pingdom\.com',
         'Pingoscope',
         'PingSpot',
-        'Pinterest',
+        'pinterest\.com',
         'Pizilla',
         'Ploetz \+ Zeller',
         'Plukkie',
