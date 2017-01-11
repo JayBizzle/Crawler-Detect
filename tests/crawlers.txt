@@ -2425,3 +2425,5 @@ PritTorrent/0.1
 FeedBunch/1.0 (+http://www.feedbunch.com)
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) www.HomepageScreenshot.de - Free ScreenShotService/1.0 Safari/537.21
 Mozilla/5.0 (compatible; Licorne Image Snapshot 1.0; +http://www.jednorozec.cz)
+Pinterest/0.2 (+https://www.pinterest.com/bot.html)
+Pinterest/0.1 (+https://www.pinterest.com/bot.html)
