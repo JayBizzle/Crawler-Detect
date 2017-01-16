@@ -2428,3 +2428,438 @@ Mozilla/5.0 (compatible; Licorne Image Snapshot 1.0; +http://www.jednorozec.cz)
 Pinterest/0.2 (+https://www.pinterest.com/bot.html)
 Pinterest/0.1 (+https://www.pinterest.com/bot.html)
 Mozilla/5.0 (iplabel; Windows NT 6.3; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+Mozilla/5.0 zgrab/0.x
+Zend_Http_Client
+Zend\Http\Client
+Zao/0.1 (http://www.kototoi.org/zao/)
+YOURLS v1.7.1 +http://yourls.org/ (running on http://flnx.co)
+yoogliFetchAgent/0.1
+Yo-yo
+Mozilla/5.0 (compatible; Yahoo Link Preview; https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html)
+Mozilla/5.0 (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)
+xpymep.exe
+xpymep2.exe
+xpymep3.exe
+Xenu Link Sleuth 1.2b
+Xenu Link Sleuth 1.2c
+Xenu Link Sleuth 1.2d
+Xenu Link Sleuth 1.2e
+Xenu Link Sleuth 1.2f
+Xenu Link Sleuth 1.2g
+Xenu Link Sleuth 1.2h
+Xenu Link Sleuth 1.2i
+Xenu Link Sleuth/1.3.7
+Xenu Link Sleuth/1.3.8
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36 XaxisSemanticsClassifier/1.0 http://crystalsemantics.com
+WWW-Mechanize/1.73
+WordPress/4.0.1; http://bestcomp.hol.es
+WordPress/4.3.3; http://homebusinessreviews.online
+WordPress/4.3.3; http://legithomejobs.club
+WordPress/4.4.2; http://cheapautoinsuranceinva.com
+WordPress/4.4.2; http://citycollegeinmiami.com
+WordPress/4.4.2; http://cookingideabook.com
+WordPress/4.4.2; http://oldmanhealth.com
+WordPress/4.4.2; http://sapcrmarchitecture.com
+WordPress/4.4.2; http://www.spar3d.com
+WordPress/4.5.2; http://1.we-careu.xyz
+WordPress/x.x.x.x PHP/4.x.xxMozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.0.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.25.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.47.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.48.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.50.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.61.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.62.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.63.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Word/14.64.0
+WomlpeFactory/0.1 (+http://www.Womple.com/bot.html)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltoimage Safari/534.34
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) wkhtmltopdf Safari/534.34
+Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+Windows-RSS-Platform/2.0 (IE 11.0; Windows NT 10.0)
+WhatsApp
+WhatsApp/2.12.15/i
+WhatsApp/2.12.16/i
+WhatsApp/2.12.17/i
+WhatsApp/2.12.449 A
+WhatsApp/2.12.453 A
+WhatsApp/2.12.510 A
+WhatsApp/2.12.540 A
+WhatsApp/2.12.548 A
+WhatsApp/2.12.555 A
+WhatsApp/2.12.556 A
+WhatsApp/2.16.1/i
+WhatsApp/2.16.13 A
+WhatsApp/2.16.2/i
+WhatsApp/2.16.42 A
+WhatsApp/2.16.57 A
+WhatWeb/0.4.8-dev
+http://www.almaden.ibm.com/cs/crawler [wf84]
+WeLikeLinks - WeAreNotEvil
+Websquash.com (Add url robot)
+WeCrawlForThePeace - We are not Evil
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) webscreenie Safari/537.21
+Mozilla/3.0 (compatible; WebMon 1.0.11; Windows XP)
+Mozilla/5.0 (X11; BSD Four) AppleWebKit/534.34 (KHTML, like Gecko) webkit2png Safari/534.34
+WebFetch
+WebIndex
+webcollage/1.114
+webcollage/1.117
+webcollage/1.125
+webcollage/1.129
+webcollage/1.93
+Mozilla/3.0 (compatible; WebCapture 2.0; Auto; Windows)
+W3C_Unicorn/1.0
+W3C_I18n-Checker/1.0
+W3C-mobileOK/DDC-1.0
+W3C-checklink
+W3C-checklink/2.90 libwww-perl/5.64
+W3C-checklink/3.6.2.3 libwww-perl/5.64
+W3C-checklink/4.2 [4.20] libwww-perl/5.803
+W3C-checklink/4.2.1 [4.21] libwww-perl/5.803
+W3C-checklink/4.3 [4.42] libwww-perl/5.805
+W3C-checklink/4.3 [4.42] libwww-perl/5.808
+W3C-checklink/4.3 [4.42] libwww-perl/5.820
+W3C-checklink/4.5 [4.154] libwww-perl/5.823
+W3C-checklink/4.5 [4.160] libwww-perl/5.823
+w3af.org
+VYU2 (GNU; OpenRISC)
+VORTEX/1.2 ( http://marty.anstey.ca/robots/vortex/)
+Vortex/2.2 ( http://marty.anstey.ca/robots/vortex/)
+Vortex/2.2 (+http://marty.anstey.ca/robots/vortex/)
+Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+URLChecker
+urlresolver
+Upflow/1.0
+Typhoeus - https://github.com/typhoeus/typhoeus
+UdmSearch/3.1.x
+Mozilla/5.0 Tweetminster
+Mozilla/5.0 (compatible; +http://tweetedtimes.com)
+truwoGPS/1.0 (GNU/Linux; U; i686; en-US; +http://www.lan4lano.net/browser.html )
+Traackr.com
+More-Testing (+http://www.theinternetrules.com)
+The Expert HTML Source Viewer (http://www.expert-html.com)
+htmlayout 3.3; above-Windows-7; www.terrainformatica.com )
+WebFuck V2.1 T0PHackTeam www.t0p.xyz
+Symfony2 BrowserKit
+Mozilla/5.0 (compatible; SwiteScraper)
+Summify (Summify/1.0.1; +http://summify.com)
+Stratagems Kumo
+Sqworm/2.9.85-BETA (beta_release; 20011115-775; i686-pc-linux-gnu)
+Sprinklr 2.0
+spray-can/1.3.3
+SortSite/4.4.500.0
+Snoopy v2.0.0
+SMRF URL Expander
+silk/1.0 (+http://www.slider.com/silk.htm)/3.7
+SiteBar/3.3.5 (Bookmark Server; http://sitebar.org/)
+SiteBar/3.3.8 (Bookmark Server; http://sitebar.org/)
+SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20160226060242
+ShortLinkTranslate
+Mozilla/5.0 (compatible; Seznam screenshot-generator 2.1; +http://fulltext.sblog.cz/screenshot/)
+SEOstats 2.0.9 https://github.com/eyecatchup/SEOstats
+semanticdiscovery/0.1
+SearchSight/2.0 (http://SearchSight.com/)
+ScoutURLMonitor/5.9.8
+Robosourcer/1.0
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; RetrevoPageAnalyzer; +http://www.retrevo.com/content/about-us)
+RestSharp/105.2.3.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.2 (KHTML, like Gecko) Version/7.0.1(2.5.3) Safari(ReederForMac)
+redback/v0-570-g26f8c96
+RebelMouse/0.1 Mozilla/5.0 (compatible; http://rebelmouse.com) Gecko/20100101 Firefox/7.0.1
+RealPlayer%20Downloader/1569 CFNetwork/720.3.13 Darwin/14.3.0 (x86_64)
+RealPlayer%20Downloader/1701 CFNetwork/760.5.1 Darwin/15.5.0 (x86_64)
+RealPlayer%20Downloader/1725 CFNetwork/720.3.13 Darwin/14.3.0 (x86_64)
+RealPlayer%20Downloader/1750 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)
+RealPlayer%20Downloader/1750 CFNetwork/760.0.5 Darwin/15.0.0 (x86_64)
+RealPlayer%20Downloader/1750 CFNetwork/760.4.2 Darwin/15.4.0 (x86_64)
+Qirina Hurdler v. 1.05 10.11.01 (+http://www.qirina.com/hurdler.html)
+python-requests/1.1.0 CPython/2.7.6 Linux/3.13.0-58-generic
+python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-29-virtual
+python-requests/2.1.0 CPython/2.7.3 Linux/3.2.0-4-amd64
+python-requests/2.10.0
+python-requests/2.2.1 CPython/2.7.6 Linux/3.13.0-48-generic
+python-requests/2.2.1 CPython/2.7.6 Linux/3.13.0-83-generic
+python-requests/2.3.0 CPython/2.7.6 Linux/3.13.0-57-generic
+python-requests/2.5.0 CPython/2.7.9 Linux/3.14.20-20.44.amzn1.x86_64
+python-requests/2.6.0 CPython/2.7.3 Linux/3.2.0-4-amd64
+python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-327.3.1.el7.x86_64
+python-requests/2.7.0 CPython/2.7.6 Linux/3.13.0-85-generic
+python-requests/2.8.0
+python-requests/2.8.1
+python-requests/2.9.1
+Python-httplib2/0.7.4 (gzip)
+Pulsepoint XT3 web scraper
+Mozilla/5.0 (compatible; ProspectB2B/2.0; http://prospectb2b.com)
+Mozilla/5.0 (Macintosh; Intel Mac OS X) PowerPoint/14.39.0
+PostRank/2.0 (postrank.com; 1 subscribers)
+PostRank/2.0 (postrank.com)
+postano
+Ploetz + Zeller (http://www.ploetz-zeller.de) Link Validator v1.0 (support@p-und-z.de) for ARIS Business Architect
+Pizilla++ ver 2.45
+phpcrawl
+Pearltrees
+Pcore-HTTP/v0.23.20
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.4) Gecko/2008102920 http://ow.ly web crawler (.NET CLR 3.5.30729)
+Mozilla/5.0 (compatible; Optimizer)
+Mozilla/5.0 [en] (X11, U; OpenVAS 7.0.10)
+JetBrains Omea Reader 1.0.x (http://www.jetbrains.com/omea_reader/)
+JetBrains Omea Reader 2.0 Release Candidate 1 (http://www.jetbrains.com/omea_reader/)
+okhttp/2.5.0
+oegp v. 1.3.0
+Nuzzel
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36 http://notifyninja.com/monitoring
+Notifixious/LinkChecker (http://notifixio.us)
+http://www.nominet.org.uk/privacypolicy
+node-superagent/1.8.3
+node.io
+Kimengi/nineconnections.com
+newspaper/0.0.9.8
+newspaper/0.1.7
+newsme/1.0; feedback@news.me
+NewsGator/2.0 Bot (http://www.newsgator.com)
+NewsGator/2.5 (http://www.newsgator.com; Microsoft Windows NT 5.1.2600.0; .NET CLR 1.1.4322.2032)
+NetTrack Anonymous Web Statistics https://nettrack.info/support.php
+NetTrack.info Crawler
+NetResearchServer(http://www.look.com)
+NetResearchServer/2.5(loopimprovements.com/robot.html)
+NetResearchServer/2.7(loopimprovements.com/robot.html)
+NetResearchServer/2.8(loopimprovements.com/robot.html)
+NetResearchServer/3.5(loopimprovements.com/robot.html)
+NetResearchServer/4.0(loopimprovements.com/robot.html)
+NetLyzer FastProbe (See http://netlyzer.com/report/www.domain.com for info)
+check_http/v2.0.3 (nagios-plugins 2.0.3)
+MVAClient
+Link Validity Check From: http://www.w3dir.com/cgi-bin (Using: Hot Links SQL by Mrcgiguy.com)
+Mojolicious (Perl)
+mogimogi/1.0
+Mindjet
+Mindjet MindManager
+Microsoft Windows Network Diagnostics
+Microsoft Office Excel 2013
+Microsoft Office Excel 2014
+Microsoft Office Excel 2014 (16.0.6528) Windows NT 10.0
+Microsoft Office Existence Discovery
+Microsoft Office Mobile/15.0
+Microsoft Office OneNote 2013
+Microsoft Office PowerPoint 2013
+Microsoft Office PowerPoint 2013 (15.0.4420) Windows NT 6.2
+Microsoft Office PowerPoint 2013 (15.0.4641) Windows NT 6.2
+Microsoft Office PowerPoint 2013 (15.0.4797) Windows NT 10.0
+Microsoft Office PowerPoint 2013 (15.0.4797) Windows NT 6.2
+Microsoft Office PowerPoint 2013 (15.0.4805) Windows NT 6.1
+Microsoft Office PowerPoint 2013 (15.0.4805) Windows NT 6.2
+Microsoft Office PowerPoint 2013 (15.0.4815) Windows NT 10.0
+Microsoft Office PowerPoint 2014
+Microsoft Office Word 2013
+Microsoft Office Word 2013 (15.0.4623) Windows NT 6.2
+Microsoft Office Word 2013 (15.0.4701) Windows NT 6.1
+Microsoft Office Word 2013 (15.0.4797) Windows NT 10.0
+Microsoft Office Word 2013 (15.0.4805) Windows NT 10.0
+Microsoft Office Word 2013 (15.0.4805) Windows NT 6.1
+Microsoft Office Word 2013 (15.0.4823) Windows NT 10.0
+Microsoft Office Word 2014
+Melvil Rawi/1.0
+marketinggrader.com
+Mandrill-Webhook/1.0
+MailChimp.com
+MagpieRSS/0.72 (+http://magpierss.sf.net)
+http://www.mabontland.com
+lwp-trivial/1.33
+lwp-trivial/1.35
+lwp-trivial/1.36
+lwp-trivial/1.38
+lwp-trivial/1.41
+looksystems.net
+LinkExaminer/1.01 (Windows)
+VLC/2.2.4 LibVLC/2.2.4
+hello@knows.is
+Mozilla/5.0 (compatible; Jobrapido/1.1; +http://www.jobrapido.com)
+JoBo/1.x (http://www.matuschek.net/jobo.html)
+Jigsaw/2.3.0 W3C_CSS_Validator_JFouffa/2.0
+Mozilla/5.0 (compatible; IODC-Internet Engineering Odysseus 001; +http://iodc.co.uk)
+Mozilla/5.0 (compatible; IODC-Internet Engineering Odysseus 005; +http://iodc.co.uk)
+Mozilla/5.0 (compatible; IODC-Internet Engineering Odysseus 006; +http://iodc.co.uk)
+Mozilla/5.0 (compatible; IODC-Internet Engineering Odysseus 007; +http://iodc.co.uk)
+Mozilla/5.0 (compatible; IODC-Internet Engineering Odysseus 011; +http://iodc.co.uk)
+Mozilla/5.0 (compatible; IODC-Internet Engineering Odysseus 013; +http://iodc.co.uk)
+Mozilla/5.0 (compatible; IODC-Odysseus Survey 29691-100-070315021100-72; +http://iodc.co.uk)
+Mozilla/5.0 (compatible; IODC-Odysseus Survey 29692-100-060415034231-192; +http://iodc.co.uk)
+Mozilla/5.0 (compatible; IODC-Odysseus Survey 31193-100-080615161452-372; +http://iodc.co.uk)
+Mozilla/5.0 (compatible; IODC-Odysseus Survey 37044-100-110516191742-025; +https://iodc.co.uk)
+Mozilla/5.0 (compatible; IODC-Odysseus Survey 41437-100-090715214314-122; +http://iodc.co.uk)
+Integrity/6
+InfoWizards Reciprocal Link System PRO - (http://www.infowizards.com)
+InDesign%20CC/11300 CFNetwork/720.4.4 Darwin/14.4.0 (x86_64)
+inbound.li parser
+InAGist URL Resolver (http://inagist.com)
+igdeSpyder (compatible; igde.ru; +http://igde.ru/doc/tech.html)
+IDG Twitter Links Resolver
+Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)
+Jersey/2.19 (HttpUrlConnection 1.7.0_85)
+httpunit/1.x
+httpssites_power/1 CFNetwork/758.3.15 Darwin/15.4.0
+httpscheck (unknown version) CFNetwork/760.5.1 Darwin/15.5.0 (x86_64)
+HttpComponents/1.1
+http_requester/0.1
+HTTP_Request2/@package_version@ (http://pear.php.net/package/http_request2) PHP/5.5.9-1ubuntu4.14
+HTTP_Request2/2.2.0 (http://pear.php.net/package/http_request2) PHP/5.3.29
+HTTP_Request2/2.2.1 (http://pear.php.net/package/http_request2) PHP/5.3.29
+HTTP_Request2/2.2.1 (http://pear.php.net/package/http_request2) PHP/5.5.33
+HTTP_Request2/2.2.1 (http://pear.php.net/package/http_request2) PHP/5.5.35
+HTTP_Request2/2.3.0 (http://pear.php.net/package/http_request2) PHP/5.3.29
+HTTP-Tiny/0.054
+http-kit/2.0
+HTMLParser/2.0
+htdig/3.1.5
+htdig/3.1.5 (infosys@storm.rmi.org)
+htdig/3.1.5 (root@localhost)
+htdig/3.1.5 (webmaster@online-medien.de)
+htdig/3.1.6 (mathieu.peltier@inrialpes.fr)
+htdig/3.1.6 (unconfigured@htdig.searchengine.maintainer)
+ht://check/2.0.0-rc1 (Linux 2.6.32-573.18.1.el6.x86_64 x86_64)
+HEADMasterSEO
+Mozilla/4.0 (compatible; grub-client-0.3.0; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.0.4; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.0.5; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.0.6; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.0.7; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.1.1; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.2.1; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.3.1; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.3.7; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.4.3; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-1.5.3; Crawl your own stuff with http://grub.org)
+Mozilla/4.0 (compatible; grub-client-2.3)
+Mozilla/4.0 (compatible; grub-client-2.6.0)
+Mozilla/4.0 (compatible; grub-client-2.6.1)
+GoSpotCheck 1.0.6 (iPhone; iPhone OS 5.1.1; en_US)
+GoScraper
+GoogleProducer; (+http://goo.gl/7y4SX)
+GoogleHC/
+Google-HTTP-Java-Client/1.17.0-rc (gzip)
+Google-HTTP-Java-Client/1.9.0-alpha
+Mozilla/5.0 (compatible; Google-Apps-Script)
+Go-http-client/1.1
+Go 1.1 package http
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) (Contact: backend@getprismatic.com)
+Mozilla/5.0 (compatible; Funnelback) RPT-HTTPClient/0.3-3E
+Mozilla/5.0 (compatible; Snacktory; +https://flynxapp.com)
+Mozilla/3.0 (compatible; Fluffy the spider; http://www.searchhippo.com/; info@searchhippo.com)
+Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)
+Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0) Fetch API Request
+FeedChecker-Zocle/1.0 (+https://zocle.com/zoclechecker)
+FeedBurner/1.0 (http://www.FeedBurner.com)
+FavOrg
+Faraday v0.9.1
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Excel/14.10.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X) Excel/14.62.0
+ExactSearch
+EventMachine HttpClient
+Mozilla/5.0 (compatible; MSIE 7.0 +http://www.europarchive.org)
+Embed PHP Library
+ECCP/1.2.1+(productlists@eniro.com)
+ec2linkfinder
+Mozilla/5.0 (compatible; EARTHCOM/2.2; +http://enter4u.eu)
+Drupal (+http://drupal.org/)
+Dragonfly File Reader
+DNS-Tools Header-Analyzer
+Dispatch/0.11.1-SNAPSHOT
+luis@cybo.com
+CyberPatrol SiteCat Webbot (http://www.cyberpatrol.com/cyberpatrolcrawler.asp)
+curb
+Mozilla/4.0 (compatible; cron-job.org; http://cron-job.org/abuse/)
+cosmos/0.9_(robot@xyleme.com)
+Mozilla/5.0/Firefox/42.0 (contactbigdatafr at gmail.com)
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; MAXTHON 2.0); Connect Us: webauth@cmcm.com
+Pattern/2.6 +http://www.clips.ua.ac.be/pattern
+Mozilla/4.0 (compatible; Cerberian Drtrs Version-3.2-Build-0)
+Mozilla/4.0 (compatible; Cerberian Drtrs Version-3.2-Build-1)
+CC Metadata Scaper http://wiki.creativecommons.org/Metadata_Scraper
+cb crawl (+http://www.companybooknetworking.com)
+CapsuleChecker (http://www.capsulink.com/)
+CakePHP
+Branch-Passthrough
+Branch Metrics API
+boitho.com-dc/0.79 ( http://www.boitho.com/dcbot.html )
+boitho.com-dc/0.81 ( http://www.boitho.com/dcbot.html )
+boitho.com-dc/0.82 ( http://www.boitho.com/dcbot.html )
+boitho.com-dc/0.83 ( http://www.boitho.com/dcbot.html )
+boitho.com-dc/0.85 ( http://www.boitho.com/dcbot.html )
+boitho.com-robot/1.0
+boitho.com-robot/1.1
+Blackboard Safeassign
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 (BingLocalSearch)
+BIGLOTRON (Beta 2;GNU/Linux)
+Mozilla/5.0 (compatible; bnf.fr_bot; +http://bibnum.bnf.fr/robot/bnf.html)
+Mozilla/4.0 (compatible; B-l-i-t-z-B-O-T)
+Astute SRM
+aria2/1.18.8
+Mozilla/5.0 (compatible; archive-com.com/1.1; +http://archive-com.com/bot)
+Mozilla/4.0 (compatible; Arachmo)
+Apache-HttpClient/4.2.3 (java 1.5)
+Apache-HttpClient/4.2.5 (java 1.5)
+Apache-HttpClient/4.3.1 (java 1.5)
+Apache-HttpClient/4.3.3 (java 1.5)
+Apache-HttpClient/4.3.5 (java 1.5)
+Apache-HttpClient/4.5 (Java/1.8.0_51)
+Apache-HttpClient/4.5 (Java/1.8.0_72)
+Apache-HttpClient/4.5 (Java/1.8.0_74)
+Apache-HttpClient/4.5.1 (Java/1.7.0_79)
+Apache-HttpClient/4.5.1 (Java/1.8.0_40)
+Apache-HttpClient/4.5.2 (Java/1.8.0_72)
+Apache-HttpClient/UNAVAILABLE (java 1.4)
+Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.22; +http://software.schmorp.de/pkg/AnyEvent)
+Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.23; +http://software.schmorp.de/pkg/AnyEvent)
+Anemone/0.7.2
+AndroidDownloadManager/6.0.1 (Linux; U; Android 6.0.1; SM-G900F Build/MMB29M)
+AndroidDownloadManager/4.4.2 (Linux; U; Android 4.4.2; SM-T310 Build/KOT49H)
+AndroidDownloadManager/4.4.2 (Linux; U; Android 4.4.2; SM-T210 Build/KOT49H)
+Airmail 1.3.3 rv:237 (Macintosh; Mac OS X 10.9.3; sk_SK)
+Python/3.5 aiohttp/0.21.6
+AHC/1.0
+Mozilla/4.0 (compatible; Advanced Email Extractor v2.61)
+Pulp/1.5.2 (iPad; http://www.acrylicapps.com/pulp/)
+Accoona-AI-Agent/1.1.1 (crawler at accoona dot com)
+Accoona-AI-Agent/1.1.2
+Accoona-AI-Agent/1.1.2 (aicrawler at accoonabot dot com)
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) shipra.goel@a3logics.in
+scrutiny/6
+RMA/1.0 (compatible; RealMedia)
+PHP/5.5
+NING/1.0
+Mget/0.1.9
+Java/1.4.1_04
+Java/1.6.0
+Java/1.6.0_04
+Java/1.6.0_22
+Java/1.6.0_24
+Java/1.6.0_26
+Java/1.6.0_31
+Java/1.6.0_32
+Java/1.6.0_34
+Java/1.6.0_37
+Java/1.7.0_101
+Java/1.7.0_45
+Java/1.7.0_51
+Java/1.7.0_65
+Java/1.7.0_80
+Java/1.8.0_05
+Java/1.8.0_20
+Java/1.8.0_31
+Java/1.8.0_40
+Java/1.8.0_45
+Java/1.8.0_51
+Java/1.8.0_60
+Java/1.8.0_65
+Java/1.8.0_66
+Java/1.8.0_73
+Java/1.8.0_77
+Java/1.8.0_91
+Java/1.8.0_92
+Goose/1.0.25
+FDM 3.x
+bluefish 0.6 HTML editor
+2ip.ru CMS Detector (http://2ip.ru/cms/)
