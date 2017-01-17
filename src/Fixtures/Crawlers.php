@@ -337,6 +337,7 @@ class Crawlers extends AbstractProvider
         'internetVista monitor',
         'IODC',
         'IOI',
+        'iplabel',
         'IPS\/[0-9]',
         'ips-agent',
         'iqdb\/',
