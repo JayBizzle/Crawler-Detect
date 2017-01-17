@@ -80,7 +80,7 @@ class CrawlerDetect
      *
      * @param array $httpHeaders
      */
-    public function setHttpHeaders(array $httpHeaders = null)
+    public function setHttpHeaders(array $httpHeaders = null): void
     {
         // Use global _SERVER if $httpHeaders aren't defined.
         if (! is_array($httpHeaders) || ! count($httpHeaders)) {
@@ -114,7 +114,7 @@ class CrawlerDetect
      *
      * @param string $userAgent
      */
-    public function setUserAgent(string $userAgent = null)
+    public function setUserAgent(string $userAgent = null): void
     {
         if (false === empty($userAgent)) {
             $this->userAgent = $userAgent;
@@ -181,7 +181,7 @@ class CrawlerDetect
      *
      * @return string|null
      */
-    public function getMatches()
+    public function getMatches(): ?string
     {
         return $this->matches[0] ?? null;
     }
