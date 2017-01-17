@@ -196,7 +196,6 @@ Mail/3112 CFNetwork/760.2.6 Darwin/15.3.0 (x86_64)
 Mail/3124 CFNetwork/760.4.2 Darwin/15.4.0 (x86_64)
 MAUI WAP Browser
 Maui_Browser_Karbonn_K9 (MRE/3.1.00(1536);MAUI/nn_K9NEWM_V0013;BDATE/2013/11/22 13:54;LCD/240320;CHIP/MT6260;KEY/Normal;TOUCH/1;CAMERA/1;SENSOR/0;DEV/Maui_Browser_Karbonn_K9;WAP Browser/MAUI (HTTP PGDL;HTTPS);GMOBI/001;MBOUNCE/002;MOMAGIC/003;INDEX/004;SP
-Microsoft Data Access Internet Publishing Provider Protocol Discovery
 mobile
 Mozilla
 Mozilla/1.1 (compatible; MSPIE 2.0; Windows CE)
