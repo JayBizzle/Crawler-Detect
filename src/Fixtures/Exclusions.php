@@ -19,7 +19,7 @@ class Exclusions extends AbstractProvider
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         'Safari.[\d\.]*',
         'Firefox.[\d\.]*',
         'Chrome.[\d\.]*',
@@ -61,5 +61,5 @@ class Exclusions extends AbstractProvider
         'Opera',
         ' \.NET[\d\.]*',
         ';', // Remove the following characters ;
-    );
+    ];
 }
