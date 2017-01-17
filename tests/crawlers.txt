@@ -2863,3 +2863,11 @@ Goose/1.0.25
 FDM 3.x
 bluefish 0.6 HTML editor
 2ip.ru CMS Detector (http://2ip.ru/cms/)
+masscan/1.0 (https://github.com/robertdavidgraham/masscan)
+VidibleScraper/1.0
+WhereGoes? Redirect Tracer/1.0
+unfurlist (https://github.com/Doist/unfurlist)
+pshtt, https scanning
+gofetch
+COMODO DCV
+CATExplorador/1.0beta (sistemes at domini dot cat; http://domini.cat/catexplorador.html)

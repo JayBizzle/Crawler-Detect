@@ -122,6 +122,7 @@ class Crawlers extends AbstractProvider
         'CakePHP',
         'CapsuleChecker',
         'CaretNail',
+        'catexplorador',
         'cb crawl',
         'CC Metadata Scaper',
         'Cerberian Drtrs',
