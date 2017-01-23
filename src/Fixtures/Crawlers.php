@@ -415,6 +415,7 @@ class Crawlers extends AbstractProvider
         'Mindjet',
         'Miniflux',
         'mixdata dot com',
+        'mixed-content-scan',
         'Mnogosearch',
         'mogimogi',
         'Mojolicious \(Perl\)',
