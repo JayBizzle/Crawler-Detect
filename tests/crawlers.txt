@@ -2889,3 +2889,5 @@ Mozilla/5.0 (compatible; Semiocast HTTP client; http://semiocast.com/)
 Mozilla/5.0 (compatible; The Drop Reaper; +http://tag1consulting.com/dropreaper.html)
 /n software IPWorks HTTP/S Component - www.nsoftware.com
 safe-agent-scanner
+Mozilla/5.0 (compatible; ACHE/Unknown Version; +https://github.com/ViDA-NYU/ache; )
+ANAM (github.com/dutchcoders/anam)
