@@ -2891,3 +2891,9 @@ Mozilla/5.0 (compatible; The Drop Reaper; +http://tag1consulting.com/dropreaper.
 safe-agent-scanner
 Mozilla/5.0 (compatible; ACHE/Unknown Version; +https://github.com/ViDA-NYU/ache; )
 ANAM (github.com/dutchcoders/anam)
+Dolphin http client/11.2.8(385) (Android)
+Dolphin http client/11.3.4(405) (Android)
+Calypso v/0.01
+-Mozilla/4.0 (compatible; http://search.thunderstone.com/texis/websearch/about.html)
+Mozilla/5.0 (compatible; Tweezler/2.0; http://tweezler.com)
+Jeode/1.x.x
