@@ -2884,3 +2884,16 @@ Microsoft Data Access Internet Publishing Provider Protocol Discovery
 Test Certificate Info
 Needle/1.4.2 (Node.js v6.9.2; linux x64)
 DavClnt
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 mixed-content-scan
+Mozilla/5.0 (compatible; Semiocast HTTP client; http://semiocast.com/)
+Mozilla/5.0 (compatible; The Drop Reaper; +http://tag1consulting.com/dropreaper.html)
+/n software IPWorks HTTP/S Component - www.nsoftware.com
+safe-agent-scanner
+Mozilla/5.0 (compatible; ACHE/Unknown Version; +https://github.com/ViDA-NYU/ache; )
+ANAM (github.com/dutchcoders/anam)
+Dolphin http client/11.2.8(385) (Android)
+Dolphin http client/11.3.4(405) (Android)
+Calypso v/0.01
+-Mozilla/4.0 (compatible; http://search.thunderstone.com/texis/websearch/about.html)
+Mozilla/5.0 (compatible; Tweezler/2.0; http://tweezler.com)
+Jeode/1.x.x
