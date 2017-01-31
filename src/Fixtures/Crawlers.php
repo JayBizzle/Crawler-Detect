@@ -238,6 +238,7 @@ class Crawlers extends AbstractProvider
         'Funnelback',
         'g00g1e\.net',
         'GAChecker',
+        'ganarvisitas\/[0-9]',
         'geek-tools',
         'Genderanalyzer',
         'Genieo',
