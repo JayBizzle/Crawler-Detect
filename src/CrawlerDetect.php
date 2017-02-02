@@ -93,6 +93,7 @@ class CrawlerDetect
      * Compile the regex patterns into one regex string.
      *
      * @param array
+     * 
      * @return string
      */
     public function compileRegex($patterns)
