@@ -21,7 +21,7 @@ class Crawlers extends AbstractProvider
     protected $data = [
         '.*Java.*outbrain',
         '008\/',
-        '192.comAgent',
+        '192\.comAgent',
         '2ip\.ru',
         '404checker',
         '^bluefish ',
