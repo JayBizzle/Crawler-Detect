@@ -60,6 +60,20 @@ class CrawlerDetect
     protected $uaHttpHeaders;
 
     /**
+     * The compiled regex string.
+     *
+     * @var string
+     */
+    protected $compiledRegex;
+
+    /**
+     * The compiled exclusions regex string.
+     *
+     * @var string
+     */
+    protected $compiledExclusions;
+
+    /**
      * Class constructor.
      */
     public function __construct(array $headers = null, $userAgent = null)
@@ -68,8 +82,23 @@ class CrawlerDetect
         $this->exclusions = new Exclusions();
         $this->uaHttpHeaders = new Headers();
 
+        $this->compiledRegex = $this->compileRegex($this->crawlers->getAll());
+        $this->compiledExclusions = $this->compileRegex($this->exclusions->getAll());
+
         $this->setHttpHeaders($headers);
         $this->setUserAgent($userAgent);
+    }
+
+    /**
+     * Compile the regex patterns into one regex string.
+     *
+     * @param array
+     * 
+     * @return string
+     */
+    public function compileRegex($patterns)
+    {
+        return '('.implode('|', $patterns).')';
     }
 
     /**
@@ -128,26 +157,6 @@ class CrawlerDetect
     }
 
     /**
-     * Build the user agent regex.
-     *
-     * @return string
-     */
-    public function getRegex()
-    {
-        return '('.implode('|', $this->crawlers->getAll()).')';
-    }
-
-    /**
-     * Build the replacement regex.
-     *
-     * @return string
-     */
-    public function getExclusions()
-    {
-        return '('.implode('|', $this->exclusions->getAll()).')';
-    }
-
-    /**
      * Check user agent string against the regex.
      *
      * @param string $userAgent
@@ -158,13 +167,13 @@ class CrawlerDetect
     {
         $agent = $userAgent ?: $this->userAgent;
 
-        $agent = preg_replace('/'.$this->getExclusions().'/i', '', $agent);
+        $agent = preg_replace('/'.$this->compiledExclusions.'/i', '', $agent);
 
         if (strlen(trim($agent)) == 0) {
             return false;
         }
 
-        $result = preg_match('/'.$this->getRegex().'/i', trim($agent), $matches);
+        $result = preg_match('/'.$this->compiledRegex.'/i', trim($agent), $matches);
 
         if ($matches) {
             $this->matches = $matches;
