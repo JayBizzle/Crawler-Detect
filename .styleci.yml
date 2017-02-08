@@ -31,7 +31,7 @@ enabled:
  - no_extra_consecutive_blank_lines
  - object_operator
  - operators_spaces
- - ordered_use
+ - length_ordered_imports
  - parenthesis
  - phpdoc_indent
  - phpdoc_inline_tag
