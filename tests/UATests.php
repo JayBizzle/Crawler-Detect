@@ -12,7 +12,7 @@
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
 use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
 
-class UserAgentTest extends PHPUnit_Framework_TestCase
+class UserAgentTest extends PHPUnit\Framework\TestCase
 {
     protected $CrawlerDetect;
 
