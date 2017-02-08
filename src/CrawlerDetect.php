@@ -59,7 +59,6 @@ class CrawlerDetect
      */
     protected $uaHttpHeaders;
 
-
     /**
      * The compiled regex string.
      *
