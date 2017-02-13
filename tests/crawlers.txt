@@ -3055,3 +3055,5 @@ BuckyOHare/1.3 (Googlebot/2.1; +https://hypefactors.com/webcrawler)
 uipbot/1.0 (uipbot@semasio.net)
 gMozilla/5.0 (compatible; Infohelfer/1.4.3; +http://www.infohelfer.de/crawler.php)
 Mozilla/5.0 (compatible; lincobot/0.3; http://www.linksco.com/about/robot.html) AppEngine-Google; (+http://code.google.com/appengine)
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0) MapperCmd/5.24.780.0
+Seeker v.1 http://LookSeek.com/seeker/
