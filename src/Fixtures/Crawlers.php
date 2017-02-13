@@ -445,6 +445,7 @@ class Crawlers extends AbstractProvider
         'NewsGator',
         'newsme',
         'newspaper\/',
+        'NextGenSearch',
         'NG-Search',
         'nineconnections\.com',
         'NLNZ_IAHarvester',

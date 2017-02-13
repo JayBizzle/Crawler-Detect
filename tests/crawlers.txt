@@ -785,7 +785,7 @@ datagnionbot (+http://www.datagnion.com/bot.html)
 CopperEgg/RevealUptime/TokyoJP(linode)
 MB-SiteCrawler
 WatchMouse/18990 (http://watchmouse.com/ ; liz)
-HybridBot (hybrid.ru/about. If our bot caused problems please contact us. Contact email: m.lyashkov@targetix.net) 
+HybridBot (hybrid.ru/about. If our bot caused problems please contact us. Contact email: m.lyashkov@targetix.net)
 Mozilla/5.0 (compatible; Crawlera/1.10.2; UID 24522)
 yacybot (/global; amd64 Linux 3.13.0-74-generic; java 1.7.0_91; Europe/en) http://yacy.net/bot.html
 findlinks/1.1.6-beta5 (+http://wortschatz.uni-leipzig.de/findlinks/)
@@ -798,7 +798,7 @@ Mozilla/5.0 (compatible; spbot/1.2; +http://www.seoprofiler.com/bot/ )
 Orbiter/1.3 (http://dailyorbit.com/)
 CCBot/2.0
 Mozilla/5.0 (compatible; linkdexbot/2.1; +http://www.linkdex.com/about/bots/)
-Mozilla/5.0 (compatible; DNS-Digger/1.0; +http://www.dnsdigger.com) 
+Mozilla/5.0 (compatible; DNS-Digger/1.0; +http://www.dnsdigger.com)
 AppEngine-Google; (+http://code.google.com/appengine; appid: s~feedly-social)
 yacybot (/global; x86 Windows 7 6.1; java 1.8.0_71; Europe/de) http://yacy.net/bot.html
 Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 530) like Gecko (compatible; adidxbot/2.0; +http://www.bing.com/bingbot.htm)
@@ -833,7 +833,7 @@ Mozilla/5.0 (compatible; spbot/4.0.2; +http://www.seoprofiler.com/bot )
 Readability/1900e6 - http://readability.com/about/
 Mozilla/5.0 (compatible; Dataprovider/6.92; +https://www.dataprovider.com/)
 Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko; Google Page Speed Insights) Version/6.0 Mobile/10A525 Safari/8536.25
-VegeBot (we follow your robots.txt settings before crawling, you can slow down the bot by change the Crawl-Delay parameter in the settings.if you have an enquiry, please email to: abuse-report@terrykyleseoagency.com) 
+VegeBot (we follow your robots.txt settings before crawling, you can slow down the bot by change the Crawl-Delay parameter in the settings.if you have an enquiry, please email to: abuse-report@terrykyleseoagency.com)
 yacybot (webportal-global; amd64 Linux 3.2.0-4-amd64; java 1.7.0_65; Europe/en) http://yacy.net/bot.html
 FeedBucket/1.0 (+http://www.feedbucket.com)
 topster.de HTTP-Header 1.0
@@ -1599,7 +1599,7 @@ Yaanb/1.5.001 (compatible; Win64;+http://www.yaanb.com/company/bot.hmtl)
 yacybot (i386 Linux 2.6.31-16-generic; java 1.6.0_15; Europe/en) http://yacy.net/bot.html
 Mozilla/5.0 (compatible; YioopBot; +http://173.13.143.74/bot.php)
 CopperEgg/RevealUptime/Singapore(aws)
-Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko; Google Web Preview) Chrome/11.0.696 Safari/534.24 
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko; Google Web Preview) Chrome/11.0.696 Safari/534.24
 yacybot (freeworld/global; amd64 Windows 8 6.2; java 1.7.0_25; Europe/de) http://yacy.net/bot.html
 Server Density Service Monitoring v2
 Testomatobot/1.0 (Linux x86_64; +http://www.testomato.com/testomatobot) minicrawler/3.0~beta
@@ -1707,7 +1707,7 @@ Mozilla/5.0 (compatible; spbot/4.0.4; +http://www.seoprofiler.com/bot )
 Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
 Factbot 1.09 (see http://www.factbites.com/webmasters.php)
 CopperEgg/RevealUptime/SaoPauloBR(aws)
-CRIM Crawler/Nutch-2.3 (Crawler du Centre de Recherche Informatique de Montr\xc3\xa9al (CRIM)) 
+CRIM Crawler/Nutch-2.3 (Crawler du Centre de Recherche Informatique de Montr\xc3\xa9al (CRIM))
 Mozilla/5.0 (compatible; heritrix/1.14.3 +http://www.webarchiv.cz)
 Mozilla/5.0 (compatible; WormlyBot; +http://wormly.com)
 yacybot (i386 Linux 2.6.23; java 1.6.0_17; Europe/en) http://yacy.net/bot.html
@@ -1879,7 +1879,7 @@ ltx71 - (http://ltx71.com/)
 VSB-TUO/1.0 (+http://www.vsb.cz)
 yacybot (/global; amd64 Linux 3.13.0-85-generic; java 1.7.0_101; Europe/en) http://yacy.net/bot.html
 CopperEgg/RevealUptime/TokyoJP(aws)
-Mozilla/5.0 (compatible; etoolsbot/1.0; +https://etools.io/bots/) 
+Mozilla/5.0 (compatible; etoolsbot/1.0; +https://etools.io/bots/)
 Comodo-Webinspector-Crawler 2.2.2, http://www.comodorobot.com
 Mozilla/5.0 (compatible; TWMBot/0.1; +http://thewebminer.com)
 Mozilla/5.0 (compatible; Plukkie/1.3; http://www.botje.com/plukkie.htm)
@@ -2026,7 +2026,7 @@ Mozilla/5.0 (compatible; Uptimebot/0.2.19; +http://www.uptime.com/uptimebot)
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
 Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 ( compatible; CloudServerMarketSpider/1.0; +http://cloudservermarket.com/spider.html )
 yacybot (i386 Linux 2.6.28-13-generic; java 1.6.0_13; Europe/en) http://yacy.net/bot.html
-linguatools-bot/Nutch-1.6 (searching for translated pages; http://www.linguatools.de/linguatoolsbot.html; peter dot kolb at linguatools dot org) 
+linguatools-bot/Nutch-1.6 (searching for translated pages; http://www.linguatools.de/linguatoolsbot.html; peter dot kolb at linguatools dot org)
 Mozilla/5.0 (compatible; Lippershey/5.2; +https://www.lipperhey.com/en/about/)
 NextGenSearchBot 69 (for information visit http://www.zoominfo.com/business/nextgensearchbot.html)
 Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)
@@ -2180,7 +2180,7 @@ Mozilla/5.0 (compatible; MojeekBot/0.6; +https://www.mojeek.com/bot.html)
 CopperEgg/RevealUptime/NewarkNJ(linode)
 Automattic Analytics Crawler/0.2; http://wordpress.com/crawler/
 larbin_2.6.3 capveg@cs.umd.edu
-HatenaScreenshot 
+HatenaScreenshot
 CopperEgg/RevealUptime/LondonUK
 Mozilla/5.0 (compatible; MojeekBot/0.6; http://www.mojeek.com/bot.html)
 Mozilla/5.0 (compatible; evc-batch/2.0.20160902205649)
@@ -2871,13 +2871,13 @@ gofetch
 COMODO DCV
 CATExplorador/1.0beta (sistemes at domini dot cat; http://domini.cat/catexplorador.html)
 ZmEu
-RSSOwl/2.2.1.201312301314 (Windows; U; en) 
+RSSOwl/2.2.1.201312301314 (Windows; U; en)
 WebClient/1.0
-Microsoft-WebDAV-MiniRedir/10.0.10586 
-Microsoft-WebDAV-MiniRedir/10.0.14393 
-Microsoft-WebDAV-MiniRedir/5.1.2600 
-Microsoft-WebDAV-MiniRedir/6.0.6001 
-Microsoft-WebDAV-MiniRedir/6.1.7601 
+Microsoft-WebDAV-MiniRedir/10.0.10586
+Microsoft-WebDAV-MiniRedir/10.0.14393
+Microsoft-WebDAV-MiniRedir/5.1.2600
+Microsoft-WebDAV-MiniRedir/6.0.6001
+Microsoft-WebDAV-MiniRedir/6.1.7601
 Microsoft-WebDAV-MiniRedir/6.3.9600
 Microsoft Data Access Internet Publishing Provider Protocol Discovery
 Test Certificate Info
@@ -3055,3 +3055,4 @@ BuckyOHare/1.3 (Googlebot/2.1; +https://hypefactors.com/webcrawler)
 uipbot/1.0 (uipbot@semasio.net)
 gMozilla/5.0 (compatible; Infohelfer/1.4.3; +http://www.infohelfer.de/crawler.php)
 Mozilla/5.0 (compatible; lincobot/0.3; http://www.linksco.com/about/robot.html) AppEngine-Google; (+http://code.google.com/appengine)
+NextGenSearchBot 1 (for information visit http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx)
