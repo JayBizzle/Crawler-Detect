@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/340752/20685655/251a6466-b5ad-11e6-9509-24d12f24a042.png" width="128" height="128" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/340752/23082173/1bd1a396-f550-11e6-8aba-4d3c75edea2f.png" width="321" height="219" /></p>
 
 <p align="center">
 <a href="https://travis-ci.org/JayBizzle/Crawler-Detect"><img src="https://img.shields.io/travis/JayBizzle/Crawler-Detect/master.svg?style=flat-square" /></a>
