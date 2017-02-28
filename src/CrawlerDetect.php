@@ -104,7 +104,7 @@ class CrawlerDetect
     /**
      * Set HTTP headers.
      *
-     * @param array $httpHeaders
+     * @param array|null $httpHeaders
      */
     public function setHttpHeaders($httpHeaders = null)
     {
@@ -138,7 +138,7 @@ class CrawlerDetect
     /**
      * Set the user agent.
      *
-     * @param string $userAgent
+     * @param string|null $userAgent
      */
     public function setUserAgent($userAgent = null)
     {
@@ -159,7 +159,7 @@ class CrawlerDetect
     /**
      * Check user agent string against the regex.
      *
-     * @param string $userAgent
+     * @param string|null $userAgent
      *
      * @return bool
      */
