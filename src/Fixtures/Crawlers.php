@@ -548,6 +548,7 @@ class Crawlers extends AbstractProvider
         'Robosourcer',
         'Robozilla\/[0-9]',
         'ROI Hunter',
+        'RPT-HTTPClient',
         'RSSOwl',
         'safe-agent-scanner',
         'SalesIntelligent',
