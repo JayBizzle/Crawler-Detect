@@ -271,6 +271,7 @@ class Crawlers extends AbstractProvider
         'Google-SearchByImage',
         'Google-Site-Verification',
         'Google-Structured-Data-Testing-Tool',
+        'Google-Youtube-Links',
         'google_partner_monitoring',
         'GoogleDocs',
         'GoogleHC\/',
