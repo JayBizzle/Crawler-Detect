@@ -500,6 +500,7 @@ class Crawlers extends AbstractProvider
         'phpcrawl',
         'phpservermon',
         'Pi-Monster',
+        'ping\.blo\.gs\/',
         'Pingdom',
         'Pingoscope',
         'PingSpot',
