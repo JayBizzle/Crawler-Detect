@@ -533,6 +533,7 @@ class Crawlers extends AbstractProvider
         'python-requests',
         'Python-urllib',
         'Qirina Hurdler',
+        'QQDownload',
         'Qseero',
         'Qualidator.com SiteAnalyzer',
         'Quora Link Preview',
