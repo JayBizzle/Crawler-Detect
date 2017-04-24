@@ -59,23 +59,23 @@ class IpDetector
                 $range_dec = ip2long($range);
                 $ip_dec = ip2long($ip);
 
-				// Use math to create create the netmask with 'netmask' 1s and then fill it to 32 with 0s
-				$wildcard_dec = pow(2, (32 - $netmask)) - 1;
-				$netmask_dec = ~$wildcard_dec;
+                // Use math to create create the netmask with 'netmask' 1s and then fill it to 32 with 0s
+                $wildcard_dec = pow(2, (32 - $netmask)) - 1;
+                $netmask_dec = ~$wildcard_dec;
 
                 return (($ip_dec & $netmask_dec) == ($range_dec & $netmask_dec));
             }
         } else {
             // range might be 255.255.*.* or 1.2.3.0-1.2.3.255
-			if (strpos($range, '*') !== false) { // a.b.*.* format
-				// Just convert to A-B format by setting * to 0 for A and 255 for B
-				$lower = str_replace('*', '0', $range);
-				$upper = str_replace('*', '255', $range);
-				$range = "$lower-$upper";
-			}
+            if (strpos($range, '*') !== false) { // a.b.*.* format
+                // Just convert to A-B format by setting * to 0 for A and 255 for B
+                $lower = str_replace('*', '0', $range);
+                $upper = str_replace('*', '255', $range);
+                $range = "$lower-$upper";
+            }
 
             if (strpos($range, '-') !== false) { // A-B format
-				list($lower, $upper) = explode('-', $range, 2);
+                list($lower, $upper) = explode('-', $range, 2);
                 $lower_dec = (float) sprintf('%u', ip2long($lower));
                 $upper_dec = (float) sprintf('%u', ip2long($upper));
                 $ip_dec = (float) sprintf('%u', ip2long($ip));
