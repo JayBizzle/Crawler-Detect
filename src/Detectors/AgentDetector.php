@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of Crawler Detect - the web crawler detection library.
+ *
+ * (c) Mark Beech <m@rkbee.ch>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 namespace Jaybizzle\CrawlerDetect\Detectors;
 
 use Jaybizzle\CrawlerDetect\Fixtures\Headers;
@@ -15,7 +24,7 @@ class AgentDetector
      */
     protected $userAgent = null;
 
-	/**
+    /**
      * Headers that contain a user agent.
      *
      * @var array
@@ -66,9 +75,9 @@ class AgentDetector
 
     public function __construct($userAgent)
     {
-    	$this->userAgent = $userAgent;
+        $this->userAgent = $userAgent;
 
-    	$this->crawlers = new Crawlers();
+        $this->crawlers = new Crawlers();
         $this->exclusions = new Exclusions();
         $this->uaHttpHeaders = new Headers();
 
@@ -136,13 +145,13 @@ class AgentDetector
      * Perform the check.
      * 
      * @param  string|null $userAgent
-     * @return boolean
+     * @return bool
      */
     public function check($userAgent = null)
     {
-    	if(is_null($this->userAgent) && !is_null($userAgent)) {
-	    	$this->userAgent = $userAgent;
-    	}
+        if (is_null($this->userAgent) && ! is_null($userAgent)) {
+            $this->userAgent = $userAgent;
+        }
 
         if (is_null($this->userAgent)) {
             $this->setHttpHeaders();

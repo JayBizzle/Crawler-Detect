@@ -1,17 +1,26 @@
 <?php
 
+/*
+ * This file is part of Crawler Detect - the web crawler detection library.
+ *
+ * (c) Mark Beech <m@rkbee.ch>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 namespace Jaybizzle\CrawlerDetect\Detectors;
 
 use Jaybizzle\CrawlerDetect\Fixtures\Ips;
 
 class IpDetector
 {
-	public function __construct($userIp)
-	{
-		$this->userIp = $userIp;
-	}
+    public function __construct($userIp)
+    {
+        $this->userIp = $userIp;
+    }
 
-	public function check()
+    public function check()
     {
         $ips = new Ips();
 
@@ -24,22 +33,22 @@ class IpDetector
         return false;
     }
 
-	public function ipInRange($ip, $range)
+    public function ipInRange($ip, $range)
     {
         if (strpos($range, '/') !== false) {
             // $range is in IP/NETMASK format
-	        list($range, $netmask) = explode('/', $range, 2);
+            list($range, $netmask) = explode('/', $range, 2);
 
             if (strpos($netmask, '.') !== false) {
                 // $netmask is a 255.255.0.0 format
-				$netmask = str_replace('*', '0', $netmask);
+                $netmask = str_replace('*', '0', $netmask);
                 $netmask_dec = ip2long($netmask);
 
                 return ((ip2long($ip) & $netmask_dec) == (ip2long($range) & $netmask_dec));
             } else {
                 // $netmask is a CIDR size block
-				// fix the range argument
-				$x = explode('.', $range);
+                // fix the range argument
+                $x = explode('.', $range);
                 while (count($x) < 4) {
                     $x[] = '0';
                 }
