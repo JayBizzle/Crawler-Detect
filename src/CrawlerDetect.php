@@ -19,14 +19,14 @@ class CrawlerDetect
     /**
      * Check agent setting.
      *
-     * @var null
+     * @var null|boolean
      */
     protected $checkAgent = null;
 
     /**
      * Check IP setting.
      * 
-     * @var null
+     * @var null|boolean
      */
     protected $checkIp = null;
 
