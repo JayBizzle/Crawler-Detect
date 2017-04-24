@@ -11,8 +11,8 @@
 
 namespace Jaybizzle\CrawlerDetect;
 
-use Jaybizzle\CrawlerDetect\Detectors\AgentDetector;
 use Jaybizzle\CrawlerDetect\Detectors\IpDetector;
+use Jaybizzle\CrawlerDetect\Detectors\AgentDetector;
 
 class CrawlerDetect
 {
@@ -35,7 +35,7 @@ class CrawlerDetect
      * 
      * @var array
      */
-    protected $detectors = [];
+    protected $detectors = array();
 
     /**
      * Check the user agent.
@@ -46,7 +46,7 @@ class CrawlerDetect
     {
         $this->checkAgent = true;
 
-        if(!isset($detectors['agent'])) {
+        if (! isset($detectors['agent'])) {
             $this->detectors['agent'] = new AgentDetector($userAgent);
         }
 
@@ -62,7 +62,7 @@ class CrawlerDetect
     {
         $this->checkIp = true;
 
-        if(!isset($detectors['ip'])) {
+        if (! isset($detectors['ip'])) {
             $this->detectors['ip'] = new IpDetector($userIp);
         }
 
@@ -88,6 +88,7 @@ class CrawlerDetect
 
         if (is_null($this->checkIp) && is_null($this->checkAgent)) {
             $this->ip()->agent();
+
             return $this->detectors['agent']->check() && $this->detectors['ip']->check();
         }
     }
