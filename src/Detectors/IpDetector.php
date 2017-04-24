@@ -89,13 +89,4 @@ class IpDetector
             return false;
         }
     }
-
-    // decbin32
-    // In order to simplify working with IP addresses (in binary) and their
-    // netmasks, it is easier to ensure that the binary strings are padded
-    // with zeros out to 32 characters - IP addresses are 32 bit numbers
-    public function decbin32($dec)
-    {
-        return str_pad(decbin($dec), 32, '0', STR_PAD_LEFT);
-    }
 }
