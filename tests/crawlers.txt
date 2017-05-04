@@ -3069,3 +3069,15 @@ ping.blo.gs/2.0
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; QQDownload 1.7; .NET CLR 2.0.50727)
 Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; QQDownload 663; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET CLR 1.1.4322)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; QQDownload 760; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; .NET4.0E; .NET4.0C; .NET CLR 1.1.4322)
+Mozilla/5.0 (X11; Linux x86_64; rv:52.0.2) Gecko/20100101 Firefox/52.0.2 Ghost Inspector
+Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0 Ghost Inspector
+Mozilla/5.0 (X11; Linux x86_64; rv:50.1.0) Gecko/20100101 Firefox/50.1.0 Ghost Inspector
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) QtWebEngine/5.3.0 Safari/538.1 Ghost Inspector
+Mozilla/5.0 (X11; Linux x86_64; rv:45.0.1) Gecko/20100101 Firefox/45.0.1 Ghost Inspector
+Mozilla/5.0 (X11; Linux x86_64; rv:46.0.1) Gecko/20100101 Firefox/46.0.1 Ghost Inspector
+Mozilla/5.0 (X11; Linux x86_64; rv:47.0.2) Gecko/20100101 Firefox/47.0.2 Ghost Inspector
+Mozilla/5.0 (X11; Linux x86_64; rv:48.0.2) Gecko/20100101 Firefox/48.0.2 Ghost Inspector
+Mozilla/5.0 (X11; Linux x86_64; rv:49.0.2) Gecko/20100101 Firefox/49.0.2 Ghost Inspector
+Netpursual/1.0
+Kaspersky Lab CFR link resolver cfradmins@kaspersky.com
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453 Safari/537.36 (compatible; Google-HotelAdsVerifier/2.0)
