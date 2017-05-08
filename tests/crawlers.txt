@@ -3081,3 +3081,4 @@ Mozilla/5.0 (X11; Linux x86_64; rv:49.0.2) Gecko/20100101 Firefox/49.0.2 Ghost I
 Netpursual/1.0
 Kaspersky Lab CFR link resolver cfradmins@kaspersky.com
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453 Safari/537.36 (compatible; Google-HotelAdsVerifier/2.0)
+b0t
