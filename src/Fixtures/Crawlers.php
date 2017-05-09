@@ -588,6 +588,7 @@ class Crawlers extends AbstractProvider
         'SeopultContentAnalyzer',
         'Server Density Service Monitoring',
         'servernfo\.com',
+        'SeznamBot',
         'Seznam screenshot-generator',
         'Shelob',
         'Shoppimon Analyzer',
