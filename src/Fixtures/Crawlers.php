@@ -91,6 +91,7 @@ class Crawlers extends AbstractProvider
         'autocite',
         'Autonomy',
         'B-l-i-t-z-B-O-T',
+        '^b0t$',
         'Backlink-Ceck\.de',
         'Bad-Neighborhood',
         'baidu\.com',
