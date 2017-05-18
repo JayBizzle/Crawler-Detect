@@ -189,6 +189,7 @@ class Crawlers extends AbstractProvider
         'ec2linkfinder',
         'eCairn-Grabber',
         'ECCP',
+		'echocrawl',
         'ElectricMonk',
         'elefent',
         'EMail Exractor',
