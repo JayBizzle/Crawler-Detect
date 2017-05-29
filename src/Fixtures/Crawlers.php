@@ -413,6 +413,7 @@ class Crawlers extends AbstractProvider
         'Mandrill',
         'MapperCmd',
         'marketinggrader',
+        'masscan\/[0-9]',
         'Mediapartners-Google',
         'MegaIndex\.ru',
         'Melvil Rawi\/',
