@@ -143,6 +143,7 @@ class Crawlers extends AbstractProvider
         'CJNetworkQuality',
         'clips\.ua\.ac\.be',
         'Cloud mapping experiment',
+        'CloudEndure',
         'CloudFlare-AlwaysOnline',
         'Cloudinary\/[0-9]',
         'cmcm\.com',
