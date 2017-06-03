@@ -3084,3 +3084,24 @@ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27
 b0t
 "echocrawl 2.0"
 masscan/1.0
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexAccessibilityBot/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexDirectDyn/1.0; +http://yandex.com/bots
+Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexMedia/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexBlogs/0.99; robot; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexFavicons/1.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexPagechecker/1.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexImageResizer/2.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YaDirectFetcher/1.0; Dyatel; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexCalendar/1.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexSitelinks; Dyatel; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexMetrika/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexAntivirus/2.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexVertis/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexBot/3.0; MirrorDetector; +http://yandex.com/bots)
+jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)
+Mozilla/5.0 (compatible; Abonti/0.8 - http://www.abonti.com)  

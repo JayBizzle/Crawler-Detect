@@ -51,6 +51,7 @@ class Crawlers extends AbstractProvider
         'a3logics\.in',
         'A6-Indexer',
         'a\.pr-cy\.ru',
+        'Abonti\/',
         'Aboundex',
         'aboutthedomain',
         'Accoona-AI-Agent',
