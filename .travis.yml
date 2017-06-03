@@ -9,6 +9,7 @@ matrix:
     - php: 7.0
     - php: 7.1
     - php: hhvm
+      dist: trusty
     - php: nightly
   allow_failures:
     - php: nightly
