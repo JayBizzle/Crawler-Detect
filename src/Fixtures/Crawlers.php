@@ -616,6 +616,7 @@ class Crawlers extends AbstractProvider
         'SiteTruth',
         'sitexy\.com',
         'SkypeUriPreview',
+        'Slack\/',
         'slider\.com',
         'slurp',
         'SMRF URL Expander',
