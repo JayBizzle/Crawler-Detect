@@ -89,7 +89,7 @@ class CrawlerDetect
         $this->compiledExclusions = $this->compileRegex($this->exclusions->getAll());
 
         $this->setHttpHeaders($headers);
-        $this->setUserAgent($userAgent);
+        $this->userAgent = $this->setUserAgent($userAgent);
     }
 
     /**
@@ -107,7 +107,7 @@ class CrawlerDetect
     /**
      * Set HTTP headers.
      *
-     * @param array|null $httpHeaders
+     * @param void
      */
     public function setHttpHeaders(array $httpHeaders = null): void
     {
@@ -141,22 +141,19 @@ class CrawlerDetect
     /**
      * Set the user agent.
      *
-     * @param string|null $userAgent
+     * @param string $userAgent
      */
-    public function setUserAgent(string $userAgent = null): void
+    public function setUserAgent(string $userAgent = null): ?string
     {
-        if (false === empty($userAgent)) {
-            $this->userAgent = $userAgent;
-        } else {
-            $this->userAgent = null;
+        if (is_null($userAgent)) {
             foreach ($this->getUaHttpHeaders() as $altHeader) {
-                if (false === empty($this->httpHeaders[$altHeader])) { // @todo: should use getHttpHeader(), but it would be slow.
-                    $this->userAgent .= $this->httpHeaders[$altHeader].' ';
+                if (isset($this->httpHeaders[$altHeader])) {
+                    $userAgent .= $this->httpHeaders[$altHeader].' ';
                 }
             }
-
-            $this->userAgent = ! empty($this->userAgent) ? trim($this->userAgent) : null;
         }
+
+        return $userAgent;
     }
 
     /**
