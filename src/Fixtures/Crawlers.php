@@ -796,7 +796,7 @@ class Crawlers extends AbstractProvider
         'YahooCacheSystem',
         'YahooYSMcm',
         'YandeG',
-        'yandex',
+        'Yandex(?!Search)',
         'yanga',
         'yeti',
         ' YLT',
