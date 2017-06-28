@@ -3147,3 +3147,4 @@ keycdn-tools/br
 keycdn-tools/h2
 KOCMOHABT (+https://kozmonavt.tk/) Mozilla/5.0 (compatible; Web Explorer 2)
 Donuts Content Explorer (www.donuts.domains)
+Netsparker
