@@ -467,6 +467,7 @@ class Crawlers extends AbstractProvider
         'Netpursual',
         'netresearch',
         'NetShelter ContentScan',
+        'Netsparker',
         'NetTrack',
         'Netvibes',
         'Neustar WPM',
