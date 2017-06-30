@@ -3134,3 +3134,7 @@ VCPP71 http-get 1.0a
 Jaunt/1.2
 Mozilla/5.0 (compatible; Owler/0.4; +; )
 MovableType/x.x
+Mozilla/5.0+(compatible; MxToolbox/Beta7; http://www.mxtoolbox.com/)
+Apache-HttpAsyncClient/4.1.3 (Java/1.8.0_121)
+Tenon.io Automated Web Accessibility Tester
+ApacheBench/2.3
