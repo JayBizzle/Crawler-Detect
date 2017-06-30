@@ -3134,6 +3134,20 @@ VCPP71 http-get 1.0a
 Jaunt/1.2
 Mozilla/5.0 (compatible; Owler/0.4; +; )
 MovableType/x.x
+OMSC
+websitepulse agent/0.1 (compatible; MSIE 5.5; Netscape 4.75; Linux)
+Mozilla/5.0 (compatible; Uptimia; www.uptimia.com)
+ssl-tools.net
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729) DMBrowser/2.1
+keycdn-tools/perf
+keycdn-tools/br
+keycdn-tools/h2
+keycdn-tools/perf
+keycdn-tools/br
+keycdn-tools/h2
+KOCMOHABT (+https://kozmonavt.tk/) Mozilla/5.0 (compatible; Web Explorer 2)
+Donuts Content Explorer (www.donuts.domains)
+Netsparker
 Mozilla/5.0+(compatible; MxToolbox/Beta7; http://www.mxtoolbox.com/)
 Apache-HttpAsyncClient/4.1.3 (Java/1.8.0_121)
 Tenon.io Automated Web Accessibility Tester
