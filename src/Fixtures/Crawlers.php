@@ -145,6 +145,7 @@ class Crawlers extends AbstractProvider
         'CirrusExplorer\/',
         'CISPA Vulnerability Notification',
         'CJNetworkQuality',
+        'Clarsentia',
         'clips\.ua\.ac\.be',
         'Cloud mapping experiment',
         'CloudEndure',
