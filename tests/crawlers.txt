@@ -3153,3 +3153,7 @@ Apache-HttpAsyncClient/4.1.3 (Java/1.8.0_121)
 Tenon.io Automated Web Accessibility Tester
 ApacheBench/2.3
 Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Clarsentia)
+Mozilla/5.0 (compatible; historious/2.0; +http://historio.us/)
+Mozilla/5.0 (compatible; uCrawlr/1.0 ; +https://blog.ucoz.ru/upolicy)
+Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
+Brodie/1.0 (+http://www.15miles.com/)
