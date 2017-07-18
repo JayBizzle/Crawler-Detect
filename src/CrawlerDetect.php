@@ -60,6 +60,13 @@ class CrawlerDetect
     protected $uaHttpHeaders;
 
     /**
+     * Prefetch Headers object.
+     *
+     * @var \Jaybizzle\CrawlerDetect\Fixtures\Headers
+     */
+    protected $prefetchHttpHeaders;
+
+    /**
      * The compiled regex string.
      *
      * @var string
@@ -81,6 +88,7 @@ class CrawlerDetect
         $this->crawlers = new Crawlers();
         $this->exclusions = new Exclusions();
         $this->uaHttpHeaders = new Headers();
+        $this->prefetchHttpHeaders = new Headers()->getPrefetchHeaders();
 
         $this->compiledRegex = $this->compileRegex($this->crawlers->getAll());
         $this->compiledExclusions = $this->compileRegex($this->exclusions->getAll());
@@ -93,7 +101,7 @@ class CrawlerDetect
      * Compile the regex patterns into one regex string.
      *
      * @param array
-     * 
+     *
      * @return string
      */
     public function compileRegex($patterns)
@@ -162,6 +170,12 @@ class CrawlerDetect
      */
     public function isCrawler($userAgent = null)
     {
+        $prefetchHeaders = $this->hasPrefetchHeaderSet;
+        if ($prefetchHeaders) {
+            $this->matches = $prefetchHeaders;
+            return true;
+        }
+
         $agent = $userAgent ?: $this->userAgent;
 
         $agent = preg_replace('/'.$this->compiledExclusions.'/i', '', $agent);
@@ -187,5 +201,21 @@ class CrawlerDetect
     public function getMatches()
     {
         return isset($this->matches[0]) ? $this->matches[0] : null;
+    }
+
+    /**
+     * Return true if headers contain a prefetch setting
+     *
+     * @return null
+     */
+    public function hasPrefetchHeaderSet()
+    {
+        foreach ($this->prefetchHttpHeaders as $header => $value) {
+            if (isset($this->uaHttpHeaders[$header]) && $this->uaHttpHeaders[$header] == $value) {
+                return [$header => $value];
+            }
+        }
+
+        return false;
     }
 }

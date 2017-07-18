@@ -33,5 +33,27 @@ class Headers extends AbstractProvider
         // Sometimes, bots (especially Google) use a genuine user agent, but fill this header in with their email address
         'HTTP_FROM',
         'HTTP_X_SCANNER', // Seen in use by Netsparker
+        'HTTP_X_PURPOSE', // Prefetch Header
+        'HTTP_PURPOSE', // Prefetch Header
     );
+
+    /**
+     * Headers used for prefetching webpages by different services
+     *
+     * @var array
+     */
+    protected $prefetchHeaders = array(
+        'HTTP_X_PURPOSE' => 'preview', // Used by Facebook to prefetch, as well the previews seen when opening a new tab in Chrome and Safari
+        'HTTP_PURPOSE' => 'prefetch', // Seen with value prefetch
+    );
+
+    /**
+     * Return the data set.
+     *
+     * @return array
+     */
+    public function getPrefetchHeaders()
+    {
+        return $this->prefetchHeaders;
+    }
 }
