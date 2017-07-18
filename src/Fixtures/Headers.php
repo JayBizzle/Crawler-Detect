@@ -38,7 +38,7 @@ class Headers extends AbstractProvider
     );
 
     /**
-     * Headers used for prefetching webpages by different services
+     * Headers used for prefetching webpages by different services.
      *
      * @var array
      */
