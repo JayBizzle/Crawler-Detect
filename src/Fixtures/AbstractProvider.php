@@ -19,12 +19,13 @@ abstract class AbstractProvider
      * @var array
      */
     protected $data;
+
     /**
      * Return the data set.
      * 
      * @return array
      */
-    public function getAll()
+    public function getAll(): array
     {
         return $this->data;
     }

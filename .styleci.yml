@@ -19,7 +19,6 @@ enabled:
  - linefeed
  - list_commas
  - logical_not_operators_with_successor_space
- - long_array_syntax
  - lowercase_constants
  - lowercase_keywords
  - method_argument_space
@@ -47,6 +46,7 @@ enabled:
  - remove_leading_slash_use
  - return
  - self_accessor
+ - short_array_syntax
  - short_echo_tag
  - short_tag
  - single_array_no_trailing_comma

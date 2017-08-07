@@ -29,14 +29,14 @@ class CrawlerDetect
      *
      * @var array
      */
-    protected $httpHeaders = array();
+    protected $httpHeaders = [];
 
     /**
      * Store regex matches.
      *
      * @var array
      */
-    protected $matches = array();
+    protected $matches = [];
 
     /**
      * Crawlers object.
@@ -74,9 +74,12 @@ class CrawlerDetect
     protected $compiledExclusions;
 
     /**
-     * Class constructor.
+     * Constuctor.
+     * 
+     * @param array|null  $headers
+     * @param string|null $userAgent
      */
-    public function __construct(array $headers = null, $userAgent = null)
+    public function __construct(array $headers = null, string $userAgent = null)
     {
         $this->crawlers = new Crawlers();
         $this->exclusions = new Exclusions();
@@ -96,7 +99,7 @@ class CrawlerDetect
      * 
      * @return string
      */
-    public function compileRegex($patterns)
+    public function compileRegex($patterns): string
     {
         return '('.implode('|', $patterns).')';
     }
@@ -104,9 +107,9 @@ class CrawlerDetect
     /**
      * Set HTTP headers.
      *
-     * @param array|null $httpHeaders
+     * @param void
      */
-    public function setHttpHeaders($httpHeaders)
+    public function setHttpHeaders(array $httpHeaders = null): void
     {
         // Use global _SERVER if $httpHeaders aren't defined.
         if (! is_array($httpHeaders) || ! count($httpHeaders)) {
@@ -114,7 +117,7 @@ class CrawlerDetect
         }
 
         // Clear existing headers.
-        $this->httpHeaders = array();
+        $this->httpHeaders = [];
 
         // Only save HTTP headers. In PHP land, that means
         // only _SERVER vars that start with HTTP_.
@@ -130,7 +133,7 @@ class CrawlerDetect
      *
      * @return array
      */
-    public function getUaHttpHeaders()
+    public function getUaHttpHeaders(): array
     {
         return $this->uaHttpHeaders->getAll();
     }
@@ -140,7 +143,7 @@ class CrawlerDetect
      *
      * @param string $userAgent
      */
-    public function setUserAgent($userAgent)
+    public function setUserAgent(string $userAgent = null): ?string
     {
         if (is_null($userAgent)) {
             foreach ($this->getUaHttpHeaders() as $altHeader) {
@@ -160,7 +163,7 @@ class CrawlerDetect
      *
      * @return bool
      */
-    public function isCrawler($userAgent = null)
+    public function isCrawler(string $userAgent = null): bool
     {
         $agent = $userAgent ?: $this->userAgent;
 
@@ -184,8 +187,8 @@ class CrawlerDetect
      *
      * @return string|null
      */
-    public function getMatches()
+    public function getMatches(): ?string
     {
-        return isset($this->matches[0]) ? $this->matches[0] : null;
+        return $this->matches[0] ?? null;
     }
 }
