@@ -384,6 +384,7 @@ class Crawlers extends AbstractProvider
         'Jaunt\/',
         'Jigsaw',
         'Jobboerse',
+        'Jobg8 URL Monitor',
         'jobo',
         'Jobrapido',
         'JS-Kit',
