@@ -3157,3 +3157,5 @@ Mozilla/5.0 (compatible; historious/2.0; +http://historio.us/)
 Mozilla/5.0 (compatible; uCrawlr/1.0 ; +https://blog.ucoz.ru/upolicy)
 Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
 Brodie/1.0 (+http://www.15miles.com/)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) wpif Safari/537.21
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) imgsizer Safari/537.21
