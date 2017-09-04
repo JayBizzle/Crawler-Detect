@@ -31,6 +31,7 @@ class Crawlers extends AbstractProvider
         '^DavClnt',
         '^FDM ',
         '^git\/',
+        'Twitterbot'
         '^Goose\/',
         '^HTTPClient\/',
         '^Java\/',
