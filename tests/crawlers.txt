@@ -3160,3 +3160,8 @@ Brodie/1.0 (+http://www.15miles.com/)
 Jobg8 URL Monitor
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) wpif Safari/537.21
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) imgsizer Safari/537.21
+Mozilla/5.0 (compatible; AppBeat/1.0; +http://www.appbeat.io/)
+Mozilla/5.0 (compatible; Chirp/1.0; +http://www.binarycanary.com)
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SiteMonitor)
+Mixnode/3.0.1 (+https://www.mixnode.com/; Speed analysis; no data is stored)
+Pingability.com Monitoring Service
