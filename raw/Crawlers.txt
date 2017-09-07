@@ -62,6 +62,7 @@ ApacheBench\/
 Apache-HttpAsyncClient\/
 Apache-HttpClient\/
 AportWorm\/[0-9]
+AppBeat\/[0-9]
 AppEngine-Google
 Arachmo
 arachnode
@@ -122,6 +123,7 @@ Charlotte
 CheckHost
 checkprivacy
 chkme\.com
+Chirp\/[0-9]
 CirrusExplorer\/
 CISPA Vulnerability Notification
 CJNetworkQuality
@@ -277,7 +279,6 @@ GoScraper
 GoSpotCheck
 GoSquared-Status-Checker
 gosquared-thumbnailer
-GotSiteMonitor
 grabify
 Grammarly
 grouphigh
@@ -333,6 +334,7 @@ igdeSpyder
 IlTrovatore
 ImageEngine\/
 Imagga
+imgsizer
 InAGist
 inbound\.li parser
 InDesign%20CC
@@ -362,6 +364,7 @@ janforman
 Jaunt\/
 Jigsaw
 Jobboerse
+Jobg8 URL Monitor
 jobo
 Jobrapido
 JS-Kit
@@ -430,6 +433,7 @@ Mindjet
 Miniflux
 mixdata dot com
 mixed-content-scan
+mixnode
 Mnogosearch
 mogimogi
 Mojolicious \(Perl\)
@@ -515,6 +519,7 @@ phpcrawl
 phpservermon
 Pi-Monster
 ping\.blo\.gs\/
+Pingability
 Pingdom
 Pingoscope
 PingSpot
@@ -616,6 +621,7 @@ siteexplorer\.info
 SiteGuardian
 Siteimprove\.com
 Sitemap(s)? Generator
+SiteMonitor
 Siteshooter B0t
 SiteTruth
 sitexy\.com
@@ -766,6 +772,7 @@ Word\/
 WordPress\/
 wotbox
 WP Engine Install Performance API
+wpif
 wprecon\.com survey
 WPScan
 wscheck
