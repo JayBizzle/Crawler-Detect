@@ -565,6 +565,7 @@ class Crawlers extends AbstractProvider
         'prospectb2b',
         'Protopage',
         'proximic',
+        'PRTG Network Monitor',
         'pshtt, https scanning',
         'PTST ',
         'PTST\/[0-9]+',

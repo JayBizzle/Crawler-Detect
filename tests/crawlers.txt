@@ -3166,3 +3166,4 @@ Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SiteMonit
 Mixnode/3.0.1 (+https://www.mixnode.com/; Speed analysis; no data is stored)
 Pingability.com Monitoring Service
 SiteSucker for macOS/2.10.6
+Mozilla/5.0 (compatible; PRTG Network Monitor (www.paessler.com); Windows)
