@@ -544,6 +544,7 @@ Promotion_Tools_www.searchenginepromotionhelp.com
 prospectb2b
 Protopage
 proximic
+PRTG Network Monitor
 pshtt, https scanning
 PTST 
 PTST\/[0-9]+
@@ -623,6 +624,7 @@ Siteimprove\.com
 Sitemap(s)? Generator
 SiteMonitor
 Siteshooter B0t
+SiteSucker
 SiteTruth
 sitexy\.com
 SkypeUriPreview
