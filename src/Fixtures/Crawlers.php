@@ -644,6 +644,7 @@ class Crawlers extends AbstractProvider
         'Sitemap(s)? Generator',
         'SiteMonitor',
         'Siteshooter B0t',
+        'SiteSucker',
         'SiteTruth',
         'sitexy\.com',
         'SkypeUriPreview',
