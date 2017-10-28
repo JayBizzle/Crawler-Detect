@@ -622,7 +622,7 @@ class Crawlers extends AbstractProvider
         'ScreenShotService\/[0-9]',
         'Scrubby',
         'search\.thunderstone',
-        'Search37',
+        'Search37\/',
         'SearchSight',
         'Seeker',
         'semanticdiscovery',
