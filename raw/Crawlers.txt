@@ -46,6 +46,7 @@ AHC
 aihit
 aiohttp\/
 Airmail
+akka-http\/
 akula\/
 alertra
 alexa site audit
@@ -126,6 +127,7 @@ chkme\.com
 Chirp\/[0-9]
 CirrusExplorer\/
 CISPA Vulnerability Notification
+Citoid
 CJNetworkQuality
 Clarsentia
 clips\.ua\.ac\.be
@@ -197,6 +199,7 @@ ExaleadCloudview
 Excel\/
 Exif Viewer
 Exploratodo
+Express WebPictures
 ezooms
 facebookexternalhit
 facebookplatform
@@ -249,6 +252,7 @@ GIS-LABS
 github\.com\/
 Go [\d\.]* package http
 Go-http-client
+gobyus
 gofetch
 GomezAgent
 gooblog
@@ -282,6 +286,7 @@ gosquared-thumbnailer
 grabify
 Grammarly
 grouphigh
+grokkit
 grub-client
 GTmetrix
 GuzzleHttp
@@ -362,6 +367,7 @@ iskanie
 iZSearch
 janforman
 Jaunt\/
+Jersey\/
 Jigsaw
 Jobboerse
 Jobg8 URL Monitor
@@ -370,7 +376,10 @@ Jobrapido
 JS-Kit
 Kaspersky Lab CFR link resolver
 KeepRight OpenStreetMap Checker
+Kelny\/
+Kerrigan\/
 KeyCDN
+Keyword Extractor
 Keywords Research
 KickFire
 KimonoLabs\/
@@ -528,6 +537,7 @@ Pizilla
 Ploetz \+ Zeller
 Plukkie
 PocketParser
+POE-Component-Client-HTTP\/
 Pompos
 Porkbun
 Port Monitor
@@ -563,6 +573,7 @@ RankSonicSiteAuditor
 Readability
 RealPlayer%20Downloader
 RebelMouse
+RecurPost\/
 redback\/
 Redirect Checker Tool
 ReederForMac
@@ -590,6 +601,7 @@ Scrapy
 ScreenShotService\/[0-9]
 Scrubby
 search\.thunderstone
+Search37\/
 SearchSight
 Seeker
 semanticdiscovery
@@ -612,8 +624,10 @@ ShopWiki
 ShortLinkTranslate
 shrinktheweb
 SilverReader
+Sideqik
 SimplePie
 SimplyFast
+SiteIndexed
 Site-Shot\/
 Site24x7
 SiteBar
@@ -688,6 +702,7 @@ topster
 touche.com
 Traackr.com
 TrapitAgent
+trendspottr\.com
 truwoGPS
 TulipChain
 tweetedtimes\.com
@@ -705,6 +720,7 @@ UnwindFetchor
 updated
 Upflow
 Uptimia
+URL Verifier
 URLChecker
 URLitor.com
 urlresolver
@@ -720,6 +736,7 @@ voltron
 voyager\/
 VSAgent\/[0-9]
 VSB-TUO\/[0-9]
+Vulnbusters Meter
 VYU2
 w3af\.org
 W3C-checklink
@@ -764,6 +781,7 @@ WhatsMyIP
 WhatWeb
 WhereGoes\?
 Whibse
+WhoRunsCoinHive
 Whynder Magnet
 Windows-RSS-Platform
 WinHttpRequest
