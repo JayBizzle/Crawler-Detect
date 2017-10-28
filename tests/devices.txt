@@ -153,7 +153,6 @@ Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-G930F Build/MMB29K)
 DLME
 Dorado WAP-Browser/1.0.0/powerplay/2
 elikia eS Linux/2.6.35 Android/2.3.6 Release/05.21.2013 Browser/AppleWebKit533.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/533.1
-Express WebPictures (www.express-soft.com)
 Filter
 Firefox/33.0.0 (Windows NT 6.1; WOW64) Gecko/20141011015303
 Firefox/33.1.1 (Windows NT 6.1; WOW64) Gecko/20141113143407
