@@ -295,6 +295,7 @@ class Crawlers extends AbstractProvider
         'Google-Site-Verification',
         'Google-Structured-Data-Testing-Tool',
         'Google-Youtube-Links',
+        'APIs-Google \(\+https:\/\/developers\.google\.com\/webmasters\/APIs-Google\.html\)',
         'google_partner_monitoring',
         'GoogleDocs',
         'GoogleHC\/',
