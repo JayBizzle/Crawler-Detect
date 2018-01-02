@@ -3188,3 +3188,16 @@ POE-Component-Client-HTTP/0.943 (perl; N; POE; en; rv:0.943000)
 RecurPost/1.0 https://recurpost.com (KHTML, like Gecko)
 Mozilla/5.0 Firefox Windows WhoRunsCoinHive.com
 Mozilla/5.0 (compatible; Kelny/2.0; +http://www.kelny.com/)
+colly - https://github.com/gocolly/colly
+WebCopier vx.x
+gSOAP/2.8
+http.rb/2.2.2
+Grabber -  https://sites.google.com/3ziele.de/grabber/
+JobFeed discovery script (http://www.jobfeed.com)
+JoinVision Generic Site Loader 1.0
+SSI-LinkPreviewGenerator/1.0
+SnowHaze Search/1.0 support@snowhaze.com
+Saleslift
+Perlu - HTML Analyzer and Relationship Builder 1.1
+Offline Explorer 1.*
+Mozilla/5.0 (compatible; Wappalyzer; https://www.wappalyzer.com)
