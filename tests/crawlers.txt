@@ -3188,3 +3188,4 @@ POE-Component-Client-HTTP/0.943 (perl; N; POE; en; rv:0.943000)
 RecurPost/1.0 https://recurpost.com (KHTML, like Gecko)
 Mozilla/5.0 Firefox Windows WhoRunsCoinHive.com
 Mozilla/5.0 (compatible; Kelny/2.0; +http://www.kelny.com/)
+NewRelicPinger/1.0 (543245)
