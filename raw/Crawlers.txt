@@ -62,6 +62,7 @@ AnyEvent-HTTP\/
 ApacheBench\/
 Apache-HttpAsyncClient\/
 Apache-HttpClient\/
+APIs-Google
 AportWorm\/[0-9]
 AppBeat\/[0-9]
 AppEngine-Google
@@ -328,6 +329,7 @@ huaweisymantec
 HubPages.*crawlingpolicy
 HubSpot Connect
 HubSpot Marketing Grader
+HubSpot Page Screenshot Service
 HyperZbozi.cz Feeder
 i2kconnect\/
 ichiro
