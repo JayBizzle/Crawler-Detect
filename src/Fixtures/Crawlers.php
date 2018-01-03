@@ -850,5 +850,6 @@ class Crawlers extends AbstractProvider
         'ZnajdzFoto',
         'ZyBorg',
         '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider|uptime|validator|fetcher)',
+        'HubSpot Page Screenshot Service',
     );
 }
