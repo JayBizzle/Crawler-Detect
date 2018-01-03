@@ -3190,3 +3190,4 @@ Mozilla/5.0 Firefox Windows WhoRunsCoinHive.com
 Mozilla/5.0 (compatible; Kelny/2.0; +http://www.kelny.com/)
 HubSpot Page Screenshot Service
 NewRelicPinger/1.0 (543245)
+APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)

@@ -83,6 +83,7 @@ class Crawlers extends AbstractProvider
         'ApacheBench\/',
         'Apache-HttpAsyncClient\/',
         'Apache-HttpClient\/',
+        'APIs-Google',
         'AportWorm\/[0-9]',
         'AppBeat\/[0-9]',
         'AppEngine-Google',
@@ -295,7 +296,6 @@ class Crawlers extends AbstractProvider
         'Google-Site-Verification',
         'Google-Structured-Data-Testing-Tool',
         'Google-Youtube-Links',
-        'APIs-Google \(\+https:\/\/developers\.google\.com\/webmasters\/APIs-Google\.html\)',
         'google_partner_monitoring',
         'GoogleDocs',
         'GoogleHC\/',
@@ -350,6 +350,7 @@ class Crawlers extends AbstractProvider
         'HubPages.*crawlingpolicy',
         'HubSpot Connect',
         'HubSpot Marketing Grader',
+        'HubSpot Page Screenshot Service',
         'HyperZbozi.cz Feeder',
         'i2kconnect\/',
         'ichiro',
@@ -851,6 +852,5 @@ class Crawlers extends AbstractProvider
         'ZnajdzFoto',
         'ZyBorg',
         '[a-z0-9\-_]*((?<!cu)bot|crawler|archiver|transcoder|spider|uptime|validator|fetcher)',
-        'HubSpot Page Screenshot Service',
     );
 }
