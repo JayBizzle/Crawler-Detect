@@ -9,6 +9,7 @@
 ^DangDang
 ^DavClnt
 ^FDM 
+^Grabber
 ^git\/
 ^Goose\/
 ^HTTPClient\/
@@ -56,6 +57,7 @@ alyze\.info
 amagit
 AndroidDownloadManager
 Anemone
+AngleSharp\/
 Ant\.com
 Anturis Agent
 AnyEvent-HTTP\/
@@ -138,6 +140,7 @@ CloudFlare-AlwaysOnline
 Cloudinary\/[0-9]
 cmcm\.com
 coccoc
+colly -
 CommaFeed
 Commons-HttpClient
 Comodo SSL Checker
@@ -187,6 +190,7 @@ eContext\/
 ElectricMonk
 elefent
 EMail Exractor
+Email%20Extractor%20Lite
 EmailWolf
 Embed PHP Library
 Embedly
@@ -289,6 +293,7 @@ Grammarly
 grouphigh
 grokkit
 grub-client
+gSOAP\/
 GTmetrix
 GuzzleHttp
 gvfs\/
@@ -319,6 +324,7 @@ HttpComponents
 httphr
 HTTPMon
 PEAR HTTPRequest
+http\.rb\/
 httpscheck
 httpssites_power
 httpunit
@@ -372,9 +378,11 @@ Jaunt\/
 Jersey\/
 Jigsaw
 Jobboerse
+JobFeed discovery
 Jobg8 URL Monitor
 jobo
 Jobrapido
+JoinVision Generic
 JS-Kit
 Kaspersky Lab CFR link resolver
 KeepRight OpenStreetMap Checker
@@ -408,6 +416,7 @@ linkdex
 LinkExaminer
 linkfluence
 linkpeek
+LinkPreviewGenerator
 LinkTiger
 LinkWalker
 Lipperhey
@@ -495,6 +504,7 @@ nWormFeedFinder
 Nymesis
 Ocelli\/[0-9]
 oegp
+Offline Explorer
 okhttp
 Omea Reader
 omgili
@@ -524,6 +534,7 @@ Pcore-HTTP
 Pearltrees
 peerindex
 Peew
+Perlu -
 PhantomJS\/
 PhantomJS Screenshoter
 Photon\/
@@ -593,6 +604,7 @@ RPT-HTTPClient
 RSSOwl
 safe-agent-scanner
 SalesIntelligent
+Saleslift
 SauceNAO
 SBIder
 scalaj-http
@@ -654,6 +666,7 @@ Snappy
 SniffRSS
 sniptracker
 Snoopy
+SnowHaze Search
 sogou web
 SortSite
 sovereign\.ai
@@ -747,6 +760,7 @@ W3C-mobileOK
 W3C_I18n-Checker
 W3C_Unicorn
 wangling
+Wappalyzer
 WatchMouse
 WbSrch\/
 web-capture\.net
@@ -757,6 +771,7 @@ WebCapture
 WebClient\/
 webcollage
 WebCookies
+WebCopier
 WebCorp
 WebDoc
 WebFetch
