@@ -3201,3 +3201,5 @@ Saleslift
 Perlu - HTML Analyzer and Relationship Builder 1.1
 Offline Explorer 1.*
 Mozilla/5.0 (compatible; Wappalyzer; https://www.wappalyzer.com)
+AngleSharp/0.9.9
+Email%20Extractor%20Lite/26 CFNetwork/720.3.13 Darwin/14.3.0 (x86_64)
