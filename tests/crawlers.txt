@@ -3203,3 +3203,6 @@ Offline Explorer 1.*
 Mozilla/5.0 (compatible; Wappalyzer; https://www.wappalyzer.com)
 AngleSharp/0.9.9
 Email%20Extractor%20Lite/26 CFNetwork/720.3.13 Darwin/14.3.0 (x86_64)
+HubSpot Page Screenshot Service
+NewRelicPinger/1.0 (543245)
+APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)
