@@ -254,6 +254,7 @@ GetURLInfo\/[0-9]
 Ghost Inspector
 GigablastOpenSource
 GIS-LABS
+github-camo
 github\.com\/
 Go [\d\.]* package http
 Go-http-client
@@ -561,6 +562,7 @@ postrank
 PowerPoint\/
 Priceonomics Analysis Engine
 PritTorrent\/[0-9]
+PrintFriendly\.com
 Prlog
 probethenet
 Project 25499
@@ -731,9 +733,11 @@ uclassify
 uCrawlr\/
 UdmSearch
 UniversalFeedParser
+Unshorten\.It\!\/[0-9]
 Untiny
 UnwindFetchor
 updated
+updown\.io daemon
 Upflow
 Uptimia
 URL Verifier
