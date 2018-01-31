@@ -54,12 +54,12 @@ To use this library with Symfony 2/3/4, check out the [CrawlerDetectBundle](http
 ### YII2 Extension
 To use this library with the YII2 framework, check out [yii2-crawler-detect](https://github.com/AlikDex/yii2-crawler-detect).
 
-_Parts of this class are based on the brilliant [MobileDetect](https://github.com/serbanghita/Mobile-Detect)_
-
-[![Analytics](https://ga-beacon.appspot.com/UA-72430465-1/Crawler-Detect/readme?pixel)](https://github.com/JayBizzle/Crawler-Detect)
-
 ### ES6 Library
 To use this library with NodeJS or any ES6 application based, check out [es6-crawler-detect](https://github.com/JefferyHus/es6-crawler-detect).
 
 ### .NET Library
 To use this library in a .net standard (including .net core) based project, check out [NetCrawlerDetect](https://github.com/gplumb/NetCrawlerDetect).
+
+_Parts of this class are based on the brilliant [MobileDetect](https://github.com/serbanghita/Mobile-Detect)_
+
+[![Analytics](https://ga-beacon.appspot.com/UA-72430465-1/Crawler-Detect/readme?pixel)](https://github.com/JayBizzle/Crawler-Detect)
