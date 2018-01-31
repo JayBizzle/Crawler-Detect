@@ -60,3 +60,6 @@ _Parts of this class are based on the brilliant [MobileDetect](https://github.co
 
 ### ES6 Library
 To use this library with NodeJS or any ES6 application based, check out [es6-crawler-detect](https://github.com/JefferyHus/es6-crawler-detect).
+
+### .NET Library
+To use this library in a .net standard (including .net core) based project, check out [NetCrawlerDetect](https://github.com/gplumb/NetCrawlerDetect).
