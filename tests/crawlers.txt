@@ -3206,3 +3206,13 @@ Email%20Extractor%20Lite/26 CFNetwork/720.3.13 Darwin/14.3.0 (x86_64)
 HubSpot Page Screenshot Service
 NewRelicPinger/1.0 (543245)
 APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)
+updown.io daemon 2.2
+updown.io daemon 2.3
+updown.io daemon 2.2
+updown.io daemon 2.3
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36 PrintFriendly.com
+Unshorten.It!/1.0 (https://unshorten.it/)
+github-camo (65c9ebe0)
+github-camo (abb93c82)
+github-camo (bacd3d5b)
+github-camo (df02412a)
