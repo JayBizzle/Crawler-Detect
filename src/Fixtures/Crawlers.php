@@ -404,7 +404,7 @@ class Crawlers extends AbstractProvider
         'Jobg8 URL Monitor',
         'jobo',
         'Jobrapido',
-        'Jobsearch1.5',
+        'Jobsearch1\.5',
         'JoinVision Generic',
         'JS-Kit',
         'Kaspersky Lab CFR link resolver',
