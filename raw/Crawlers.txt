@@ -335,6 +335,7 @@ hosterstats
 huaweisymantec
 HubPages.*crawlingpolicy
 HubSpot Connect
+HubSpot Content Strategy
 HubSpot Marketing Grader
 HubSpot Page Screenshot Service
 HyperZbozi.cz Feeder
@@ -383,6 +384,7 @@ JobFeed discovery
 Jobg8 URL Monitor
 jobo
 Jobrapido
+Jobsearch1\.5
 JoinVision Generic
 JS-Kit
 Kaspersky Lab CFR link resolver
@@ -493,6 +495,7 @@ nineconnections\.com
 NLNZ_IAHarvester
 Nmap Scripting Engine
 node-superagent
+node-urllib\/
 node\.io
 nominet\.org\.uk
 Norton-Safeweb
@@ -624,6 +627,7 @@ Seeker
 semanticdiscovery
 semanticjuice
 Semiocast HTTP client
+sentry\/
 SEO Browser
 Seo Servis
 seo-nastroj.cz
@@ -644,6 +648,7 @@ SilverReader
 Sideqik
 SimplePie
 SimplyFast
+Sitebulb\/
 SiteIndexed
 Site-Shot\/
 Site24x7
@@ -723,6 +728,7 @@ TrapitAgent
 trendspottr\.com
 truwoGPS
 TulipChain
+Twisted PageGetter
 tweetedtimes\.com
 Tweetminster
 Tweezler\/
