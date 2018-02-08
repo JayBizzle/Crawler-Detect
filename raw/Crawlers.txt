@@ -61,6 +61,7 @@ AngleSharp\/
 Ant\.com
 Anturis Agent
 AnyEvent-HTTP\/
+Apache Droid
 ApacheBench\/
 Apache-HttpAsyncClient\/
 Apache-HttpClient\/
@@ -109,6 +110,7 @@ Branch-Passthrough
 Brodie\/
 Browsershots
 BUbiNG
+Burf Search
 Butterfly\/
 BuzzSumo
 CAAM\/[0-9]
@@ -334,10 +336,7 @@ httrack
 hosterstats
 huaweisymantec
 HubPages.*crawlingpolicy
-HubSpot Connect
-HubSpot Content Strategy
-HubSpot Marketing Grader
-HubSpot Page Screenshot Service
+HubSpot 
 HyperZbozi.cz Feeder
 i2kconnect\/
 ichiro
@@ -637,6 +636,7 @@ SeoCheck
 SeopultContentAnalyzer
 Server Density Service Monitoring
 servernfo\.com
+SetCronJob\/
 Seznam screenshot-generator
 Shelob
 Shoppimon Analyzer
@@ -712,6 +712,7 @@ teoma
 terrainformatica\.com
 Test Certificate Info
 Tetrahedron\/[0-9]
+Thinklab
 The Drop Reaper
 The Expert HTML Source Viewer
 theinternetrules
