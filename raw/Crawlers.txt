@@ -41,6 +41,7 @@ adbeat
 AddThis
 ADmantX
 adressendeutschland
+adscanner\/
 Advanced Email Extractor v
 agentslug
 AHC
@@ -174,6 +175,7 @@ docoloc
 Dolphin http client\/
 DomainAppender
 Donuts Content Explorer
+dotMailer content retrieval
 dotSemantic
 downforeveryoneorjustme
 downnotifier\.com
@@ -301,6 +303,7 @@ GTmetrix
 GuzzleHttp
 gvfs\/
 HAA(A)?RTLAND http client
+hackney\/
 Hatena
 hawkReader
 HEADMasterSEO
@@ -451,6 +454,7 @@ Microsoft-WebDAV-MiniRedir
 Microsoft Data Access Internet Publishing Provider Protocol
 Microsoft Office 
 Microsoft Windows Network Diagnostics
+Miniature.io\/
 Mindjet
 Miniflux
 mixdata dot com
@@ -470,6 +474,7 @@ MovableType
 Mrcgiguy
 mShots
 MxToolbox\/
+MuckRack\/
 MVAClient
 nagios
 Najdi\.si\/
@@ -489,6 +494,7 @@ NewsBlur .*Finder
 NewsGator
 newsme
 newspaper\/
+Nexgate Ruby Client
 NG-Search
 nineconnections\.com
 NLNZ_IAHarvester
