@@ -3227,3 +3227,4 @@ HubSpot inbound link reporting check
 SetCronJob/1.0 (+http://www.setcronjob.com/)
 Burf Search Engine
 Apache Droid
+Mozilla/5.0 (compatible; adscanner/)

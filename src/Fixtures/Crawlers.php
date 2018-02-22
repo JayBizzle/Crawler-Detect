@@ -62,6 +62,7 @@ class Crawlers extends AbstractProvider
         'AddThis',
         'ADmantX',
         'adressendeutschland',
+        'adscanner\/',
         'Advanced Email Extractor v',
         'agentslug',
         'AHC',
