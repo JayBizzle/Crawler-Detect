@@ -3228,3 +3228,8 @@ SetCronJob/1.0 (+http://www.setcronjob.com/)
 Burf Search Engine
 Apache Droid
 Mozilla/5.0 (compatible; adscanner/)
+hackney/1.11.0
+Mozilla/5.0 (compatible; MuckRack/1.0; +http://muckrack.com)
+Mozilla/5.0 (compatible; dotMailer content retrieval service)
+Nexgate Ruby Client
+Miniature.io/2.0 (Linux; en-us)
