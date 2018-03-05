@@ -877,6 +877,7 @@ class Crawlers extends AbstractProvider
         'yoogliFetchAgent',
         'YottaaMonitor',
         'yourls\.org',
+        'Your-Website-Sucks\/[0-9]',
         'Zao',
         'Zemanta Aggregator',
         'Zend\\\\Http\\\\Client',
