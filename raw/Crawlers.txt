@@ -80,6 +80,7 @@ Astute
 asynchttp
 autocite
 Autonomy
+axios\/
 B-l-i-t-z-B-O-T
 ^b0t$
 Backlink-Ceck\.de
@@ -111,6 +112,7 @@ Branch-Passthrough
 Brodie\/
 Browsershots
 BUbiNG
+Buck\/
 Burf Search
 Butterfly\/
 BuzzSumo
@@ -407,6 +409,7 @@ kulturarw3
 KumKie
 L\.webis
 Larbin
+Lavf\/
 LayeredExtractor
 letsencrypt
 LibVLC
@@ -440,6 +443,7 @@ mabontland
 MagpieRSS
 Mail.Ru
 MailChimp
+makecontact\/
 Mandrill
 MapperCmd
 marketinggrader
@@ -566,6 +570,7 @@ Pompos
 Porkbun
 Port Monitor
 postano
+PostmanRuntime\/
 PostPost
 postrank
 PowerPoint\/
@@ -590,6 +595,7 @@ Python-urllib
 Qirina Hurdler
 QQDownload
 Qseero
+QrafterPro
 Qualidator.com SiteAnalyzer
 Quora Link Preview
 Qwantify
@@ -832,6 +838,7 @@ wpif
 wprecon\.com survey
 WPScan
 wscheck
+Wtrace
 WWW-Mechanize
 www\.monitor\.us
 XaxisSemanticsClassifier
