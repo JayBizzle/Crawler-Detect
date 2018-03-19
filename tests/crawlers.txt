@@ -3235,3 +3235,11 @@ Nexgate Ruby Client
 Miniature.io/2.0 (Linux; en-us)
 help@dataminr.com
 Mozilla/5.0 (compatible; Your-Website-Sucks/2.0; +http://www.Your-Website-Sucks.net/WWW.SOMEWEBSITE.COM)
+axios/0.17.1
+Wtrace
+PostmanRuntime/7.1.1
+hackney/1.11.0
+Lavf/57.25.100
+makecontact/1.0 (+https://makecontact.io)
+QrafterPro/4600 CFNetwork/889.9 Darwin/17.2.0
+Buck/2.2; (+https://app.hypefactors.com/media-monitoring/about.html)
