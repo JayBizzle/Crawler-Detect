@@ -210,6 +210,7 @@ ExactSearch
 ExaleadCloudview
 Excel\/
 Exif Viewer
+ExperianCrawlUK
 Exploratodo
 Express WebPictures
 ezooms
@@ -265,6 +266,7 @@ github-camo
 github\.com\/
 Go [\d\.]* package http
 Go-http-client
+Go http package
 gobyus
 gofetch
 GomezAgent
@@ -315,6 +317,7 @@ heritrix
 historious\/
 hledejLevne\.cz\/[0-9]
 Holmes
+HonesoSearchEngine\/
 HootSuite Image proxy
 Hootsuite-WebFeed\/[0-9]
 HostTracker
@@ -530,6 +533,7 @@ OpenVAS
 Optimizer
 Orbiter
 OrgProbe\/[0-9]
+orion-semantics
 Owler
 ow\.ly
 ownCloud News
