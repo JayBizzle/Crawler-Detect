@@ -9,10 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
+use PHPUnit\Framework\TestCase;
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
 use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
 
-class UserAgentTest extends PHPUnit_Framework_TestCase
+class UserAgentTest extends TestCase
 {
     protected $CrawlerDetect;
 
@@ -28,7 +29,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
-            $this->assertEquals($test, true, $line);
+            $this->assertTrue($test);
         }
     }
 
@@ -39,7 +40,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
-            $this->assertEquals($test, false, $line);
+            $this->assertFalse($test);
         }
     }
 
@@ -68,7 +69,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
     {
         $test = $this->CrawlerDetect->isCrawler('      ');
 
-        $this->assertEquals($test, false);
+        $this->assertFalse($test);
     }
 
     /** @test */
@@ -78,7 +79,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
         $cd = new CrawlerDetect($headers);
 
-        $this->assertEquals($cd->isCrawler(), true);
+        $this->assertTrue($cd->isCrawler());
     }
 
     /** @test */
@@ -86,7 +87,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
     {
         $cd = new CrawlerDetect(null, 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
 
-        $this->assertEquals($cd->isCrawler(), true);
+        $this->assertTrue($cd->isCrawler());
     }
 
     /** @test */
@@ -96,7 +97,7 @@ class UserAgentTest extends PHPUnit_Framework_TestCase
 
         $cd = new CrawlerDetect($headers);
 
-        $this->assertEquals($cd->isCrawler(), true);
+        $this->assertTrue($cd->isCrawler());
     }
 
     /** @test */
