@@ -3247,3 +3247,4 @@ Go http package
 HonesoSearchEngine/1.0
 orion-semantics.com 0.1
 ExperianCrawlUK (andrew dot swanton at phgroup dot com)
+Trendsmap Resolver/0.0.1
