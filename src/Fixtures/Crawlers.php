@@ -764,6 +764,7 @@ class Crawlers extends AbstractProvider
         'touche.com',
         'Traackr.com',
         'TrapitAgent',
+        'Trendsmap Resolver',
         'trendspottr\.com',
         'truwoGPS',
         'TulipChain',
