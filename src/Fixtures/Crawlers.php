@@ -515,6 +515,7 @@ class Crawlers extends AbstractProvider
         'Jorgee',
         'JS-Kit',
         'JustView',
+        'JuziBrowser',
         'Kaspersky Lab CFR link resolver',
         'KeepRight OpenStreetMap Checker',
         'Kelny\/',
