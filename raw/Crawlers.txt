@@ -79,10 +79,12 @@ APIs-Google
 AportWorm\/[0-9]
 AppBeat\/[0-9]
 AppEngine-Google
+AppStoreScraperZ
 Arachmo
 arachnode
 Arachnophilia
 aria2
+Arukereso
 asafaweb.com
 AskQuickly
 ASPSeek
@@ -130,7 +132,6 @@ Blogtrottr
 BlowFish
 Boardreader
 boitho\.com-dc
-Bolt
 BPImageWalker
 Braintree-Webhooks
 Branch Metrics API
@@ -188,6 +189,7 @@ CommaFeed
 Commons-HttpClient
 Comodo SSL Checker
 contactbigdatafr
+contentkingapp
 convera
 copyright sheriff
 CopyRightCheck
@@ -202,7 +204,6 @@ CSHttp
 curb
 Curious George
 curl
-Custo
 cuwhois\/[0-9]
 cybo\.com
 DareBoost
@@ -210,6 +211,7 @@ DatabaseDriverMysqli
 DataCha0s
 DataparkSearch
 dataprovider
+DataXu
 Daum(oa)?[ \/][0-9]
 Demon
 DeuSu
@@ -264,6 +266,7 @@ Embedly
 europarchive\.org
 evc-batch
 EventMachine HttpClient
+Everwall Link Expander
 Evidon
 Evrinid
 ExactSearch
@@ -307,6 +310,7 @@ FlashGet
 FlipboardBrowserProxy
 FlipboardProxy
 FlipboardRSS
+Flock\/
 fluffy
 Flunky
 flynxapp
@@ -940,6 +944,7 @@ Test Certificate Info
 Tetrahedron\/[0-9]
 The Drop Reaper
 The Expert HTML Source Viewer
+The Knowledge AI
 The\ Intraformant
 theinternetrules
 TheNomad
@@ -1076,6 +1081,7 @@ WeLikeLinks
 WEPA
 WeSEE
 wf84
+Wfuzz\/
 wget
 WhatsApp
 WhatsMyIP
