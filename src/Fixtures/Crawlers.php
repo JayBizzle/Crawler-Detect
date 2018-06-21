@@ -104,6 +104,7 @@ class Crawlers extends AbstractProvider
         'arachnode',
         'Arachnophilia',
         'aria2',
+        'Arukereso',
         'asafaweb.com',
         'AskQuickly',
         'ASPSeek',
