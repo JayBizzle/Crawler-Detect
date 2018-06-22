@@ -42,6 +42,7 @@ Accoona-AI-Agent
 acoon
 acrylicapps\.com\/pulp
 Acunetix
+AdAuth\/
 adbeat
 AddThis
 ADmantX
@@ -496,6 +497,7 @@ jobo
 Jobrapido
 Jobsearch1\.5
 JoinVision Generic
+JolokiaPwn
 Joomla
 Jorgee
 JS-Kit
@@ -970,6 +972,7 @@ Turnitin
 tweetedtimes\.com
 Tweetminster
 Tweezler\/
+twibble
 Twice
 Twikle
 Twingly
