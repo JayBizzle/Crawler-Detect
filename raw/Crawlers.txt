@@ -192,6 +192,7 @@ Comodo SSL Checker
 contactbigdatafr
 contentkingapp
 convera
+CookieReports\.com
 copyright sheriff
 CopyRightCheck
 Copyscape
@@ -350,6 +351,7 @@ gofetch
 GomezAgent
 gooblog
 Goodzer\/[0-9]
+GoogleCloudMonitoring
 Google favicon
 Google Keyword Suggestion
 Google Keyword Tool
@@ -516,6 +518,7 @@ Kml-Google
 knows\.is
 KOCMOHABT
 kouio
+kube-probe
 kulturarw3
 KumKie
 L\.webis
@@ -1146,5 +1149,6 @@ Zermelo
 Zeus
 zgrab
 ZnajdzFoto
+Zombie\.js
 ZyBorg
 [a-z0-9\-_]*(bot|crawler|archiver|transcoder|spider|uptime|validator|fetcher)
