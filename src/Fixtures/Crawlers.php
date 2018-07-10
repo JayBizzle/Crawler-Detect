@@ -1170,6 +1170,7 @@ class Crawlers extends AbstractProvider
         'Zeus',
         'zgrab',
         'ZnajdzFoto',
+        'Zombie\.js',
         'ZyBorg',
         '[a-z0-9\-_]*(bot|crawler|archiver|transcoder|spider|uptime|validator|fetcher)',
     );
