@@ -41,6 +41,7 @@ class Crawlers extends AbstractProvider
         '^Java\/',
         '^Jeode\/',
         '^Jetty\/',
+        '^Mail\/',
         '^Mget',
         '^Microsoft URL Control',
         '^NG\/[0-9\.]',
