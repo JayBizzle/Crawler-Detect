@@ -20,6 +20,7 @@
 ^Java\/
 ^Jeode\/
 ^Jetty\/
+^Mail\/
 ^Mget
 ^Microsoft URL Control
 ^NG\/[0-9\.]
@@ -589,6 +590,7 @@ MetaURI
 MFC_Tear_Sample
 Microsearch
 Microsoft Office 
+Microsoft Outlook
 Microsoft Windows Network Diagnostics
 Microsoft-WebDAV-MiniRedir
 Microsoft\ Data\ Access
@@ -689,6 +691,7 @@ Optimizer
 Orbiter
 OrgProbe\/[0-9]
 orion-semantics
+Outlook-Express
 ow\.ly
 Owler
 ownCloud News
