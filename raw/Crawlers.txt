@@ -904,6 +904,7 @@ SpaceBison
 Spammen
 Spanner
 spaziodati
+SPDYCheck
 Specificfeeds
 speedy
 SPEng
