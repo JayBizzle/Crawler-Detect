@@ -61,6 +61,11 @@ class Exclusions extends AbstractProvider
         'Opera',
         ' \.NET[\d\.]*',
         'cubot',
+        '; M bot',
+        '; B bot',
+        '; IDbot',
+        '; ID bot',
+        '; POWER BOT',
         ';', // Remove the following characters ;
     );
 }
