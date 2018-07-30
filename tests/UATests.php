@@ -29,7 +29,7 @@ class UserAgentTest extends TestCase
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
-            $this->assertTrue($test);
+            $this->assertTrue($test, $line);
         }
     }
 
@@ -40,7 +40,7 @@ class UserAgentTest extends TestCase
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
-            $this->assertFalse($test);
+            $this->assertFalse($test, $line);
         }
     }
 
