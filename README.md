@@ -63,6 +63,10 @@ To use this library in a .net standard (including .net core) based project, chec
 ### Nette Extension
 To use this library with the Nette framework, checkout [NetteCrawlerDetect](https://github.com/JanGalek/Crawler-Detect).
 
+### Ruby Gem
+
+To use this library with Ruby on Rails or any Ruby-based application, check out [crawler_detect](https://github.com/loadkpi/crawler_detect) gem.
+
 _Parts of this class are based on the brilliant [MobileDetect](https://github.com/serbanghita/Mobile-Detect)_
 
 [![Analytics](https://ga-beacon.appspot.com/UA-72430465-1/Crawler-Detect/readme?pixel)](https://github.com/JayBizzle/Crawler-Detect)
