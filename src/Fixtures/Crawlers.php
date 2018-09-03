@@ -627,6 +627,7 @@ class Crawlers extends AbstractProvider
         'Mojeek',
         'Mojolicious \(Perl\)',
         'monitis',
+        'Monit',
         'Monitority\/[0-9]',
         'montastic',
         'MonTools',
