@@ -665,7 +665,7 @@ class Crawlers extends AbstractProvider
         'NetZIP',
         'Neustar WPM',
         'NeutrinoAPI',
-        'NewRelicPinger\/1.0 \(\d+\)',
+        'NewRelicPinger',
         'NewsBlur .*Finder',
         'NewsGator',
         'newsme',
