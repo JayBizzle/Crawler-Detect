@@ -3296,3 +3296,4 @@ SPDYCheck SPDY Protocol Tester, see http://spdycheck.org/about.html
 SpamExperts/128741 (Virus Scan)
 Unshorten.It! /1.0 (unshorten.it)
 Monit/5.25.2
+Mozilla/5.0 (compatible; PingAdmin.Ru/1.1; +http://pingadmin.ru/)

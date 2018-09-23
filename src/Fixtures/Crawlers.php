@@ -755,6 +755,7 @@ class Crawlers extends AbstractProvider
         'Pimonster',
         'ping\.blo\.gs\/',
         'Pingability',
+        'PingAdmin\.Ru',
         'Pingdom',
         'Pingoscope',
         'PingSpot',
