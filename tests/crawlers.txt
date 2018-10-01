@@ -3297,3 +3297,5 @@ SpamExperts/128741 (Virus Scan)
 Unshorten.It! /1.0 (unshorten.it)
 Monit/5.25.2
 Mozilla/5.0 (compatible; PingAdmin.Ru/1.1; +http://pingadmin.ru/)
+Mozilla/5.0 (compatible; localsearch-web/2.0; +http://www.localsearch.ch/en/legal-notice)
+Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
