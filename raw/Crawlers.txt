@@ -212,6 +212,7 @@ cybo\.com
 DareBoost
 DatabaseDriverMysqli
 DataCha0s
+Datanyze
 DataparkSearch
 dataprovider
 DataXu
@@ -556,6 +557,7 @@ Lipperhey
 Litemage_walker
 livedoor ScreenShot
 LoadImpactRload
+localsearch-web
 LongURL API
 looksystems\.net
 ltx71
@@ -734,6 +736,7 @@ PictureFinder
 Pimonster
 ping\.blo\.gs\/
 Pingability
+PingAdmin\.Ru
 Pingdom
 Pingoscope
 PingSpot
