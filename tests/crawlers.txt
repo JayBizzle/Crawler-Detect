@@ -3299,3 +3299,31 @@ Monit/5.25.2
 Mozilla/5.0 (compatible; PingAdmin.Ru/1.1; +http://pingadmin.ru/)
 Mozilla/5.0 (compatible; localsearch-web/2.0; +http://www.localsearch.ch/en/legal-notice)
 Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+annotate_google; http://ponderer.org/download/annotate_google.user.js
+Apache OpenOffice/4.1.2
+Bidtellect/0.0.346.0
+BlockNote.Net
+Bloglines/3.1 (http://www.bloglines.com)
+DemandbasePublisherAnalyzer/0.1 (http://www.demandbase.com; info@demandbase.com)
+endo/1.0 (Mac OS X; ppc i386; http://kula.jp/endo)
+Feedable/0.1 (compatible; MSIE 6.0; Windows NT 5.1)
+Feedreader 3.xx (Powered by Newsbrain)
+FeedshowOnline (http://www.feedshow.com)
+FeedZcollector v1.x (Platinum) http://www.feeds4all.com/feedzcollector
+ImageVisu/v4.x.x
+InetURL:/1.0
+Mixmax-LinkPreview 1.0 (+https://sdk.mixmax.com)
+Mozilla/5.0 (compatible; DNS SSL/TLS HTTP and HTML scanner/0.1; +https://www.htmlyse.com/)
+Mozilla/5.0 (compatible; DNS SSL/TLS HTTP HTML Website Security Scanner/0.2 beta; +https://www.htmlyse.com/)
+Mozilla/5.0 (compatible; Scrutiny/8; +https://peacockmedia.software/mac/scrutiny/
+NetNewsWire/2.x (Mac OS X; http://ranchero.com/netnewswire/)
+og-scraper/1.0.0
+Plagger/0.x.xx (http://plagger.org/)
+raynette_httprequest/1.0
+RssReader/1.0.xx.x (http://www.rssreader.com) Microsoft Windows NT 5.1.2600.0
+ScrapeBox Page Scanner
+SearchExpress
+Snarfer/0.x.x (http://www.snarfware.com/)
+unirest-java/1.3.11
+WinPodder (http://winpodder.com)
+WordupinfoSearch/1.0
