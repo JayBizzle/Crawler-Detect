@@ -3327,3 +3327,54 @@ Snarfer/0.x.x (http://www.snarfware.com/)
 unirest-java/1.3.11
 WinPodder (http://winpodder.com)
 WordupinfoSearch/1.0
+13TABS/13TABS-1.14 (https://www.13tabs.com/aboutUs.jsp)
+777Siters/1.05 (+http://777s.ru/siters/)
+7Siters/1.07 (+http://7ooo.ru/siters/)
+Aranea Web Corpora Project (Sk Crawl) (+http://unesco.uniba.sk/guest)
+censys.io internet census
+Chromaxa/1.0 Sonar/1.0
+compatible; Licorne Uri Checker 1.0; +http://www.jednorozec.cz)
+CronDroid v0.80a http://www.crondroid.com
+Cronjob.de
+Cronless/2.0 (+http://cronless.com)
+EasyCron/1.0 (https://www.easycron.com/)
+EDS EXIF/1.0 (https://www.exif-search.com)
+EDS EXIF/1.0 (https:/exif-search.com)
+faviconkit/1.0 (https://faviconkit.com)
+HomePage Rss Reader 1.0
+Hong Kong Education City/1.0 (built with Hong Kong Education City 1.10; http://www.hkedcity.net/; search@hkedcity.net)
+https://getroot.sh survey
+isUp.li Website Monitoring 2
+JAHHO check
+MB-SitemapGenerator
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; http://basicstate.com/)
+Mozilla/5.0 (compatible; Aprc/2.9.15-24; +https://aprc.it/) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3528.4 Safari/537.36
+Mozilla/5.0 (compatible; Google AppsViewer; http://drive.google.com)
+Mozilla/5.0 (compatible; GoogleSites)
+Mozilla/5.0 (compatible; iThemes Sync/1.0; +http://ithemes.com/sync)
+Mozilla/5.0 (compatible; iThemes Sync/1.0; ITX WP-Admin API/1.0; +http://ithemes.com/sync)
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; CHKD 1.2; Akamai_Site_Analyzer)
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; WAC-OFU)
+Mozilla/5.0 (compatible; WebDataStats/1.0 ; +https://webdatastats.com/policy.html)
+Mozilla/5.0 (Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 Nodemeter 0.7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko/20100101 Firefox/55.0 BrandVerity/1.0 (http://www.brandverity.com/why-is-brandverity-visiting-me)
+Mozilla/5.0 (Windows NT 6.1; rv:12.0; StumbleUpon; noc@stumbleupon.com) Gecko/20100101 Firefox/12.0
+Mozilla/5.0 (Windows NT 6.1; rv:40.0; StumbleUpon; noc@stumbleupon.com) Gecko/20100101 Firefox/40.1
+Mozilla/5.0 (Windows NT 6.1; stumbleupon.com) Chrome/58.0.3029.110 Safari/537.36
+Mozilla/5.0 AppleWebKit (compatible; s4a-probe/1.0; +https://www.seo4ajax.com/webscraper)
+Mozilla/5.0 AppleWebKit (compatible; s4a/1.0; +https://www.seo4ajax.com/webscraper)
+Mozilla/5.0 Gecko/20100101 Firefox/51.0.1 SnapSearch
+NodePing
+PocketImageCache/1.0
+queuedriver/1.0 (eng@linqia.com)
+Re-re Studio (+http://re-re.ru/)
+Tarmot Gezgin/1.0 (compatible; TarmotGezgin/1.1; +http://www.tarmot.com/gezgin)
+WDT.io
+webeval.researchready.com - support@imagineeasy.com for info.
+WWW::Document/0.02
+Y!J-BRW/1.0 (https://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716)
+YoYs.net
+YP.PL
+Mozilla/5.0 (Windows NT 6.1; rv:40.0; StumbleUpon; noc@stumbleupon.com) Gecko/20100101 Firefox/40.1
+Mozilla/5.0 (Windows NT 6.1; StumbleUpon; noc@stumbleupon.com) Chrome/58.0.3029.110 Safari/537.36
+Mozilla/5.0 (Windows NT 6.1; stumbleupon.com) Chrome/58.0.3029.110 Safari/537.36
