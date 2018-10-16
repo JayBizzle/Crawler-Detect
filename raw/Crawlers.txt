@@ -212,6 +212,7 @@ Cosmos4j\.feedback
 Covario-IDS
 Crescent
 Crowsnest
+Criteo
 CSHttp
 curb
 Curious George
@@ -418,6 +419,7 @@ hackney\/
 Hatena
 Havij
 hawkReader
+HeadlessChrome
 HEADMasterSEO
 HeartRails_Capture
 help@dataminr\.com
@@ -1015,6 +1017,7 @@ Toata
 topster
 touche.com
 Traackr.com
+tracemyfile
 TrapitAgent
 Trendiction
 Trendsmap Resolver

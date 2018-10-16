@@ -3379,3 +3379,5 @@ Mozilla/5.0 (Windows NT 6.1; rv:40.0; StumbleUpon; noc@stumbleupon.com) Gecko/20
 Mozilla/5.0 (Windows NT 6.1; StumbleUpon; noc@stumbleupon.com) Chrome/58.0.3029.110 Safari/537.36
 Mozilla/5.0 (Windows NT 6.1; stumbleupon.com) Chrome/58.0.3029.110 Safari/537.36
 Mozilla/5.0 (compatible; tracemyfile/1.0)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/66.0.3336.0 Safari/537.36
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 Pix/1.0 (Criteo; x64-criteo)
