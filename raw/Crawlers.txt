@@ -222,6 +222,7 @@ cybo\.com
 DareBoost
 DatabaseDriverMysqli
 DataCha0s
+Datafeedwatch
 Datanyze
 DataparkSearch
 dataprovider
@@ -236,6 +237,7 @@ Digg
 Digincore
 DigitalPebble
 Dirbuster
+Disqus\/
 Dispatch\/
 DittoSpyder
 dlvr
@@ -273,7 +275,7 @@ ElectricMonk
 elefent
 EMail Exractor
 EMail\ Wolf
-Email%20Extractor%20Lite
+Email%20Extractor
 EmailWolf
 Embed PHP Library
 Embedly
@@ -388,6 +390,7 @@ Google-SearchByImage
 Google-Site-Verification
 Google-Structured-Data-Testing-Tool
 Google-Youtube-Links
+google-xrawler
 GoogleCloudMonitoring
 GoogleDocs
 GoogleHC\/
@@ -439,6 +442,7 @@ ht:\/\/check
 htdig
 HTMLparser
 htmlyse\.com
+HTTP Banner Detection
 HTTP_Compression_Test
 http_request2
 http_requester
@@ -449,6 +453,7 @@ http-request\/
 HTTP-Tiny
 HTTP::Lite
 http\.rb\/
+http_get
 HttpComponents
 httphr
 HTTPMon
@@ -611,6 +616,7 @@ Mata\ Hari
 Mediapartners-Google
 mediawords
 MegaIndex\.ru
+MeltwaterNews
 Melvil Rawi\/
 MergeFlow-PageReader
 Metaspinner
@@ -860,6 +866,7 @@ scooter
 ScoutJet
 ScoutURLMonitor
 ScrapeBox Page Scanner
+SimpleScraper
 Scrapy
 Screaming
 ScreenShotService\/[0-9]
@@ -1010,6 +1017,7 @@ theoldreader\.com
 Thinklab
 Thumbshots
 ThumbSniper
+timewe\.net
 TinEye
 Tiny Tiny RSS
 TLSProbe\/
@@ -1200,6 +1208,7 @@ Your-Website-Sucks\/[0-9]
 yourls\.org
 YoYs\.net
 YP\.PL
+Zabbix
 Zade
 Zao
 Zauba

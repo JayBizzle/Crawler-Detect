@@ -3381,3 +3381,14 @@ Mozilla/5.0 (Windows NT 6.1; stumbleupon.com) Chrome/58.0.3029.110 Safari/537.36
 Mozilla/5.0 (compatible; tracemyfile/1.0)
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/66.0.3336.0 Safari/537.36
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 Pix/1.0 (Criteo; x64-criteo)
+CDR/1.7.1 Simulator/0.7(+http://timewe.net) Profile/MIDP-1.0 Configuration/CLDC-1.0
+Email%20Extractor/1 CFNetwork/760.6.3 Darwin/15.6.0 (x86_64)
+Email%20Extractor/29 CFNetwork/897.15 Darwin/17.5.0 (x86_64)
+HTTP Banner Detection (https://security.ipip.net)
+HTTP Banner Detection(security.ipip.net)
+Mozilla/5.0 (compatible; SimpleScraper)
+http_get
+MeltwaterNews www.meltwater.com
+Disqus/1.0
+Datafeedwatch/2.1.x
+Zabbix
