@@ -273,7 +273,7 @@ ElectricMonk
 elefent
 EMail Exractor
 EMail\ Wolf
-Email%20Extractor%20Lite
+Email%20Extractor
 EmailWolf
 Embed PHP Library
 Embedly
@@ -439,6 +439,7 @@ ht:\/\/check
 htdig
 HTMLparser
 htmlyse\.com
+HTTP Banner Detection
 HTTP_Compression_Test
 http_request2
 http_requester
@@ -860,6 +861,7 @@ scooter
 ScoutJet
 ScoutURLMonitor
 ScrapeBox Page Scanner
+SimpleScraper
 Scrapy
 Screaming
 ScreenShotService\/[0-9]
@@ -1010,6 +1012,7 @@ theoldreader\.com
 Thinklab
 Thumbshots
 ThumbSniper
+timewe\.net
 TinEye
 Tiny Tiny RSS
 TLSProbe\/
