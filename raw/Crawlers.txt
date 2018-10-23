@@ -222,6 +222,7 @@ cybo\.com
 DareBoost
 DatabaseDriverMysqli
 DataCha0s
+Datafeedwatch
 Datanyze
 DataparkSearch
 dataprovider
@@ -236,6 +237,7 @@ Digg
 Digincore
 DigitalPebble
 Dirbuster
+Disqus\/
 Dispatch\/
 DittoSpyder
 dlvr
@@ -388,6 +390,7 @@ Google-SearchByImage
 Google-Site-Verification
 Google-Structured-Data-Testing-Tool
 Google-Youtube-Links
+google-xrawler
 GoogleCloudMonitoring
 GoogleDocs
 GoogleHC\/
@@ -450,6 +453,7 @@ http-request\/
 HTTP-Tiny
 HTTP::Lite
 http\.rb\/
+http_get
 HttpComponents
 httphr
 HTTPMon
@@ -612,6 +616,7 @@ Mata\ Hari
 Mediapartners-Google
 mediawords
 MegaIndex\.ru
+MeltwaterNews
 Melvil Rawi\/
 MergeFlow-PageReader
 Metaspinner
@@ -1203,6 +1208,7 @@ Your-Website-Sucks\/[0-9]
 yourls\.org
 YoYs\.net
 YP\.PL
+Zabbix
 Zade
 Zao
 Zauba

@@ -3387,3 +3387,8 @@ Email%20Extractor/29 CFNetwork/897.15 Darwin/17.5.0 (x86_64)
 HTTP Banner Detection (https://security.ipip.net)
 HTTP Banner Detection(security.ipip.net)
 Mozilla/5.0 (compatible; SimpleScraper)
+http_get
+MeltwaterNews www.meltwater.com
+Disqus/1.0
+Datafeedwatch/2.1.x
+Zabbix
