@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-//namespace Jaybizzle\CrawlerDetect\Fixtures;
+namespace Jaybizzle\CrawlerDetect\Fixtures;
 
 class Crawlers extends AbstractProvider
 {
