@@ -3392,3 +3392,4 @@ MeltwaterNews www.meltwater.com
 Disqus/1.0
 Datafeedwatch/2.1.x
 Zabbix
+Mozilla/5.0 (compatible; Google Desktop/5.9.1005.12335; http://desktop.google.com/)

@@ -94,6 +94,7 @@ aria2
 Arukereso
 asafaweb.com
 AskQuickly
+Ask Jeeves
 ASPSeek
 Asterias
 Astute
@@ -337,6 +338,7 @@ Flunky
 flynxapp
 forensiq
 FoundSeoTool\/[0-9]
+http:\/\/www.neomo.de\/
 free thumbnails
 Freeuploader
 FreeWebMonitoring SiteChecker
@@ -372,6 +374,7 @@ GomezAgent
 gooblog
 Goodzer\/[0-9]
 Google AppsViewer
+Google Desktop
 Google favicon
 Google Keyword Suggestion
 Google Keyword Tool
@@ -893,6 +896,7 @@ SeoCheck
 SEOkicks
 Seomoz
 SEOprofiler
+SEOsearch\/
 SeopultContentAnalyzer
 seoscanners
 SEOstats
