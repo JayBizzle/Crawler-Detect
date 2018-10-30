@@ -399,6 +399,7 @@ GoogleDocs
 GoogleHC\/
 GoogleProducer
 GoogleSites
+Google-Transparency-Report
 Gookey
 GoScraper
 GoSpotCheck
@@ -460,6 +461,7 @@ http_get
 HttpComponents
 httphr
 HTTPMon
+httpRequest
 httpscheck
 httpssites_power
 httpunit
@@ -757,7 +759,6 @@ Pavuk
 PayPal IPN
 pcBrowser
 Pcore-HTTP
-PEAR HTTPRequest
 Pearltrees
 PECL::HTTP
 peerindex
@@ -831,7 +832,6 @@ Radian6
 RankActive
 RankFlex
 RankSonicSiteAuditor
-raynette_httprequest
 Re-re Studio
 Readability
 RealDownload
@@ -1165,7 +1165,6 @@ Whibse
 WhoRunsCoinHive
 Whynder Magnet
 Windows-RSS-Platform
-WinHttpRequest
 WinPodder
 wkhtmlto
 wmtips
