@@ -1053,7 +1053,7 @@ class Crawlers extends AbstractProvider
         'tracemyfile',
         'TrapitAgent',
         'Trendiction',
-        'Trendsmap Resolver',
+        'Trendsmap',
         'trendspottr\.com',
         'truwoGPS',
         'TulipChain',
