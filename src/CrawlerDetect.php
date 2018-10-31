@@ -86,7 +86,7 @@ class CrawlerDetect
         $this->compiledExclusions = $this->compileRegex($this->exclusions->getAll());
 
         $this->setHttpHeaders($headers);
-        $this->userAgent = $this->setUserAgent($userAgent);
+        $this->setUserAgent($userAgent);
     }
 
     /**
