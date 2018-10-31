@@ -150,7 +150,7 @@ class CrawlerDetect
             }
         }
 
-        return $userAgent;
+        return $this->userAgent = $userAgent;
     }
 
     /**
