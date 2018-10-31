@@ -1054,6 +1054,7 @@ class Crawlers extends AbstractProvider
         'TrapitAgent',
         'Trendiction',
         'Trendsmap Resolver',
+        'TrendsmapResolver',
         'trendspottr\.com',
         'truwoGPS',
         'TulipChain',
