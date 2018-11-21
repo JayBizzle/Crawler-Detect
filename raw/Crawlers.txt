@@ -165,6 +165,7 @@ BuzzSumo
 CAAM\/[0-9]
 CakePHP
 Calculon
+Canary%20Mail
 CapsuleChecker
 CaretNail
 catexplorador
@@ -220,6 +221,7 @@ Curious George
 curl
 cuwhois\/[0-9]
 cybo\.com
+DAP\/NetHTTP
 DareBoost
 DatabaseDriverMysqli
 DataCha0s
@@ -278,6 +280,7 @@ EMail Exractor
 EMail\ Wolf
 Email%20Extractor
 EmailWolf
+Embarcadero
 Embed PHP Library
 Embedly
 endo\/
@@ -351,6 +354,7 @@ geek-tools
 Genderanalyzer
 Genieo
 GentleSource
+GetCode
 Getintent
 GetLinkInfo
 getprismatic\.com
@@ -412,6 +416,8 @@ GrabNet
 Grafula
 Grammarly
 GrapeFX
+Gregarius
+GRequests
 grokkit
 grouphigh
 grub-client
@@ -423,6 +429,7 @@ gvfs\/
 HAA(A)?RTLAND http client
 Haansoft
 hackney\/
+Hadi Agent
 Hatena
 Havij
 hawkReader

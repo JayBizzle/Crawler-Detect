@@ -3396,3 +3396,10 @@ Mozilla/5.0 (compatible; Google Desktop/5.9.1005.12335; http://desktop.google.co
 httpRequest
 Google-Transparency-Report
 Mozilla/5.0 (compatible; TrendsmapResolver/0.1)
+Embarcadero URI Client/1.0
+GetCode
+Gregarius/0.5.2 ( http://devlog.gregarius.net/docs/ua)
+GRequests/0.10
+DAP/NetHTTP
+Hadi Agent
+Canary%20Mail/397 CFNetwork/893.13.1 Darwin/17.4.0 (x86_64)
