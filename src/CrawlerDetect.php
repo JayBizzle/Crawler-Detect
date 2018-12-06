@@ -162,15 +162,17 @@ class CrawlerDetect
      */
     public function isCrawler($userAgent = null)
     {
-        $agent = $userAgent ?: $this->userAgent;
+        $agent = trim(preg_replace(
+            "/{$this->compiledExclusions}/i",
+            '',
+            $userAgent ?: $this->userAgent
+        ));
 
-        $agent = preg_replace('/'.$this->compiledExclusions.'/i', '', $agent);
-
-        if (strlen(trim($agent)) == 0) {
+        if ($agent == '') {
             return false;
         }
 
-        $result = preg_match('/'.$this->compiledRegex.'/i', trim($agent), $matches);
+        $result = preg_match("/{$this->compiledRegex}/i", $agent, $matches);
 
         if ($matches) {
             $this->matches = $matches;
