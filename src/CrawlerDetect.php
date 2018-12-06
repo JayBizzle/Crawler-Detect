@@ -145,8 +145,7 @@ class CrawlerDetect
         if (is_null($userAgent)) {
             foreach (array_intersect_key($this->getUaHttpHeaders(), $this->httpHeaders) as $altHeader) {
                 // if (isset($this->httpHeaders[$altHeader])) {
-                    $userAgent .= $this->httpHeaders[$altHeader].' ';
-
+                $userAgent .= $this->httpHeaders[$altHeader].' ';
             }
         }
 
