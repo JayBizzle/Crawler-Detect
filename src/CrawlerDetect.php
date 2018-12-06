@@ -143,10 +143,10 @@ class CrawlerDetect
     public function setUserAgent($userAgent)
     {
         if (is_null($userAgent)) {
-            foreach ($this->getUaHttpHeaders() as $altHeader) {
-                if (isset($this->httpHeaders[$altHeader])) {
+            foreach (array_intersect_key($this->getUaHttpHeaders(), $this->httpHeaders) as $altHeader) {
+                // if (isset($this->httpHeaders[$altHeader])) {
                     $userAgent .= $this->httpHeaders[$altHeader].' ';
-                }
+
             }
         }
 
