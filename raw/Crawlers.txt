@@ -866,6 +866,7 @@ RssReader\/
 safe-agent-scanner
 SalesIntelligent
 Saleslift
+Sendsay\.Ru
 SauceNAO
 SBIder
 scalaj-http
