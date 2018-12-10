@@ -1253,5 +1253,6 @@ class Crawlers extends AbstractProvider
         'Zombie\.js',
         'ZyBorg',
         '[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron)',
+        'Sendsay.Ru'
     );
 }

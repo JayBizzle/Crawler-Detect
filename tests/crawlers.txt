@@ -3403,3 +3403,4 @@ GRequests/0.10
 DAP/NetHTTP
 Hadi Agent
 Canary%20Mail/397 CFNetwork/893.13.1 Darwin/17.4.0 (x86_64)
+Sendsay.Ru/1.0; https://Sendsay.Ru/; ask@sendsay.ru
