@@ -887,6 +887,7 @@ class Crawlers extends AbstractProvider
         'safe-agent-scanner',
         'SalesIntelligent',
         'Saleslift',
+        'Sendsay.Ru',
         'SauceNAO',
         'SBIder',
         'scalaj-http',
@@ -1253,6 +1254,5 @@ class Crawlers extends AbstractProvider
         'Zombie\.js',
         'ZyBorg',
         '[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron)',
-        'Sendsay.Ru',
     );
 }
