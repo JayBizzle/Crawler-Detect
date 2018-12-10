@@ -887,6 +887,7 @@ class Crawlers extends AbstractProvider
         'safe-agent-scanner',
         'SalesIntelligent',
         'Saleslift',
+        'Sendsay.Ru',
         'SauceNAO',
         'SBIder',
         'scalaj-http',
