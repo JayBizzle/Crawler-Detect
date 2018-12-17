@@ -127,6 +127,7 @@ class Crawlers extends AbstractProvider
         'B-l-i-t-z-B-O-T',
         'Backlink-Ceck',
         'backlink-check',
+        'BacklinkHttpStatus',
         'BackStreet',
         'BackWeb',
         'Bad-Neighborhood',
@@ -1064,6 +1065,7 @@ class Crawlers extends AbstractProvider
         'Trendsmap',
         'trendspottr\.com',
         'truwoGPS',
+        'TryJsoup',
         'TulipChain',
         'Turingos',
         'Turnitin',
@@ -1252,6 +1254,7 @@ class Crawlers extends AbstractProvider
         'zgrab',
         'ZnajdzFoto',
         'Zombie\.js',
+        'Zoom\.Mac',
         'ZyBorg',
         '[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron)',
     );
