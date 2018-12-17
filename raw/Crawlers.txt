@@ -92,7 +92,7 @@ arachnode
 Arachnophilia
 aria2
 Arukereso
-asafaweb.com
+asafaweb\.com
 AskQuickly
 Ask Jeeves
 ASPSeek
@@ -106,6 +106,7 @@ axios\/
 B-l-i-t-z-B-O-T
 Backlink-Ceck
 backlink-check
+BacklinkHttpStatus
 BackStreet
 BackWeb
 Bad-Neighborhood
@@ -477,7 +478,7 @@ httrack
 huaweisymantec
 HubSpot 
 Humanlinks
-HyperZbozi.cz Feeder
+HyperZbozi\.cz Feeder
 i2kconnect\/
 Iblog
 ichiro
@@ -613,7 +614,7 @@ LYT\.SR
 mabontland
 Mag-Net
 MagpieRSS
-Mail.Ru
+Mail\.Ru
 MailChimp
 Majestic12
 makecontact\/
@@ -643,7 +644,7 @@ Microsoft\ Data\ Access
 MIDown\ tool
 MIIxpc
 Mindjet
-Miniature.io\/
+Miniature\.io\/
 Miniflux
 Mister\ PiX
 mixdata dot com
@@ -812,7 +813,7 @@ PritTorrent\/[0-9]
 Prlog
 probethenet
 Project 25499
-Promotion_Tools_www.searchenginepromotionhelp.com
+Promotion_Tools_www\.searchenginepromotionhelp\.com
 prospectb2b
 Protopage
 ProWebWalker
@@ -830,7 +831,7 @@ Qirina Hurdler
 QQDownload
 QrafterPro
 Qseero
-Qualidator.com SiteAnalyzer
+Qualidator\.com SiteAnalyzer
 QueryN\ Metasearch
 queuedriver
 Quora Link Preview
@@ -896,7 +897,7 @@ Semrush
 sentry\/
 SEO Browser
 Seo Servis
-seo-nastroj.cz
+seo-nastroj\.cz
 seo4ajax
 Seobility
 SEOCentro
@@ -988,7 +989,7 @@ Statastico\/
 StatusCake
 Steeler
 Stratagems Kumo
-Stroke.cz
+Stroke\.cz
 StudioFACA
 StumbleUpon
 suchen
@@ -1035,14 +1036,15 @@ Tiny Tiny RSS
 TLSProbe\/
 Toata
 topster
-touche.com
-Traackr.com
+touche\.com
+Traackr\.com
 tracemyfile
 TrapitAgent
 Trendiction
 Trendsmap
 trendspottr\.com
 truwoGPS
+TryJsoup
 TulipChain
 Turingos
 Turnitin
@@ -1069,7 +1071,7 @@ Upflow
 Uptimia
 URL Verifier
 URLChecker
-URLitor.com
+URLitor\.com
 urlresolver
 Urlstat
 UrlTrends Ranking Updater
@@ -1231,5 +1233,6 @@ Zeus
 zgrab
 ZnajdzFoto
 Zombie\.js
+Zoom\.Mac
 ZyBorg
 [a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron)
