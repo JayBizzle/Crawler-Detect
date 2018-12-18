@@ -19,6 +19,7 @@ abstract class AbstractProvider
      * @var array
      */
     protected $data;
+
     /**
      * Return the data set.
      * 
