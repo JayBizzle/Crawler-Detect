@@ -3407,3 +3407,7 @@ Sendsay.Ru/1.0; https://Sendsay.Ru/; ask@sendsay.ru
 Mozilla/5.0 (Zoom.Mac 10.8.5 x86)
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 TryJsoup/1.0 (+http://try.jsoup.org/)
 Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0 ; BacklinkHttpStatus)
+SilverReader/1.0; http://silverreader.com
+ExtractorPro
+WebsiteExtractor
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.202 Safari/535.1 google_partner_monitoring FWSzVTDDBz14547302713138T

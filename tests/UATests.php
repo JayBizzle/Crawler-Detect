@@ -51,7 +51,7 @@ class UserAgentTest extends TestCase
 
         $matches = $this->CrawlerDetect->getMatches();
 
-        $this->assertEquals($this->CrawlerDetect->getMatches(), 'Yahoo Ad monitoring', $matches);
+        $this->assertEquals($this->CrawlerDetect->getMatches(), 'monitoring', $matches);
     }
 
     /** @test */
