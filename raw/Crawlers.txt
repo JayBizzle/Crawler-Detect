@@ -197,6 +197,7 @@ cognitiveseo
 colly -
 CommaFeed
 Commons-HttpClient
+commonscan
 contactbigdatafr
 contentkingapp
 convera
@@ -696,6 +697,7 @@ nuhk
 nutch
 Nuzzel
 nWormFeedFinder
+nyawc\/
 Nymesis
 NYU
 Ocelli\/
@@ -718,6 +720,7 @@ Orbiter
 OrgProbe\/
 orion-semantics
 Outlook-Express
+Outlook-iOS
 ow\.ly
 Owler
 ownCloud News
@@ -770,6 +773,7 @@ PocketImageCache
 PocketParser
 Pockey
 POE-Component-Client-HTTP
+Polymail\/
 Pompos
 Porkbun
 Port Monitor
