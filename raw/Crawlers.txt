@@ -47,6 +47,7 @@ AdAuth\/
 adbeat
 AddThis
 ADmantX
+AdminLabs
 adressendeutschland
 adscanner
 agentslug
@@ -306,6 +307,7 @@ FeedBooster
 FeedBucket
 FeedBunch\/
 FeedBurner
+feeder
 Feedly
 FeedshowOnline
 Feedspot
@@ -412,6 +414,7 @@ HAA(A)?RTLAND http client
 Haansoft
 hackney\/
 Hadi Agent
+HappyApps-WebCheck
 Hatena
 Havij
 HeadlessChrome
@@ -458,7 +461,6 @@ httrack
 huaweisymantec
 HubSpot 
 Humanlinks
-HyperZbozi\.cz Feeder
 i2kconnect\/
 Iblog
 ichiro
@@ -879,6 +881,7 @@ Seomoz
 SEOprofiler
 SEOsearch
 seoscanners
+seositecheckup
 SEOstats
 servernfo
 sexsearcher
@@ -986,6 +989,7 @@ Tenon\.io
 teoma
 terrainformatica
 Test Certificate Info
+testuri
 Tetrahedron
 The Drop Reaper
 The Expert HTML Source Viewer
@@ -1096,6 +1100,7 @@ WebDoc
 WebEnhancer
 WebFetch
 WebFuck
+WebGazer
 WebGo IS
 WebImageCollector
 WebImages
@@ -1114,6 +1119,7 @@ Website Quester
 websitepulse agent
 WebsiteQuester
 Websnapr
+WebSniffer
 Webster
 WebStripper
 WebSucker
