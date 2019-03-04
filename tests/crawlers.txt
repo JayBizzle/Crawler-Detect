@@ -3422,3 +3422,17 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6; +feeder.co) AppleWebKit/537.36 (
 Mozilla/5.0 (compatible; TestURI; +http://testuri.org/)
 WebSniffer/1.0 (+http://websniffer.cc/)
 Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 SeoSiteCheckup (https://seositecheckup.co
+Adstxtaggregator.com/1.0
+Discourse Forum Onebox v2.0.0.beta10
+faviconarchive.org
+GreatNews/1.0
+MemGator:1.0-rc2 <@WebSciDL>
+URLTester/1 CFNetwork/974.1 Darwin/18.0.0 (x86_64)
+URLTester/1 CFNetwork/975.0.3 Darwin/18.2.0 (x86_64)
+Urlcheckr/2.0
+SimpleChecker
+reqwest/0.9.9
+ReactorNetty/0.7.10.RELEASE
+Mozilla/5.0 (compatible; woorankreview/2.0; +https://www.woorank.com/)
+https://www.nominet.uk/privacy-notice
+<a href='http://www.unchaos.com/'> UnChaos </a> From Chaos To Order Hybrid Web Search Engine.(vadim_gonchar@unchaos.com)
