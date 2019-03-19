@@ -586,7 +586,7 @@ class Crawlers extends AbstractProvider
         'Licorne',
         'Liferea\/',
         'Lightspeedsystems',
-		'Lighthouse',
+        'Lighthouse',
         'Likse',
         'Link Valet',
         'link_thumbnailer',
