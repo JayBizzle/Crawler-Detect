@@ -28,12 +28,12 @@ $CrawlerDetect = new CrawlerDetect;
 
 // Check the user agent of the current 'visitor'
 if($CrawlerDetect->isCrawler()) {
-	// true if crawler user agent detected
+    // true if crawler user agent detected
 }
 
 // Pass a user agent as a string
 if($CrawlerDetect->isCrawler('Mozilla/5.0 (compatible; Sosospider/2.0; +http://help.soso.com/webspider.htm)')) {
-	// true if crawler user agent detected
+    // true if crawler user agent detected
 }
 
 // Output the name of the bot that matched (if any)
