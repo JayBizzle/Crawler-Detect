@@ -1039,6 +1039,7 @@ class Crawlers extends AbstractProvider
         'touche\.com',
         'Traackr\.com',
         'tracemyfile',
+        'Trackuity',
         'TrapitAgent',
         'Trendiction',
         'Trendsmap',
