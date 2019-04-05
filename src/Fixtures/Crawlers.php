@@ -1228,7 +1228,7 @@ class Crawlers extends AbstractProvider
         'Zend_Http_Client',
         'Zend\\\\Http\\\\Client',
         'Zermelo',
-        'Zeus',
+        'Zeus ',
         'zgrab',
         'ZnajdzFoto',
         'Zombie\.js',
