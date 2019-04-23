@@ -3439,3 +3439,8 @@ https://www.nominet.uk/privacy-notice
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36 Chrome-Lighthouse
 Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36(KHTML, like Gecko) Chrome/61.0.3116.0 Mobile Safari/537.36 Chrome-Lighthouse
 Trackuity (+http://trackuity.com)
+deeris/1.0 (+http://www.deeris.com)
+Mediametric
+TextRazor Downloader (https://www.textrazor.com)
+ddline.cn rank history
+Web spyder
