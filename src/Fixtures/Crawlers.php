@@ -691,6 +691,7 @@ class Crawlers extends AbstractProvider
         'Net Vampire',
         'NetAnts',
         'NETCRAFT',
+        'netEstate',
         'NetLyzer',
         'NetMechanic',
         'NetNewsWire',
