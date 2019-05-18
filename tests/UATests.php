@@ -133,7 +133,7 @@ class UserAgentTest extends TestCase
         $crawlersCount = count($crawlers->getAll());
         $newUserAgents = array(
             'some_user_agent',
-            'some_other_user_agent'
+            'some_other_user_agent',
         );
 
         $crawlers->extend($newUserAgents);
