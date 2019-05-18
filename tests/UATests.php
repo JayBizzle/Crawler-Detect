@@ -131,10 +131,10 @@ class UserAgentTest extends TestCase
         $crawlers = new Crawlers();
 
         $crawlersCount = count($crawlers->getAll());
-        $newUserAgents = [
+        $newUserAgents = array(
             'some_user_agent',
             'some_other_user_agent'
-        ];
+        );
 
         $crawlers->extend($newUserAgents);
 
@@ -158,7 +158,7 @@ class UserAgentTest extends TestCase
         $cd = new CrawlerDetect(null, 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; some_other_user_agent)');
         $this->assertFalse($cd->isCrawler());
 
-        $cd->extendCrawlers(['some_user_agent', 'some_other_user_agent']);
+        $cd->extendCrawlers(array('some_user_agent', 'some_other_user_agent'));
         $this->assertTrue($cd->isCrawler());
     }
 }

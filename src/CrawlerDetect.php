@@ -199,7 +199,7 @@ class CrawlerDetect
     public function extendCrawlers($crawlers)
     {
         if (is_string($crawlers)) {
-            $crawlers = [$crawlers];
+            $crawlers = array($crawlers);
         }
         $this->crawlers->extend($crawlers);
         $this->compiledRegex = $this->compileRegex($this->crawlers->getAll());
