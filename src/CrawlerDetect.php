@@ -93,7 +93,7 @@ class CrawlerDetect
      * Compile the regex patterns into one regex string.
      *
      * @param array
-     * 
+     *
      * @return string
      */
     public function compileRegex($patterns)
@@ -189,5 +189,19 @@ class CrawlerDetect
     public function getMatches()
     {
         return isset($this->matches[0]) ? $this->matches[0] : null;
+    }
+
+    /**
+     * Extend crawlers list.
+     *
+     * @param string|array $crawlers
+     */
+    public function extendCrawlers($crawlers)
+    {
+        if (is_string($crawlers)) {
+            $crawlers = [$crawlers];
+        }
+        $this->crawlers->extend($crawlers);
+        $this->compiledRegex = $this->compileRegex($this->crawlers->getAll());
     }
 }

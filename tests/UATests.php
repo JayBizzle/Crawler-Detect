@@ -124,4 +124,41 @@ class UserAgentTest extends TestCase
             }
         }
     }
+
+    /** @test */
+    public function extends_crawlers()
+    {
+        $crawlers = new Crawlers();
+
+        $crawlersCount = count($crawlers->getAll());
+        $newUserAgents = [
+            'some_user_agent',
+            'some_other_user_agent'
+        ];
+
+        $crawlers->extend($newUserAgents);
+
+        $this->assertNotEquals($crawlersCount, count($crawlers->getAll()));
+        $this->assertEquals($crawlersCount + count($newUserAgents), count($crawlers->getAll()));
+    }
+
+    /** @test */
+    public function extends_crawlers_as_string()
+    {
+        $cd = new CrawlerDetect(null, 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; some_user_agent)');
+        $this->assertFalse($cd->isCrawler());
+
+        $cd->extendCrawlers('some_user_agent');
+        $this->assertTrue($cd->isCrawler());
+    }
+
+    /** @test */
+    public function extends_crawlers_as_array()
+    {
+        $cd = new CrawlerDetect(null, 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; some_other_user_agent)');
+        $this->assertFalse($cd->isCrawler());
+
+        $cd->extendCrawlers(['some_user_agent', 'some_other_user_agent']);
+        $this->assertTrue($cd->isCrawler());
+    }
 }

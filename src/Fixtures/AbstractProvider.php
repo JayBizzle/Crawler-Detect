@@ -15,18 +15,30 @@ abstract class AbstractProvider
 {
     /**
      * The data set.
-     * 
+     *
      * @var array
      */
     protected $data;
 
     /**
      * Return the data set.
-     * 
+     *
      * @return array
      */
     public function getAll()
     {
         return $this->data;
+    }
+
+    /**
+     * Extend the data set.
+     *
+     * @param array $data
+     */
+    public function extend($data)
+    {
+        if (is_array($data) && count($data)) {
+            $this->data = array_merge($this->data, $data);
+        }
     }
 }
