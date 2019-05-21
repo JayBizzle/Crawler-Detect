@@ -84,6 +84,7 @@ APIs-Google
 AportWorm\/
 AppBeat\/
 AppEngine-Google
+AppleSyndication
 AppStoreScraperZ
 Aprc\/[0-9]
 Arachmo
@@ -100,6 +101,7 @@ Astute
 asynchttp
 Attach
 autocite
+AutomaticWPTester
 Autonomy
 axios\/
 B-l-i-t-z-B-O-T
@@ -213,6 +215,7 @@ Crescent
 Crowsnest
 Criteo
 CSHttp
+CSSCheck
 curb
 Curious George
 curl
@@ -228,6 +231,7 @@ DataparkSearch
 dataprovider
 DataXu
 Daum(oa)?[ \/][0-9]
+dBpoweramp
 ddline
 deeris
 Demon
@@ -836,6 +840,7 @@ Recorder
 RecurPost\/
 redback\/
 ReederForMac
+Reeder\/
 ReGet
 RepoMonkey
 request\.js
@@ -1013,6 +1018,7 @@ TheNomad
 Thinklab
 Thumbshots
 ThumbSniper
+Thumbor
 timewe\.net
 TinEye
 Tiny Tiny RSS
