@@ -1193,6 +1193,7 @@ class Crawlers extends AbstractProvider
         'woorankreview',
         'Word\/',
         'WordPress\/',
+        'worldping-api',
         'WordupinfoSearch',
         'wotbox',
         'WP Engine Install Performance API',
