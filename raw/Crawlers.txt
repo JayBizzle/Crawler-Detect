@@ -1,12 +1,12 @@
 .*Java.*outbrain
  YLT
 ^b0t$
-^bluefish 
+^bluefish
 ^Calypso v\/
 ^COMODO DCV
 ^DangDang
 ^DavClnt
-^FDM 
+^FDM
 ^git\/
 ^Goose\/
 ^Grabber
@@ -469,7 +469,7 @@ httpunit
 HttpUrlConnection
 httrack
 huaweisymantec
-HubSpot 
+HubSpot
 Humanlinks
 i2kconnect\/
 Iblog
@@ -626,7 +626,7 @@ Metaspinner
 MetaURI
 MFC_Tear_Sample
 Microsearch
-Microsoft Office 
+Microsoft Office
 Microsoft Outlook
 Microsoft Windows Network Diagnostics
 Microsoft-WebDAV-MiniRedir
@@ -810,7 +810,7 @@ ProWebWalker
 proximic
 PRTG Network Monitor
 pshtt, https scanning
-PTST 
+PTST
 PTST\/[0-9]+
 Pulsepoint XT3 web scraper
 Pump
@@ -965,7 +965,7 @@ speedy
 SPEng
 Spinn3r
 spray-can
-Sprinklr 
+Sprinklr
 spyonweb
 sqlmap
 Sqlworm
@@ -1132,7 +1132,7 @@ WebIndex
 webkit2png
 WebLeacher
 webmastercoffee
-webmon 
+webmon
 WebPix
 WebReaper
 WebSauger
@@ -1173,6 +1173,7 @@ woorankreview
 Word\/
 WordPress\/
 WordupinfoSearch
+worldping-api
 wotbox
 WP Engine Install Performance API
 wpif
@@ -1219,7 +1220,7 @@ Zemanta Aggregator
 Zend_Http_Client
 Zend\\Http\\Client
 Zermelo
-Zeus 
+Zeus
 zgrab
 ZnajdzFoto
 Zombie\.js
