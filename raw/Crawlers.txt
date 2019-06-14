@@ -51,6 +51,8 @@ AdminLabs
 adressendeutschland
 adscanner
 Adstxtaggregator
+adstxt-worker
+adstxt\.com
 agentslug
 AHC
 aihit
@@ -358,6 +360,7 @@ GetRight
 getroot
 GetURLInfo\/
 GetWeb
+Geziyor
 Ghost Inspector
 GigablastOpenSource
 GIS-LABS
@@ -462,6 +465,7 @@ http_get
 HttpComponents
 httphr
 HTTPMon
+HTTPie
 httpRequest
 httpscheck
 httpssites_power
@@ -522,6 +526,7 @@ isitup\.org
 iskanie
 isUp\.li
 iThemes Sync\/
+IZaBEE
 iZSearch
 JAHHO
 janforman
@@ -548,6 +553,7 @@ Kerrigan\/
 KeyCDN
 Keyword Density
 Keywords Research
+khttp\/
 KickFire
 KimonoLabs\/
 Kml-Google
@@ -1223,6 +1229,7 @@ Zermelo
 Zeus 
 zgrab
 ZnajdzFoto
+ZnHTTP
 Zombie\.js
 Zoom\.Mac
 ZyBorg
