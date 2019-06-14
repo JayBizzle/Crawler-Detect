@@ -3451,3 +3451,10 @@ dBpoweramp
 Thumbor/6.4.1
 Reeder/1000.02.01 CFNetwork/454.11.5 Darwin/10.5.0 (i386) (Macmini2)
 worldping-api
+Geziyor 1.0
+adstxt-worker (www.column6.com)
+adstxt.com/1.2
+Mozilla/5.0 (compatible; ZnHTTP/7.80)
+khttp/1.0.0-SNAPSHOT
+IZaBEE/IZaBEE-1.01 (Buzzing Abound The Web; https://izabee.com; info at izabee dot com)
+HTTPie/1.0.2
