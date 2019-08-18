@@ -74,6 +74,7 @@ class Crawlers extends AbstractProvider
         'Adstxtaggregator',
         'adstxt-worker',
         'adstxt\.com',
+        'AdsBot-Google',
         'agentslug',
         'AHC',
         'aihit',
