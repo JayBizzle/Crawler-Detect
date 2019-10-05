@@ -3458,3 +3458,8 @@ Mozilla/5.0 (compatible; ZnHTTP/7.80)
 khttp/1.0.0-SNAPSHOT
 IZaBEE/IZaBEE-1.01 (Buzzing Abound The Web; https://izabee.com; info at izabee dot com)
 HTTPie/1.0.2
+Craw/1.0
+internetwache.org v3.4
+looid.com Search Engine/0.1
+OgScrper/1.0.0
+NotionEmbedder
