@@ -213,6 +213,7 @@ CopyRightCheck
 Copyscape
 Cosmos4j\.feedback
 Covario-IDS
+Craw\/
 Crescent
 Crowsnest
 Criteo
@@ -512,6 +513,7 @@ internet_archive
 Internet Ninja
 InternetSeer
 internetVista monitor
+internetwache
 intraVnews
 IODC
 IOI
@@ -598,6 +600,7 @@ livedoor ScreenShot
 LoadImpactRload
 localsearch-web
 LongURL API
+looid\.com
 looksystems\.net
 ltx71
 lua-resty-http
@@ -715,6 +718,7 @@ nominet\.uk
 Norton-Safeweb
 Notifixious
 notifyninja
+NotionEmbedder
 nuhk
 nutch
 Nuzzel
@@ -727,6 +731,7 @@ Octopus
 oegp
 Offline Explorer
 Offline Navigator
+OgScrper
 og-scraper
 okhttp
 omgili
