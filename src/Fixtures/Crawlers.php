@@ -324,6 +324,7 @@ class Crawlers extends AbstractProvider
         'EyeNetIE',
         'ezooms',
         'facebookexternalhit',
+        'facebookexternalua',
         'facebookplatform',
         'fairshare',
         'Faraday v',
