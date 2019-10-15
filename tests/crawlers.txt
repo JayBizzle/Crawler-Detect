@@ -3464,3 +3464,6 @@ looid.com Search Engine/0.1
 OgScrper/1.0.0
 NotionEmbedder
 facebookexternalua
+Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012; DuplexWeb-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Mobile Safari/537.36
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)
+FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)
