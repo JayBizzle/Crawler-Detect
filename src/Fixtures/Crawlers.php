@@ -89,6 +89,7 @@ class Crawlers extends AbstractProvider
         'AllSubmitter',
         'alyze\.info',
         'amagit',
+        '^Amazon Simple Notification Service Agent$',
         'Anarchie',
         'AndroidDownloadManager',
         'Anemone',
