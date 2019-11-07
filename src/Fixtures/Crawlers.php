@@ -18,7 +18,7 @@ class Crawlers extends AbstractProvider
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         '.*Java.*outbrain',
         ' YLT',
         '^b0t$',
@@ -233,6 +233,7 @@ class Crawlers extends AbstractProvider
         'copyright sheriff',
         'CopyRightCheck',
         'Copyscape',
+        'cortex\/',
         'Cosmos4j\.feedback',
         'Covario-IDS',
         'Craw\/',
@@ -1264,5 +1265,5 @@ class Crawlers extends AbstractProvider
         'Zoom\.Mac',
         'ZyBorg',
         '[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer)',
-    );
+    ];
 }

@@ -212,6 +212,7 @@ CookieReports
 copyright sheriff
 CopyRightCheck
 Copyscape
+cortex\/
 Cosmos4j\.feedback
 Covario-IDS
 Craw\/
