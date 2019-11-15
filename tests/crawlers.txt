@@ -3469,3 +3469,7 @@ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41
 FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)
 Amazon Simple Notification Service Agent
 cortex/1.0
+AWS Security Scanner
+HaxerMen
+kubectl/v1.12.0 (linux/amd64) kubernetes/0ed3388
+NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com
