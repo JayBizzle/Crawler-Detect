@@ -772,6 +772,7 @@ class Crawlers extends AbstractProvider
         'OpenLinkProfiler',
         'Openstat\/',
         'OpenVAS',
+        'OPPO A33',
         'Optimizer',
         'Orbiter',
         'OrgProbe\/',
