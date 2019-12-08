@@ -1,5 +1,5 @@
-<p align="center"><a href="http://crawlerdetect.io/" target="_blank"><img src="https://cloud.githubusercontent.com/assets/340752/23082173/1bd1a396-f550-11e6-8aba-4d3c75edea2f.png" width="321" height="219" /></a><br><br>
-<a href="http://crawlerdetect.io/" target="_blank">crawlerdetect.io</a>
+<p align="center"><a href="https://crawlerdetect.io/" target="_blank"><img src="https://cloud.githubusercontent.com/assets/340752/23082173/1bd1a396-f550-11e6-8aba-4d3c75edea2f.png" width="321" height="219" /></a><br><br>
+<a href="https://crawlerdetect.io/" target="_blank">crawlerdetect.io</a>
 <br><br>
 </p>
 
