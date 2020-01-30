@@ -902,6 +902,7 @@ class Crawlers extends AbstractProvider
         'Sendsay\.Ru',
         'SauceNAO',
         'SBIder',
+        'sc-downloader',
         'scalaj-http',
         'scan\.lol',
         'ScanAlert',
