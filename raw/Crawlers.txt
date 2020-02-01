@@ -103,6 +103,7 @@ Asterias
 Astute
 asynchttp
 Attach
+attohttpc
 autocite
 AutomaticWPTester
 Autonomy
@@ -127,6 +128,7 @@ BBBike
 BCKLINKS
 BDFetch
 BegunAdvertising
+Bewica-security-scan
 Bidtellect
 BigBozz
 Bigfoot
@@ -141,6 +143,7 @@ Black Hole
 Blackboard Safeassign
 BlackWidow
 BlockNote\.Net
+BlogBridge
 Bloglines
 Bloglovin
 BlogPulseLive
@@ -148,6 +151,7 @@ BlogSearch
 Blogtrottr
 BlowFish
 boitho\.com-dc
+Boost\.Beast
 BPImageWalker
 Braintree-Webhooks
 Branch Metrics API
@@ -240,6 +244,7 @@ Daum(oa)?[ \/][0-9]
 dBpoweramp
 ddline
 deeris
+delve\.ai
 Demon
 DeuSu
 developers\.google\.com\/\+\/web\/snippet\/
@@ -258,6 +263,7 @@ DNSPod-reporting
 docoloc
 Dolphin http client
 DomainAppender
+DomainLabz
 Donuts Content Explorer
 dotMailer content retrieval
 dotSemantic
@@ -301,6 +307,7 @@ ExactSearch
 ExaleadCloudview
 Excel\/
 exif
+ExoRank
 Exploratodo
 Express WebPictures
 Extreme Picture Finder
@@ -352,6 +359,7 @@ http:\/\/www.neomo.de\/
 free thumbnails
 Freeuploader
 Funnelback
+Fuzz Faster U Fool
 G-i-g-a-b-o-t
 g00g1e\.net
 ganarvisitas
@@ -443,6 +451,7 @@ HEADMasterSEO
 HeartRails_Capture
 help@dataminr\.com
 heritrix
+Hexometer
 historious
 hkedcity
 hledejLevne\.cz
@@ -589,6 +598,7 @@ Liferea\/
 Lightspeedsystems
 Lighthouse
 Likse
+limber\.io
 Link Valet
 link_thumbnailer
 LinkAlarm\/
@@ -608,6 +618,7 @@ livedoor ScreenShot
 LoadImpactRload
 localsearch-web
 LongURL API
+longurl-r-package
 looid\.com
 looksystems\.net
 ltx71
@@ -756,6 +767,7 @@ Optimizer
 Orbiter
 OrgProbe\/
 orion-semantics
+OSPScraper
 Outlook-Express
 Outlook-iOS
 ow\.ly
@@ -835,6 +847,7 @@ PTST
 PTST\/[0-9]+
 Pulsepoint XT3 web scraper
 Pump
+python-httpx
 Python-httplib2
 python-requests
 Python-urllib
@@ -875,6 +888,7 @@ Robozilla
 ROI Hunter
 RPT-HTTPClient
 RSSOwl
+RyowlEngine
 safe-agent-scanner
 SalesIntelligent
 Saleslift
@@ -883,6 +897,7 @@ SauceNAO
 SBIder
 sc-downloader
 scalaj-http
+Scamadviser-Frontend
 scan\.lol
 ScanAlert
 Scoop
@@ -916,6 +931,7 @@ Seobility
 SEOCentro
 SeoCheck
 SEOkicks
+SEOlizer
 Seomoz
 SEOprofiler
 SEOsearch
@@ -929,6 +945,7 @@ Shelob
 Shodan
 Shoppimon
 ShopWiki
+shortURL lengthener
 ShortLinkTranslate
 shrinktheweb
 Sideqik
@@ -1191,6 +1208,7 @@ WinPodder
 wkhtmlto
 wmtips
 Woko
+Wolfram HTTPClient
 woorankreview
 Word\/
 WordPress\/
