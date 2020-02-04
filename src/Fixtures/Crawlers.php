@@ -76,6 +76,7 @@ class Crawlers extends AbstractProvider
         'adstxt\.com',
         'agentslug',
         'AHC',
+        'AhrefsBot',
         'aihit',
         'aiohttp\/',
         'Airmail',
