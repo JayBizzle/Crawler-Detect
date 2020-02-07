@@ -49,6 +49,7 @@ AddThis
 ADmantX
 AdminLabs
 adressendeutschland
+adreview\/
 adscanner
 Adstxtaggregator
 adstxt-worker
@@ -342,6 +343,7 @@ Fetch API
 Fetch\/[0-9]
 Fever\/[0-9]
 FHscan
+Filestack
 Fimap
 findlink
 findthatfile
@@ -399,6 +401,7 @@ Google Page Speed Insights
 Google PP Default
 Google Search Console
 Google Web Preview
+Google-Ads-Overview
 Google-Adwords
 Google-Apps-Script
 Google-Calendar-Importer
@@ -408,6 +411,7 @@ Google-Publisher-Plugin
 Google-Read-Aloud
 Google-SearchByImage
 Google-Site-Verification
+Google-speakr
 Google-Structured-Data-Testing-Tool
 Google-Youtube-Links
 google-xrawler
