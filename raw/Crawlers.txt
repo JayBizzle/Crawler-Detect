@@ -653,6 +653,7 @@ MemGator
 Metaspinner
 MetaURI
 MFC_Tear_Sample
+MicroMessenger\/
 Microsearch
 Microsoft Office 
 Microsoft Outlook
