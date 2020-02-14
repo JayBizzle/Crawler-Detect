@@ -65,9 +65,6 @@ To use this library in a Python project, check out [crawlerdetect](https://githu
 ### .NET Library
 To use this library in a .net standard (including .net core) based project, check out [NetCrawlerDetect](https://github.com/gplumb/NetCrawlerDetect).
 
-### Nette Extension
-To use this library with the Nette framework, checkout [NetteCrawlerDetect](https://github.com/JanGalek/Crawler-Detect).
-
 ### Ruby Gem
 
 To use this library with Ruby on Rails or any Ruby-based application, check out [crawler_detect](https://github.com/loadkpi/crawler_detect) gem.
