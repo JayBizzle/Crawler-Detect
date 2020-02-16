@@ -89,7 +89,6 @@ AportWorm\/
 AppBeat\/
 AppEngine-Google
 AppleSyndication
-AppStoreScraperZ
 Aprc\/[0-9]
 Arachmo
 arachnode
@@ -382,6 +381,7 @@ GigablastOpenSource
 GIS-LABS
 github-camo
 github\.com
+Goldfire Server
 Go [\d\.]* package http
 Go http package
 Go-Ahead-Got-It
@@ -421,7 +421,6 @@ GoogleProducer
 GoogleSites
 Google-Transparency-Report
 Gookey
-GoScraper
 GoSpotCheck
 gosquared-thumbnailer
 Gotit
@@ -688,6 +687,7 @@ Morfeus Fucking Scanner
 Morning Paper
 MovableType
 mowser
+Mr\.4x3 Powered
 Mrcgiguy
 MS Web Services Client Protocol
 MSFrontPage
@@ -757,7 +757,6 @@ oegp
 Offline Explorer
 Offline Navigator
 OgScrper
-og-scraper
 okhttp
 omgili
 OMSC
@@ -772,7 +771,6 @@ Optimizer
 Orbiter
 OrgProbe\/
 orion-semantics
-OSPScraper
 Outlook-Express
 Outlook-iOS
 ow\.ly
@@ -783,6 +781,7 @@ Page Valet
 page_verifier
 page scorer
 page2rss
+PageFreezer
 PageGrabber
 PagePeeker
 PageScorer
@@ -836,6 +835,7 @@ PostmanRuntime
 PostPost
 postrank
 PowerPoint\/
+Prebid
 Priceonomics Analysis Engine
 PrintFriendly
 PritTorrent
@@ -850,7 +850,6 @@ PRTG Network Monitor
 pshtt, https scanning
 PTST 
 PTST\/[0-9]+
-Pulsepoint XT3 web scraper
 Pump
 python-httpx
 Python-httplib2
@@ -910,7 +909,6 @@ scooter
 ScoutJet
 ScoutURLMonitor
 ScrapeBox Page Scanner
-SimpleScraper
 Scrapy
 Screaming
 ScreenShotService
@@ -1030,7 +1028,6 @@ summify
 SuperHTTP
 Surphace Scout
 Suzuran
-SwiteScraper
 Symfony BrowserKit
 Symfony2 BrowserKit
 SynHttpClient-Built
@@ -1119,7 +1116,6 @@ VB Project
 vBSEO
 VCI
 via ggpht\.com GoogleImageProxy
-VidibleScraper
 Virusdie
 visionutils
 vkShare
@@ -1272,4 +1268,4 @@ ZnHTTP
 Zombie\.js
 Zoom\.Mac
 ZyBorg
-[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer)
+[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)
