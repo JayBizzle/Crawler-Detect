@@ -3859,3 +3859,4 @@ PageFreezer
 Prebid.js Scraper
 Mr.4x3 Powered
 Goldfire Server
+OhDear.app (+https://ohdear.app/docs/checks/uptime)
