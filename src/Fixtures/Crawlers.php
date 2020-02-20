@@ -223,6 +223,7 @@ class Crawlers extends AbstractProvider
         'Cloud mapping',
         'CloudEndure',
         'CloudFlare-AlwaysOnline',
+        'Cloudflare-Healthchecks',
         'Cloudinary',
         'cmcm\.com',
         'coccoc',
