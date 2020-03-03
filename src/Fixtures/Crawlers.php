@@ -1226,6 +1226,7 @@ class Crawlers extends AbstractProvider
         'Whibse',
         'WhoRunsCoinHive',
         'Whynder Magnet',
+        'WinHttp-Autoproxy-Service',
         'Windows-RSS-Platform',
         'WinPodder',
         'wkhtmlto',
