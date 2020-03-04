@@ -172,6 +172,7 @@ class Crawlers extends AbstractProvider
         'Blogtrottr',
         'BlowFish',
         'boitho\.com-dc',
+        'BomboraBot',
         'Boost\.Beast',
         'BPImageWalker',
         'Braintree-Webhooks',
