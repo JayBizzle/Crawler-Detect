@@ -298,6 +298,7 @@ class Crawlers extends AbstractProvider
         'Drupal \(\+http:\/\/drupal\.org\/\)',
         'DTS Agent',
         'dubaiindex',
+        'duckduckgo',
         'DuplexWeb-Google',
         'EARTHCOM',
         'Easy-Thumb',
