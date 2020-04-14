@@ -18,7 +18,7 @@ class Crawlers extends AbstractProvider
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         '.*Java.*outbrain',
         ' YLT',
         '^b0t$',
@@ -299,6 +299,7 @@ class Crawlers extends AbstractProvider
         'DTS Agent',
         'dubaiindex',
         'DuplexWeb-Google',
+        'DynatraceSynthetic',
         'EARTHCOM',
         'Easy-Thumb',
         'EasyDL',
@@ -1292,5 +1293,5 @@ class Crawlers extends AbstractProvider
         'Zoom\.Mac',
         'ZyBorg',
         '[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
-    );
+    ];
 }

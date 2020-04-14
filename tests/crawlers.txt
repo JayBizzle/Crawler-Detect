@@ -3862,3 +3862,4 @@ Goldfire Server
 OhDear.app (+https://ohdear.app/docs/checks/uptime)
 Mozilla/5.0 (compatible;Cloudflare-Healthchecks/1.0;+https://www.cloudflare.com/; healthcheck-id: 755842180c7ae904)
 WinHttp-Autoproxy-Service/5.1
+DynatraceSynthetic/
