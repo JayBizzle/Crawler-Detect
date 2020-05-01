@@ -37,5 +37,5 @@ function outputJson($object)
 function outputTxt($object)
 {
     $className = (new ReflectionClass($object))->getShortName();
-    file_put_contents("raw/$className.txt", implode($object->getAll(), PHP_EOL));
+    file_put_contents("raw/$className.txt", implode(PHP_EOL, $object->getAll()));
 }
