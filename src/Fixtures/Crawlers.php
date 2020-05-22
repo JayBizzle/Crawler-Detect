@@ -975,6 +975,7 @@ class Crawlers extends AbstractProvider
         'ShortLinkTranslate',
         'shrinktheweb',
         'Sideqik',
+        'Siege',
         'SimplePie',
         'SimplyFast',
         'Siphon',
