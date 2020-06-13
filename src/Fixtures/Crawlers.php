@@ -271,6 +271,7 @@ class Crawlers extends AbstractProvider
         'DeuSu',
         'developers\.google\.com\/\+\/web\/snippet\/',
         'Devil',
+        'DHSH',
         'Digg',
         'Digincore',
         'DigitalPebble',
