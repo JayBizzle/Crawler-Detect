@@ -40,6 +40,7 @@ Abonti
 Aboundex
 aboutthedomain
 Accoona-AI-Agent
+acebookexternalhit\/
 acoon
 acrylicapps\.com\/pulp
 Acunetix
@@ -114,6 +115,7 @@ Backlink-Ceck
 backlink-check
 BacklinkHttpStatus
 BackStreet
+BackupLand
 BackWeb
 Bad-Neighborhood
 Badass
@@ -179,6 +181,7 @@ catexplorador
 CC Metadata Scaper
 Cegbfeieh
 censys
+centuryb.o.t9[at]gmail.com
 Cerberian Drtrs
 CERT\.at-Statistics-Survey
 cg-eye
@@ -227,6 +230,7 @@ Crowsnest
 Criteo
 CSHttp
 CSSCheck
+Cula
 curb
 Curious George
 curl
@@ -250,6 +254,7 @@ Demon
 DeuSu
 developers\.google\.com\/\+\/web\/snippet\/
 Devil
+DHSH
 Digg
 Digincore
 DigitalPebble
@@ -337,6 +342,7 @@ feeder
 Feedly
 FeedshowOnline
 Feedspot
+FeedViewer\/
 Feedwind\/
 FeedZcollector
 feeltiptop
@@ -506,6 +512,7 @@ IDG Twitter Links Resolver
 IDwhois\/
 Iframely
 igdeSpyder
+iGooglePortal
 IlTrovatore
 Image Fetch
 Image Sucker
@@ -777,6 +784,7 @@ Outlook-Express
 Outlook-iOS
 ow\.ly
 Owler
+Owlin
 ownCloud News
 OxfordCloudService
 Page Valet
@@ -954,6 +962,7 @@ shortURL lengthener
 ShortLinkTranslate
 shrinktheweb
 Sideqik
+Siege
 SimplePie
 SimplyFast
 Siphon
@@ -1199,11 +1208,13 @@ WeSEE
 wf84
 Wfuzz\/
 wget
+WhatCMS
 WhatsApp
 WhatsMyIP
 WhatWeb
 WhereGoes\?
 Whibse
+WhoAPI\/
 WhoRunsCoinHive
 Whynder Magnet
 WinHttp-Autoproxy-Service
