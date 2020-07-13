@@ -427,6 +427,7 @@ class Crawlers extends AbstractProvider
         'Google Keyword Suggestion',
         'Google Keyword Tool',
         'Google Page Speed Insights',
+        'Google-Podcast',
         'Google PP Default',
         'Google Search Console',
         'Google Web Preview',
