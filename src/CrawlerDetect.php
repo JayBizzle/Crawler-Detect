@@ -124,7 +124,7 @@ class CrawlerDetect
         }
 
         // Clear existing headers.
-        $this->httpHeaders = [];
+        $this->httpHeaders = array();
 
         // Only save HTTP headers. In PHP land, that means
         // only _SERVER vars that start with HTTP_.
