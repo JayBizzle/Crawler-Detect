@@ -11,23 +11,23 @@
 
 namespace Jaybizzle\CrawlerDetect;
 
-use Jaybizzle\CrawlerDetect\Fixtures\Headers;
 use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
 use Jaybizzle\CrawlerDetect\Fixtures\Exclusions;
+use Jaybizzle\CrawlerDetect\Fixtures\Headers;
 
 class CrawlerDetect
 {
     /**
      * The user agent.
      *
-     * @var null
+     * @var string
      */
     protected $userAgent = null;
 
     /**
      * Headers that contain a user agent.
      *
-     * @var array
+     * @var string[]
      */
     protected $httpHeaders = array();
 
@@ -41,21 +41,21 @@ class CrawlerDetect
     /**
      * Crawlers object.
      *
-     * @var \Jaybizzle\CrawlerDetect\Fixtures\Crawlers
+     * @var Crawlers
      */
     protected $crawlers;
 
     /**
      * Exclusions object.
      *
-     * @var \Jaybizzle\CrawlerDetect\Fixtures\Exclusions
+     * @var Exclusions
      */
     protected $exclusions;
 
     /**
      * Headers object.
      *
-     * @var \Jaybizzle\CrawlerDetect\Fixtures\Headers
+     * @var Headers
      */
     protected $uaHttpHeaders;
 
@@ -75,16 +75,15 @@ class CrawlerDetect
 
     /**
      * Class constructor.
+     *
+     * @param string[] $headers   Map of HTTP header values
+     * @param string   $userAgent Browser user agent to detect
      */
     public function __construct(array $headers = null, $userAgent = null)
     {
-        $this->crawlers = new Crawlers();
-        $this->exclusions = new Exclusions();
-        $this->uaHttpHeaders = new Headers();
-
-        $this->compiledRegex = $this->compileRegex($this->crawlers->getAll());
-        $this->compiledExclusions = $this->compileRegex($this->exclusions->getAll());
-
+        $this->setCrawlers(new Crawlers());
+        $this->setExclusions(new Exclusions());
+        $this->setUaHttpHeaders(new Headers());
         $this->setHttpHeaders($headers);
         $this->setUserAgent($userAgent);
     }
@@ -93,28 +92,39 @@ class CrawlerDetect
      * Compile the regex patterns into one regex string.
      *
      * @param array
-     * 
+     *
      * @return string
      */
     public function compileRegex($patterns)
     {
-        return '('.implode('|', $patterns).')';
+        return '(' . implode('|', $patterns) . ')';
+    }
+
+    /**
+     * Get HTTP Headers
+     *
+     * @return array
+     */
+    public function getHttpHeaders()
+    {
+        return $this->httpHeaders;
     }
 
     /**
      * Set HTTP headers.
      *
      * @param array|null $httpHeaders
+     * @return $this
      */
     public function setHttpHeaders($httpHeaders)
     {
         // Use global _SERVER if $httpHeaders aren't defined.
-        if (! is_array($httpHeaders) || ! count($httpHeaders)) {
+        if (empty($httpHeaders)) {
             $httpHeaders = $_SERVER;
         }
 
         // Clear existing headers.
-        $this->httpHeaders = array();
+        $this->httpHeaders = [];
 
         // Only save HTTP headers. In PHP land, that means
         // only _SERVER vars that start with HTTP_.
@@ -123,12 +133,14 @@ class CrawlerDetect
                 $this->httpHeaders[$key] = $value;
             }
         }
+
+        return $this;
     }
 
     /**
      * Return user agent headers.
      *
-     * @return array
+     * @return string[]
      */
     public function getUaHttpHeaders()
     {
@@ -136,21 +148,91 @@ class CrawlerDetect
     }
 
     /**
+     * Assign headers used to detect user agent
+     *
+     * @param Headers $headers
+     * @return $this
+     */
+    public function setUaHttpHeaders(Headers $headers)
+    {
+        $this->uaHttpHeaders = $headers;
+        return $this;
+    }
+
+    /**
+     * Get, or detect, user agent string
+     *
+     * @return string
+     */
+    public function getUserAgent()
+    {
+        if ($this->userAgent) {
+            return $this->userAgent;
+        }
+
+        // Detect from headers
+        $userAgent = '';
+        $headers = $this->getHttpHeaders();
+        foreach ($this->getUaHttpHeaders() as $altHeader) {
+            if (isset($headers[$altHeader])) {
+                $userAgent .= $headers[$altHeader] . ' ';
+            }
+        }
+        return $userAgent;
+    }
+
+    /**
      * Set the user agent.
      *
      * @param string $userAgent
+     * @return $this
      */
     public function setUserAgent($userAgent)
     {
-        if (is_null($userAgent)) {
-            foreach ($this->getUaHttpHeaders() as $altHeader) {
-                if (isset($this->httpHeaders[$altHeader])) {
-                    $userAgent .= $this->httpHeaders[$altHeader].' ';
-                }
-            }
-        }
+        $this->userAgent = $userAgent;
+        return $this;
+    }
 
-        return $this->userAgent = $userAgent;
+    /**
+     * Get crawlers list
+     *
+     * @return string[]
+     */
+    public function getCrawlers()
+    {
+        return $this->crawlers->getAll();
+    }
+
+    /**
+     * @param Crawlers $crawlers
+     * @return $this
+     */
+    public function setCrawlers(Crawlers $crawlers)
+    {
+        $this->crawlers = $crawlers;
+        $this->compiledRegex = $this->compileRegex($this->getCrawlers());
+        return $this;
+    }
+
+    /**
+     * Get exclusions list
+     *
+     * @return string[]
+     */
+    public function getExclusions()
+    {
+        return $this->exclusions->getAll();
+    }
+
+    /**
+     * @param Exclusions $exclusions
+     * @return $this
+     */
+    public function setExclusions(Exclusions $exclusions)
+    {
+        $this->exclusions = $exclusions;
+        $this->compiledExclusions = $this->compileRegex($this->getExclusions());
+        return $this;
     }
 
     /**
@@ -165,7 +247,7 @@ class CrawlerDetect
         $agent = trim(preg_replace(
             "/{$this->compiledExclusions}/i",
             '',
-            $userAgent ?: $this->userAgent
+            $userAgent ?: $this->getUserAgent()
         ));
 
         if ($agent == '') {
@@ -178,7 +260,7 @@ class CrawlerDetect
             $this->matches = $matches;
         }
 
-        return (bool) $result;
+        return (bool)$result;
     }
 
     /**
