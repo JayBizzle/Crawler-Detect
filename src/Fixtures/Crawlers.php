@@ -1241,7 +1241,7 @@ class Crawlers extends AbstractProvider
         'WhoAPI\/',
         'WhoRunsCoinHive',
         'Whynder Magnet',
-        'WinHTTP',
+        'WinHTTP\/',
         'WinHttp-Autoproxy-Service',
         'Windows-RSS-Platform',
         'WinPodder',
