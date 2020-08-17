@@ -411,6 +411,7 @@ class Crawlers extends AbstractProvider
         'GigablastOpenSource',
         'GIS-LABS',
         'github-camo',
+        'GitHub-Hookshot',
         'github\.com',
         'Goldfire Server',
         'Go [\d\.]* package http',

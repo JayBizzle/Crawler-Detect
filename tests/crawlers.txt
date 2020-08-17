@@ -3866,6 +3866,7 @@ WinHttp-Autoproxy-Service/5.1
 DynatraceSynthetic/
 acebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)
 Mozilla/5.0 (compatible; Google-Podcast)
+GitHub-Hookshot/a6f2714
 Fiery%20Feeds/272 CFNetwork/1125.2 Darwin/19.4.0 (x86_64)
 FreshRSS/1.13.0 (Linux; https://freshrss.org)
 Gofeed/1.0
