@@ -583,6 +583,7 @@ class Crawlers extends AbstractProvider
         'JAHHO',
         'janforman',
         'Jaunt\/',
+        'javelin\.io',
         'Jbrofuzz',
         'Jersey\/',
         'JetCar',
