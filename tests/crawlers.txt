@@ -3867,3 +3867,11 @@ DynatraceSynthetic/
 acebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)
 Mozilla/5.0 (compatible; Google-Podcast)
 GitHub-Hookshot/a6f2714
+Fiery%20Feeds/272 CFNetwork/1125.2 Darwin/19.4.0 (x86_64)
+FreshRSS/1.13.0 (Linux; https://freshrss.org)
+Gofeed/1.0
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/538.1 (KHTML, like Gecko) QuiteRSS/0.18.12 Safari/538.1
+php-requests/1.7
+nghttp2/1.40.0
+WinHTTP/1.1
+Mozilla/5.0 (compatible; Javelin; +https://about.javelin.io/)
