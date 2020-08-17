@@ -18,7 +18,7 @@ class Crawlers extends AbstractProvider
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         '.*Java.*outbrain',
         ' YLT',
         '^b0t$',
@@ -371,7 +371,7 @@ class Crawlers extends AbstractProvider
         'Fetch\/[0-9]',
         'Fever\/[0-9]',
         'FHscan',
-    'Fiery%20Feeds',
+        'Fiery%20Feeds',
         'Filestack',
         'Fimap',
         'findlink',
@@ -389,7 +389,7 @@ class Crawlers extends AbstractProvider
         'http:\/\/www.neomo.de\/', //'Francis [Bot]'
         'free thumbnails',
         'Freeuploader',
-    'FreshRSS',
+        'FreshRSS',
         'Funnelback',
         'Fuzz Faster U Fool',
         'G-i-g-a-b-o-t',
@@ -420,7 +420,7 @@ class Crawlers extends AbstractProvider
         'Go-http-client',
         'Go!Zilla',
         'gobyus',
-    'Gofeed',
+        'Gofeed',
         'gofetch',
         'GomezAgent',
         'gooblog',
@@ -901,7 +901,7 @@ class Crawlers extends AbstractProvider
         'Qualidator',
         'QueryN Metasearch',
         'queuedriver',
-    'QuiteRSS',
+        'QuiteRSS',
         'Quora Link Preview',
         'Qwantify',
         'Radian6',
@@ -1314,5 +1314,5 @@ class Crawlers extends AbstractProvider
         'Zoom\.Mac',
         'ZyBorg',
         '[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
-    );
+    ];
 }
