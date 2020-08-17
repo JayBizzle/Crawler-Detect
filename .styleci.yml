@@ -1,3 +1,4 @@
+risky: true
 preset: none
 enabled:
  - array_element_white_space_after_comma
