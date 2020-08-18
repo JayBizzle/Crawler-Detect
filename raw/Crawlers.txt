@@ -350,6 +350,7 @@ Fetch API
 Fetch\/[0-9]
 Fever\/[0-9]
 FHscan
+Fiery%20Feeds
 Filestack
 Fimap
 findlink
@@ -367,6 +368,7 @@ FoundSeoTool
 http:\/\/www.neomo.de\/
 free thumbnails
 Freeuploader
+FreshRSS
 Funnelback
 Fuzz Faster U Fool
 G-i-g-a-b-o-t
@@ -388,6 +390,7 @@ Ghost Inspector
 GigablastOpenSource
 GIS-LABS
 github-camo
+GitHub-Hookshot
 github\.com
 Goldfire Server
 Go [\d\.]* package http
@@ -396,6 +399,7 @@ Go-Ahead-Got-It
 Go-http-client
 Go!Zilla
 gobyus
+Gofeed
 gofetch
 GomezAgent
 gooblog
@@ -562,6 +566,7 @@ iZSearch
 JAHHO
 janforman
 Jaunt\/
+javelin\.io
 Jbrofuzz
 Jersey\/
 JetCar
@@ -736,6 +741,7 @@ newsme
 newspaper\/
 NetSystemsResearch
 Nexgate Ruby Client
+nghttp2
 NG-Search
 Nibbler
 NICErsPRO
@@ -815,6 +821,7 @@ PhantomJS Screenshoter
 PhantomJS\/
 Photon\/
 phpservermon
+php-requests
 Pi-Monster
 Picscout
 Picsearch
@@ -852,7 +859,7 @@ PrintFriendly
 PritTorrent
 Prlog
 probethenet
-Project 25499
+Project ?25499
 prospectb2b
 Protopage
 ProWebWalker
@@ -873,6 +880,7 @@ Qseero
 Qualidator
 QueryN Metasearch
 queuedriver
+QuiteRSS
 Quora Link Preview
 Qwantify
 Radian6
@@ -1218,6 +1226,7 @@ Whibse
 WhoAPI\/
 WhoRunsCoinHive
 Whynder Magnet
+WinHTTP\/
 WinHttp-Autoproxy-Service
 Windows-RSS-Platform
 WinPodder
