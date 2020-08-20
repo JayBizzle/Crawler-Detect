@@ -70,6 +70,7 @@ allloadin
 AllSubmitter
 alyze\.info
 amagit
+^Amazon CloudFront$
 ^Amazon Simple Notification Service Agent$
 Anarchie
 AndroidDownloadManager
@@ -230,7 +231,6 @@ Crowsnest
 Criteo
 CSHttp
 CSSCheck
-Cula
 curb
 Curious George
 curl
@@ -254,7 +254,6 @@ Demon
 DeuSu
 developers\.google\.com\/\+\/web\/snippet\/
 Devil
-DHSH
 Digg
 Digincore
 DigitalPebble
@@ -1048,6 +1047,7 @@ summify
 SuperHTTP
 Surphace Scout
 Suzuran
+swcd 
 Symfony BrowserKit
 Symfony2 BrowserKit
 SynHttpClient-Built
@@ -1264,6 +1264,7 @@ Yaanb
 yacy
 Yahoo Link Preview
 YahooCacheSystem
+YahooMailProxy
 YahooYSMcm
 YandeG
 Yandex(?!Search)
