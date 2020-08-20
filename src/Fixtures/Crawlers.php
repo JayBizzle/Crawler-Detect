@@ -1285,6 +1285,7 @@ class Crawlers extends AbstractProvider
         'yacy',
         'Yahoo Link Preview',
         'YahooCacheSystem',
+        'YahooMailProxy',
         'YahooYSMcm',
         'YandeG',
         'Yandex(?!Search)',
