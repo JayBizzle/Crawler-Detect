@@ -3877,3 +3877,4 @@ nghttp2/1.40.0
 WinHTTP/1.1
 Mozilla/5.0 (compatible; Javelin; +https://about.javelin.io/)
 swcd (unknown version) CFNetwork/1125.2 Darwin/19.4.0
+YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
