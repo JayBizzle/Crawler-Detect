@@ -1061,6 +1061,7 @@ class Crawlers extends AbstractProvider
         'SuperHTTP',
         'Surphace Scout',
         'Suzuran',
+        'swcd ',
         'Symfony BrowserKit',
         'Symfony2 BrowserKit',
         'SynHttpClient-Built',
