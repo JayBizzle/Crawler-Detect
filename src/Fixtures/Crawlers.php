@@ -691,7 +691,6 @@ class Crawlers extends AbstractProvider
         'Metaspinner',
         'MetaURI',
         'MFC_Tear_Sample',
-        'MicroMessenger\/',
         'Microsearch',
         'Microsoft Office ',
         'Microsoft Outlook',
