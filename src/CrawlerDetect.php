@@ -41,21 +41,21 @@ class CrawlerDetect
     /**
      * Crawlers object.
      *
-     * @var \Jaybizzle\CrawlerDetect\Fixtures\Crawlers
+     * @var Crawlers
      */
     protected $crawlers;
 
     /**
      * Exclusions object.
      *
-     * @var \Jaybizzle\CrawlerDetect\Fixtures\Exclusions
+     * @var Exclusions
      */
     protected $exclusions;
 
     /**
      * Headers object.
      *
-     * @var \Jaybizzle\CrawlerDetect\Fixtures\Headers
+     * @var Headers
      */
     protected $uaHttpHeaders;
 
