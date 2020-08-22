@@ -19,7 +19,6 @@ class Crawlers extends AbstractProvider
      * @var array
      */
     protected $data = array(
-        '.*Java.*outbrain',
         ' YLT',
         '^b0t$',
         '^bluefish ',
@@ -586,6 +585,7 @@ class Crawlers extends AbstractProvider
         'JAHHO',
         'janforman',
         'Jaunt\/',
+        'Java.*outbrain',
         'javelin\.io',
         'Jbrofuzz',
         'Jersey\/',
