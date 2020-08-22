@@ -172,13 +172,7 @@ class CrawlerDetect
             return false;
         }
 
-        $result = preg_match("/{$this->compiledRegex}/i", $agent, $matches);
-
-        if ($matches) {
-            $this->matches = $matches;
-        }
-
-        return (bool) $result;
+        return (bool) preg_match("/{$this->compiledRegex}/i", $agent, $this->matches);
     }
 
     /**
