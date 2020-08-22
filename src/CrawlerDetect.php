@@ -20,9 +20,9 @@ class CrawlerDetect
     /**
      * The user agent.
      *
-     * @var null
+     * @var string|null
      */
-    protected $userAgent = null;
+    protected $userAgent;
 
     /**
      * Headers that contain a user agent.
@@ -138,7 +138,7 @@ class CrawlerDetect
     /**
      * Set the user agent.
      *
-     * @param string $userAgent
+     * @param string|null $userAgent
      */
     public function setUserAgent($userAgent)
     {
