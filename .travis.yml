@@ -30,7 +30,7 @@ install:
   - composer install --no-interaction --prefer-dist --no-suggest
 
 script:
-  - composer test -- --coverage-clover=tests/logs/clover.xml
+  - vendor/bin/phpunit --coverage-clover=tests/logs/clover.xml
 
 after_script:
   - php vendor/bin/coveralls -v
