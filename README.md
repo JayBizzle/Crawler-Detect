@@ -69,6 +69,10 @@ To use this library in a .net standard (including .net core) based project, chec
 
 To use this library with Ruby on Rails or any Ruby-based application, check out [crawler_detect](https://github.com/loadkpi/crawler_detect) gem.
 
+### Go Module
+
+To use this library with Go, check out the [crawlerdetect](https://github.com/x-way/crawlerdetect) module.
+
 _Parts of this class are based on the brilliant [MobileDetect](https://github.com/serbanghita/Mobile-Detect)_
 
 [![Analytics](https://ga-beacon.appspot.com/UA-72430465-1/Crawler-Detect/readme?pixel)](https://github.com/JayBizzle/Crawler-Detect)
