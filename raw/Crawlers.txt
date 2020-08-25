@@ -5,6 +5,7 @@
 ^COMODO DCV
 ^DangDang
 ^DavClnt
+^DHSH
 ^FDM 
 ^git\/
 ^Goose\/
@@ -230,6 +231,7 @@ Crowsnest
 Criteo
 CSHttp
 CSSCheck
+Cula\/
 curb
 Curious George
 curl
