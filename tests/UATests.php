@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
+use PHPUnit\Framework\TestCase;
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
 use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
-use PHPUnit\Framework\TestCase;
 
 class UserAgentTest extends TestCase
 {
