@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-use PHPUnit\Framework\TestCase;
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
 use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
+use PHPUnit\Framework\TestCase;
 
 final class UserAgentTest extends TestCase
 {
@@ -98,6 +98,18 @@ final class UserAgentTest extends TestCase
         $cd = new CrawlerDetect($headers);
 
         $this->assertTrue($cd->isCrawler());
+    }
+
+    /** @test */
+    public function matches_does_not_persit_across_multiple_calls()
+    {
+        $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
+        $matches = $this->CrawlerDetect->getMatches();
+        $this->assertEquals($this->CrawlerDetect->getMatches(), 'monitoring', $matches);
+
+        $this->CrawlerDetect->isCrawler('This should not match');
+        $matches = $this->CrawlerDetect->getMatches();
+        $this->assertNull($this->CrawlerDetect->getMatches());
     }
 
     /** @test */
