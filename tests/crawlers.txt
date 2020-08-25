@@ -3534,3 +3534,30 @@ DHSH Statistik Chec
 DHSH Law Check
 DHSH User Check
 Mozilla/5.0+(compatible; Cula/2.0; https://cula.io/)
+Winds: Open Source RSS & Podcast app: https://getstream.io/winds/
+XenForo/2.x (https://www.recreationalflying.com)
+TECHIAITH_CY (+https://techiaith.cymru)
+ScopeContentAG-HTTP-Client www.thescope.com/0.1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Lush Http Client
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 The National Archives UK Government Web Archive: http://www.nationalarchives.gov.uk/webarchive/; webarchive@nationalarchives.gov.uk
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36 (compatible; NameFo; https://namefo.com/)
+Mozilla/5.0 (Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 (compatible; Statically-Screenshot; +https://statically.io/screenshot)
+Mozilla/5.0 (compatible; Domains Project/1.0.8; +https://domainsproject.org)
+Mozilla/5.0 (compatible; AffiliateLabz/1.0; +https://affiliatelabz.com/)
+Mozilla/5.0 (compatible; 2GDPR/1.2; https://2gdpr.com)
+Mozilla/5.0 (+http://www.sli-systems.com/) Mammoth/0.1
+Microsoft.Data.Mashup (https://go.microsoft.com/fwlink/?LinkID=304225)
+LinkPreview/1.5 (http://linkpreview.net)
+https://gdnplus.com:Gather Analyze Provide.
+Feedshow/x.0 (http://www.feedshow.com; 1 subscriber)
+apimon.de/http-apis#redirect
+ZoteroTranslationServer/WMF (mailto:services@lists.wikimedia.org)
+yomins.com/0.3
+WakeletLinkExpander/0.1
+ultimate_sitemap_parser/0.5
+Swurl Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+postplanner.com/site-scraping
+Nuclei (@pdiscoveryio)
+myseosnapshot/1.0
+Contextual Code Sites Explorer
+Corax - support@coraxcyber.com
