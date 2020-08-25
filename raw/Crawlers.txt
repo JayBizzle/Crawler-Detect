@@ -1,4 +1,3 @@
-.*Java.*outbrain
  YLT
 ^b0t$
 ^bluefish 
@@ -565,6 +564,7 @@ iZSearch
 JAHHO
 janforman
 Jaunt\/
+Java.*outbrain
 javelin\.io
 Jbrofuzz
 Jersey\/
@@ -670,7 +670,6 @@ MemGator
 Metaspinner
 MetaURI
 MFC_Tear_Sample
-MicroMessenger\/
 Microsearch
 Microsoft Office 
 Microsoft Outlook
