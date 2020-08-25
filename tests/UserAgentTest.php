@@ -13,11 +13,11 @@ use PHPUnit\Framework\TestCase;
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
 use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
 
-class UserAgentTest extends TestCase
+final class UserAgentTest extends TestCase
 {
-    protected $CrawlerDetect;
+    private $CrawlerDetect;
 
-    public function setUp()
+    protected function setUp()
     {
         $this->CrawlerDetect = new CrawlerDetect();
     }
