@@ -1,13 +1,13 @@
  YLT
 ^b0t$
-^bluefish 
+^bluefish
 ^Calypso v\/
 ^Corax
 ^COMODO DCV
 ^DangDang
 ^DavClnt
 ^DHSH
-^FDM 
+^FDM
 ^git\/
 ^Goose\/
 ^Grabber
@@ -24,7 +24,7 @@
 ^PHP\/[0-9]
 ^RMA\/
 ^Ruby|Ruby\/[0-9]
-^Swurl 
+^Swurl
 ^VSE\/[0-9]
 ^WordPress\.com
 ^XRL\/[0-9]
@@ -75,7 +75,6 @@ allloadin
 AllSubmitter
 alyze\.info
 amagit
-^Amazon CloudFront$
 ^Amazon Simple Notification Service Agent$
 Anarchie
 AndroidDownloadManager
@@ -516,7 +515,7 @@ httpunit
 HttpUrlConnection
 httrack
 huaweisymantec
-HubSpot 
+HubSpot
 Humanlinks
 i2kconnect\/
 Iblog
@@ -685,7 +684,7 @@ MetaURI
 MFC_Tear_Sample
 Microsearch
 Microsoft\.Data\.Mashup
-Microsoft Office 
+Microsoft Office
 Microsoft Outlook
 Microsoft Windows Network Diagnostics
 Microsoft-WebDAV-MiniRedir
@@ -882,7 +881,7 @@ ProWebWalker
 proximic
 PRTG Network Monitor
 pshtt, https scanning
-PTST 
+PTST
 PTST\/[0-9]+
 Pump
 python-httpx
@@ -1045,7 +1044,7 @@ speedy
 SPEng
 Spinn3r
 spray-can
-Sprinklr 
+Sprinklr
 spyonweb
 sqlmap
 Sqlworm
@@ -1067,7 +1066,7 @@ summify
 SuperHTTP
 Surphace Scout
 Suzuran
-swcd 
+swcd
 Symfony BrowserKit
 Symfony2 BrowserKit
 SynHttpClient-Built
@@ -1215,7 +1214,7 @@ WebIndex
 webkit2png
 WebLeacher
 webmastercoffee
-webmon 
+webmon
 WebPix
 WebReaper
 WebSauger
@@ -1311,7 +1310,7 @@ Zemanta Aggregator
 Zend_Http_Client
 Zend\\Http\\Client
 Zermelo
-Zeus 
+Zeus
 zgrab
 ZnajdzFoto
 ZnHTTP
