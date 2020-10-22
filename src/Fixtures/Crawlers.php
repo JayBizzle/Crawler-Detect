@@ -1350,7 +1350,6 @@ class Crawlers extends AbstractProvider
         'ZnajdzFoto',
         'ZnHTTP',
         'Zombie\.js',
-        'ZoominfoBot',
         'Zoom\.Mac',
         'ZoteroTranslationServer',
         'ZyBorg',
