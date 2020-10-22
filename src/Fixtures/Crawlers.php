@@ -124,7 +124,7 @@ class Crawlers extends AbstractProvider
         'aria2',
         'Arukereso',
         'asafaweb',
-        'Asana/',
+        'Asana\/',
         'AskQuickly',
         'Ask Jeeves',
         'ASPSeek',
