@@ -5,7 +5,6 @@ on:
     branches:
       - "**"
   pull_request:
-    types: [ready_for_review, synchronize, opened]
 
 jobs:
   build:
@@ -21,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Setup PHP, with composer and extensions
+      - name: Setup PHP, with composer
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
