@@ -26,7 +26,7 @@ jobs:
         with:
           php-version: ${{ matrix.php }}
           tools: composer:v2
-          coverage: none
+          coverage: xdebug
 
       - name: Get composer cache directory
         id: composer-cache
