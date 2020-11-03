@@ -746,7 +746,6 @@ class Crawlers extends AbstractProvider
         'Mrcgiguy',
         'MS Web Services Client Protocol',
         'MSFrontPage',
-        'ms-office',
         'mShots',
         'MuckRack\/',
         'muhstik-scan',
