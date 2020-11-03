@@ -9,7 +9,6 @@
 <a href="https://scrutinizer-ci.com/g/JayBizzle/Crawler-Detect/?branch=master"><img src="https://img.shields.io/scrutinizer/g/JayBizzle/Crawler-Detect.svg?style=flat-square" /></a>
 <a href="https://github.com/JayBizzle/Crawler-Detect"><img src="https://img.shields.io/badge/license-MIT-ff69b4.svg?style=flat-square" /></a>
 <a href="https://packagist.org/packages/jaybizzle/crawler-detect"><img src="https://img.shields.io/packagist/v/jaybizzle/Crawler-Detect.svg?style=flat-square" /></a>
-<a href="https://styleci.io/repos/32755917"><img src="https://styleci.io/repos/32755917/shield" /></a>
 <a href="https://coveralls.io/github/JayBizzle/Crawler-Detect"><img src="https://img.shields.io/coveralls/JayBizzle/Crawler-Detect/master.svg?style=flat-square" /></a>
 </p>
 
