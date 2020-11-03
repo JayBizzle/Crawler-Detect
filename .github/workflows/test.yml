@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: [5.3, 5.4, 5.5, 5.6, 7.0, 7.1, 7.2, 7.3, 7.4]
+        php: [7.2, 7.3, 7.4]
 
     name: PHP:${{ matrix.php }}
 
@@ -50,5 +50,5 @@ jobs:
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          composer global require php-coveralls/php-coveralls
-          /home/runner/.composer/vendor/bin/php-coveralls --coverage_clover=tests/logs/clover.xml -v
+          composer global require php-coveralls/php-coveralls "^1.0"
+          coveralls --coverage_clover=tests/logs/clover.xml -v
