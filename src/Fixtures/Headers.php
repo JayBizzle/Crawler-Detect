@@ -18,7 +18,7 @@ class Headers extends AbstractProvider
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         // The default User-Agent string.
         'HTTP_USER_AGENT',
         // Header can occur on devices using Opera Mini.
@@ -33,5 +33,5 @@ class Headers extends AbstractProvider
         // Sometimes, bots (especially Google) use a genuine user agent, but fill this header in with their email address
         'HTTP_FROM',
         'HTTP_X_SCANNER', // Seen in use by Netsparker
-    );
+    ];
 }

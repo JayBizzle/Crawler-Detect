@@ -29,14 +29,14 @@ class CrawlerDetect
      *
      * @var array
      */
-    protected $httpHeaders = array();
+    protected $httpHeaders = [];
 
     /**
      * Store regex matches.
      *
      * @var array
      */
-    protected $matches = array();
+    protected $matches = [];
 
     /**
      * Crawlers object.
@@ -114,7 +114,7 @@ class CrawlerDetect
         }
 
         // Clear existing headers.
-        $this->httpHeaders = array();
+        $this->httpHeaders = [];
 
         // Only save HTTP headers. In PHP land, that means
         // only _SERVER vars that start with HTTP_.
