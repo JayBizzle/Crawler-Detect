@@ -2,7 +2,6 @@
 <a href="https://crawlerdetect.io/" target="_blank">crawlerdetect.io</a>
 <br><br>
 </p>
-![Test](https://github.com/JayBizzle/Crawler-Detect/workflows/Test/badge.svg)
 <p align="center">
 <a href="https://travis-ci.org/JayBizzle/Crawler-Detect"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/JayBizzle/Crawler-Detect/Test"></a>
 <a href="https://packagist.org/packages/jaybizzle/crawler-detect"><img src="https://img.shields.io/packagist/dm/JayBizzle/Crawler-Detect.svg?style=flat-square" /></a>
