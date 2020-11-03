@@ -17,7 +17,7 @@ final class UserAgentTest extends TestCase
 {
     private $CrawlerDetect;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->CrawlerDetect = new CrawlerDetect();
     }
