@@ -21,7 +21,7 @@
 ^NG\/[0-9\.]
 ^NING\/
 ^Nuclei
-^PHP\/[0-9]
+^PHP\/
 ^RMA\/
 ^Ruby|Ruby\/[0-9]
 ^Swurl 
@@ -81,6 +81,7 @@ AndroidDownloadManager
 Anemone
 AngleSharp
 annotate_google
+Anthill
 Ant\.com
 Anturis Agent
 AnyEvent-HTTP\/
@@ -103,6 +104,7 @@ Arachnophilia
 aria2
 Arukereso
 asafaweb
+Asana\/
 AskQuickly
 Ask Jeeves
 ASPSeek
@@ -191,6 +193,7 @@ censys
 centuryb.o.t9[at]gmail.com
 Cerberian Drtrs
 CERT\.at-Statistics-Survey
+cf-facebook
 cg-eye
 changedetection
 ChangesMeter
@@ -518,6 +521,7 @@ HttpUrlConnection
 httrack
 huaweisymantec
 HubSpot 
+HubSpot-Link-Resolver
 Humanlinks
 i2kconnect\/
 Iblog
@@ -631,6 +635,7 @@ Likse
 limber\.io
 Link Valet
 link_thumbnailer
+LinkAnalyser
 LinkAlarm\/
 linkCheck
 linkdex
@@ -675,6 +680,7 @@ MarkWatch
 Mass Downloader
 masscan\/
 Mata Hari
+mattermost
 Mediametric
 Mediapartners-Google
 mediawords
@@ -687,7 +693,7 @@ MetaURI
 MFC_Tear_Sample
 Microsearch
 Microsoft\.Data\.Mashup
-Microsoft Office 
+Microsoft Office
 Microsoft Outlook
 Microsoft Windows Network Diagnostics
 Microsoft-WebDAV-MiniRedir
@@ -904,6 +910,7 @@ QuiteRSS
 Quora Link Preview
 Qwantify
 Radian6
+Railgun\/
 RankActive
 RankFlex
 RankSonicSiteAuditor
@@ -931,6 +938,7 @@ Robozilla
 ROI Hunter
 RPT-HTTPClient
 RSSOwl
+RSSMix\/
 RyowlEngine
 safe-agent-scanner
 SalesIntelligent
@@ -960,6 +968,7 @@ searchenginepromotionhelp
 Searchestate
 SearchExpress
 SearchSight
+SearchWP
 Seeker
 semanticdiscovery
 semanticjuice
@@ -1062,6 +1071,7 @@ Statically-Screenshot
 StatusCake
 Steeler
 Stratagems Kumo
+Stripe\/
 Stroke\.cz
 StudioFACA
 StumbleUpon
@@ -1269,6 +1279,7 @@ worldping-api
 WordupinfoSearch
 wotbox
 WP Engine Install Performance API
+WP Rocket
 wpif
 wprecon\.com survey
 WPScan
