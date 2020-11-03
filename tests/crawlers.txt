@@ -2662,6 +2662,7 @@ Microsoft Office Word 2013 (15.0.4805) Windows NT 10.0
 Microsoft Office Word 2013 (15.0.4805) Windows NT 6.1
 Microsoft Office Word 2013 (15.0.4823) Windows NT 10.0
 Microsoft Office Word 2014
+Microsoft Office/16.0 (Windows NT 10.0; Microsoft Excel 16.0.13231; Pro)
 Melvil Rawi/1.0
 marketinggrader.com
 Mandrill-Webhook/1.0
@@ -3577,3 +3578,7 @@ ZoominfoBot (zoominfobot at zoominfo dot com)
 Asana/1.4.0 WebsiteMetadataRetriever
 mattermost-5.19.0
 WP Rocket/Homepage Preload
+Anthill
+cf-facebook/6.8.48 Node.js/v6.11.1
+LinkAnalyser/2.0
+PHP/{5|6|7}.{3|2}.{1|2|3|4|5|6|7|8|9|0}{1|2|3|4|5|6|7|8|9|0}
