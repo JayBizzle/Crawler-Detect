@@ -50,14 +50,5 @@ jobs:
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          composer global require php-coveralls/php-coveralls
-          php-coveralls --coverage_clover=tests/logs/clover.xml -v
-        if: matrix.php != '5.3'
-
-      - name: Upload coverage results to Coveralls (PHP 5.3)
-        env:
-          COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          composer global require php-coveralls/php-coveralls
+          composer global require php-coveralls/php-coveralls "^1.0"
           coveralls --coverage_clover=tests/logs/clover.xml -v
-        if: matrix.php == '5.3'
