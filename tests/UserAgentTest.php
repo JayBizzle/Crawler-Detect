@@ -47,7 +47,7 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function it_returns_correct_matched_bot_name()
     {
-        $test = $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
+        $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
 
         $matches = $this->CrawlerDetect->getMatches();
 
@@ -57,11 +57,11 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function it_returns_null_when_no_bot_detected()
     {
-        $test = $this->CrawlerDetect->isCrawler('nothing to see here');
+        $this->CrawlerDetect->isCrawler('nothing to see here');
 
-        $matches = $this->CrawlerDetect->getMatches();
+        $this->CrawlerDetect->getMatches();
 
-        $this->assertEquals($this->CrawlerDetect->getMatches(), null, $matches);
+        $this->assertEquals($this->CrawlerDetect->getMatches(), null);
     }
 
     /** @test */
