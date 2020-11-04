@@ -18,7 +18,7 @@ class Crawlers extends AbstractProvider
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         ' YLT',
         '^b0t$',
         '^bluefish ',
@@ -1356,6 +1356,6 @@ class Crawlers extends AbstractProvider
         'Zoom\.Mac',
         'ZoteroTranslationServer',
         'ZyBorg',
-        '[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
-    );
+        '(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
+    ];
 }

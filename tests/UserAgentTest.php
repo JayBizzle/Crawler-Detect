@@ -28,8 +28,7 @@ final class UserAgentTest extends TestCase
         $lines = file(__DIR__.'/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
-            $test = $this->CrawlerDetect->isCrawler($line);
-            $this->assertTrue($test, $line);
+            $this->assertTrue($this->CrawlerDetect->isCrawler($line), $line);
         }
     }
 
@@ -39,8 +38,7 @@ final class UserAgentTest extends TestCase
         $lines = file(__DIR__.'/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
-            $test = $this->CrawlerDetect->isCrawler($line);
-            $this->assertFalse($test, $line);
+            $this->assertFalse($this->CrawlerDetect->isCrawler($line), $line);
         }
     }
 
