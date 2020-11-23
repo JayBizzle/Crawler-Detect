@@ -19,7 +19,7 @@ class Exclusions extends AbstractProvider
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         'Safari.[\d\.]*',
         'Firefox.[\d\.]*',
         ' Chrome.[\d\.]*',
@@ -67,5 +67,6 @@ class Exclusions extends AbstractProvider
         '; IDbot',
         '; ID bot',
         '; POWER BOT',
-    );
+        'OCTOPUS-CORE',
+    ];
 }
