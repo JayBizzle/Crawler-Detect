@@ -55,6 +55,16 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
+    public function it_returns_full_matched_bot_name()
+    {
+        $test = $this->CrawlerDetect->isCrawler('somenaughtybot');
+
+        $matches = $this->CrawlerDetect->getMatches();
+
+        $this->assertEquals($this->CrawlerDetect->getMatches(), 'somenaughtybot', $matches);
+    }
+
+    /** @test */
     public function it_returns_null_when_no_bot_detected()
     {
         $test = $this->CrawlerDetect->isCrawler('nothing to see here');
