@@ -69,7 +69,7 @@ final class UserAgentTest extends TestCase
 
         $matches = $this->CrawlerDetect->getMatches();
 
-        $this->assertNull($this->CrawlerDetect->getMatches(), $matches);
+        $this->assertNull($this->CrawlerDetect->getMatches());
     }
 
     /** @test */
