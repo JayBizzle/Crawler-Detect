@@ -69,8 +69,6 @@ final class UserAgentTest extends TestCase
         $this->CrawlerDetect = new CrawlerDetect();
         $this->CrawlerDetect->isCrawler('nothing to see here');
 
-        $this->CrawlerDetect->getMatches();
-
         $this->assertNull($this->CrawlerDetect->getMatches());
     }
 
