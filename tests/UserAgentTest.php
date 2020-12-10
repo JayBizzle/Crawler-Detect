@@ -15,6 +15,8 @@ use PHPUnit\Framework\TestCase;
 
 final class UserAgentTest extends TestCase
 {
+    public $CrawlerDetect;
+
     /** @test */
     public function user_agents_are_bots()
     {
@@ -67,7 +69,7 @@ final class UserAgentTest extends TestCase
         $this->CrawlerDetect = new CrawlerDetect();
         $this->CrawlerDetect->isCrawler('nothing to see here');
 
-        $matches = $this->CrawlerDetect->getMatches();
+        $this->CrawlerDetect->getMatches();
 
         $this->assertNull($this->CrawlerDetect->getMatches());
     }
