@@ -3582,3 +3582,11 @@ Anthill
 cf-facebook/6.8.48 Node.js/v6.11.1
 LinkAnalyser/2.0
 PHP/{5|6|7}.{3|2}.{1|2|3|4|5|6|7|8|9|0}{1|2|3|4|5|6|7|8|9|0}
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:82.0) Gecko/20100101 Firefox/82.0 Observatory/82.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) Project-Resonance (http://project-resonance.com/) (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Mozilla/5.0 (compatible; DNSResearchBot/2.1; +http://195.37.190.77)
+Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+Mozilla/5.0 (compatible; tchelebi/1.0; +http://tchelebi.io)
+OnalyticaBot
+Pleroma 2.1.50-495-gf9ece1a7-develop+dev; https://search.fedi.app <pleroma@search.fedi.app>; Bot
+SmerBot/0.1 (smerity@smerity.com) Language Model Dataset Fetcher
