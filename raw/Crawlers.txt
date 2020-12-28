@@ -789,6 +789,7 @@ nWormFeedFinder
 nyawc\/
 Nymesis
 NYU
+Observatory\/
 Ocelli\/
 Octopus
 oegp
@@ -861,6 +862,7 @@ pinterest\.com
 Pixray
 Pizilla
 Plagger\/
+Pleroma 
 Ploetz \+ Zeller
 Plukkie
 plumanalytics
@@ -886,6 +888,7 @@ PritTorrent
 Prlog
 probethenet
 Project ?25499
+Project-Resonance
 prospectb2b
 Protopage
 ProWebWalker
@@ -1094,6 +1097,7 @@ tAkeOut
 Tarantula\/
 Taringa UGC
 TarmotGezgin
+tchelebi\.io
 techiaith\.cymru
 Teleport
 Telesoft
