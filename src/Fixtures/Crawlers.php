@@ -904,6 +904,7 @@ class Crawlers extends AbstractProvider
         'postrank',
         'PowerPoint\/',
         'Prebid',
+        'Prerender',
         'Priceonomics Analysis Engine',
         'PrintFriendly',
         'PritTorrent',
