@@ -411,6 +411,7 @@ Go [\d\.]* package http
 Go http package
 Go-Ahead-Got-It
 Go-http-client
+go-mtasts\/
 Go!Zilla
 gobyus
 Gofeed
@@ -435,6 +436,7 @@ Google-Apps-Script
 Google-Calendar-Importer
 Google-HotelAdsVerifier
 Google-HTTP-Java-Client
+Google-SMTP-STS
 Google-Publisher-Plugin
 Google-Read-Aloud
 Google-SearchByImage
@@ -670,6 +672,7 @@ MacOutlook\/
 Mag-Net
 MagpieRSS
 Mail\.Ru
+Mail::STS
 MailChimp
 Majestic12
 makecontact\/
@@ -877,6 +880,7 @@ Pompos
 Porkbun
 Port Monitor
 postano
+postfix-mta-sts-resolver
 PostmanRuntime
 postplanner\.com
 PostPost
