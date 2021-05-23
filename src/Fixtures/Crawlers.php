@@ -495,6 +495,7 @@ class Crawlers extends AbstractProvider
         'hackney\/',
         'Hadi Agent',
         'HappyApps-WebCheck',
+        'Hardenize',
         'Hatena',
         'Havij',
         'HaxerMen',
