@@ -1251,6 +1251,7 @@ WebSniffer
 Webster
 WebStripper
 WebSucker
+webtech\/
 Webthumb\/
 WebThumbnail
 WebWhacker
