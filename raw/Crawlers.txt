@@ -12,6 +12,7 @@
 ^Goose\/
 ^Grabber
 ^HTTPClient\/
+^HTTPing
 ^Java\/
 ^Jeode\/
 ^Jetty\/
