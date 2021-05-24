@@ -7,6 +7,7 @@
 ^DangDang
 ^DavClnt
 ^DHSH
+^Expanse
 ^FDM 
 ^git\/
 ^Goose\/
@@ -474,6 +475,7 @@ Haansoft
 hackney\/
 Hadi Agent
 HappyApps-WebCheck
+Hardenize
 Hatena
 Havij
 HaxerMen
@@ -827,6 +829,7 @@ PageFreezer
 PageGrabber
 PagePeeker
 PageScorer
+PageThing
 Pagespeed\/
 Panopta
 panscient
