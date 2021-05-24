@@ -208,6 +208,7 @@ chkme\.com
 Chlooe
 Chromaxa
 CirrusExplorer
+CISPA Web Analyser
 CISPA Vulnerability Notification
 Citoid
 CJNetworkQuality
