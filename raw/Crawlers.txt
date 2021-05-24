@@ -7,6 +7,7 @@
 ^DangDang
 ^DavClnt
 ^DHSH
+^Expanse
 ^FDM 
 ^git\/
 ^Goose\/
@@ -18,6 +19,7 @@
 ^Mail\/
 ^Mget
 ^Microsoft URL Control
+^Netlab360
 ^NG\/[0-9\.]
 ^NING\/
 ^Nuclei
@@ -25,6 +27,7 @@
 ^RMA\/
 ^Ruby|Ruby\/[0-9]
 ^Swurl 
+^TLS tester 
 ^VSE\/[0-9]
 ^WordPress\.com
 ^XRL\/[0-9]
@@ -207,6 +210,7 @@ chkme\.com
 Chlooe
 Chromaxa
 CirrusExplorer
+CISPA Web Analyser
 CISPA Vulnerability Notification
 Citoid
 CJNetworkQuality
@@ -411,6 +415,7 @@ Go [\d\.]* package http
 Go http package
 Go-Ahead-Got-It
 Go-http-client
+go-mtasts\/
 Go!Zilla
 gobyus
 Gofeed
@@ -435,6 +440,7 @@ Google-Apps-Script
 Google-Calendar-Importer
 Google-HotelAdsVerifier
 Google-HTTP-Java-Client
+Google-SMTP-STS
 Google-Publisher-Plugin
 Google-Read-Aloud
 Google-SearchByImage
@@ -474,6 +480,7 @@ Haansoft
 hackney\/
 Hadi Agent
 HappyApps-WebCheck
+Hardenize
 Hatena
 Havij
 HaxerMen
@@ -621,6 +628,7 @@ KumKie
 L\.webis
 Larbin
 Lavf\/
+leakix\.net
 LeechFTP
 LeechGet
 letsencrypt
@@ -671,6 +679,7 @@ MacOutlook\/
 Mag-Net
 MagpieRSS
 Mail\.Ru
+Mail::STS
 MailChimp
 Majestic12
 makecontact\/
@@ -828,6 +837,7 @@ PageFreezer
 PageGrabber
 PagePeeker
 PageScorer
+PageThing
 Pagespeed\/
 Panopta
 panscient
@@ -878,6 +888,7 @@ Pompos
 Porkbun
 Port Monitor
 postano
+postfix-mta-sts-resolver
 PostmanRuntime
 postplanner\.com
 PostPost
@@ -912,6 +923,7 @@ Qseero
 Qualidator
 QueryN Metasearch
 queuedriver
+quic-go-HTTP\/
 QuiteRSS
 Quora Link Preview
 Qwantify
@@ -1252,6 +1264,7 @@ WebSniffer
 Webster
 WebStripper
 WebSucker
+webtech\/
 Webthumb\/
 WebThumbnail
 WebWhacker
