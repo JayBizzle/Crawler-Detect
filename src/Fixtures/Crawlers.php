@@ -34,6 +34,7 @@ class Crawlers extends AbstractProvider
         '^Goose\/',
         '^Grabber',
         '^HTTPClient\/',
+        '^HTTPing',
         '^Java\/',
         '^Jeode\/',
         '^Jetty\/',
