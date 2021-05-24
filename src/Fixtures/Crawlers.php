@@ -627,6 +627,7 @@ class Crawlers extends AbstractProvider
         'Joomla',
         'Jorgee',
         'JS-Kit',
+        'JungleKeyThumbnail',
         'JustView',
         'Kaspersky Lab CFR link resolver',
         'Kelny\/',
