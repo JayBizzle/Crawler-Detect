@@ -3591,6 +3591,7 @@ OnalyticaBot
 Pleroma 2.1.50-495-gf9ece1a7-develop+dev; https://search.fedi.app <pleroma@search.fedi.app>; Bot
 SmerBot/0.1 (smerity@smerity.com) Language Model Dataset Fetcher
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/71.0.3578.98 Safari/537.36 Prerender (+https://github.com/prerender/prerender)
+webtech/1.2.11
 Hardenize (https://www.hardenize.com)
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0 | Hardenize (https://www.hardenize.com)
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0 | Hardenize/v1.1196.1 (https://www.hardenize.com)

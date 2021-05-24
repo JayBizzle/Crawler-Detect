@@ -1275,6 +1275,7 @@ class Crawlers extends AbstractProvider
         'Webster',
         'WebStripper',
         'WebSucker',
+        'webtech\/',
         'Webthumb\/',
         'WebThumbnail',
         'WebWhacker',
