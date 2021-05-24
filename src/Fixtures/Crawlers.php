@@ -228,6 +228,7 @@ class Crawlers extends AbstractProvider
         'Chlooe',
         'Chromaxa',
         'CirrusExplorer',
+        'CISPA Web Analyser',
         'CISPA Vulnerability Notification',
         'Citoid',
         'CJNetworkQuality',
