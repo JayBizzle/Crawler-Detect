@@ -3592,3 +3592,13 @@ Pleroma 2.1.50-495-gf9ece1a7-develop+dev; https://search.fedi.app <pleroma@searc
 SmerBot/0.1 (smerity@smerity.com) Language Model Dataset Fetcher
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/71.0.3578.98 Safari/537.36 Prerender (+https://github.com/prerender/prerender)
 quic-go-HTTP/3
+CISPA Web Analyser (https://notify.cispa.saarland)
+webtech/1.2.11
+Hardenize (https://www.hardenize.com)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0 | Hardenize (https://www.hardenize.com)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0 | Hardenize/v1.1196.1 (https://www.hardenize.com)
+Expanse indexes the network perimeters of our customers. If you have any questions or concerns, please reach out to: scaninfo@expanseinc.com
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+PageThing http://pagething.com
+PageThing.com
+Mozilla/5.0 (Windows; U; Windows NT 5.1; pl; PageThing http://pagething.com); rv:1.9; Gecko/2008052906 Firefox/3.0

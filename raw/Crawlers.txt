@@ -7,6 +7,7 @@
 ^DangDang
 ^DavClnt
 ^DHSH
+^Expanse
 ^FDM 
 ^git\/
 ^Goose\/
@@ -207,6 +208,7 @@ chkme\.com
 Chlooe
 Chromaxa
 CirrusExplorer
+CISPA Web Analyser
 CISPA Vulnerability Notification
 Citoid
 CJNetworkQuality
@@ -474,6 +476,7 @@ Haansoft
 hackney\/
 Hadi Agent
 HappyApps-WebCheck
+Hardenize
 Hatena
 Havij
 HaxerMen
@@ -827,6 +830,7 @@ PageFreezer
 PageGrabber
 PagePeeker
 PageScorer
+PageThing
 Pagespeed\/
 Panopta
 panscient
@@ -1252,6 +1256,7 @@ WebSniffer
 Webster
 WebStripper
 WebSucker
+webtech\/
 Webthumb\/
 WebThumbnail
 WebWhacker
