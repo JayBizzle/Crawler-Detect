@@ -28,6 +28,7 @@ class Crawlers extends AbstractProvider
         '^DangDang',
         '^DavClnt',
         '^DHSH',
+        '^Expanse',
         '^FDM ',
         '^git\/',
         '^Goose\/',
