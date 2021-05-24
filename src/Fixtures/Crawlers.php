@@ -46,6 +46,7 @@ class Crawlers extends AbstractProvider
         '^RMA\/',
         '^Ruby|Ruby\/[0-9]',
         '^Swurl ',
+        '^TLS tester ',
         '^VSE\/[0-9]',
         '^WordPress\.com',
         '^XRL\/[0-9]',
