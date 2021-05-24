@@ -849,6 +849,7 @@ class Crawlers extends AbstractProvider
         'PageGrabber',
         'PagePeeker',
         'PageScorer',
+        'PageThing',
         'Pagespeed\/',
         'Panopta',
         'panscient',
