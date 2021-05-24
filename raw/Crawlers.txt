@@ -623,6 +623,7 @@ KumKie
 L\.webis
 Larbin
 Lavf\/
+leakix\.net
 LeechFTP
 LeechGet
 letsencrypt
