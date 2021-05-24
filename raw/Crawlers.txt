@@ -7,6 +7,7 @@
 ^DangDang
 ^DavClnt
 ^DHSH
+^Expanse
 ^FDM 
 ^git\/
 ^Goose\/
@@ -26,6 +27,7 @@
 ^RMA\/
 ^Ruby|Ruby\/[0-9]
 ^Swurl 
+^TLS tester 
 ^VSE\/[0-9]
 ^WordPress\.com
 ^XRL\/[0-9]
@@ -208,6 +210,7 @@ chkme\.com
 Chlooe
 Chromaxa
 CirrusExplorer
+CISPA Web Analyser
 CISPA Vulnerability Notification
 Citoid
 CJNetworkQuality
@@ -475,6 +478,7 @@ Haansoft
 hackney\/
 Hadi Agent
 HappyApps-WebCheck
+Hardenize
 Hatena
 Havij
 HaxerMen
@@ -621,6 +625,7 @@ KumKie
 L\.webis
 Larbin
 Lavf\/
+leakix\.net
 LeechFTP
 LeechGet
 letsencrypt
@@ -828,6 +833,7 @@ PageFreezer
 PageGrabber
 PagePeeker
 PageScorer
+PageThing
 Pagespeed\/
 Panopta
 panscient
@@ -912,6 +918,7 @@ Qseero
 Qualidator
 QueryN Metasearch
 queuedriver
+quic-go-HTTP\/
 QuiteRSS
 Quora Link Preview
 Qwantify
@@ -1252,6 +1259,7 @@ WebSniffer
 Webster
 WebStripper
 WebSucker
+webtech\/
 Webthumb\/
 WebThumbnail
 WebWhacker
