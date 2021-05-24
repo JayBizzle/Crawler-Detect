@@ -932,6 +932,7 @@ class Crawlers extends AbstractProvider
         'Qualidator',
         'QueryN Metasearch',
         'queuedriver',
+        'quic-go-HTTP\/',
         'QuiteRSS',
         'Quora Link Preview',
         'Qwantify',
