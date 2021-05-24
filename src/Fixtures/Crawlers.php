@@ -169,6 +169,7 @@ class Crawlers extends AbstractProvider
         'binlar',
         'biNu image cacher',
         'Bitacle',
+        'Bitrix link preview',
         'biz_Directory',
         'BKCTwitterUnshortener\/',
         'Black Hole',
