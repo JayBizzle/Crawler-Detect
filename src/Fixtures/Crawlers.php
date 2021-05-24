@@ -641,6 +641,7 @@ class Crawlers extends AbstractProvider
         'L\.webis',
         'Larbin',
         'Lavf\/',
+        'leakix\.net',
         'LeechFTP',
         'LeechGet',
         'letsencrypt',
