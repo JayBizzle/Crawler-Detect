@@ -40,6 +40,7 @@ class Crawlers extends AbstractProvider
         '^Mail\/',
         '^Mget',
         '^Microsoft URL Control',
+        '^Netlab360',
         '^NG\/[0-9\.]',
         '^NING\/',
         '^Nuclei',
