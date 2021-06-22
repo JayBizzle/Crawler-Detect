@@ -3615,3 +3615,4 @@ Expanse, a Palo Alto Networks company, searches across the global IPv4 space mul
 PageThing http://pagething.com
 PageThing.com
 Mozilla/5.0 (Windows; U; Windows NT 5.1; pl; PageThing http://pagething.com); rv:1.9; Gecko/2008052906 Firefox/3.0
+Mozilla/5.0 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)
