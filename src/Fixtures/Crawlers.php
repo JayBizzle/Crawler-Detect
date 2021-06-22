@@ -878,6 +878,7 @@ class Crawlers extends AbstractProvider
         'Peew',
         'PeoplePal',
         'Perlu -',
+        'PetalBot',
         'PhantomJS Screenshoter',
         'PhantomJS\/',
         'Photon\/',
