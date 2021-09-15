@@ -75,17 +75,22 @@ class CrawlerDetect
 
     /**
      * Class constructor.
+     * @param array|null $httpHeaders
+     * @param string|null $userAgent
+     * @param AbstractProvider|null $crawlers
+     * @param AbstractProvider|null $exclusions
+     * @param AbstractProvider|null $headers
      */
-    public function __construct(array $headers = null, $userAgent = null)
+    public function __construct(array $httpHeaders = null, $userAgent = null, $crawlers = null, $exclusions = null, $headers = null)
     {
-        $this->crawlers = new Crawlers();
-        $this->exclusions = new Exclusions();
-        $this->uaHttpHeaders = new Headers();
+        $this->crawlers = is_null($crawlers) ? (new Crawlers()) : $crawlers;
+        $this->exclusions = is_null($exclusions) ? (new Exclusions()) : $exclusions;
+        $this->uaHttpHeaders = is_null($headers) ? (new Headers()) : $headers;
 
         $this->compiledRegex = $this->compileRegex($this->crawlers->getAll());
         $this->compiledExclusions = $this->compileRegex($this->exclusions->getAll());
 
-        $this->setHttpHeaders($headers);
+        $this->setHttpHeaders($httpHeaders);
         $this->setUserAgent($userAgent);
     }
 
