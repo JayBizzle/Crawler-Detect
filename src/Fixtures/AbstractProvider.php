@@ -29,4 +29,30 @@ abstract class AbstractProvider
     {
         return $this->data;
     }
+       
+    /**
+     * Allows to replace default list
+     *
+     * @param array $list
+     * @return $this
+     */
+    public function setItems($list)
+    {
+        $this->data = $list;
+
+        return $this;
+    }
+
+    /**
+     * Add custom items to list
+     *
+     * @param array $list
+     * @return $this
+     */
+    public function addItems($list)
+    {
+        $this->data = array_merge($this->data, $list);
+
+        return $this;
+    }
 }
