@@ -30,6 +30,7 @@
 ^Ruby|Ruby\/[0-9]
 ^Swurl 
 ^TLS tester 
+^ureq
 ^VSE\/[0-9]
 ^WordPress\.com
 ^XRL\/[0-9]
@@ -717,6 +718,8 @@ MIIxpc
 Mindjet
 Miniature\.io
 Miniflux
+mio_httpc
+Miro-HttpClient
 Mister PiX
 mixdata dot com
 mixed-content-scan
@@ -755,6 +758,7 @@ Navroad
 NearSite
 Needle
 Nessus
+nettle
 Net Vampire
 NetAnts
 NETCRAFT
@@ -781,6 +785,7 @@ nghttp2
 NG-Search
 Nibbler
 NICErsPRO
+NihilScio
 Nikto
 nineconnections
 NLNZ_IAHarvester
@@ -931,6 +936,7 @@ QuiteRSS
 Quora Link Preview
 Qwantify
 Radian6
+RadioPublicImageResizer
 Railgun\/
 RankActive
 RankFlex
@@ -1088,7 +1094,7 @@ SSL Labs
 ssl-tools
 StackRambler
 Statastico\/
-Statically-Screenshot
+Statically-
 StatusCake
 Steeler
 Stratagems Kumo
@@ -1174,12 +1180,14 @@ unirest-java
 ultimate_sitemap_parser
 UniversalFeedParser
 Unshorten\.It
+unshortenit
 Untiny
 UnwindFetchor
 updated
 updown\.io daemon
 Upflow
 Uptimia
+URL\/Emacs
 Urlcheckr
 URL Verifier
 URLitor
