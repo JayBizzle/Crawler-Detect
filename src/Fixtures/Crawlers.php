@@ -1230,7 +1230,6 @@ class Crawlers extends AbstractProvider
         'Uptimia',
         'URL Verifier',
         'Urlcheckr',
-        'Urlcheckr',
         'URLitor',
         'urlresolver',
         'Urlstat',
