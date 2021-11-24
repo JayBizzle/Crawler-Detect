@@ -3628,3 +3628,24 @@ NihilScio - Educational search engine - +https://www.nihilscio.it/NihilScio.htm
 Miro-HttpClient/1.0
 mio_httpc 0.9.4
 Amazon-Route53-Health-Check-Service (ref c96ad03c-acdf-48c6-8ec7-45806bf08123; report http://amzn.to/1vsZADi)
+pnpm/6.18.0 npm/? node/v16.11.1 linux x64
+Gradle/7.1 (Linux;4.15.0-162-generic;amd64) (Oracle Corporation;11.0.10;11.0.10+9)
+npm/6.14.12 node/v10.24.1 linux x64 ci/drone
+pip/21.3.1 {"ci":null,"cpu":"x86_64","distro":{"name":"macOS","version":"11.6"},"implementation":{"name":"CPython","version":"3.9.7"},"installer":{"name":"pip","version":"21.3.1"},"openssl_version":"OpenSSL 1.1.1l  24 Aug 2021","python":"3.9.7","setuptools_version":"59.2.0","system":{"name":"Darwin","release":"20.6.0"}}
+pip/21.0.1 {"ci":null,"cpu":"x86_64","distro":{"id":"stretch","libc":{"lib":"glibc","version":"2.24"},"name":"Debian GNU/Linux","version":"9"},"implementation":{"name":"CPython","version":"3.7.9"},"installer":{"name":"pip","version":"21.0.1"},"openssl_version":"OpenSSL 1.1.0l  10 Sep 2019","python":"3.7.9","setuptools_version":"53.0.0","system":{"name":"Linux","release":"4.19.123-coreos"}}
+twine/3.4.2 importlib_metadata/4.8.1 pkginfo/1.7.1 requests/2.26.0 requests-toolbelt/0.9.1 tqdm/4.62.3 CPython/3.8.12
+Aether
+PHP-AYMAPI/1.0
+Adyen HttpClient 1.0
+affilimate-puppeteer
+docker/19.03.8 go/go1.12.17 git-commit/afacb8b7f0 kernel/4.19.123-coreos os/linux arch/amd64 UpstreamClient(Docker-Client/19.03.8 \(linux\))
+Apache Ant/1.10.9
+Synapse/1.36.0
+GoogleProber
+Lucee (CFML Engine)
+RapidLoad/1.0
+SAP NetWeaver Application Server (1.0;750)
+Y!J-DLC/1.0 (https://support.yahoo-net.jp/PccSearch/s/article/H000007955)
+ColdFusion
+node-fetch
+awin.com - site screen shotter
