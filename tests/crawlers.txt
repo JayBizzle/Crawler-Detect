@@ -3649,3 +3649,4 @@ Y!J-DLC/1.0 (https://support.yahoo-net.jp/PccSearch/s/article/H000007955)
 ColdFusion
 node-fetch
 awin.com - site screen shotter
+chatterino-api-cache/1.0 link-resolver
