@@ -3650,3 +3650,4 @@ ColdFusion
 node-fetch
 awin.com - site screen shotter
 chatterino-api-cache/1.0 link-resolver
+gobuster/3.1.0

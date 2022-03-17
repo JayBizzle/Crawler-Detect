@@ -455,6 +455,7 @@ class Crawlers extends AbstractProvider
         'Go-Ahead-Got-It',
         'Go-http-client',
         'go-mtasts\/',
+        'gobuster',
         'gobyus',
         'Gofeed',
         'gofetch',
