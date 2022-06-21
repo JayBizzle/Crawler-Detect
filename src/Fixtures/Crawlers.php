@@ -668,6 +668,7 @@ class Crawlers extends AbstractProvider
         'kulturarw3',
         'KumKie',
         'Larbin',
+        'LastModBot',
         'Lavf\/',
         'leakix\.net',
         'LeechFTP',
