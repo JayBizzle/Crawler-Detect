@@ -59,15 +59,16 @@ To use this library with NodeJS or any ES6 application based, check out [es6-cra
 ### Python Library
 To use this library in a Python project, check out [crawlerdetect](https://github.com/moskrc/CrawlerDetect).
 
+### JVM Library (written in Java)
+To use this library in a JVM project (including Java, Scala, Kotlin, etc.), check out [CrawlerDetect](https://github.com/nekosoftllc/crawler-detect).
+
 ### .NET Library
 To use this library in a .net standard (including .net core) based project, check out [NetCrawlerDetect](https://github.com/gplumb/NetCrawlerDetect).
 
 ### Ruby Gem
-
 To use this library with Ruby on Rails or any Ruby-based application, check out [crawler_detect](https://github.com/loadkpi/crawler_detect) gem.
 
 ### Go Module
-
 To use this library with Go, check out the [crawlerdetect](https://github.com/x-way/crawlerdetect) module.
 
 _Parts of this class are based on the brilliant [MobileDetect](https://github.com/serbanghita/Mobile-Detect)_
