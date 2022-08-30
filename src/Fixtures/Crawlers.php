@@ -464,6 +464,7 @@ class Crawlers extends AbstractProvider
         'GomezAgent',
         'gooblog',
         'Goodzer\/',
+        'googleweblight',
         'Google AppsViewer',
         'Google Desktop',
         'Google favicon',
