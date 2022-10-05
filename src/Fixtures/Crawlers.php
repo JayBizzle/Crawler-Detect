@@ -426,6 +426,7 @@ class Crawlers extends AbstractProvider
         'free thumbnails',
         'Freeuploader',
         'FreshRSS',
+        'frontman',
         'Funnelback',
         'Fuzz Faster U Fool',
         'G-i-g-a-b-o-t',
