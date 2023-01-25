@@ -93,7 +93,7 @@ class CrawlerDetect
      * Compile the regex patterns into one regex string.
      *
      * @param array
-     * 
+     *
      * @return string
      */
     public function compileRegex($patterns)
@@ -187,5 +187,14 @@ class CrawlerDetect
     public function getMatches()
     {
         return isset($this->matches[0]) ? $this->matches[0] : null;
+    }
+
+
+    /**
+     * @return string|null
+     */
+    public function getUserAgent(): ?string
+    {
+        return $this->userAgent;
     }
 }
