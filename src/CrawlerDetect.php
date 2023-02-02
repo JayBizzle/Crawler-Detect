@@ -193,7 +193,7 @@ class CrawlerDetect
     /**
      * @return string|null
      */
-    public function getUserAgent(): ?string
+    public function getUserAgent()
     {
         return $this->userAgent;
     }
