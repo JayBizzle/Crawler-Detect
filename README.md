@@ -3,7 +3,7 @@
 <br><br>
 </p>
 <p align="center">
-<a href="https://github.com/JayBizzle/Crawler-Detect/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/JayBizzle/Crawler-Detect/tests.yml?branch=master&style=flat-square"></a>
+<a href="https://github.com/JayBizzle/Crawler-Detect/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/JayBizzle/Crawler-Detect/test.yml?branch=master&style=flat-square"></a>
 <a href="https://packagist.org/packages/jaybizzle/crawler-detect"><img src="https://img.shields.io/packagist/dm/JayBizzle/Crawler-Detect.svg?style=flat-square" /></a>
 <a href="https://github.com/JayBizzle/Crawler-Detect"><img src="https://img.shields.io/badge/license-MIT-ff69b4.svg?style=flat-square" /></a>
 <a href="https://packagist.org/packages/jaybizzle/crawler-detect"><img src="https://img.shields.io/packagist/v/jaybizzle/Crawler-Detect.svg?style=flat-square" /></a>
