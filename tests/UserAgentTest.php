@@ -53,6 +53,15 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
+    public function it_returns_user_agent()
+    {
+        $ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)';
+        $this->CrawlerDetect = new CrawlerDetect(null, $ua);
+
+        $this->assertEquals($this->CrawlerDetect->getUserAgent(), $ua);
+    }
+
+    /** @test */
     public function it_returns_full_matched_bot_name()
     {
         $this->CrawlerDetect = new CrawlerDetect();
