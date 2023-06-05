@@ -619,6 +619,7 @@ class Crawlers extends AbstractProvider
         'intraVnews',
         'IODC',
         'IOI',
+        'Inboxb0t',
         'iplabel',
         'ips-agent',
         'IPS\/[0-9]',
