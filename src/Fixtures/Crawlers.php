@@ -482,6 +482,7 @@ class Crawlers extends AbstractProvider
         'Google-Calendar-Importer',
         'Google-HotelAdsVerifier',
         'Google-HTTP-Java-Client',
+        'Google-InspectionTool',
         'Google-Podcast',
         'Google-Publisher-Plugin',
         'Google-Read-Aloud',
