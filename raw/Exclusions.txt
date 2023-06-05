@@ -46,3 +46,4 @@ cubot
 ; ID bot
 ; POWER BOT
 OCTOPUS-CORE
+htc_botdugls
