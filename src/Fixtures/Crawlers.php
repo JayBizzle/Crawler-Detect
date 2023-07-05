@@ -1127,6 +1127,7 @@ class Crawlers extends AbstractProvider
         'SpamExperts',
         'Spammen',
         'Spanner',
+        'Spawning-AI',
         'spaziodati',
         'SPDYCheck',
         'Specificfeeds',
