@@ -424,6 +424,7 @@ class Crawlers extends AbstractProvider
         'forensiq',
         'ForusP',
         'FoundSeoTool',
+        'fragFINN\.de',
         'free thumbnails',
         'Freeuploader',
         'FreshRSS',
