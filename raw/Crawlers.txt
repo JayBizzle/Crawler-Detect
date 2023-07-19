@@ -1110,6 +1110,7 @@ Spanner
 spaziodati
 SPDYCheck
 Specificfeeds
+SpeedKit
 speedy
 SPEng
 Spinn3r
