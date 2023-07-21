@@ -1132,6 +1132,7 @@ class Crawlers extends AbstractProvider
         'spaziodati',
         'SPDYCheck',
         'Specificfeeds',
+        'SpeedKit',
         'speedy',
         'SPEng',
         'Spinn3r',
