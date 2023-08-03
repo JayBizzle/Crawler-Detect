@@ -3502,6 +3502,7 @@ Google-Ads-Overview Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, l
 Google-Ads-Overview Mozilla/5.0 (Linux; U; Android 6.0.1; generic) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Version/4.0 Mobile Safari/537.36
 Google-Ads-Overview Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Version/4.0 Mobile Safari/537.36
 Google-Ads-Overview Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36
+Mozilla/5.0 AppleWebKit/537.36 Chrome/114.0.5735.179 Safari/537.36 Google-Ads-Conversions
 adreview/1.0
 Google-speakr
 Google-speakr,gzip(gfe)
