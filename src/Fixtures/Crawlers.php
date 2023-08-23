@@ -23,6 +23,7 @@ class Crawlers extends AbstractProvider
         '^Aether',
         '^Amazon Simple Notification Service Agent$',
         '^Amazon-Route53-Health-Check-Service',
+        '^Amazon CloudFront',
         '^b0t$',
         '^bluefish ',
         '^Calypso v\/',
