@@ -889,6 +889,7 @@ peerindex
 Peew
 PeoplePal
 Perlu -
+PetalBot
 PhantomJS Screenshoter
 PhantomJS\/
 Photon\/

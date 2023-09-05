@@ -3663,3 +3663,4 @@ Inboxb0t-Image/2.0
 fragFINN.de HTTP-Collector
 SpeedKit
 Amazon CloudFront
+Mozilla/5.0 (compatible;PetalBot;+https://webmaster.petalsearch.com/site/petalbot)
