@@ -693,6 +693,7 @@ class Crawlers extends AbstractProvider
         'Link Valet',
         'LinkAlarm\/',
         'LinkAnalyser',
+        'link-check',
         'linkCheck',
         'linkdex',
         'LinkExaminer',
