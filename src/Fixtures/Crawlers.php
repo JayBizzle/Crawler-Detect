@@ -161,7 +161,6 @@ class Crawlers extends AbstractProvider
         'a\.pr-cy\.ru',
         'B-l-i-t-z-B-O-T',
         'Backlink-Ceck',
-        'backlink-check',
         'BacklinkHttpStatus',
         'BackStreet',
         'BackupLand',
