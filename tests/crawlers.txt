@@ -3664,3 +3664,4 @@ fragFINN.de HTTP-Collector
 SpeedKit
 Amazon CloudFront
 link-check/5.2.0
+Mozilla/5.0/Firefox/42.0 - nbertaupete95(at)gmail.com

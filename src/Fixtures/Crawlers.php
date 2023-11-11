@@ -801,6 +801,7 @@ class Crawlers extends AbstractProvider
         'Nameprotect',
         'nationalarchives',
         'Navroad',
+        'nbertaupete95',
         'NearSite',
         'Needle',
         'Nessus',
