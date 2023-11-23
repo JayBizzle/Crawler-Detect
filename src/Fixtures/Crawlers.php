@@ -758,6 +758,7 @@ class Crawlers extends AbstractProvider
         'Microsoft Windows Network Diagnostics',
         'Microsoft-WebDAV-MiniRedir',
         'Microsoft\.Data\.Mashup',
+        'MicrosoftPreview',
         'MIDown tool',
         'MIIxpc',
         'Mindjet',

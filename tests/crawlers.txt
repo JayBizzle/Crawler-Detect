@@ -3665,3 +3665,4 @@ SpeedKit
 Amazon CloudFront
 link-check/5.2.0
 Mozilla/5.0/Firefox/42.0 - nbertaupete95(at)gmail.com
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; MicrosoftPreview/2.0; +https://aka.ms/MicrosoftPreview) Chrome/100.0.4896.127 Safari/537.36
