@@ -202,6 +202,7 @@ BunnySlippers
 Burf Search
 Butterfly\/
 BuzzSumo
+Bytespider
 CAAM\/[0-9]
 CakePHP
 Calculon

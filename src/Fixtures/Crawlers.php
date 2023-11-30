@@ -222,6 +222,7 @@ class Crawlers extends AbstractProvider
         'Burf Search',
         'Butterfly\/',
         'BuzzSumo',
+        'Bytespider',
         'CAAM\/[0-9]',
         'CakePHP',
         'Calculon',
