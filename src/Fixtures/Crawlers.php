@@ -967,6 +967,7 @@ class Crawlers extends AbstractProvider
         'pshtt, https scanning',
         'PTST ',
         'PTST\/[0-9]+',
+        'pulsetic\.com',
         'Pump',
         'Python-httplib2',
         'python-httpx',
