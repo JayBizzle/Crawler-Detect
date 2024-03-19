@@ -414,6 +414,7 @@ G-i-g-a-b-o-t
 g00g1e\.net
 ganarvisitas
 gdnplus\.com
+GeedoProductSearch
 geek-tools
 Genieo
 GentleSource
@@ -737,6 +738,7 @@ Microsoft Outlook
 Microsoft Windows Network Diagnostics
 Microsoft-WebDAV-MiniRedir
 Microsoft\.Data\.Mashup
+MicrosoftPreview
 MIDown tool
 MIIxpc
 Mindjet
@@ -946,6 +948,7 @@ PRTG Network Monitor
 pshtt, https scanning
 PTST 
 PTST\/[0-9]+
+pulsetic\.com
 Pump
 Python-httplib2
 python-httpx
