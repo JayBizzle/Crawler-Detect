@@ -376,6 +376,7 @@ class Crawlers extends AbstractProvider
         'Extreme Picture Finder',
         'EyeNetIE',
         'ezooms',
+        'facebookcatalog',
         'facebookexternalhit',
         'facebookexternalua',
         'facebookplatform',
