@@ -958,6 +958,7 @@ class Crawlers extends AbstractProvider
         'PrintFriendly',
         'PritTorrent',
         'Prlog',
+        'probely\.com',
         'probethenet',
         'Project ?25499',
         'Project-Resonance',
