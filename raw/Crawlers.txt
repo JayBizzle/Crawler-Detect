@@ -140,7 +140,6 @@ axios\/
 a\.pr-cy\.ru
 B-l-i-t-z-B-O-T
 Backlink-Ceck
-backlink-check
 BacklinkHttpStatus
 BackStreet
 BackupLand
@@ -456,8 +455,7 @@ Google Page Speed Insights
 Google PP Default
 Google Search Console
 Google Web Preview
-Google-Ads-Creatives-Assistant
-Google-Ads-Overview
+Google-Ads
 Google-Adwords
 Google-Apps-Script
 Google-Calendar-Importer
@@ -673,6 +671,7 @@ limber\.io
 Link Valet
 LinkAlarm\/
 LinkAnalyser
+link-check
 linkCheck
 linkdex
 LinkExaminer
@@ -781,6 +780,7 @@ NameFo\.com
 Nameprotect
 nationalarchives
 Navroad
+nbertaupete95
 NearSite
 Needle
 Nessus
