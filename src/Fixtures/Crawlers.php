@@ -1261,6 +1261,7 @@ class Crawlers extends AbstractProvider
         'VB Project',
         'vBSEO',
         'VCI',
+        'Verity',
         'via ggpht\.com GoogleImageProxy',
         'Virusdie',
         'visionutils',
