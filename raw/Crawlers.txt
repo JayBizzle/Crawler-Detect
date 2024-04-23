@@ -188,7 +188,6 @@ Braintree-Webhooks
 Branch Metrics API
 Branch-Passthrough
 Brandprotect
-BrandVerity
 Brandwatch
 Brodie\/
 Browsershots
@@ -1240,6 +1239,7 @@ Vagabondo
 VB Project
 vBSEO
 VCI
+Verity
 via ggpht\.com GoogleImageProxy
 Virusdie
 visionutils

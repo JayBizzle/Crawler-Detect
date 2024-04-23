@@ -209,7 +209,6 @@ class Crawlers extends AbstractProvider
         'Branch Metrics API',
         'Branch-Passthrough',
         'Brandprotect',
-        'BrandVerity',
         'Brandwatch',
         'Brodie\/',
         'Browsershots',
