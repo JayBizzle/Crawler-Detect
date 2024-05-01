@@ -1413,6 +1413,7 @@ class Crawlers extends AbstractProvider
         'Zabbix',
         'Zade',
         'Zao',
+        'Zapier',
         'Zauba',
         'Zemanta Aggregator',
         'Zend\\\\Http\\\\Client',
