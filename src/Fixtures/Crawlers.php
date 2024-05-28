@@ -715,6 +715,7 @@ class Crawlers extends AbstractProvider
         'longurl-r-package',
         'looid\.com',
         'looksystems\.net',
+        'lscache_runner',
         'ltx71',
         'lua-resty-http',
         'Lucee \(CFML Engine\)',
