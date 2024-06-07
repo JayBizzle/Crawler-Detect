@@ -170,6 +170,7 @@ class CrawlerDetect
 
         if ($agent === '') {
             $this->matches = array();
+
             return false;
         }
 
