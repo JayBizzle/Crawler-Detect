@@ -129,6 +129,16 @@ final class UserAgentTest extends TestCase
         $this->CrawlerDetect->isCrawler('This should not match');
         $matches = $this->CrawlerDetect->getMatches();
         $this->assertNull($this->CrawlerDetect->getMatches());
+        
+        //Empty
+        $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
+        $this->CrawlerDetect->isCrawler('');
+        $this->assertNull($this->CrawlerDetect->getMatches());
+
+        //Excluded
+        $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
+        $this->CrawlerDetect->isCrawler('iPod');
+        $this->assertNull($this->CrawlerDetect->getMatches());
     }
 
     /** @test */
