@@ -694,6 +694,7 @@ LongURL API
 longurl-r-package
 looid\.com
 looksystems\.net
+lscache_runner
 ltx71
 lua-resty-http
 Lucee \(CFML Engine\)
@@ -1392,6 +1393,7 @@ YP\.PL
 Zabbix
 Zade
 Zao
+Zapier
 Zauba
 Zemanta Aggregator
 Zend\\Http\\Client
