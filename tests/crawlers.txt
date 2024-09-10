@@ -2874,6 +2874,8 @@ COMODO DCV
 CATExplorador/1.0beta (sistemes at domini dot cat; http://domini.cat/catexplorador.html)
 ZmEu
 RSSOwl/2.2.1.201312301314 (Windows; U; en)
+RuxitSynthetic/
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.99 Safari/537.36 RuxitSynthetic/1.0 v119975163693 t1975984516666483988 ath87850d94 altpub cvcv=2 smf=0
 WebClient/1.0
 Microsoft-WebDAV-MiniRedir/10.0.10586
 Microsoft-WebDAV-MiniRedir/10.0.14393
