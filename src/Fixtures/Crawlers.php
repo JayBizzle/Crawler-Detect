@@ -1021,7 +1021,7 @@ class Crawlers extends AbstractProvider
         'RPT-HTTPClient',
         'RSSMix\/',
         'RSSOwl',
-        'RuxitSynthetic'
+        'RuxitSynthetic',
         'RyowlEngine',
         'safe-agent-scanner',
         'SalesIntelligent',
