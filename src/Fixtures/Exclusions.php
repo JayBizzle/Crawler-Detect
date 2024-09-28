@@ -70,5 +70,7 @@ class Exclusions extends AbstractProvider
         'OCTOPUS-CORE',
         'htc_botdugls',
         'super\/\d+\/Android\/\d+',
+        '"Yandex"',
+        'YandexModule2',
     );
 }

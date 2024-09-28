@@ -1,0 +1,7 @@
+"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"
+"(Not(A:Brand";v="8", "Chromium";v="98"
+" Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"
+" Not A;Brand";v="99", "Chromium";v="96", "Microsoft Edge";v="96"
+"Opera";v="81", " Not;A Brand";v="99", "Chromium";v="95"
+"Not/A)Brand";v="8", "Chromium";v="126", "YaBrowser";v="24.7", "Yowser";v="2.5"
+"Chromium";v="124", "Yandex";v="24", "Not-A.Brand";v="99"

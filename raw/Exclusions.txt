@@ -48,3 +48,5 @@ cubot
 OCTOPUS-CORE
 htc_botdugls
 super\/\d+\/Android\/\d+
+"Yandex"
+YandexModule2
