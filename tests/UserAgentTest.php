@@ -21,7 +21,7 @@ final class UserAgentTest extends TestCase
     public function user_agents_are_bots()
     {
         $this->CrawlerDetect = new CrawlerDetect();
-        $lines = file(__DIR__.'/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $lines = file(__DIR__ . '/data/user_agent/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
@@ -33,7 +33,31 @@ final class UserAgentTest extends TestCase
     public function user_agents_are_devices()
     {
         $this->CrawlerDetect = new CrawlerDetect();
-        $lines = file(__DIR__.'/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $lines = file(__DIR__ . '/data/user_agent/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+        foreach ($lines as $line) {
+            $test = $this->CrawlerDetect->isCrawler($line);
+            $this->assertFalse($test, $line);
+        }
+    }
+
+    /** @test */
+    public function sec_ch_ua_are_bots()
+    {
+        $this->CrawlerDetect = new CrawlerDetect();
+        $lines = file(__DIR__ . '/data/sec_ch_ua/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+        foreach ($lines as $line) {
+            $test = $this->CrawlerDetect->isCrawler($line);
+            $this->assertTrue($test, $line);
+        }
+    }
+
+    /** @test */
+    public function sec_ch_ua_are_devices()
+    {
+        $this->CrawlerDetect = new CrawlerDetect();
+        $lines = file(__DIR__ . '/data/sec_ch_ua/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
