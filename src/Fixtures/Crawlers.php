@@ -222,6 +222,7 @@ class Crawlers extends AbstractProvider
         'Butterfly\/',
         'BuzzSumo',
         'CAAM\/[0-9]',
+        'caam dot crwlr at gmail dot com',
         'CakePHP',
         'Calculon',
         'Canary%20Mail',

@@ -2416,6 +2416,7 @@ Mozilla/5.0 (compatible; Feedwind/3.0; +http://feed.mikle.com/support/descriptio
 Mozilla/5.0 (Macintosh; Intel Mac OS X 1068) AppleWebKit/534.50 (KHTML like Gecko) Version/5.1 Instapaper/4.0 (+http://www.instapaper.com/)
 Mozilla/5.0 (compatible; Keywords Research; http://www.check-domains.com/keyword-research/keywords-adwords.php)
 CAAM/0.1 (CAAM; caam dot crwlr at gmail dot com)
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0/5.0 ((Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0; caam dot crwlr at gmail dot com)
 i2kconnect/"1.7.0"
 resolver/0.1.12 (+http://github.com/andris9/resolver)
 DangDang
