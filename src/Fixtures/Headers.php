@@ -18,7 +18,7 @@ class Headers extends AbstractProvider
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         // The default User-Agent string.
         'HTTP_USER_AGENT',
         // Header can occur on devices using Opera Mini.
@@ -35,5 +35,5 @@ class Headers extends AbstractProvider
         'HTTP_X_SCANNER', // Seen in use by Netsparker
         // Observed that Facebook will omit identifying itself in User Agent headers but will persist HeadlessChrome in this header for mobile requests
         'HTTP_SEC_CH_UA',
-    );
+    ];
 }

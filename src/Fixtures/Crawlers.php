@@ -18,7 +18,7 @@ class Crawlers extends AbstractProvider
      *
      * @var array
      */
-    protected $data = array(
+    protected $data = [
         ' YLT',
         '^Aether',
         '^Amazon Simple Notification Service Agent$',
@@ -1431,5 +1431,5 @@ class Crawlers extends AbstractProvider
         'ZoteroTranslationServer',
         'ZyBorg',
         '[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
-    );
+    ];
 }
