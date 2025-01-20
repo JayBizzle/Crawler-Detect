@@ -20,8 +20,8 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function user_agents_are_bots()
     {
-        $this->CrawlerDetect = new CrawlerDetect();
-        $lines = file(__DIR__ . '/data/user_agent/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $this->CrawlerDetect = new CrawlerDetect;
+        $lines = file(__DIR__.'/data/user_agent/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
@@ -32,8 +32,8 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function user_agents_are_devices()
     {
-        $this->CrawlerDetect = new CrawlerDetect();
-        $lines = file(__DIR__ . '/data/user_agent/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $this->CrawlerDetect = new CrawlerDetect;
+        $lines = file(__DIR__.'/data/user_agent/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
@@ -44,8 +44,8 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function sec_ch_ua_are_bots()
     {
-        $this->CrawlerDetect = new CrawlerDetect();
-        $lines = file(__DIR__ . '/data/sec_ch_ua/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $this->CrawlerDetect = new CrawlerDetect;
+        $lines = file(__DIR__.'/data/sec_ch_ua/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
@@ -56,8 +56,8 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function sec_ch_ua_are_devices()
     {
-        $this->CrawlerDetect = new CrawlerDetect();
-        $lines = file(__DIR__ . '/data/sec_ch_ua/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $this->CrawlerDetect = new CrawlerDetect;
+        $lines = file(__DIR__.'/data/sec_ch_ua/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
             $test = $this->CrawlerDetect->isCrawler($line);
@@ -68,7 +68,7 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function it_returns_correct_matched_bot_name()
     {
-        $this->CrawlerDetect = new CrawlerDetect();
+        $this->CrawlerDetect = new CrawlerDetect;
         $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
 
         $matches = $this->CrawlerDetect->getMatches();
@@ -88,7 +88,7 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function it_returns_full_matched_bot_name()
     {
-        $this->CrawlerDetect = new CrawlerDetect();
+        $this->CrawlerDetect = new CrawlerDetect;
         $this->CrawlerDetect->isCrawler('somenaughtybot');
 
         $matches = $this->CrawlerDetect->getMatches();
@@ -99,7 +99,7 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function it_returns_null_when_no_bot_detected()
     {
-        $this->CrawlerDetect = new CrawlerDetect();
+        $this->CrawlerDetect = new CrawlerDetect;
         $this->CrawlerDetect->isCrawler('nothing to see here');
 
         $this->assertNull($this->CrawlerDetect->getMatches());
@@ -108,7 +108,7 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function empty_user_agent()
     {
-        $this->CrawlerDetect = new CrawlerDetect();
+        $this->CrawlerDetect = new CrawlerDetect;
         $test = $this->CrawlerDetect->isCrawler('      ');
 
         $this->assertFalse($test);
@@ -145,7 +145,7 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function matches_does_not_persit_across_multiple_calls()
     {
-        $this->CrawlerDetect = new CrawlerDetect();
+        $this->CrawlerDetect = new CrawlerDetect;
         $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
         $matches = $this->CrawlerDetect->getMatches();
         $this->assertEquals($this->CrawlerDetect->getMatches(), 'monitoring', $matches);
@@ -153,13 +153,13 @@ final class UserAgentTest extends TestCase
         $this->CrawlerDetect->isCrawler('This should not match');
         $matches = $this->CrawlerDetect->getMatches();
         $this->assertNull($this->CrawlerDetect->getMatches());
-        
-        //Empty
+
+        // Empty
         $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
         $this->CrawlerDetect->isCrawler('');
         $this->assertNull($this->CrawlerDetect->getMatches());
 
-        //Excluded
+        // Excluded
         $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
         $this->CrawlerDetect->isCrawler('iPod');
         $this->assertNull($this->CrawlerDetect->getMatches());
@@ -168,7 +168,7 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function the_regex_patterns_are_unique()
     {
-        $crawlers = new Crawlers();
+        $crawlers = new Crawlers;
 
         $this->assertEquals(count($crawlers->getAll()), count(array_unique($crawlers->getAll())));
     }
@@ -176,7 +176,7 @@ final class UserAgentTest extends TestCase
     /** @test */
     public function there_are_no_regex_collisions()
     {
-        $crawlers = new Crawlers();
+        $crawlers = new Crawlers;
 
         foreach ($crawlers->getAll() as $key1 => $regex) {
             foreach ($crawlers->getAll() as $key2 => $compare) {

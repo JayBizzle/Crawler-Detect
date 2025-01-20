@@ -14,11 +14,11 @@ require 'src/Fixtures/Crawlers.php';
 require 'src/Fixtures/Exclusions.php';
 require 'src/Fixtures/Headers.php';
 
-$src = array(
+$src = [
     'Crawlers',
     'Exclusions',
     'Headers',
-);
+];
 
 foreach ($src as $class) {
     $class = "Jaybizzle\\CrawlerDetect\\Fixtures\\$class";
