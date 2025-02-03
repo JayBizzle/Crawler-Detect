@@ -59,6 +59,7 @@ class Crawlers extends AbstractProvider
         '^pnpm\/',
         '^RMA\/',
         '^Ruby|Ruby\/[0-9]',
+        "^symbolicator\\/",
         '^Swurl ',
         '^TLS tester ',
         '^twine\/',
