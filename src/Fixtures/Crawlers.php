@@ -747,6 +747,7 @@ class Crawlers extends AbstractProvider
         'masscan\/',
         'Mata Hari',
         'mattermost',
+        'MatchorySearch\/',
         'Mediametric',
         'Mediapartners-Google',
         'mediawords',

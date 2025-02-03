@@ -726,6 +726,7 @@ Mass Downloader
 masscan\/
 Mata Hari
 mattermost
+MatchorySearch\/
 Mediametric
 Mediapartners-Google
 mediawords
