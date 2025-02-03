@@ -170,6 +170,7 @@ class Crawlers extends AbstractProvider
         'Badass',
         'baidu\.com',
         'Bandit',
+        'Barracuda Sentinel \(EE\)',
         'basicstate',
         'BatchFTP',
         'Battleztar Bazinga',

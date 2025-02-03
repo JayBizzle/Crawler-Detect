@@ -3679,3 +3679,4 @@ Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
 symbolicator/24.11.1
 symbolicator/24.12.1
+Barracuda Sentinel (EE)

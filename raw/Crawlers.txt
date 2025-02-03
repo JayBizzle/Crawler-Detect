@@ -149,6 +149,7 @@ Bad-Neighborhood
 Badass
 baidu\.com
 Bandit
+Barracuda Sentinel \(EE\)
 basicstate
 BatchFTP
 Battleztar Bazinga
