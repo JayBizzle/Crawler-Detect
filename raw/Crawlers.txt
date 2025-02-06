@@ -38,6 +38,7 @@
 ^pnpm\/
 ^RMA\/
 ^Ruby|Ruby\/[0-9]
+^symbolicator\/
 ^Swurl 
 ^TLS tester 
 ^twine\/
@@ -148,6 +149,7 @@ Bad-Neighborhood
 Badass
 baidu\.com
 Bandit
+Barracuda Sentinel \(EE\)
 basicstate
 BatchFTP
 Battleztar Bazinga
@@ -724,6 +726,7 @@ Mass Downloader
 masscan\/
 Mata Hari
 mattermost
+MatchorySearch\/
 Mediametric
 Mediapartners-Google
 mediawords

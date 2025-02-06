@@ -3677,3 +3677,7 @@ Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KH
 Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.94 Mobile Safari/537.36 (compatible; GoogleOther)
 Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
+symbolicator/24.11.1
+symbolicator/24.12.1
+Barracuda Sentinel (EE)
+Mozilla/5.0(compatible;MatchorySearch/1.3;+https://www.matchory.com)
