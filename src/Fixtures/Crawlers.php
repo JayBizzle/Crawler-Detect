@@ -731,6 +731,7 @@ class Crawlers extends AbstractProvider
         'L\.webis',
         'mabontland',
         'MacOutlook\/',
+        'MagentaNews\/',
         'Mag-Net',
         'MagpieRSS',
         'Mail::STS',

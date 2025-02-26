@@ -710,6 +710,7 @@ LYT\.SR
 L\.webis
 mabontland
 MacOutlook\/
+MagentaNews\/
 Mag-Net
 MagpieRSS
 Mail::STS
