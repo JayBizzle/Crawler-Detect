@@ -652,6 +652,7 @@ Kml-Google
 knows\.is
 KOCMOHABT
 kouio
+krawler\.dk
 kube-probe
 kubectl
 kulturarw3
@@ -710,6 +711,7 @@ LYT\.SR
 L\.webis
 mabontland
 MacOutlook\/
+MagentaNews\/
 Mag-Net
 MagpieRSS
 Mail::STS
