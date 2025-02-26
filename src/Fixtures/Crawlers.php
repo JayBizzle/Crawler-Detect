@@ -673,6 +673,7 @@ class Crawlers extends AbstractProvider
         'knows\.is',
         'KOCMOHABT',
         'kouio',
+        'krawler\.dk',
         'kube-probe',
         'kubectl',
         'kulturarw3',
