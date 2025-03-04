@@ -788,6 +788,7 @@ class Crawlers extends AbstractProvider
         'Monitority\/',
         'Monit\/',
         'montastic',
+        'MonSpark',
         'MonTools',
         'Moreover',
         'Morfeus Fucking Scanner',
