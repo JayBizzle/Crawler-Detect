@@ -3576,6 +3576,7 @@ HubSpot-Link-Resolver
 Railgun/5.3.3
 RSSMix/3.0
 SearchWP
+Mozilla/5.0+(compatible; MonSpark/1.0; http://www.monspark.com/)
 Stripe/1.0 (+https://stripe.com/docs/webhooks)
 ZoominfoBot (zoominfobot at zoominfo dot com)
 Asana/1.4.0 WebsiteMetadataRetriever
