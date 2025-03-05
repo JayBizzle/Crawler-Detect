@@ -6,6 +6,7 @@ CheckHost (http://check-host.net/)
 YandeG 1.03
 yacybot (/global; amd64 Linux 3.16-0.bpo.2-amd64; java 1.7.0_65; Europe/en) http://yacy.net/bot.html
 SEMrushBot
+Headless Chrome 131.0.6778.87 on GNU/Linux
 Protopage/3.0 (http://www.protopage.com)
 yacybot (/global; amd64 Linux 3.16.0-4-amd64; java 1.7.0_75; Europe/en) http://yacy.net/bot.html
 StatoolsBot (+http://www.statools.com/bot.html)

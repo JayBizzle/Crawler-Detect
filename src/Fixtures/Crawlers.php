@@ -534,7 +534,6 @@ class Crawlers extends AbstractProvider
         'Hatena',
         'Havij',
         'HaxerMen',
-        'HeadlessChrome',
         'HEADMasterSEO',
         'HeartRails_Capture',
         'help@dataminr\.com',
@@ -1436,6 +1435,6 @@ class Crawlers extends AbstractProvider
         'Zoom\.Mac',
         'ZoteroTranslationServer',
         'ZyBorg',
-        '[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
+        '[a-z0-9\-_]*(bot|crawl|headless|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
     ];
 }
