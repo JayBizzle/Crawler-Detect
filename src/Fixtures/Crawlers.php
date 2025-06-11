@@ -737,7 +737,7 @@ class Crawlers extends AbstractProvider
         'Mail::STS',
         'MailChimp',
         'Mail\.Ru',
-        'Mailpit',
+        'Mailpit\/',
         'Majestic12',
         'makecontact\/',
         'Mandrill',
