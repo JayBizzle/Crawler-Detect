@@ -454,6 +454,7 @@ class Crawlers extends AbstractProvider
         'Ghost Inspector',
         'GigablastOpenSource',
         'GIS-LABS',
+        'GitLab\/',
         'github-camo',
         'GitHub-Hookshot',
         'github\.com',
