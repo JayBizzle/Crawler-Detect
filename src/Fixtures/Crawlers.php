@@ -501,6 +501,7 @@ class Crawlers extends AbstractProvider
         'Google-Youtube-Links',
         'GoogleDocs',
         'GoogleHC\/',
+        'GoogleMessages',
         'GoogleOther',
         'GoogleProber',
         'GoogleProducer',
