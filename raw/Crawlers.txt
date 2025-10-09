@@ -596,7 +596,7 @@ integromedb
 Intelliseek
 InterGET
 Internet Ninja
-InternetMeasurement\/1\.0; \+https:\/\/internet-measurement\.com\/
+InternetMeasurement
 InternetSeer
 internetVista monitor
 internetwache
@@ -854,7 +854,7 @@ Octopus
 oegp
 Offline Explorer
 Offline Navigator
-Odin; https:\/\/docs\.getodin\.com\/
+odin\.com
 OgScrper
 okhttp
 omgili
