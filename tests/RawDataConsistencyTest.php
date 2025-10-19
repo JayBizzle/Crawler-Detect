@@ -40,7 +40,7 @@ final class RawDataConsistencyTest extends TestCase
         $json = json_decode(file_get_contents(__DIR__ . "/../raw/$name.json"), true);
 
         $txt_missing = array_values(array_diff($json, $txt));
-        $json_missing  = array_values(array_diff($txt, $json));
+        $json_missing = array_values(array_diff($txt, $json));
         $this->assertEmpty(
             array_merge($json_missing, $txt_missing),
             "JSON RAW Missing: " . json_encode($json_missing) . "; TXT RAW Missing: " . json_encode($txt_missing)
