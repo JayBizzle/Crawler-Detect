@@ -28,32 +28,10 @@ jobs:
         php-version: '8.1'
         extensions: mbstring
 
-    - name: Install Composer
-      run: |
-        php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-        php composer-setup.php --quiet
-        php -r "unlink('composer-setup.php');"
-        php composer.phar --version
-
-    - name: Install dependencies
-      run: php composer.phar install --no-interaction --no-progress --prefer-dist
-
     - name: Run export script
       run: php export.php
 
-    - name: Check for changes
-      id: git-check
-      run: |
-        set -o pipefail
-        git status --porcelain > changes.txt
-        if [ -s changes.txt ]; then
-          echo "changed=true" >> $GITHUB_OUTPUT
-        else
-          echo "changed=false" >> $GITHUB_OUTPUT
-        fi
-
     - name: Commit and push changes
-      if: steps.git-check.outputs.changed == 'true'
       env:
         GIT_AUTHOR_NAME: github-actions
         GIT_AUTHOR_EMAIL: github-actions@github.com
