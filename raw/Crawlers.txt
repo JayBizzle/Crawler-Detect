@@ -235,6 +235,7 @@ CISPA Web Analyser
 Citoid
 CJNetworkQuality
 Clarsentia
+Claude-User
 clips\.ua\.ac\.be
 Cloud mapping
 CloudEndure
