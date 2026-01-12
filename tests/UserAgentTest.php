@@ -15,7 +15,8 @@ use PHPUnit\Framework\TestCase;
 
 final class UserAgentTest extends TestCase
 {
-    private ?CrawlerDetect $CrawlerDetect = null;
+    /** @var CrawlerDetect|null */
+    private $CrawlerDetect;
 
     /** @test */
     public function user_agents_are_bots(): void
