@@ -109,7 +109,7 @@ class CrawlerDetect
      * @param array<string, string>|null $httpHeaders HTTP headers array
      * @return void
      */
-    public function setHttpHeaders($httpHeaders): void
+    public function setHttpHeaders(?array $httpHeaders): void
     {
         // Use global _SERVER if $httpHeaders aren't defined.
         if (! is_array($httpHeaders) || ! count($httpHeaders)) {
