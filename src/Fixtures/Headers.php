@@ -16,7 +16,7 @@ class Headers extends AbstractProvider
     /**
      * All possible HTTP headers that represent the user agent string.
      *
-     * @var array
+     * @var array<int, string>
      */
     protected $data = [
         // The default User-Agent string.

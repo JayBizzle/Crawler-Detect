@@ -16,16 +16,16 @@ abstract class AbstractProvider
     /**
      * The data set.
      *
-     * @var array
+     * @var array<int, string>
      */
-    protected $data;
+    protected $data = [];
 
     /**
      * Return the data set.
      *
-     * @return array
+     * @return array<int, string> Array of data
      */
-    public function getAll()
+    public function getAll(): array
     {
         return $this->data;
     }
