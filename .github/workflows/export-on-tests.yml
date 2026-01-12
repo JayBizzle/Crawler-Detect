@@ -1,19 +1,16 @@
-name: Export after tests
+name: Run export.php on master
 
 permissions:
   contents: write
 
 on:
-  workflow_run:
-    workflows: ["Test"]
-    types:
-      - completed
-    branches: [ master ]
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
   run-export:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
