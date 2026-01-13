@@ -70,6 +70,9 @@ To use this library in a .net standard (including .net core) based project, chec
 ### Ruby Gem
 To use this library with Ruby on Rails or any Ruby-based application, check out [crawler_detect](https://github.com/loadkpi/crawler_detect) gem.
 
+### Autoindex Device Detect Class
+[Mobile Device Detect Class](https://github.com/BeitDina/AutoIndex/blob/master/classes/MobileDeviceDetect.php)
+
 ### Go Module
 To use this library with Go, check out the [crawlerdetect](https://github.com/x-way/crawlerdetect) module.
 
