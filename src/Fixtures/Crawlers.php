@@ -440,6 +440,7 @@ class Crawlers extends AbstractProvider
         'ganarvisitas',
         'gdnplus\.com',
         'GeedoProductSearch',
+        'GeedoShopProductFinder',
         'geek-tools',
         'Genieo',
         'GentleSource',
