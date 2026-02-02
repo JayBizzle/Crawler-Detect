@@ -307,6 +307,7 @@ class Crawlers extends AbstractProvider
         'Daum(oa)?[ \/][0-9]',
         'dBpoweramp',
         'ddline',
+        'DebugBear$',
         'deeris',
         'delve\.ai',
         'Demon',
