@@ -22,7 +22,7 @@ class CrawlerDetect
      *
      * @var string|null
      */
-    protected $userAgent;
+    protected $userAgent = null;
 
     /**
      * Headers that contain a user agent.
@@ -75,8 +75,11 @@ class CrawlerDetect
 
     /**
      * Class constructor.
+     *
+     * @param array<string, string>|null $headers HTTP headers array
+     * @param string|null $userAgent User agent string
      */
-    public function __construct(?array $headers = null, $userAgent = null)
+    public function __construct(?array $headers = null, ?string $userAgent = null)
     {
         $this->crawlers = new Crawlers;
         $this->exclusions = new Exclusions;
@@ -92,10 +95,10 @@ class CrawlerDetect
     /**
      * Compile the regex patterns into one regex string.
      *
-     * @param array
-     * @return string
+     * @param array<int, string> $patterns Array of regex patterns
+     * @return string Compiled regex pattern
      */
-    public function compileRegex($patterns)
+    public function compileRegex(array $patterns): string
     {
         return '('.implode('|', $patterns).')';
     }
@@ -103,9 +106,10 @@ class CrawlerDetect
     /**
      * Set HTTP headers.
      *
-     * @param  array|null  $httpHeaders
+     * @param array<string, string>|null $httpHeaders HTTP headers array
+     * @return void
      */
-    public function setHttpHeaders($httpHeaders)
+    public function setHttpHeaders(?array $httpHeaders): void
     {
         // Use global _SERVER if $httpHeaders aren't defined.
         if (! is_array($httpHeaders) || ! count($httpHeaders)) {
@@ -127,9 +131,9 @@ class CrawlerDetect
     /**
      * Return user agent headers.
      *
-     * @return array
+     * @return array<int, string> Array of user agent header keys
      */
-    public function getUaHttpHeaders()
+    public function getUaHttpHeaders(): array
     {
         return $this->uaHttpHeaders->getAll();
     }
@@ -137,16 +141,19 @@ class CrawlerDetect
     /**
      * Set the user agent.
      *
-     * @param  string|null  $userAgent
+     * @param string|null $userAgent User agent string
+     * @return string|null The set user agent
      */
-    public function setUserAgent($userAgent)
+    public function setUserAgent(?string $userAgent): ?string
     {
         if (is_null($userAgent)) {
+            $userAgent = '';
             foreach ($this->getUaHttpHeaders() as $altHeader) {
                 if (isset($this->httpHeaders[$altHeader])) {
                     $userAgent .= $this->httpHeaders[$altHeader].' ';
                 }
             }
+            $userAgent = $userAgent !== '' ? $userAgent : null;
         }
 
         return $this->userAgent = $userAgent;
@@ -155,10 +162,10 @@ class CrawlerDetect
     /**
      * Check user agent string against the regex.
      *
-     * @param  string|null  $userAgent
-     * @return bool
+     * @param string|null $userAgent User agent string to check
+     * @return bool True if crawler detected, false otherwise
      */
-    public function isCrawler($userAgent = null)
+    public function isCrawler(?string $userAgent = null): bool
     {
         $agent = trim(preg_replace(
             "/{$this->compiledExclusions}/i",
@@ -178,17 +185,19 @@ class CrawlerDetect
     /**
      * Return the matches.
      *
-     * @return string|null
+     * @return string|null The matched bot name or null if no match
      */
-    public function getMatches()
+    public function getMatches(): ?string
     {
         return isset($this->matches[0]) ? $this->matches[0] : null;
     }
 
     /**
-     * @return string|null
+     * Get the user agent string.
+     *
+     * @return string|null The user agent string
      */
-    public function getUserAgent()
+    public function getUserAgent(): ?string
     {
         return $this->userAgent;
     }

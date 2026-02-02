@@ -16,7 +16,7 @@ class Crawlers extends AbstractProvider
     /**
      * Array of regular expressions to match against the user agent.
      *
-     * @var array
+     * @var array<int, string>
      */
     protected $data = [
         ' YLT',

@@ -22,19 +22,31 @@ $src = [
 
 foreach ($src as $class) {
     $class = "Jaybizzle\\CrawlerDetect\\Fixtures\\$class";
-    $object = new $class;
+    $object = new $class();
 
     outputJson($object);
     outputTxt($object);
 }
 
-function outputJson($object)
+/**
+ * Output data to JSON file.
+ *
+ * @param object $object Instance of AbstractProvider
+ * @return void
+ */
+function outputJson(object $object): void
 {
     $className = (new ReflectionClass($object))->getShortName();
     file_put_contents("raw/$className.json", json_encode($object->getAll()));
 }
 
-function outputTxt($object)
+/**
+ * Output data to text file.
+ *
+ * @param object $object Instance of AbstractProvider
+ * @return void
+ */
+function outputTxt(object $object): void
 {
     $className = (new ReflectionClass($object))->getShortName();
     file_put_contents("raw/$className.txt", implode(PHP_EOL, $object->getAll()));
