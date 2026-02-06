@@ -102,7 +102,7 @@ class Crawlers extends AbstractProvider
         'affilimate-puppeteer',
         'agentslug',
         'AHC',
-        'AhrefsBot',
+        'Ahrefs',
         'AhrefsSiteAudit',
         'aihit',
         'aiohttp\/',
