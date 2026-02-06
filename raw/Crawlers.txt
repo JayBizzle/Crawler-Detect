@@ -81,6 +81,8 @@ AffiliateLabz\/
 affilimate-puppeteer
 agentslug
 AHC
+Ahrefs
+AhrefsSiteAudit
 aihit
 aiohttp\/
 Airmail
@@ -1053,6 +1055,7 @@ Seobility
 SEOCentro
 SeoCheck
 seocompany
+SEOGets
 SEOkicks
 SEOlizer
 Seomoz
