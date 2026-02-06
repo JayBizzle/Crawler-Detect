@@ -103,7 +103,6 @@ class Crawlers extends AbstractProvider
         'agentslug',
         'AHC',
         'Ahrefs',
-        'AhrefsSiteAudit',
         'aihit',
         'aiohttp\/',
         'Airmail',
