@@ -15,12 +15,13 @@ use PHPUnit\Framework\TestCase;
 
 final class UserAgentTest extends TestCase
 {
-    public $CrawlerDetect;
+    /** @var CrawlerDetect|null */
+    private $CrawlerDetect;
 
     /** @test */
-    public function user_agents_are_bots()
+    public function user_agents_are_bots(): void
     {
-        $this->CrawlerDetect = new CrawlerDetect;
+        $this->CrawlerDetect = new CrawlerDetect();
         $lines = file(__DIR__.'/data/user_agent/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
@@ -30,9 +31,9 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function user_agents_are_devices()
+    public function user_agents_are_devices(): void
     {
-        $this->CrawlerDetect = new CrawlerDetect;
+        $this->CrawlerDetect = new CrawlerDetect();
         $lines = file(__DIR__.'/data/user_agent/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
@@ -42,9 +43,9 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function sec_ch_ua_are_bots()
+    public function sec_ch_ua_are_bots(): void
     {
-        $this->CrawlerDetect = new CrawlerDetect;
+        $this->CrawlerDetect = new CrawlerDetect();
         $lines = file(__DIR__.'/data/sec_ch_ua/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
@@ -54,9 +55,9 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function sec_ch_ua_are_devices()
+    public function sec_ch_ua_are_devices(): void
     {
-        $this->CrawlerDetect = new CrawlerDetect;
+        $this->CrawlerDetect = new CrawlerDetect();
         $lines = file(__DIR__.'/data/sec_ch_ua/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
         foreach ($lines as $line) {
@@ -66,9 +67,9 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function it_returns_correct_matched_bot_name()
+    public function it_returns_correct_matched_bot_name(): void
     {
-        $this->CrawlerDetect = new CrawlerDetect;
+        $this->CrawlerDetect = new CrawlerDetect();
         $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
 
         $matches = $this->CrawlerDetect->getMatches();
@@ -77,7 +78,7 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function it_returns_user_agent()
+    public function it_returns_user_agent(): void
     {
         $ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)';
         $this->CrawlerDetect = new CrawlerDetect(null, $ua);
@@ -86,9 +87,9 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function it_returns_full_matched_bot_name()
+    public function it_returns_full_matched_bot_name(): void
     {
-        $this->CrawlerDetect = new CrawlerDetect;
+        $this->CrawlerDetect = new CrawlerDetect();
         $this->CrawlerDetect->isCrawler('somenaughtybot');
 
         $matches = $this->CrawlerDetect->getMatches();
@@ -97,25 +98,25 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function it_returns_null_when_no_bot_detected()
+    public function it_returns_null_when_no_bot_detected(): void
     {
-        $this->CrawlerDetect = new CrawlerDetect;
+        $this->CrawlerDetect = new CrawlerDetect();
         $this->CrawlerDetect->isCrawler('nothing to see here');
 
         $this->assertNull($this->CrawlerDetect->getMatches());
     }
 
     /** @test */
-    public function empty_user_agent()
+    public function empty_user_agent(): void
     {
-        $this->CrawlerDetect = new CrawlerDetect;
+        $this->CrawlerDetect = new CrawlerDetect();
         $test = $this->CrawlerDetect->isCrawler('      ');
 
         $this->assertFalse($test);
     }
 
     /** @test */
-    public function current_visitor()
+    public function current_visitor(): void
     {
         $headers = (array) json_decode('{"DOCUMENT_ROOT":"\/home\/test\/public_html","GATEWAY_INTERFACE":"CGI\/1.1","HTTP_ACCEPT":"*\/*","HTTP_ACCEPT_ENCODING":"gzip, deflate","HTTP_CACHE_CONTROL":"no-cache","HTTP_CONNECTION":"Keep-Alive","HTTP_FROM":"bingbot(at)microsoft.com","HTTP_HOST":"www.test.com","HTTP_PRAGMA":"no-cache","HTTP_USER_AGENT":"Mozilla\/5.0 (compatible; bingbot\/2.0; +http:\/\/www.bing.com\/bingbot.htm)","PATH":"\/bin:\/usr\/bin","QUERY_STRING":"order=closingDate","REDIRECT_STATUS":"200","REMOTE_ADDR":"127.0.0.1","REMOTE_PORT":"3360","REQUEST_METHOD":"GET","REQUEST_URI":"\/?test=testing","SCRIPT_FILENAME":"\/home\/test\/public_html\/index.php","SCRIPT_NAME":"\/index.php","SERVER_ADDR":"127.0.0.1","SERVER_ADMIN":"webmaster@test.com","SERVER_NAME":"www.test.com","SERVER_PORT":"80","SERVER_PROTOCOL":"HTTP\/1.1","SERVER_SIGNATURE":"","SERVER_SOFTWARE":"Apache","UNIQUE_ID":"Vx6MENRxerBUSDEQgFLAAAAAS","PHP_SELF":"\/index.php","REQUEST_TIME_FLOAT":1461619728.0705,"REQUEST_TIME":1461619728}');
 
@@ -125,7 +126,7 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function user_agent_passed_via_contructor()
+    public function user_agent_passed_via_contructor(): void
     {
         $cd = new CrawlerDetect(null, 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
 
@@ -133,7 +134,7 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function http_from_header()
+    public function http_from_header(): void
     {
         $headers = (array) json_decode('{"DOCUMENT_ROOT":"\/home\/test\/public_html","GATEWAY_INTERFACE":"CGI\/1.1","HTTP_ACCEPT":"*\/*","HTTP_ACCEPT_ENCODING":"gzip, deflate","HTTP_CACHE_CONTROL":"no-cache","HTTP_CONNECTION":"Keep-Alive","HTTP_FROM":"googlebot(at)googlebot.com","HTTP_HOST":"www.test.com","HTTP_PRAGMA":"no-cache","HTTP_USER_AGENT":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/28.0.1500.71 Safari\/537.36","PATH":"\/bin:\/usr\/bin","QUERY_STRING":"order=closingDate","REDIRECT_STATUS":"200","REMOTE_ADDR":"127.0.0.1","REMOTE_PORT":"3360","REQUEST_METHOD":"GET","REQUEST_URI":"\/?test=testing","SCRIPT_FILENAME":"\/home\/test\/public_html\/index.php","SCRIPT_NAME":"\/index.php","SERVER_ADDR":"127.0.0.1","SERVER_ADMIN":"webmaster@test.com","SERVER_NAME":"www.test.com","SERVER_PORT":"80","SERVER_PROTOCOL":"HTTP\/1.1","SERVER_SIGNATURE":"","SERVER_SOFTWARE":"Apache","UNIQUE_ID":"Vx6MENRxerBUSDEQgFLAAAAAS","PHP_SELF":"\/index.php","REQUEST_TIME_FLOAT":1461619728.0705,"REQUEST_TIME":1461619728}');
 
@@ -143,9 +144,9 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function matches_does_not_persit_across_multiple_calls()
+    public function matches_does_not_persit_across_multiple_calls(): void
     {
-        $this->CrawlerDetect = new CrawlerDetect;
+        $this->CrawlerDetect = new CrawlerDetect();
         $this->CrawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
         $matches = $this->CrawlerDetect->getMatches();
         $this->assertEquals($this->CrawlerDetect->getMatches(), 'monitoring', $matches);
@@ -166,17 +167,17 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
-    public function the_regex_patterns_are_unique()
+    public function the_regex_patterns_are_unique(): void
     {
-        $crawlers = new Crawlers;
+        $crawlers = new Crawlers();
 
         $this->assertEquals(count($crawlers->getAll()), count(array_unique($crawlers->getAll())));
     }
 
     /** @test */
-    public function there_are_no_regex_collisions()
+    public function there_are_no_regex_collisions(): void
     {
-        $crawlers = new Crawlers;
+        $crawlers = new Crawlers();
 
         foreach ($crawlers->getAll() as $key1 => $regex) {
             foreach ($crawlers->getAll() as $key2 => $compare) {

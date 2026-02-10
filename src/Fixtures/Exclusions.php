@@ -17,7 +17,7 @@ class Exclusions extends AbstractProvider
      * List of strings to remove from the user agent before running the crawler regex
      * Over a large list of user agents, this gives us about a 55% speed increase!
      *
-     * @var array
+     * @var array<int, string>
      */
     protected $data = [
         'Safari.[\d\.]*',
