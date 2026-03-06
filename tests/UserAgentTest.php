@@ -177,17 +177,16 @@ final class UserAgentTest extends TestCase
     public function there_are_no_regex_collisions()
     {
         $crawlers = new Crawlers;
-        $all = $crawlers->getAll();
 
-        foreach ($all as $key => $pattern) {
-            $others = $all;
-            unset($others[$key]);
+        foreach ($crawlers->getAll() as $key1 => $regex) {
+            foreach ($crawlers->getAll() as $key2 => $compare) {
+                // Dont check this regex against itself
+                if ($key1 != $key2) {
+                    preg_match('/'.$regex.'/i', stripslashes($compare), $matches);
 
-            $combinedRegex = implode('|', $others);
-
-            preg_match('/'.$combinedRegex.'/i', stripslashes($pattern), $matches);
-
-            $this->assertEmpty($matches, $pattern.' collided with another pattern');
+                    $this->assertEmpty($matches, $regex.' collided with '.$compare);
+                }
+            }
         }
     }
 }
