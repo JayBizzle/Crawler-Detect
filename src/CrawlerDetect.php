@@ -76,7 +76,7 @@ class CrawlerDetect
     /**
      * Class constructor.
      */
-    public function __construct(?array $headers = null, $userAgent = null)
+    public function __construct(?array $headers = null, ?string $userAgent = null)
     {
         $this->crawlers = new Crawlers;
         $this->exclusions = new Exclusions;
@@ -92,10 +92,9 @@ class CrawlerDetect
     /**
      * Compile the regex patterns into one regex string.
      *
-     * @param array
-     * @return string
+     * @param array $patterns
      */
-    public function compileRegex($patterns)
+    protected function compileRegex(array $patterns): string
     {
         return '('.implode('|', $patterns).')';
     }
@@ -105,7 +104,7 @@ class CrawlerDetect
      *
      * @param  array|null  $httpHeaders
      */
-    public function setHttpHeaders($httpHeaders)
+    public function setHttpHeaders(?array $httpHeaders = null): void
     {
         // Use global _SERVER if $httpHeaders aren't defined.
         if (! is_array($httpHeaders) || ! count($httpHeaders)) {
@@ -126,10 +125,8 @@ class CrawlerDetect
 
     /**
      * Return user agent headers.
-     *
-     * @return array
      */
-    public function getUaHttpHeaders()
+    public function getUaHttpHeaders(): array
     {
         return $this->uaHttpHeaders->getAll();
     }
@@ -139,13 +136,20 @@ class CrawlerDetect
      *
      * @param  string|null  $userAgent
      */
-    public function setUserAgent($userAgent)
+    public function setUserAgent(?string $userAgent = null): ?string
     {
         if (is_null($userAgent)) {
+            $userAgent = '';
+
             foreach ($this->getUaHttpHeaders() as $altHeader) {
                 if (isset($this->httpHeaders[$altHeader])) {
                     $userAgent .= $this->httpHeaders[$altHeader].' ';
                 }
+            }
+
+            // If no headers were found, keep it as null.
+            if ($userAgent === '') {
+                $userAgent = null;
             }
         }
 
@@ -156,39 +160,46 @@ class CrawlerDetect
      * Check user agent string against the regex.
      *
      * @param  string|null  $userAgent
-     * @return bool
      */
-    public function isCrawler($userAgent = null)
+    public function isCrawler(?string $userAgent = null): bool
     {
-        $agent = trim(preg_replace(
+        $this->matches = [];
+
+        $agent = preg_replace(
             "/{$this->compiledExclusions}/i",
             '',
             $userAgent ?: $this->userAgent ?: ''
-        ));
+        );
 
-        if ($agent === '') {
+        if ($agent === null || trim($agent) === '') {
+            return false;
+        }
+
+        $agent = trim($agent);
+
+        $result = preg_match("/{$this->compiledRegex}/i", $agent, $this->matches);
+
+        if ($result === false) {
             $this->matches = [];
 
             return false;
         }
 
-        return (bool) preg_match("/{$this->compiledRegex}/i", $agent, $this->matches);
+        return (bool) $result;
     }
 
     /**
      * Return the matches.
-     *
-     * @return string|null
      */
-    public function getMatches()
+    public function getMatches(): ?string
     {
         return isset($this->matches[0]) ? $this->matches[0] : null;
     }
 
     /**
-     * @return string|null
+     * Return the user agent.
      */
-    public function getUserAgent()
+    public function getUserAgent(): ?string
     {
         return $this->userAgent;
     }
