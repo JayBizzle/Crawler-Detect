@@ -69,6 +69,7 @@ class Crawlers extends AbstractProvider
         '^XRL\/[0-9]',
         '^ZmEu',
         '008\/',
+        '1Pilot',
         '13TABS',
         '192\.comAgent',
         '2GDPR\/',
