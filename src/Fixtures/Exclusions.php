@@ -24,7 +24,7 @@ class Exclusions extends AbstractProvider
         'Firefox.[\d\.]*',
         ' Chrome.[\d\.]*',
         'Chromium.[\d\.]*',
-        'MSIE.[\d\.]',
+        'MSIE.[\d\.]*',
         'Opera\/[\d\.]*',
         'Mozilla.[\d\.]*',
         'AppleWebKit.[\d\.]*',

@@ -22,10 +22,8 @@ abstract class AbstractProvider
 
     /**
      * Return the data set.
-     *
-     * @return array
      */
-    public function getAll()
+    public function getAll(): array
     {
         return $this->data;
     }
