@@ -203,6 +203,22 @@ final class UserAgentTest extends TestCase
     }
 
     /** @test */
+    public function is_crawler_returns_false_when_preg_match_errors()
+    {
+        $originalLimit = ini_get('pcre.backtrack_limit');
+        ini_set('pcre.backtrack_limit', '1');
+
+        try {
+            $result = @$this->crawlerDetect->isCrawler('Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)');
+
+            $this->assertFalse($result);
+            $this->assertNull($this->crawlerDetect->getMatches());
+        } finally {
+            ini_set('pcre.backtrack_limit', $originalLimit);
+        }
+    }
+
+    /** @test */
     public function all_regex_patterns_are_valid()
     {
         $crawlers = new Crawlers;
