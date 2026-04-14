@@ -79,5 +79,3 @@ Parts of this library are based on the excellent [MobileDetect](https://github.c
 ## License
 
 Released under the [MIT License](LICENSE).
-
-[![Analytics](https://ga-beacon.appspot.com/UA-72430465-1/Crawler-Detect/readme?pixel)](https://github.com/JayBizzle/Crawler-Detect)
