@@ -76,7 +76,7 @@ class CrawlerDetect
     /**
      * Class constructor.
      */
-    public function __construct(?array $headers = null, ?string $userAgent = null)
+    public function __construct(?array $headers = null, $userAgent = null)
     {
         $this->crawlers = new Crawlers;
         $this->exclusions = new Exclusions;
@@ -92,9 +92,10 @@ class CrawlerDetect
     /**
      * Compile the regex patterns into one regex string.
      *
-     * @param array $patterns
+     * @param array
+     * @return string
      */
-    protected function compileRegex(array $patterns): string
+    public function compileRegex($patterns)
     {
         return '('.implode('|', $patterns).')';
     }
@@ -104,7 +105,7 @@ class CrawlerDetect
      *
      * @param  array|null  $httpHeaders
      */
-    public function setHttpHeaders(?array $httpHeaders = null): void
+    public function setHttpHeaders($httpHeaders = null)
     {
         // Use global _SERVER if $httpHeaders aren't defined.
         if (! is_array($httpHeaders) || ! count($httpHeaders)) {
@@ -125,8 +126,10 @@ class CrawlerDetect
 
     /**
      * Return user agent headers.
+     *
+     * @return array
      */
-    public function getUaHttpHeaders(): array
+    public function getUaHttpHeaders()
     {
         return $this->uaHttpHeaders->getAll();
     }
@@ -136,7 +139,7 @@ class CrawlerDetect
      *
      * @param  string|null  $userAgent
      */
-    public function setUserAgent(?string $userAgent = null): ?string
+    public function setUserAgent($userAgent = null)
     {
         if (is_null($userAgent)) {
             $userAgent = '';
@@ -160,8 +163,9 @@ class CrawlerDetect
      * Check user agent string against the regex.
      *
      * @param  string|null  $userAgent
+     * @return bool
      */
-    public function isCrawler(?string $userAgent = null): bool
+    public function isCrawler($userAgent = null)
     {
         $this->matches = [];
 
@@ -190,16 +194,18 @@ class CrawlerDetect
 
     /**
      * Return the matches.
+     *
+     * @return string|null
      */
-    public function getMatches(): ?string
+    public function getMatches()
     {
         return isset($this->matches[0]) ? $this->matches[0] : null;
     }
 
     /**
-     * Return the user agent.
+     * @return string|null
      */
-    public function getUserAgent(): ?string
+    public function getUserAgent()
     {
         return $this->userAgent;
     }
