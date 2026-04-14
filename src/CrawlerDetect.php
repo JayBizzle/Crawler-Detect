@@ -105,7 +105,7 @@ class CrawlerDetect
      *
      * @param  array|null  $httpHeaders
      */
-    public function setHttpHeaders($httpHeaders)
+    public function setHttpHeaders($httpHeaders = null)
     {
         // Use global _SERVER if $httpHeaders aren't defined.
         if (! is_array($httpHeaders) || ! count($httpHeaders)) {
@@ -139,13 +139,20 @@ class CrawlerDetect
      *
      * @param  string|null  $userAgent
      */
-    public function setUserAgent($userAgent)
+    public function setUserAgent($userAgent = null)
     {
         if (is_null($userAgent)) {
+            $userAgent = '';
+
             foreach ($this->getUaHttpHeaders() as $altHeader) {
                 if (isset($this->httpHeaders[$altHeader])) {
                     $userAgent .= $this->httpHeaders[$altHeader].' ';
                 }
+            }
+
+            // If no headers were found, keep it as null.
+            if ($userAgent === '') {
+                $userAgent = null;
             }
         }
 
@@ -160,19 +167,29 @@ class CrawlerDetect
      */
     public function isCrawler($userAgent = null)
     {
-        $agent = trim(preg_replace(
+        $this->matches = [];
+
+        $agent = preg_replace(
             "/{$this->compiledExclusions}/i",
             '',
             $userAgent ?: $this->userAgent ?: ''
-        ));
+        );
 
-        if ($agent === '') {
+        if ($agent === null || trim($agent) === '') {
+            return false;
+        }
+
+        $agent = trim($agent);
+
+        $result = preg_match("/{$this->compiledRegex}/i", $agent, $this->matches);
+
+        if ($result === false) {
             $this->matches = [];
 
             return false;
         }
 
-        return (bool) preg_match("/{$this->compiledRegex}/i", $agent, $this->matches);
+        return (bool) $result;
     }
 
     /**
