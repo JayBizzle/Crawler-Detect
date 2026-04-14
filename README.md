@@ -1,4 +1,4 @@
-<p align="center"><a href="https://crawlerdetect.io/" target="_blank"><img src="https://crawlerdetect.io/og-image.png" width="480" /></a><br><br>
+<p align="center"><a href="https://crawlerdetect.io/" target="_blank"><img src="https://crawlerdetect.io/og-image.png" width="100%" /></a><br><br>
 <a href="https://crawlerdetect.io/" target="_blank">crawlerdetect.io</a>
 <br><br>
 </p>
