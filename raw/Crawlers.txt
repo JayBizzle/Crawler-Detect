@@ -221,6 +221,7 @@ cg-eye
 changedetection
 ChangesMeter
 Charlotte
+ChatGPT-User
 chatterino-api-cache
 CheckHost
 checkprivacy
@@ -237,6 +238,7 @@ Citoid
 CJNetworkQuality
 Clarsentia
 Claude-User
+claude-web
 clips\.ua\.ac\.be
 Cloud mapping
 CloudEndure
@@ -815,6 +817,7 @@ NetSystemsResearch
 nettle
 NetTrack
 Netvibes
+NetworkingExtension
 NetZIP
 Neustar WPM
 NeutrinoAPI
