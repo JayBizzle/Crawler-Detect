@@ -402,7 +402,6 @@ FlashGet
 FlipboardBrowserProxy
 FlipboardProxy
 FlipboardRSS
-Flock\/
 Florienzh\/
 fluffy
 Flunky
