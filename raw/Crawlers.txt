@@ -8,6 +8,7 @@
 ^COMODO DCV
 ^Corax
 ^DangDang
+^Dart\/[0-9]
 ^DavClnt
 ^DHSH
 ^docker\/[0-9]
@@ -62,6 +63,7 @@ Aboundex
 aboutthedomain
 Accoona-AI-Agent
 acebookexternalhit\/
+acme\.sectigo\.com
 acoon
 acrylicapps\.com\/pulp
 Acunetix
@@ -95,6 +97,7 @@ allloadin
 AllSubmitter
 alyze\.info
 amagit
+amphp\/http-client
 Anarchie
 AndroidDownloadManager
 Anemone
@@ -244,6 +247,7 @@ Cloud mapping
 CloudEndure
 CloudFlare-AlwaysOnline
 Cloudflare-Healthchecks
+Cloudflare-SSLDetector
 Cloudinary
 cmcm\.com
 coccoc
@@ -264,6 +268,8 @@ Copyscape
 cortex\/
 Cosmos4j\.feedback
 Covario-IDS
+Cpanel-HTTP-Client
+cpp-httplib
 Craw\/
 Crescent
 Criteo
@@ -374,6 +380,7 @@ Favicon downloader
 faviconarchive
 faviconkit
 FavOrg
+FediAct Service
 Feed Wrangler
 Feedable\/
 Feedbin
@@ -467,8 +474,10 @@ Google Search Console
 Google Web Preview
 Google-Ads
 Google-Adwords
+Google-AMPHTML
 Google-Apps-Script
 Google-Calendar-Importer
+Google-Firebase
 Google-HotelAdsVerifier
 Google-HTTP-Java-Client
 Google-InspectionTool
@@ -483,6 +492,7 @@ Google-Structured-Data-Testing-Tool
 Google-Transparency-Report
 google-xrawler
 Google-Youtube-Links
+GoogleAssociationService
 GoogleDocs
 GoogleHC\/
 GoogleMessages
@@ -525,6 +535,7 @@ HeartRails_Capture
 help@dataminr\.com
 heritrix
 Hexometer
+HF-Research\/
 historious
 hkedcity
 hledejLevne\.cz
@@ -568,6 +579,7 @@ HubSpot
 HubSpot-Link-Resolver
 Humanlinks
 i2kconnect\/
+IAB-Tech-Lab
 Iblog
 ichiro
 Id-search
@@ -584,6 +596,7 @@ ImageEngine\/
 ImageVisu\/
 Imagga
 imagineeasy
+imgproxy\/[0-9]
 imgsizer
 InAGist
 inbound\.li parser
@@ -664,6 +677,7 @@ kube-probe
 kubectl
 kulturarw3
 KumKie
+l9tcpid\/
 Larbin
 Lavf\/
 leakix\.net
@@ -688,6 +702,7 @@ link-check
 linkCheck
 linkdex
 LinkExaminer
+Linkfeed\.ru
 linkfluence
 linkpeek
 LinkPreview
@@ -827,6 +842,7 @@ NewsGator
 newsme
 newspaper\/
 Nexgate Ruby Client
+Next\.js Middleware
 NG-Search
 nghttp2
 Nibbler
@@ -930,6 +946,7 @@ pinterest\.com
 Pixray
 Pizilla
 Plagger\/
+PlayStore-Google
 Pleroma 
 Ploetz \+ Zeller
 Plukkie
@@ -974,6 +991,7 @@ Python-httplib2
 python-httpx
 python-requests
 Python-urllib
+Python-xmlrpc
 Qirina Hurdler
 QQDownload
 QrafterPro
@@ -1065,6 +1083,7 @@ SeoCheck
 seocompany
 SEOGets
 SEOkicks
+SeoLik\.ru
 SEOlizer
 Seomoz
 SEOprofiler
@@ -1166,6 +1185,7 @@ SuperHTTP
 Surphace Scout
 Suzuran
 swcd 
+Swisscows Favicons
 Symfony BrowserKit
 Symfony2 BrowserKit
 Synapse\/
@@ -1235,6 +1255,7 @@ uclassify
 UdmSearch
 ultimate_sitemap_parser
 unchaos
+undici
 unirest-java
 UniversalFeedParser
 unshortenit
@@ -1289,6 +1310,7 @@ WbSrch\/
 WDT\.io
 Web Auto
 Web Collage
+Web Downloader\/[0-9]
 Web Enhancer
 Web Fetch
 Web Fuck
