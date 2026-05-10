@@ -3690,3 +3690,6 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 Mozilla/5.0 (Linux; Android 11.0; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36 DebugBear
 Mozilla/5.0 (compatible; monitoring360bot/1.1; +https://app.360monitoring.com/bot.html)
 1Pilot Monitoring (+http://1pilot.io/)
+ChatGPT-User/1.0
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)
+Mozilla/5.0 (Linux; arm_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 claude-web
