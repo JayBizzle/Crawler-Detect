@@ -818,6 +818,7 @@ NetSystemsResearch
 nettle
 NetTrack
 Netvibes
+NetworkingExtension
 NetZIP
 Neustar WPM
 NeutrinoAPI

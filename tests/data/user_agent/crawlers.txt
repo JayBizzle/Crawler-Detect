@@ -3693,3 +3693,5 @@ Mozilla/5.0 (compatible; monitoring360bot/1.1; +https://app.360monitoring.com/bo
 ChatGPT-User/1.0
 Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0; +https://openai.com/bot)
 Mozilla/5.0 (Linux; arm_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 claude-web
+NetworkingExtension/8621.3.11.10.3 Network/4277.140.33 iOS/18.6.2
+NetworkingExtension/8620.2.5.10.7 Network/4277.42.2 iOS/17.6.1

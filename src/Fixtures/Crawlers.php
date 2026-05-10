@@ -839,6 +839,7 @@ class Crawlers extends AbstractProvider
         'nettle',
         'NetTrack',
         'Netvibes',
+        'NetworkingExtension',
         'NetZIP',
         'Neustar WPM',
         'NeutrinoAPI',
