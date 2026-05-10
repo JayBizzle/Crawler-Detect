@@ -423,7 +423,6 @@ class Crawlers extends AbstractProvider
         'FlipboardBrowserProxy',
         'FlipboardProxy',
         'FlipboardRSS',
-        'Flock\/',
         'Florienzh\/',
         'fluffy',
         'Flunky',
