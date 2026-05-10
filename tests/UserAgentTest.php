@@ -228,4 +228,29 @@ final class UserAgentTest extends TestCase
             $this->assertNotFalse($result, 'Invalid regex pattern: '.$pattern);
         }
     }
+
+    /**
+     * Regression guard for issue #594.
+     *
+     * Amazon CloudFront has been added and removed from the crawler list
+     * three times (#392 added, #410 removed, #504 re-added, #602 removed).
+     * It is a reverse proxy: for sites hosted behind it, the 'Amazon CloudFront'
+     * UA on inbound requests is the CDN fetching from origin on behalf of real
+     * end users, not crawler activity. Treating it as a crawler silently breaks
+     * analytics, auth, and rate-limiting for AWS-hosted sites.
+     *
+     * If this test fails, do NOT delete it to make a re-add green. Open a fresh
+     * design discussion on the issue tracker first.
+     *
+     * @test
+     */
+    public function amazon_cloudfront_must_not_be_classified_as_a_crawler()
+    {
+        $this->assertFalse(
+            $this->crawlerDetect->isCrawler('Amazon CloudFront'),
+            'Amazon CloudFront UA was matched by a crawler signature. '.
+            'See issue #594 — this UA represents a reverse-proxy origin fetch on '.
+            'behalf of real users, not crawler traffic. Do not re-add it.'
+        );
+    }
 }
