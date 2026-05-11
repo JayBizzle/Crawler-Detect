@@ -51,8 +51,10 @@ echo $CrawlerDetect->getMatches();
 
 If you find a bot, spider or crawler that CrawlerDetect fails to detect, please open a pull request that:
 
-- adds the regex pattern to the `$data` array in `src/Fixtures/Crawlers.php` and to the raw files `raw/Crawlers.json` and `raw/Crawlers.txt`
-- adds the failing user agent string to `tests/crawlers.txt`
+- adds the regex pattern to the `$data` array in `src/Fixtures/Crawlers.php`
+- adds the failing user agent string to `tests/data/user_agent/crawlers.txt`
+
+The `raw/Crawlers.json` and `raw/Crawlers.txt` files are regenerated automatically by `export.php` after merge — no need to touch them.
 
 If you're not able to submit a PR, open an issue with the user agent string and we'll take it from there.
 
