@@ -74,6 +74,15 @@ class CrawlerDetect
     protected $compiledExclusions;
 
     /**
+     * Cache of compiled regex strings keyed by pattern-list hash, shared
+     * across instances so per-request `new CrawlerDetect` calls don't
+     * re-implode the (~1500-entry) pattern list each time.
+     *
+     * @var array<string, string>
+     */
+    protected static $compileCache = [];
+
+    /**
      * Class constructor.
      */
     public function __construct(?array $headers = null, $userAgent = null)
@@ -92,12 +101,21 @@ class CrawlerDetect
     /**
      * Compile the regex patterns into one regex string.
      *
+     * A non-capturing group is used because callers only need the full
+     * match (preg_match's $matches[0]), not a back-reference.
+     *
      * @param array
      * @return string
      */
     public function compileRegex($patterns)
     {
-        return '('.implode('|', $patterns).')';
+        $key = md5(serialize($patterns));
+
+        if (! isset(self::$compileCache[$key])) {
+            self::$compileCache[$key] = '(?:'.implode('|', $patterns).')';
+        }
+
+        return self::$compileCache[$key];
     }
 
     /**
