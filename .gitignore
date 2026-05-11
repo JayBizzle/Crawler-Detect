@@ -3,7 +3,7 @@ composer.phar
 composer.lock
 .DS_Store
 .phpunit.result.cache
-.php_cs.cache
+.php-cs-fixer.cache
 .coveralls.yml export-ignore
 .php_cs.dist export-ignore
 phpunit.xml export-ignore
