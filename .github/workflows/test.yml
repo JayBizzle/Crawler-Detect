@@ -25,7 +25,7 @@ jobs:
         with:
           php-version: ${{ matrix.php }}
           tools: composer:v2
-          coverage: xdebug
+          coverage: ${{ matrix.php == '8.3' && 'xdebug' || 'none' }}
 
       - name: Get composer cache directory
         id: composer-cache
@@ -46,11 +46,12 @@ jobs:
 
       - name: Run Unit tests
         run: |
-          vendor/bin/phpunit --coverage-clover=tests/logs/clover.xml
+          vendor/bin/phpunit ${{ matrix.php == '8.3' && '--coverage-clover=tests/logs/clover.xml' || '' }}
 
       - name: Upload coverage results to Coveralls
+        if: matrix.php == '8.3'
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          composer global require php-coveralls/php-coveralls "^1.0"
-          coveralls --coverage_clover=tests/logs/clover.xml -v
+          composer global require php-coveralls/php-coveralls "^2.7"
+          php-coveralls --coverage_clover=tests/logs/clover.xml -v
