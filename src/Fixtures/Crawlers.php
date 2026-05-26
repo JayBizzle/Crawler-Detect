@@ -830,6 +830,7 @@ class Crawlers extends AbstractProvider
         'myseosnapshot',
         'nagios',
         'Najdi\.si',
+        'holubem\.eu',
         'Name Intelligence',
         'NameFo\.com',
         'Nameprotect',
