@@ -165,14 +165,20 @@ final class UserAgentTest extends TestCase
         // pass, instead of two preg_match calls per pair (~4M calls).
         $literals = array_map('stripslashes', $all);
 
+        $collisions = [];
+
         foreach ($all as $key => $regex) {
-            $collisions = preg_grep('/'.$regex.'/i', $literals);
+            $matches = preg_grep('/'.$regex.'/i', $literals);
 
             // A pattern may match its own literal text.
-            unset($collisions[$key]);
+            unset($matches[$key]);
 
-            $this->assertSame([], $collisions, $regex.' collided with: '.implode(', ', $collisions));
+            if ($matches !== []) {
+                $collisions[] = $regex.' collided with: '.implode(', ', $matches);
+            }
         }
+
+        $this->assertSame([], $collisions, "Patterns collide:\n".implode("\n", $collisions));
     }
 
     public function test_is_crawler_with_explicit_agent_does_not_change_stored_agent()
