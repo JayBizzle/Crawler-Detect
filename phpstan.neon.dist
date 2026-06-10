@@ -1,0 +1,10 @@
+parameters:
+    level: 5
+
+    paths:
+        - src
+        - tests
+
+    # Analyse against the library's minimum supported PHP version so
+    # syntax/feature regressions against the 7.2 floor are caught.
+    phpVersion: 70200

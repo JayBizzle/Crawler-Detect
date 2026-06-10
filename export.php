@@ -31,11 +31,11 @@ foreach ($src as $class) {
 function outputJson($object)
 {
     $className = (new ReflectionClass($object))->getShortName();
-    file_put_contents("raw/$className.json", json_encode($object->getAll()));
+    file_put_contents("raw/$className.json", json_encode($object->getAll()).PHP_EOL);
 }
 
 function outputTxt($object)
 {
     $className = (new ReflectionClass($object))->getShortName();
-    file_put_contents("raw/$className.txt", implode(PHP_EOL, $object->getAll()));
+    file_put_contents("raw/$className.txt", implode(PHP_EOL, $object->getAll()).PHP_EOL);
 }

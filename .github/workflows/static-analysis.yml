@@ -1,0 +1,32 @@
+name: Static Analysis
+
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+
+jobs:
+  phpstan:
+    runs-on: ubuntu-24.04
+    name: PHPStan
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # PHPStan is installed via setup-php rather than require-dev because
+      # it needs PHP >= 7.4, while the test matrix still installs dev
+      # dependencies on PHP 7.1.
+      - name: Setup PHP, with composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.4
+          tools: composer:v2, phpstan
+          coverage: none
+
+      - name: Install Composer dependencies
+        run: composer install --prefer-dist --no-interaction
+
+      - name: Run PHPStan
+        run: phpstan analyse --no-progress
