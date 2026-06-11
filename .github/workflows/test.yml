@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup PHP, with composer
         uses: shivammathur/setup-php@v2
@@ -34,7 +34,7 @@ jobs:
         shell: bash
 
       - name: Cache composer dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
           key: dependencies-php-${{ matrix.php }}-composer-${{ hashFiles('composer.json') }}
