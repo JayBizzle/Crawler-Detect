@@ -13,11 +13,14 @@
 ^DHSH
 ^docker\/[0-9]
 ^Expanse
+^ExposureScanner
 ^FDM 
 ^git\/
 ^Goose\/
+^Goosee-Audit
 ^Grabber
 ^Gradle\/
+^Hello from Palo Alto Networks
 ^HTTPClient\/
 ^HTTPing
 ^Java\/
@@ -43,6 +46,7 @@
 ^TLS tester 
 ^twine\/
 ^ureq
+^visionheight\.com\/scan
 ^VSE\/[0-9]
 ^WordPress\.com
 ^XRL\/[0-9]
@@ -414,6 +418,7 @@ Florienzh\/
 fluffy
 Flunky
 flynxapp
+foda-scanner\/[0-9]
 forensiq
 ForusP
 FoundSeoTool
@@ -528,6 +533,7 @@ Hadi Agent
 HappyApps-WebCheck
 Hardenize
 Hatena
+HaveInListEnricher
 Havij
 HaxerMen
 HEADMasterSEO
@@ -607,6 +613,7 @@ infegy
 infohelfer
 InfoTekies
 InfoWizards Reciprocal Link
+Infrawatch\/[0-9]
 inpwrd\.com
 instabid
 Instapaper
@@ -673,6 +680,7 @@ knows\.is
 KOCMOHABT
 kouio
 krawler\.dk
+krynos
 kube-probe
 kubectl
 kulturarw3
@@ -782,6 +790,7 @@ mixdata dot com
 mixed-content-scan
 mixnode
 Mnogosearch
+ModatScanner\/[0-9]
 mogimogi
 Mojeek
 Mojolicious \(Perl\)
@@ -916,6 +925,7 @@ Panopta
 panscient
 Papa Foto
 parsijoo
+pathscan\/[0-9]
 Pavuk
 PayPal IPN
 pcBrowser
