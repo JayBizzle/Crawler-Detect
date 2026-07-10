@@ -3718,3 +3718,7 @@ undici
 Web Downloader/6.9
 Najdu (Vyhledavac sluzeb (obsah) najdu.s.holubem.eu)
 Najdu (Vyhledavac sluzeb (hlavicka) najdu.s.holubem.eu)
+Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity
+Mozilla/5.0 (compatible; Infrawatch/1.0; +https://infrawat.ch/)
+Mozilla/5.0 (compatible; ModatScanner/1.2; +https://modat.io/)
+mozilla firefox 5.0/krynos made
