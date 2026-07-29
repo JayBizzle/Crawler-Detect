@@ -177,9 +177,16 @@ class CrawlerDetect
      */
     protected function normaliseHeaderName($key)
     {
-        $key = str_replace('-', '_', strtoupper((string) $key));
+        $key = strtoupper((string) $key);
 
-        return strpos($key, 'HTTP_') === 0 ? substr($key, 5) : $key;
+        // Strip the prefix before folding hyphens, so only a genuine
+        // underscore-separated SAPI key loses it. A real header named
+        // 'Http-User-Agent' must not be mistaken for the user agent.
+        if (strpos($key, 'HTTP_') === 0) {
+            $key = substr($key, 5);
+        }
+
+        return str_replace('-', '_', $key);
     }
 
     /**

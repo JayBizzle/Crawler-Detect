@@ -205,6 +205,20 @@ final class UserAgentTest extends TestCase
         $this->assertFalse($cd->isCrawler());
     }
 
+    public function test_http_prefixed_real_header_names_are_not_treated_as_sapi_keys()
+    {
+        // 'Http-User-Agent' is a custom header, not the User-Agent header, so
+        // its value must never be read as one. Only an underscore-separated
+        // SAPI key carries the prefix we strip.
+        $cd = new CrawlerDetect([
+            'Http-User-Agent' => ['Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'],
+            'Http-From' => ['googlebot(at)googlebot.com'],
+            'User-Agent' => ['Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36'],
+        ]);
+
+        $this->assertFalse($cd->isCrawler());
+    }
+
     public function test_ua_http_headers_retain_their_sapi_prefix()
     {
         // Public API - callers rely on these names, so they must not change.
