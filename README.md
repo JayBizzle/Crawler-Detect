@@ -47,6 +47,27 @@ if ($CrawlerDetect->isCrawler('Mozilla/5.0 (compatible; Sosospider/2.0; +http://
 echo $CrawlerDetect->getMatches();
 ```
 
+### Passing headers from a request object
+
+With no arguments, CrawlerDetect reads `$_SERVER`. If your headers come from somewhere else — a PSR-7 request, Symfony's `HeaderBag`, Swoole, or a Lambda event — pass them in directly. Both real header names (`User-Agent`) and PHP's SAPI names (`HTTP_USER_AGENT`) are understood, and values may be strings or arrays of strings.
+
+```php
+// PSR-7 (Slim, Mezzio, Laminas, League)
+$CrawlerDetect = new CrawlerDetect($request->getHeaders());
+
+// Symfony HttpFoundation
+$CrawlerDetect = new CrawlerDetect($request->headers->all());
+
+// Swoole
+$CrawlerDetect = new CrawlerDetect($request->header);
+
+if ($CrawlerDetect->isCrawler()) {
+    // ...
+}
+```
+
+Prefer this over `isCrawler($request->getHeaderLine('User-Agent'))`. Some crawlers — Googlebot in particular — send a genuine browser `User-Agent` and identify themselves in another header such as `From` or `Sec-CH-UA`. Passing the full set lets CrawlerDetect check all of them; passing a single string can only ever check one.
+
 ## Contributing
 
 If you find a bot, spider or crawler that CrawlerDetect fails to detect, please open a pull request that:
