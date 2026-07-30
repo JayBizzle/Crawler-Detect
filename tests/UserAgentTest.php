@@ -127,6 +127,105 @@ final class UserAgentTest extends TestCase
         $this->assertTrue($cd->isCrawler());
     }
 
+    public function test_psr7_style_header_names()
+    {
+        // ServerRequestInterface::getHeaders() returns real header names with
+        // an array of strings for each value.
+        $cd = new CrawlerDetect([
+            'Host' => ['www.test.com'],
+            'User-Agent' => ['Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'],
+        ]);
+
+        $this->assertTrue($cd->isCrawler());
+    }
+
+    public function test_lowercase_dashed_header_names()
+    {
+        // HttpFoundation's HeaderBag::all() lowercases the names it returns.
+        $cd = new CrawlerDetect([
+            'user-agent' => ['Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'],
+        ]);
+
+        $this->assertTrue($cd->isCrawler());
+    }
+
+    public function test_scalar_header_values_are_accepted()
+    {
+        // Swoole and most Lambda event shapes give a plain string per header.
+        $cd = new CrawlerDetect([
+            'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+        ]);
+
+        $this->assertTrue($cd->isCrawler());
+    }
+
+    public function test_from_header_is_honoured_from_a_non_sapi_source()
+    {
+        // Googlebot sometimes sends a genuine browser UA and identifies itself
+        // in the From header instead. The UA alone is not a match.
+        $headers = [
+            'From' => ['googlebot(at)googlebot.com'],
+            'User-Agent' => ['Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36'],
+        ];
+
+        $cd = new CrawlerDetect($headers);
+
+        $this->assertTrue($cd->isCrawler());
+        $this->assertFalse($cd->isCrawler($headers['User-Agent'][0]));
+    }
+
+    public function test_sec_ch_ua_header_is_honoured_from_a_non_sapi_source()
+    {
+        $cd = new CrawlerDetect([
+            'Sec-CH-UA' => ['"HeadlessChrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"'],
+        ]);
+
+        $this->assertTrue($cd->isCrawler());
+    }
+
+    public function test_mixed_case_sapi_header_names()
+    {
+        $cd = new CrawlerDetect([
+            'Http_User_Agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+        ]);
+
+        $this->assertTrue($cd->isCrawler());
+    }
+
+    public function test_non_header_server_vars_are_ignored()
+    {
+        // A URL can legitimately carry a crawler name, so these _SERVER vars
+        // must never be scanned even though their values would match.
+        $cd = new CrawlerDetect([
+            'REQUEST_URI' => '/?utm_source=bingbot',
+            'QUERY_STRING' => 'utm_source=bingbot',
+            'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36',
+        ]);
+
+        $this->assertFalse($cd->isCrawler());
+    }
+
+    public function test_http_prefixed_real_header_names_are_not_treated_as_sapi_keys()
+    {
+        // 'Http-User-Agent' is a custom header, not the User-Agent header, so
+        // its value must never be read as one. Only an underscore-separated
+        // SAPI key carries the prefix we strip.
+        $cd = new CrawlerDetect([
+            'Http-User-Agent' => ['Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)'],
+            'Http-From' => ['googlebot(at)googlebot.com'],
+            'User-Agent' => ['Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36'],
+        ]);
+
+        $this->assertFalse($cd->isCrawler());
+    }
+
+    public function test_ua_http_headers_retain_their_sapi_prefix()
+    {
+        // Public API - callers rely on these names, so they must not change.
+        $this->assertContains('HTTP_USER_AGENT', $this->crawlerDetect->getUaHttpHeaders());
+        $this->assertContains('HTTP_FROM', $this->crawlerDetect->getUaHttpHeaders());
+    }
+
     public function test_matches_does_not_persist_across_multiple_calls()
     {
         $this->crawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');

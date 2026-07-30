@@ -135,6 +135,11 @@ class CrawlerDetect
     /**
      * Set HTTP headers.
      *
+     * Accepts either the _SERVER-style names PHP's SAPI produces
+     * (HTTP_USER_AGENT) or the real header names carried by a PSR-7 request,
+     * HttpFoundation, Swoole or a Lambda event ('User-Agent'). Both are stored
+     * under the canonical HTTP_ form so lookups stay uniform.
+     *
      * @param  array|null  $httpHeaders
      */
     public function setHttpHeaders($httpHeaders = null)
@@ -147,13 +152,53 @@ class CrawlerDetect
         // Clear existing headers.
         $this->httpHeaders = [];
 
-        // Only save HTTP headers. In PHP land, that means
-        // only _SERVER vars that start with HTTP_.
+        $uaHeaders = array_flip(
+            array_map([$this, 'normaliseHeaderName'], $this->getUaHttpHeaders())
+        );
+
+        // Only save HTTP headers. In PHP land, that means _SERVER vars that
+        // start with HTTP_ — plus, for non-SAPI sources, any key whose real
+        // header name is one we actually read.
         foreach ($httpHeaders as $key => $value) {
-            if (strpos($key, 'HTTP_') === 0) {
-                $this->httpHeaders[$key] = $value;
+            $name = $this->normaliseHeaderName($key);
+
+            if (strpos(strtoupper((string) $key), 'HTTP_') === 0 || isset($uaHeaders[$name])) {
+                $this->httpHeaders['HTTP_'.$name] = $this->normaliseHeaderValue($value);
             }
         }
+    }
+
+    /**
+     * Reduce a header name to its canonical form - uppercased, underscore
+     * separated, with any SAPI 'HTTP_' prefix removed.
+     *
+     * @param  string  $key
+     * @return string
+     */
+    protected function normaliseHeaderName($key)
+    {
+        $key = strtoupper((string) $key);
+
+        // Strip the prefix before folding hyphens, so only a genuine
+        // underscore-separated SAPI key loses it. A real header named
+        // 'Http-User-Agent' must not be mistaken for the user agent.
+        if (strpos($key, 'HTTP_') === 0) {
+            $key = substr($key, 5);
+        }
+
+        return str_replace('-', '_', $key);
+    }
+
+    /**
+     * Flatten a header value. PSR-7 and HttpFoundation both expose values as
+     * an array of strings, where the SAPI gives a single pre-joined string.
+     *
+     * @param  mixed  $value
+     * @return string
+     */
+    protected function normaliseHeaderValue($value)
+    {
+        return is_array($value) ? implode(', ', $value) : (string) $value;
     }
 
     /**
