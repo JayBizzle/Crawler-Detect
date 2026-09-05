@@ -479,6 +479,7 @@ Google Search Console
 Google Web Preview
 Google-Ads
 Google-Adwords
+Google-Agent
 Google-AMPHTML
 Google-Apps-Script
 Google-Calendar-Importer
@@ -497,6 +498,7 @@ Google-Structured-Data-Testing-Tool
 Google-Transparency-Report
 google-xrawler
 Google-Youtube-Links
+GoogleAgent-Mariner
 GoogleAssociationService
 GoogleDocs
 GoogleHC\/
@@ -767,6 +769,7 @@ MegaIndex\.ru
 MeltwaterNews
 Melvil Rawi
 MemGator
+meta-externalagent
 Metaspinner
 MetaURI
 MFC_Tear_Sample
@@ -786,6 +789,7 @@ Miniflux
 mio_httpc
 Miro-HttpClient
 Mister PiX
+MistralAI-User
 mixdata dot com
 mixed-content-scan
 mixnode
@@ -874,6 +878,7 @@ Norton-Safeweb
 Notifixious
 notifyninja
 NotionEmbedder
+NovaAct
 nuhk
 nutch
 Nuzzel
@@ -937,6 +942,7 @@ peerindex
 Peew
 PeoplePal
 Perlu -
+Perplexity-User
 PhantomJS Screenshoter
 PhantomJS\/
 Photon\/
@@ -1372,6 +1378,7 @@ webtech\/
 WebThumbnail
 Webthumb\/
 WebWhacker
+Webzio-Extended
 WebZIP
 WeLikeLinks
 WEPA
