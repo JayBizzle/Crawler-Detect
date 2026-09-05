@@ -10,4 +10,12 @@
       <directory suffix=".php">tests</directory>
     </testsuite>
   </testsuites>
+  <php>
+    <!--
+      Some local PHP builds (Laravel Herd on macOS, for one) ship with the
+      PCRE JIT disabled, which makes the 165k-line device suite roughly
+      eight times slower. Force it on for the test run.
+    -->
+    <ini name="pcre.jit" value="1"/>
+  </php>
 </phpunit>
