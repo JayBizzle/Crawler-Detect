@@ -82,6 +82,20 @@ if ($CrawlerDetect->isCrawler($userAgent)) {
 | `headless` | Headless browsers and automation frameworks | HeadlessChrome, PhantomJS |
 | `http-library` | Programmatic HTTP clients and language runtimes | curl, python-requests, Go-http-client, okhttp |
 
+`is()` answers the narrower question directly. It runs the detection itself, so it works on a fresh instance and follows the same user agent rules as `isCrawler()`. Pass an array to ask about any of several categories, which is also how you allow-list:
+
+```php
+$CrawlerDetect->is('ai-training', $userAgent);                  // a training crawler?
+$CrawlerDetect->is(['ai-training', 'ai-search'], $userAgent);  // either kind of AI crawler?
+
+// Treat every crawler as a bot except search engines, link previews and AI assistants
+if ($CrawlerDetect->isCrawler() && ! $CrawlerDetect->is(['search', 'social', 'ai-user'])) {
+    // block, throttle, or serve a lighter page
+}
+```
+
+An unrecognised category name throws an `InvalidArgumentException`, so a typo fails loudly rather than quietly returning false.
+
 A crawler that fits none of these reports `unknown`. When the last check was not a crawler, `getCategory()` returns `null`. Categories are checked in the order listed and the first match wins, which is why the AI categories sit above `search` (so Applebot-Extended is not reported as Applebot) and `http-library` sits last (many bots mention the library they are built on). `getCategories()` returns the list of names.
 
 Classification only runs after a positive match and only when you ask for it, so existing `isCrawler()` callers pay nothing extra.
