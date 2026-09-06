@@ -1,0 +1,78 @@
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0); 360Spider
+Mozilla/5.0 (compatible; AddSearchBot/1.0; +http://www.addsearch.com/bot/)
+Mozilla/5.0 (compatible; adidxbot/2.0; +http://www.bing.com/bingbot.htm)
+AdsBot-Google (+http://www.google.com/adsbot.html)
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)
+Mozilla/5.0 (Linux) (compatible; AlexandriaOrgBot/1.0; +https://www.alexandria.org/bot.html)
+APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1 (Applebot/0.1; +http://www.apple.com/go/applebot)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.2.5 (KHTML, like Gecko) Version/8.0.2 Safari/600.2.5 (Applebot/0.1; +http://www.apple.com/go/applebot)
+Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+Baiduspider-image+(+http://www.baidu.com/search/spider.htm)
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+Mozilla/5.0 (compatible; Blekkobot; ScoutJet; +http://blekko.com/about/blekkobot)
+Mozilla/5.0 (compatible; coccocbot-web/1.0; +http://help.coccoc.com/searchengine)
+Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server;) Daumoa/4.0 (Following Mediapartners-Google)
+DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html)
+Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)
+Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012; DuplexWeb-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Mobile Safari/537.36
+Mozilla/5.0 (compatible; Exabot/3.0 (BiggerBetter); +http://www.exabot.com/go/robot)
+Mozilla/5.0 (compatible; FreespokeCrawler/2.0; +https://crawler.freespoke.com)
+Gigabot/2.0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+Mozilla/5.0 (compatible; Google-InspectionTool/1.0)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)
+Mozilla/5.0 (compatible; Google-Site-Verification/1.0)
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+Googlebot-Image/1.0
+Googlebot-Video/1.0
+DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)
+GoogleProducer; (+http://goo.gl/7y4SX)
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0); 360Spider(compatible; HaosouSpider; http://www.haosou.com/help/help_3_2.html)
+Mozilla/5.0 (compatible; Kagibot/1.0; +https://kagi.com/bot)
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Linespider/1.1; +https://lin.ee/4dwXkTH) Chrome/W.X.Y.Z Safari/537.36
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Luxxlebot/1.01; +https://www.luxxle.com/bot) Chrome/116.0.5845.96 Safari/537.36
+Mozilla/5.0 (compatible; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)
+Mediapartners-Google
+Mozilla/5.0 (compatible; MojeekBot/0.5; http://www.mojeek.com/bot.html)
+Mozilla/5.0 (compatible; MojeekBot/0.11; +https://www.mojeek.com/bot.html)
+msnbot/1.1 (+http://search.msn.com/msnbot.htm)
+mwmbl/0.2.0 (https://github.com/mwmbl/mwmbl/ contact daoud@mwmbl.org (Mwmbl Crawler Operator))
+Mozilla/4.0 (compatible; NaverBot/1.0; http://help.naver.com/customer_webtxt_02.jsp)
+Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (HTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)
+Mozilla/5.0 (compatible; Qwantbot/1.0_5600326; +https://help.qwant.com/bot/)
+Mozilla/5.0 (compatible; Qwantify/2.0n; +https://www.qwant.com/)
+Mozilla/5.0 (compatible; SeekportBot; +https://bot.seekport.com)
+Mozilla/5.0 (compatible; SeznamBot/3.2; +http://napoveda.seznam.cz/en/seznambot-intro/)
+Mozilla/5.0 (compatible; SeznamBot/4.0; +https://o-seznam.cz/napoveda/vyhledavani/en/seznambot-crawler/)
+Mozilla/5.0 (compatible; Yahoo! Slurp/3.0; http://help.yahoo.com/help/us/ysearch/slurp)
+Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Sogou Pic Spider/3.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Sogou News Spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Mozilla/5.0(compatible; Sosospider/2.0; +http://help.soso.com/webspider.htm)
+Mozilla/5.0 (compatible; SputnikBot/2.3; +http://corp.sputnik.ru/webmaster)
+Mozilla/5.0 (X11; Linux x86_64; Storebot-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z Safari/537.36
+Mozilla/2.0 (compatible; Ask Jeeves/Teoma; +http://sp.ask.com/docs/about/tech_crawling.html)
+Y!J-BSC/1.0 crawler (http://help.yahoo.co.jp/help/jp/blog-search/)
+yacybot (/global; amd64 Linux 3.16-0.bpo.2-amd64; java 1.7.0_65; Europe/en) http://yacy.net/bot.html
+Mozilla/5.0 (compatible; YaDirectFetcher/1.0; Dyatel; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexAccessibilityBot/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexBlogs/0.99; robot; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexBot/3.0; MirrorDetector; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexDirect/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexFavicons/1.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexMedia/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexPagechecker/1.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexRenderResourcesBot/1.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)
+Mozilla/5.0 (compatible; Yeti/1.1; +http://help.naver.com/robots/)
+YisouSpider
+Mozilla/5.0 (compatible; ZumBot/1.0; http://help.zum.com/inquiry)

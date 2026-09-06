@@ -1,0 +1,106 @@
+Corax - support@coraxcyber.com
+Expanse indexes the network perimeters of our customers. If you have any questions or concerns, please reach out to: scaninfo@expanseinc.com
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+ExposureScanner/1.0 (internal-security-audit)
+Goosee-Audit/1.0 (+internal-security-audit)
+Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity
+Netlab360
+Nuclei (@pdiscoveryio)
+TLS tester from https://testssl.sh/dev/
+TLS tester from https://testssl.sh/
+visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+ZmEu
+Mozilla/5.0 (Windows NT 6.1; WOW64) acunetix-product/wvs (Acunetix Web Vulnerability Scanner - Free Edition)
+acunetix-product/wvs
+Mozilla/5.0 (compatible; adscanner/)
+AliyunSecBot/Aliyun (AliyunSecBot@service.alibaba.com)
+AWS Security Scanner
+Bewica-security-scan
+Mozilla/5.0 (compatible; BitSightBot/1.0)
+censys.io internet census
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+CISPA Web Analyser (https://notify.cispa.saarland)
+Cloud mapping experiment. Contact research@pdrlabs.net
+CloudEndure Scanner (ops@cloudendure.com)
+commonscan.org cralwer v1.01
+Mozilla/5.0 (compatible; pathscan/1.0)
+cortex/1.0
+Mozilla/5.0 (compatible; crawlora-research/1.0; +https://crawlora.net/anti-bot-index)
+CybaaBot/1.0 (+https://cybaa.io)
+Mozilla/5.0 (compatible; Detectify) +https://detectify.com/bot/
+Mozilla/5.0 (compatible; foda-scanner/0.1)
+Fuzz Faster U Fool v1.0-rc1
+Fuzz Faster U Fool v1.5.0-dev
+https://getroot.sh survey
+gobuster/3.1.0
+Hardenize (https://www.hardenize.com)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0 | Hardenize/v1.1196.1 (https://www.hardenize.com)
+HaxerMen
+Mozilla/5.0 (compatible; DNS SSL/TLS HTTP HTML Website Security Scanner/0.2 beta; +https://www.htmlyse.com/)
+Mozilla/5.0 (compatible; DNS SSL/TLS HTTP and HTML scanner/0.1; +https://www.htmlyse.com/)
+HTTP Banner Detection (https://security.ipip.net)
+HTTP Banner Detection(security.ipip.net)
+Mozilla/5.0 (compatible; Infrawatch/1.0; +https://infrawat.ch/)
+Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+internetwache.org v3.4
+ivre-masscan/1.3 https://github.com/robertdavidgraham/
+JolokiaPwn, https://matmannion.com/jolokiapwn/, mat.mannion@gmail.com
+lkxscan/v0.1.0 (+https://leakix.net) l9explore/v1.0.0 (+https://github.com/LeakIX/l9explore)
+Mozilla/5.0 (l9scan/2.0; +https://github.com/LeakIX/l9scan)
+l9tcpid/v1.1.0
+l9tcpid/v1.0.0
+TBI-WebScanner/0.0.1 (+https://leakix.net/)
+TBI-HttpOpenPlugin/0.1.0 (+https://leakix.net/)
+Lkx-TraversalHttpPlugin/0.0.1 (+https://leakix.net/, +https://twitter.com/HaboubiAnis)
+Lkx-Apache2449TraversalPlugin/0.0.1 (+https://leakix.net/, +https://twitter.com/HaboubiAnis)
+Mozilla (libwhisker/2.4)
+ltx71 - (http://ltx71.com/)
+masscan-ng/1.3 (https://github.com/bi-zone/masscan-ng)
+masscan/1.0 (https://github.com/robertdavidgraham/masscan)
+masscan/1.0
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 mixed-content-scan
+Mozilla/5.0 (compatible; ModatScanner/1.2; +https://modat.io/)
+Mozilla/5.0 (compatible; ModatScanner/1.0; +https://modat.io/)
+Mozilla/5.0 (compatible; Nessus; http://www.nessus.org)
+Netsparker
+NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com
+Mozilla/5.00 (Nikto/2.1.5) (Evasions:None) (Test:Port Check)
+Mozilla/5.0 (X11; Linux x86_64) Nikto/2.5.0 (Evasions:None) (Test:Port Check)
+Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+Mozilla/5.0 (compatible; Nmap Scripting Engine; http://nmap.org/book/nse.html)
+nyawc/1.8.1 CPython/3.6.5 Linux/3.10.0-862.9.1.el7.x86_64
+Observer/1.0 (+https://obsrvr.net/about; crawler@obsrvr.net)
+Mozilla/5.0 [en] (X11, U; OpenVAS 7.0.10)
+Mozilla/5.0 [en] (X11, U; OpenVAS)
+PATHspider (https://pathspider.net/)
+Mozilla/5.0 (compatible; +probely.com/sos) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36 ProbelySPDR/0.2.0
+Mozilla/5.0 (compatible; +https://probely.com/sos) ProbelySPDR/0.1.0
+Project25499 Scanner (opt-out@project25499.com)
+httpx - Open-source project (github.com/projectdiscovery/httpx)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 ProxyChecker/2.0
+pshtt, https scanning
+PunkMap (https://github.com/openeasm/punkmap)
+RecordedFuture Global Inventory Crawler
+RepoLookoutBot/1.0.0 (abuse reports to abuse@repo-lookout.org)
+Riddler (http://riddler.io/about.html)
+Riddler (http://riddler.io/about)
+safe-agent-scanner
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 ### This is a crawler for security.txt files. For more information visit https://securitytxt-scan.cs.hm.edu/ ###
+Shodan-Pull/1.0
+sqlmap/1.0-dev-nongit-201612050a8c (http://sqlmap.org)
+sqlmap/1.7.8#stable (https://sqlmap.org)
+TLSProbe/1.0 (+https://scan.trustnet.venafi.com/)
+Mozilla/5.0 (compatible; VertexWP/1.0; +https://vertexwp.com/bot)
+Vulnbusters Meter (see http://vulnbusters.com for details)
+w3af.org
+Mozilla/5.0 (X11; Linux x86_64; WanscannerBot/1.2; +https://abuse.pend.re) Gecko/20100101 Firefox/10.0
+WebFuck V2.1 T0PHackTeam www.t0p.xyz
+webtech/1.2.11
+Wfuzz/2.2.2
+WhatWeb/0.4.8-dev
+Mozilla/5.0 (X11; U; Linux i686) Firefox/2.0.0.11 wprecon.com survey
+WPScan v2.9 (http://wpscan.org)
+WPScan v3.8.22 (https://wpscan.com/wordpress-security-scanner)
+Mozilla/5.0 (compatible; WPScan; +https://wpscan.com/wordpress-security-scanner)
+xpymep.exe
+Mozilla/5.0 zgrab/0.x

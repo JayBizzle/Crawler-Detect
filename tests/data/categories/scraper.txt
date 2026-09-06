@@ -1,0 +1,74 @@
+GetBot
+Goose/1.0.25
+Grabber -  https://sites.google.com/3ziele.de/grabber/
+node.io
+Web spyder
+WebFetch
+Mozilla/5.0 (compatible; ACHE/Unknown Version; +https://github.com/ViDA-NYU/ache; )
+Mozilla/4.0 (compatible; Advanced Email Extractor v2.61)
+Alligator 1.31 (www.nearsoftware.com)
+Anemone/0.7.2
+AngleSharp/0.9.9
+Mozilla/5.0 (compatible; ApifyBot/1.0)
+ApifyWebsiteContentCrawler/1.0 (+https://apify.com/apify/website-content-crawler)
+AppStoreScraperZ/1 CFNetwork/889.9 Darwin/17.2.0 (x86_64)
+BlackWidow
+Pattern/2.6 +http://www.clips.ua.ac.be/pattern
+colly - https://github.com/gocolly/colly
+colly - https://github.com/gocolly/colly/v2
+Mozilla/5.0 (compatible; Crawlera/1.10.2; UID 43063)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 (compatible; CrawlyProjectCrawler/0.1.3; crawlyproject@digitaldragon.dev +https://crawlyproject.digitaldragon.dev/)
+CyotekWebCopy/1.9 CyotekHTTP/6.4
+eCatch/3.0
+Email%20Extractor/1 CFNetwork/760.6.3 Darwin/15.6.0 (x86_64)
+Express WebPictures (www.express-soft.com)
+ExtractorPro
+Extreme Picture Finder
+FlashGet
+GetRight/6.1 (Pro)
+MyGetRight/1.0.0
+Geziyor 1.0
+GoScraper
+Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)
+Iria/1.xxa
+Jaunt/1.2
+Jaunt/1.5
+JetCar
+JoBo/1.x (http://www.matuschek.net/jobo.html)
+JOC Web Spider
+newspaper/0.0.9.8
+Offline Explorer 1.*
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; Offline Explorer; MSIECrawler)
+Offline Explorer/2.5
+og-scraper/1.0.0
+OgScrper/1.0.0
+OSPScraper (+https://www.opensyllabusproject.org)
+pavuk/0.9pl29b i686-pc-linux-gnu
+phpcrawl
+Pockey-GetHTML/4.12.0 (Win32; GUI; ix86)
+postplanner.com/site-scraping
+Prebid.js Scraper
+Pulsepoint XT3 web scraper
+SBL-BOT (http://sbl.net)
+sc-downloader/2.0 (http://www.searchconcepts.io)
+ScrapeBox Page Scanner
+Scrapy/1.3.0 (+http://scrapy.org)
+Mozilla/5.0 (compatible; SimpleScraper)
+SiteSnagger
+SiteSucker for macOS/2.10.6
+SiteSucker/2.4.6
+SmartDownload/1.2.77 (Win32; Feb 1 2000)
+Mozilla/5.0 (compatible; Snacktory; +https://flynxapp.com)
+Snoopy v2.0.0
+Mozilla/5.0 (compatible; SwiteScraper)
+trafilatura/1.5.0 (+https://github.com/adbar/trafilatura)
+Web Downloader/6.9
+webcollage/1.114
+WebCopier v4.6
+WebCopier vx.x
+WebImages 0.3 ( http://herbert.groot.jebbink.nl/?app=WebImages )
+WebPix 1.0 (www.netwu.com)
+Website eXtractor
+WebsiteExtractor
+WebZIP/3.5 (http://www.spidersoft.com)
+Xaldon WebSpider
