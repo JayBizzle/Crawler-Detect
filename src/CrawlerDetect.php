@@ -11,6 +11,7 @@
 
 namespace Jaybizzle\CrawlerDetect;
 
+use InvalidArgumentException;
 use Jaybizzle\CrawlerDetect\Fixtures\AbstractProvider;
 use Jaybizzle\CrawlerDetect\Fixtures\Categories;
 use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
@@ -398,5 +399,47 @@ class CrawlerDetect
     public function getCategories()
     {
         return array_keys($this->compiledCategories);
+    }
+
+    /**
+     * Check whether the user agent is a crawler of the given category.
+     *
+     * This runs the detection itself, so it works on a fresh instance and
+     * follows the same user agent rules as isCrawler(). Pass an array of
+     * names to ask whether the crawler is in any of them, which is also the
+     * way to allow-list: isCrawler() && ! is(['search', 'social']).
+     *
+     * @param  string|array<int, string>  $category
+     * @param  string|null  $userAgent
+     * @return bool
+     *
+     * @throws \InvalidArgumentException when a category name is not known.
+     */
+    public function is($category, $userAgent = null)
+    {
+        $wanted = is_array($category) ? $category : [$category];
+
+        if ($wanted === []) {
+            throw new InvalidArgumentException('At least one crawler category is required.');
+        }
+
+        $known = $this->getCategories();
+        $known[] = Categories::UNKNOWN;
+
+        foreach ($wanted as $name) {
+            if (! in_array($name, $known, true)) {
+                throw new InvalidArgumentException(sprintf(
+                    'Unknown crawler category "%s". Known categories: %s.',
+                    is_scalar($name) ? $name : gettype($name),
+                    implode(', ', $known)
+                ));
+            }
+        }
+
+        if (! $this->isCrawler($userAgent)) {
+            return false;
+        }
+
+        return in_array($this->getCategory(), $wanted, true);
     }
 }

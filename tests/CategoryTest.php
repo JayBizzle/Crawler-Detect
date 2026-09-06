@@ -169,6 +169,90 @@ final class CategoryTest extends TestCase
         $this->assertSame('search', $this->crawlerDetect->getCategory());
     }
 
+    public function test_is_matches_a_single_category()
+    {
+        $googlebot = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)';
+
+        $this->assertTrue($this->crawlerDetect->is('search', $googlebot));
+        $this->assertFalse($this->crawlerDetect->is('ai-training', $googlebot));
+    }
+
+    public function test_is_accepts_any_of_several_categories()
+    {
+        $gptbot = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)';
+
+        $this->assertTrue($this->crawlerDetect->is(['ai-training', 'ai-search'], $gptbot));
+        $this->assertFalse($this->crawlerDetect->is(['search', 'social'], $gptbot));
+    }
+
+    public function test_is_is_false_for_a_non_crawler()
+    {
+        $browser = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36';
+
+        $this->assertFalse($this->crawlerDetect->is('search', $browser));
+        $this->assertFalse($this->crawlerDetect->is(Categories::UNKNOWN, $browser));
+    }
+
+    public function test_is_unknown_matches_an_unclassified_crawler()
+    {
+        $this->assertTrue($this->crawlerDetect->is('unknown', 'somenaughtybot'));
+        $this->assertFalse($this->crawlerDetect->is('search', 'somenaughtybot'));
+    }
+
+    public function test_is_uses_headers_when_no_agent_is_passed()
+    {
+        $cd = new CrawlerDetect([
+            'User-Agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+        ]);
+
+        $this->assertTrue($cd->is('search'));
+        $this->assertFalse($cd->is(['ai-training', 'ai-user']));
+    }
+
+    public function test_is_can_be_used_as_an_allow_list()
+    {
+        $allowed = ['search', 'social', 'ai-user'];
+
+        $cd = new CrawlerDetect(['User-Agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)']);
+        $this->assertFalse($cd->isCrawler() && ! $cd->is($allowed));
+
+        $cd = new CrawlerDetect(['User-Agent' => 'Mozilla/5.0 (compatible; GPTBot/1.2; +https://openai.com/gptbot)']);
+        $this->assertTrue($cd->isCrawler() && ! $cd->is($allowed));
+
+        $cd = new CrawlerDetect(['User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36']);
+        $this->assertFalse($cd->isCrawler() && ! $cd->is($allowed));
+    }
+
+    public function test_is_leaves_matches_and_category_consistent()
+    {
+        $this->crawlerDetect->is('search', 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)');
+
+        $this->assertSame('Googlebot', $this->crawlerDetect->getMatches());
+        $this->assertSame('search', $this->crawlerDetect->getCategory());
+    }
+
+    public function test_is_rejects_an_unknown_category_name()
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('Unknown crawler category "securty"');
+
+        $this->crawlerDetect->is('securty', 'Nuclei/3.0');
+    }
+
+    public function test_is_rejects_an_unknown_name_anywhere_in_a_list()
+    {
+        $this->expectException(InvalidArgumentException::class);
+
+        $this->crawlerDetect->is(['search', 'seo ', 'social'], 'Googlebot/2.1');
+    }
+
+    public function test_is_rejects_an_empty_list()
+    {
+        $this->expectException(InvalidArgumentException::class);
+
+        $this->crawlerDetect->is([], 'Googlebot/2.1');
+    }
+
     /**
      * @return string
      */
