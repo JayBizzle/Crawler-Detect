@@ -1,0 +1,150 @@
+AHC/1.0
+Apache-HttpClient/4.5.2 (Java/1.8.0_72)
+CakePHP
+curb
+Dart/3.5 (dart:io)
+Dart/2.16 (dart:io)
+Drupal (+http://drupal.org/)
+Go http package
+Guzzle/3.9.3 curl/7.38.0 PHP/5.6.14-0+deb8u1
+HTTPClient/1.0 (2.8.0, ruby 2.0.0 (2014-05-08))
+Java/1.8.0_91
+Mget/0.1.9
+Microsoft URL Control - 6.01.9782
+Needle/1.4.2 (Node.js v6.9.2; linux x64)
+PHP/5.5
+pip/21.0.1 {"ci":null,"cpu":"x86_64","distro":{"id":"stretch","libc":{"lib":"glibc","version":"2.24"},"name":"Debian GNU/Linux","version":"9"},"implementation":{"name":"CPython","version":"3.7.9"},"installer":{"name":"pip","version":"21.0.1"},"openssl_version":"OpenSSL 1.1.0l  10 Sep 2019","python":"3.7.9","setuptools_version":"53.0.0","system":{"name":"Linux","release":"4.19.123-coreos"}}
+request.js
+twine/3.4.2 importlib_metadata/4.8.1 pkginfo/1.7.1 requests/2.26.0 requests-toolbelt/0.9.1 tqdm/4.62.3 CPython/3.8.12
+undici
+ureq/2.0.1
+WordPress/4.4.2; http://cookingideabook.com
+Python/3.5 aiohttp/0.21.6
+Python/3.9 aiohttp/3.7.3
+akka-http/10.0.10
+amphp/http-client/5.x
+Mozilla/5.0 (compatible; U; AnyEvent-HTTP/2.22; +http://software.schmorp.de/pkg/AnyEvent)
+Apache-HttpAsyncClient/4.1.3 (Java/1.8.0_121)
+ApacheBench/2.3
+aria2/1.18.8
+CustomAsyncHttpClient
+attohttpc/0.9.0
+axios/0.17.1
+axios/1.2.0
+Boost.Beast/248
+Boto3/1.17.18 Python/3.8.5 Darwin/19.6.0 Botocore/1.20.18
+Cpanel-HTTP-Client/1.0
+cpp-httplib/0.15.3
+cpp-httplib/0.10.9
+curl/7.29.0
+curl/7.21.0 (i386-redhat-linux-gnu) libcurl/7.21.0 NSS/3.12.10.0 zlib/1.2.5 libidn/1.18 libssh2/1.2.4
+curl
+Dispatch/0.11.1-SNAPSHOT
+electron-fetch/1.0 electron (+https://github.com/arantes555/electron-fetch)
+Embarcadero URI Client/1.0
+Embed PHP Library
+EventMachine HttpClient
+Faraday v0.9.1
+fasthttp
+Go 1.1 package http
+Go-http-client/1.1
+Go-http-client/2.0
+go-resty/2.7.0 (https://github.com/go-resty/resty)
+Mozilla/5.0 (compatible; Google-Apps-Script)
+Mozilla/5.0 (compatible; Google-Apps-Script; beanserver; +https://script.google.com; id: UAEmdDd_XLoqpGxtGfu5uvUaQlW77VLYz-w)
+Google-HTTP-Java-Client/1.17.0-rc (gzip)
+GRequests/0.10
+gSOAP/2.8
+GuzzleHttp/6.2.1 PHP/7.0.15-0ubuntu0.16.04.4
+GuzzleHttp/6.5.5 curl/7.58.0 PHP/7.4.21
+gvfs/1.34.1
+hackney/1.11.0
+hackney/1.7.1
+http-kit/2.0
+http-request/v0.7.0 (http://git.io/tl_S2w) node.js/v0.10.29
+HTTP-Tiny/0.054
+http.rb/2.2.2
+http.rb/4.0.0
+HTTP_Request2/2.2.0 (http://pear.php.net/package/http_request2) PHP/5.3.29
+http_requester/0.1
+HttpComponents/1.1
+HTTPie/1.0.2
+HTTPie/3.2.2
+libcurl/7.79.1 r-curl/4.3.2 httr/1.4.3
+req/v3 (https://github.com/imroc/req)
+Mozilla/3.0 (compatible; Indy Library)
+/n software IPWorks HTTP/S Component - www.nsoftware.com
+Jakarta Commons-HttpClient/3.1
+Jersey/2.19 (HttpUrlConnection 1.7.0_85)
+khttp/1.0.0-SNAPSHOT
+libcurl-agent/1.0
+2Bone_LinkChecker/1.0 libwww-perl/6.03
+libwww-perl/5.69
+lua-resty-http/0.10 (Lua) ngx_lua/10000
+lwp-trivial/1.33
+LWP::Simple/5.805
+Mechanize/2.9.1 Ruby/3.1.2 (http://github.com/sparklemotion/mechanize/)
+Microsoft.Data.Mashup (https://go.microsoft.com/fwlink/?LinkID=304225)
+mio_httpc 0.9.4
+Miro-HttpClient/1.0
+Mojolicious (Perl)
+Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol 4.0.30319.17929)
+nghttp2/1.40.0
+node-fetch
+node-fetch/1.0 (+https://github.com/bitinn/node-fetch)
+node-superagent/1.8.3
+node-urllib/2.25.3 Node.js/6.12.2 (Linux 4.4; x64)
+nscurl/3870.100.1 CFNetwork/3870.100.1 Darwin/26.0.0
+okhttp/4.9.0
+okhttp/2.5.0
+Pcore-HTTP/v0.23.20
+PEAR HTTPRequest class ( http://pear.php.net/ )
+PHP-Curl-Class/4.13.0 (+https://github.com/php-curl-class/php-curl-class) PHP/7.2.24 curl/7.61.1
+php-requests/1.7
+POE-Component-Client-HTTP/0.943 (perl; N; POE; en; rv:0.943000)
+PostmanRuntime/7.1.1
+PostmanRuntime/7.9.1
+PycURL/7.19.3.1 libcurl/7.26.0 GnuTLS/2.12.20 zlib/1.2.7 libidn/1.25 libssh2/1.4.2 librtmp/2.3
+Python-httplib2/0.7.4 (gzip)
+python-httpx/0.11.1
+python-httpx/0.19.0
+python-requests/2.9.1
+python-requests/1.2.0 CPython/2.7.5 Windows/7
+Python-urllib/2.7 (+http://ella.juls.savba.sk/aranea_about)
+Mozilla/5.0 (Python-urllib2)
+Python-xmlrpc/3.9
+quic-go-HTTP/3
+raynette_httprequest/1.0
+ReactorNetty/0.7.10.RELEASE
+ReactorNetty/0.9.10.RELEASE
+reqwest/0.9.9
+rest-client/2.0.2 (linux-gnu x86_64) ruby/2.5.3p105
+RestSharp/105.2.3.0
+RestSharp/106.2.1.0
+AppManager RPT-HTTPClient/0.3-3E
+scalaj-http/1.0
+Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+got/9.6.0 (https://github.com/sindresorhus/got)
+got (https://github.com/sindresorhus/got)
+spray-can/1.3.3
+Symfony BrowserKit
+Symfony2 BrowserKit
+SynHttpClient-Built/5825
+Twisted PageGetter
+Typhoeus - https://github.com/typhoeus/typhoeus
+unirest-java/1.3.11
+unirest-java/3.1.00
+URI::Fetch/0.06
+python-urllib3/1.26.9
+Vert.x-WebClient/3.9.0
+Wget/1.14 (linux-gnu)
+Wget/1.10+devel
+Wget/1.11.4 Red Hat modified
+WinHttp-Autoproxy-Service/5.1
+Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+WinHTTP/1.1
+Wolfram HTTPClient 12.
+WWW-Mechanize/1.73
+WWW::Document/0.02
+Zend\Http\Client
+Zend_Http_Client
