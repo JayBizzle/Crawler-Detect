@@ -430,7 +430,7 @@ class CrawlerDetect
             if (! in_array($name, $known, true)) {
                 throw new InvalidArgumentException(sprintf(
                     'Unknown crawler category "%s". Known categories: %s.',
-                    is_scalar($name) ? $name : gettype($name),
+                    $name,
                     implode(', ', $known)
                 ));
             }
