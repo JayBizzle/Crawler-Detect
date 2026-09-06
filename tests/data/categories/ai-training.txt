@@ -1,0 +1,70 @@
+Mozilla/5.0 (compatible) AI2Bot (+https://www.allenai.org/crawler)
+Mozilla/5.0 (compatible) Ai2Bot-Dolma (+https://www.allenai.org/crawler)
+aiHitBot
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amazonbot/0.1) Chrome/W.X.Y.Z Safari/537.36
+Mozilla/5.0 (compatible; Applebot-Extended/0.1; +http://www.apple.com/go/applebot)
+bedrockbot
+Brightbot 1.0
+Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)
+CCBot/2.0 (http://commoncrawl.org/faq/)
+CCBot/1.0 (+http://www.commoncrawl.org/bot.html)
+ChatGLM-Spider
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)
+cohere-training-data-crawler
+Mozilla/5.0 (compatible; CohereBot/1.0; +https://cohere.com/bot)
+Mozilla/5.0 (compatible; Cotoyogi/4.0; +https://ds.rois.ac.jp/center8/crawler/)
+Mozilla/5.0 (compatible; crawl4ai/1.0)
+Crawlspace
+Datenbank Crawler
+Mozilla/5.0 (compatible; DeepSeekBot/1.0; +https://www.deepseek.com/bot)
+Mozilla/5.0 (compatible; Diffbot/1.0; +https://diffbot.com)
+Mozilla/5.0 (compatible; Diffbot/0.1; +http://www.diffbot.com)
+Doubaobot
+EchoboxBot
+ERNIEBot
+Mozilla/5.0 (compatible; FacebookBot/1.0; +https://developers.facebook.com/docs/sharing/webmasters/crawler)
+Factset_spyderbot
+FriendlyCrawler
+Mozilla/5.0 (compatible; Google-CloudVertexBot; +https://cloud.google.com/vertex-ai-bot)
+Google-CloudVertexBot
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GoogleOther) Chrome/117.0.5938.132 Safari/537.36
+GoogleOther-Image/1.0
+GoogleOther-Video/1.0
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)
+Mozilla/5.0 AppleWebKit/605.1.15 (KHTML, like Gecko; compatible; iAskBot/1.0; +https://iask.ai/) Chrome/124.0.6367.171 Safari/605.1.15
+Mozilla/5.0 (compatible; iaskspider/1.0; MSIE 6.0)
+ICC-Crawler/2.0 (Mozilla-compatible; ; http://www.nict.go.jp/en/univ-com/plan/crawl.html)
+ICC-Crawler/3.0 (Mozilla-compatible; ; https://ucri.nict.go.jp/en/icccrawler.html)
+ImagesiftBot
+ISSCyberRiskCrawler
+Kangaroo Bot
+KimiBot
+KunatoCrawler
+LCC (+https://corpora.wortschatz-leipzig.de/crawler_faq.html)
+Linguee Bot
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))
+meta-externalagent/1.1
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; MistralAI-Training/1.0; +https://docs.mistral.ai/robots)
+MistralBot/1.0
+MoonSpider-KR1/1.0 (+https://moonshot.cn)
+MyCentralAIScraperBot
+NagetBot
+netEstate Imprint Crawler
+omgili/0.5 +http://omgili.com
+omgilibot/0.4 +http://omgili.com
+Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PanguBot;pangubot@huawei.com)
+panscient.com
+Poseidon Research Crawler
+quillbot.com
+QwenBot
+Mozilla/5.0 (compatible; Reflectionbot/1.0; +https://reflection.ai/bot)
+Mozilla/5.0 (compatible; SBIntuitionsBot/0.1; +https://www.sbintuitions.co.jp/bot/)
+Sidetrade indexer bot
+Thinkbot
+Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; TikTokSpider; ttspider-feedback@tiktok.com)
+Timpibot/1.0 (+http://timpi.io/crawler)
+Mozilla/5.0 (compatible; VelenPublicWebCrawler/1.0; +https://velen.io)
+WARDBot
+webzio-extended (+https://webz.io/bot.html)
+WRTNBot
+Mozilla/5.0 (compatible; YandexAdditional/1.0; +http://yandex.com/bots)
