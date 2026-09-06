@@ -1,0 +1,89 @@
+Pulp/1.5.2 (iPad; http://www.acrylicapps.com/pulp/)
+Anytime/1.4.2 b268 (phone;ios Version 18.5 (Build 22F77)) https://github.com/amugofjava/anytime_podcast_player
+Mozilla/5.0 (compatible; BazQux/2.4; +https://bazqux.com/fetcher; 1 subscribers)
+Bloglines/3.1 (http://www.bloglines.com)
+Blogtrottr/2.0
+Blogtrottr/2.1 (+https://blogtrottr.com/robot)
+CapyReader (RSS Reader; https://capyreader.com/)
+CommaFeed/2.3.0-SNAPSHOT (https://www.commafeed.com)
+CommaFeed/4.4.0 (https://github.com/Athou/commafeed)
+dlvr.it/1.0 (+http://dlvr.it/fetcher)
+EchoFeed fetch bot; https://echofeed.app
+everyfeed-spider/2.0 (http://www.everyfeed.com)
+Feedable/0.1 (compatible; MSIE 6.0; Windows NT 5.1)
+Feedbin feed-id:311 - 1 subscribers
+Feedbin
+FeedBucket/1.0 (+http://www.feedbucket.com)
+FeedBunch/1.0 (+http://www.feedbunch.com)
+FeedBurner/1.0 (http://www.FeedBurner.com)
+FeedDemon/4.5 (http://www.feeddemon.com/; Microsoft Windows)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6; +feeder.co) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+Mozilla/5.0 (feeder.co; Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)
+Feedfetcher-Google; (+http://www.google.com/feedfetcher.html; 1 subscribers; feed-id=728742641706423)
+Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)
+FeedlyBot/1.0 (http://feedly.com)
+Mozilla/5.0 (Compatible; Feedsearch Bot; +https://feedearch.dev)
+Mozilla/5.0 (compatible; Feedspotbot/1.0; +http://www.feedspot.com/fs/bot)
+Feedspot http://www.feedspot.com
+Mozilla/5.0 (compatible; Feedwind/3.0; +https://feed.mikle.com/support/description/)
+Fever/1.38 (Feed Parser; http://feedafever.com; Allow like Gecko)
+Fiery%20Feeds/272 CFNetwork/1125.2 Darwin/19.4.0 (x86_64)
+Mozilla/5.0 (compatible; FlipboardRSS/1.1; +http://flipboard.com/browserproxy)
+FreshRSS/1.13.0 (Linux; https://freshrss.org)
+Gofeed/1.0
+Mozilla/5.0 (compatible; Google-Podcast)
+hawkReader/0.9b (Feed Parser; http://www.hawkreader.com; Allow like Gecko)
+Mozilla/5.0 (compatible; inoreader.com-like FeedFetcher-Google)
+Mozilla/5.0 (compatible; inoreader.com; 1 subscribers)
+IPFS Podcasting Feed Reader (+https://IPFSPodcasting.net)
+Liferea/0.x.x (Linux; en_US.UTF-8; http://liferea.sf.net/)
+Liferea/1.10.6 (Linux; en_US.UTF8; http://liferea.sf.net/) AppleWebKit (KHTML, like Gecko)
+MagpieRSS/0.72 (+http://magpierss.sf.net)
+Mozilla/5.0 (compatible; Miniflux/2.0.10; +https://miniflux.net)
+Miniflux (https://miniflux.net)
+MixerBox Podcast Crawler
+NAVER Blog Rssbot
+NetNewsWire/2.x (Mac OS X; http://ranchero.com/netnewswire/)
+NetNewsWire (macOS; RSS Reader; https://ranchero.com/netnewswire/)
+NewsBlur Feed Fetcher
+NewsBlur Feed Fetcher - 1 subscriber - http://www.newsblur.com/site/0000000/webpage (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15)
+NewsGatorOnline/2.0 (http://www.newsgator.com; 2 subscribers)
+Newsify Feed Fetcher - 3 subscribers - http://www.newsify.co/site/899429/automaton-twocanoes-software (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3)
+JetBrains Omea Reader 2.2 (http://www.jetbrains.com/omea/reader/)
+op3-fetcher/1.0 (bot; https://op3.dev)
+PicoFeed (https://github.com/fguillot/picoFeed)
+PodbeanFeedReader/6.0 (Feed Parser; http://www.podbean.com/; Allow like Gecko) Build/20260901021834
+Mozilla/5.0 (compatible; podcast.de Crawler/2.1  https://www.podcast.de; 0 subscribers; feed-id=863955)
+PodcastAddict/v5 (+https://podcastaddict.com/; Android podcast app)
+Podcatcher Bot 1.0 (8 subscribers;  https://podcatcher.net)
+PodEngine/1.0 (+https://podengine.ai/bot)
+Mozilla/5.0  https://podfollow.com/crawling podfollowbot/1.0
+PodscanBot/1.1.0 Ubuntu/22.04 (Linux) Podscan.fm
+Protopage/3.0 (http://www.protopage.com)
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/538.1 (KHTML, like Gecko) QuiteRSS/0.18.12 Safari/538.1
+RadioPublicImageResizer/2.0
+Reeder/1000.02.01 CFNetwork/454.11.5 Darwin/10.5.0 (i386) (Macmini2)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.78.2 (KHTML, like Gecko) Version/7.0.1(2.5.3) Safari(ReederForMac)
+Mozilla/5.0 (compatible; rss2tg bot; +http://komar.in/en/rss2tg_crawler)
+RssBandit/1.9.0.1002 (.NET CLR 2.0.50727.7512; WinNT 6.2.9200.0; http://www.rssbandit.org)
+RSSingBot (http://www.rssing.com)
+RSSMicro.com RSS/Atom Feed Robot
+RSSOwl/2.2.1.201312301314 (Windows; U; en)
+ScourRSSBot/1.0 (+https://scour.ing/bot)
+SimplePie/1.3.1 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/20160226060242
+SimplePie/1.9.0 (Feed Parser; http://simplepie.org; Allow like Gecko) Build/1757658867
+SpaceCowboys Android RSS Reader / 2.22.0(4050)
+StitcherBot (MP3 Search Bot for Stitcher Personalized Radio Service)
+Superfeedr bot/2.0 http://superfeedr.com - Make your feeds realtime: get in touch - feed-id:1162088860
+Mozilla/5.0 (compatible; theoldreader.com)
+Tiny Tiny RSS/19.8 (http://tt-rss.org/)
+Tiny Tiny RSS/25.10-c67b943a (https://tt-rss.org/)
+TuneIn-Podcast-Checker
+UniversalFeedParser/3.3 +http://feedparser.org/
+feedparser/6.0.11  https://github.com/kurtmckee/feedparser/
+Unread RSS Reader - https://www.goldenhillsoftware.com/unread/
+Windows-RSS-Platform/2.0 (IE 11.0; Windows NT 10.0)
+Winds: Open Source RSS & Podcast app: https://getstream.io/winds/
+wp.com feedbot/1.0 (+https://wp.com)
+YandoriRSSBot/3.0 (Go)
