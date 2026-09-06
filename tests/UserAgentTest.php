@@ -11,6 +11,7 @@
 
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
 use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
+use Jaybizzle\CrawlerDetect\Fixtures\Exclusions;
 use PHPUnit\Framework\TestCase;
 
 final class UserAgentTest extends TestCase
@@ -303,6 +304,37 @@ final class UserAgentTest extends TestCase
         } finally {
             ini_set('pcre.backtrack_limit', $originalLimit);
         }
+    }
+
+    /**
+     * The exclusions strip browser tokens before the crawler regex runs, so a
+     * sloppy exclusion can eat part of a signature: a wildcard '.' after
+     * 'Firefox' once reduced a hypothetical 'FirefoxBot' to 'ot', and ' Intel'
+     * reduced the real 'Name Intelligence' signature to 'Nameligence'. Every
+     * plain-literal signature must still match after stripping when it sits
+     * inside an ordinary browser user agent.
+     */
+    public function test_exclusions_do_not_damage_signatures()
+    {
+        $shell = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 %s (+http://example.com/info)';
+        $exclusions = '/'.$this->crawlerDetect->compileRegex((new Exclusions)->getAll()).'/i';
+
+        $damaged = [];
+
+        foreach ((new Crawlers)->getAll() as $pattern) {
+            // Only a plain literal can be embedded verbatim.
+            if (preg_match('/[\^\$\[\]\(\)\|\?\*\+\{\}]/', $pattern)) {
+                continue;
+            }
+
+            $stripped = trim(preg_replace($exclusions, '', sprintf($shell, stripslashes($pattern))));
+
+            if (! preg_match('/'.$pattern.'/i', $stripped)) {
+                $damaged[] = $pattern.' (became: '.$stripped.')';
+            }
+        }
+
+        $this->assertSame([], $damaged, "Exclusions damage these signatures:\n".implode("\n", $damaged));
     }
 
     public function test_all_regex_patterns_are_valid()
