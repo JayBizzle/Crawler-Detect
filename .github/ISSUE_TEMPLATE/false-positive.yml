@@ -1,0 +1,25 @@
+name: Real browser flagged (false positive)
+description: A real browser or app that CrawlerDetect wrongly detects as a crawler
+title: "False positive: "
+body:
+  - type: textarea
+    id: user-agent
+    attributes:
+      label: User-Agent
+      description: The full User-Agent header from the request, exactly as received.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: result
+    attributes:
+      label: CrawlerDetect result
+      description: The output of `getMatches()`, if you have it.
+      placeholder: "Detected as crawler (matched: ...)"
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why do you believe this is a real browser?
+      description: Which browser, app or device sent it, and how you know a person was behind the request.
+    validations:
+      required: true

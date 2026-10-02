@@ -1,0 +1,24 @@
+name: Missed crawler (false negative)
+description: A bot, crawler or spider that CrawlerDetect does not detect
+title: "False negative: "
+body:
+  - type: textarea
+    id: user-agent
+    attributes:
+      label: User-Agent
+      description: The full User-Agent header from the request, exactly as received.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: result
+    attributes:
+      label: CrawlerDetect result
+      placeholder: Not detected as crawler
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why do you believe this is a crawler?
+      description: Link to the bot's documentation, reverse DNS of the requesting IP, request patterns, or anything else that shows it isn't a real browser.
+    validations:
+      required: true
