@@ -3736,3 +3736,6 @@ Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KH
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; GoogleAgent-Mariner) Chrome/149.0.7827.196 Safari/537.36
 webzio-extended (+https://webz.io/bot.html)
 NovaAct
+IronFountain-Leads/1.0 (+https://www.ironfountain.com)
+TheWebReport/1.0; +https://theweb.report
+webshopok-kutatas/0.1 (+kapcsolat: test@datalistshop.eu; belso piackutatas, .nl webshopok)
