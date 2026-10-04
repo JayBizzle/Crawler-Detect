@@ -23,6 +23,7 @@
 ^Hello from Palo Alto Networks
 ^HTTPClient\/
 ^HTTPing
+^IronFountain-Leads
 ^Java\/
 ^Jeode\/
 ^Jetty\/
@@ -43,11 +44,13 @@
 ^Ruby|Ruby\/[0-9]
 ^symbolicator\/
 ^Swurl 
+^TheWebReport
 ^TLS tester 
 ^twine\/
 ^ureq
 ^visionheight\.com\/scan
 ^VSE\/[0-9]
+^webshopok-kutatas
 ^WordPress\.com
 ^XRL\/[0-9]
 ^ZmEu
