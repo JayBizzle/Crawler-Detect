@@ -1,0 +1,148 @@
+Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)
+Mozilla/5.0 (compatible; grapeFX/0.9; crawler@grapeshot.co.uk
+Mozilla/5.0 (compatible; SERankingBacklinksBot/1.0; +https://seranking.com/backlinks-crawler)
+Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; en-GB) adbeat.com/policy AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F190 Safari/6533.18.5
+Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; en-US) adbeat.com/policy AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F190 Safari/6533.18.5
+Mozilla/5.0 (compatible; adbeat_bot; +support@adbeat.com; support@adbeat.com)
+ADmantX Platform Semantic Analyzer US - Turn - ADmantX Inc. - www.admantx.com - support@admantx.com
+ADmantX Platform Semantic Analyzer - ADform - ADmantX Inc. - www.admantx.com - support@admantx.com
+ADmantX Platform Semantic Analyzer - ADmantX Inc. - www.admantx.com - support@admantx.com
+008/0.83 (http://www.advancedwebranking.com)
+AgencyAnalyticsBot
+Mozilla/5.0 (compatible; AhrefsBot/1.0; +http://ahrefs.com/robot/)
+Mozilla/5.0 (compatible; AhrefsBot/2.0; +http://ahrefs.com/robot/)
+Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)
+Mozilla/5.0 (compatible; AlphaBot/3.2; +http://alphaseobot.com/bot.html)
+audisto.com full crawler 3.26.431 (refer to in robots.txt as audisto, see https://audisto.com/bot)
+audisto.com full crawler 4.33.470 (refer to in robots.txt as audisto, see https://audisto.com/bot)
+Audisto Crawler (mobile; +https://audisto.com/bot)
+Backlink-Ceck.de (+http://www.backlink-check.de/bot.html)
+BacklinkCrawler V (http://www.backlinktest.com/crawler.html)
+BacklinkCrawler (http://www.backlinktest.com/crawler.html)
+Barkrowler/0.5.1 (experimenting / debugging - sorry for your logs ) http://www.exensa.com/crawl - admin@exensa.com -- based on BuBiNG
+Barkrowler/0.7 (+http://www.exensa.com/crawl)
+BarkRowler/0.7 (+http://www.exensa.com/crawling)
+Mozilla/5.0 (compatible; BLEXBotTest/1.0; +http://webmeup.com/crawler.html)
+Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup.com/crawler.html)
+Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)
+Mozilla/5.0 (compatible; botify; http://botify.com)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko/20100101 Firefox/55.0 BrandVerity/1.0 (http://www.brandverity.com/why-is-brandverity-visiting-me)
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A465 Twitter for iPhone BrandVerity/1.0 (http://www.brandverity.com/why-is-brandverity-visiting-me)
+Brandwatch/1.0 (varies)
+BrightEdge Crawler/1.0 (crawler@brightedge.com)
+Mozilla/5.0 (compatible; BuzzSumo; +http://www.buzzsumo.com/bot.html)
+Caliperbot/1.0 (+http://www.conductor.com/caliperbot)
+CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)
+Mozilla/5.0 (compatible; ClarityBot/9.0; +https://www.seoclarity.net/bot.html)
+Mozilla/5.0 (compatible; Cliqzbot/0.1 +http://cliqz.com/company/cliqzbot)
+Mozilla/5.0 (compatible; Cliqzbot/1.0 +http://cliqz.com/company/cliqzbot)
+Mozilla/5.0 (compatible; Cliqzbot/2.0; +http://cliqz.com/company/cliqzbot)
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6 - James BOT - WebCrawler http://cognitiveseo.com/bot.html
+Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.10) Gecko/20050716 Thunderbird/1.0.6 - WebCrawler http://cognitiveseo.com/bot.html
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 (+https://whatis.contentkingapp.com)
+Mozilla/5.0 (compatible; DataForSeoBot/1.0; +https://dataforseo.com/dataforseo-bot)
+Mozilla/5.0 (compatible; DotBot/1.1; http://www.dotnetdotcom.org/, crawler@dotnetdotcom.org)
+Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)
+dotbot
+Mozilla/5.0 (Windows NT 6.3;compatible; DVbot/1.0; +http://www.doubleverify.com)
+FuseonBot/1.1 (+http://linkaffinity.io)
+Verity/1.1 (gumgum.com/verity; verity-support@gumgum.com)
+Verity/1.1 (https://gumgum.com/verity; verity-support@gumgum.com)
+Buck/2.2; (+https://app.hypefactors.com/media-monitoring/about.html)
+Mozilla/5.0 (compatible) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36 collection@infegy.com
+Mozilla/5.0 (compatible; KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36 collection@infegy.com
+IAS crawler (page scorer; http://integralads.com/site-indexing-policy/)
+Nutch/2.2.1 (page scorer; http://integralads.com/site-indexing-policy/)
+IAS crawler (ias_crawler; http://integralads.com/site-indexing-policy/)
+Mozilla/5.0 (compatible; linkdexbot/2.0; +http://www.linkdex.com/about/bots/)
+Mozilla/5.0 (compatible; linkdexbot/2.1; +http://www.linkdex.com/about/bots/)
+Mozilla/5.0 (compatible; linkdexbot/2.0; +http://www.linkdex.com/bots/)
+Mozilla/5.0 (compatible; Kraken/0.1; http://linkfluence.net/; bot@linkfluence.net)
+Mozilla/5.0 (compatible; YaK/1.0; http://linkfluence.com/; bot@linkfluence.com)
+Mozilla/5.0 (compatible; LinkpadBot/1.06; +http://www.linkpad.ru)
+Mozilla/5.0 (compatible; LinkpadBot/1.07; +http://www.linkpad.ru)
+Mozilla/5.0 (compatible; LinkpadBot/2.4; +https://linkpad.org/robot/)
+magpie-crawler/1.1 (U; Linux amd64; en-GB; +http://www.brandwatch.net)
+MBCrawler/1.0 (https://monitorbacklinks.com)
+Mediatoolkitbot (complaints@mediatoolkit.com)
+Mediatoolkitbot (info@mediatoolkit.com)
+Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)
+Mozilla/5.0 (compatible; MegaIndex.com/2.0; +http://megaindex.com/crawler)
+Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +http://megaindex.com/crawler)
+MeltwaterNews www.meltwater.com
+Mozilla/5.0 (compatible; MJ12bot/v1.4.4 (domain ownership verifier); http://www.majestic12.co.uk/bot.php?+)
+Mozilla/5.0 (compatible; MJ12bot/v1.2.1; http://www.majestic12.co.uk/bot.php?+)
+MJ12bot/v1.2.0 (http://majestic12.co.uk/bot.php?+)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 moatbot
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4 moatbot
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Netcraft SSL Server Survey - contact info@netcraft.com)
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+NetpeakCheckerBot
+Mozilla/5.0 (compatible; NetpeakCheckerBot/3.6; +https://netpeaksoftware.com/checker)
+OnalyticaBot
+Mozilla/5.0 (compatible; OnCrawl/1.0; +http://www.oncrawl.com)
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; OnCrawl/1.0; +http://www.oncrawl.com)
+peer39_crawler/1.0
+Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)
+Mozilla/5.0 (compatible; proximic; +http://www.proximic.com)
+Quantcastbot/1.0 (+http://www.quantcast.com/bot)
+R6_CommentReader(www.radian6.com/crawler)
+radian6_default_(www.radian6.com/crawler)
+Mozilla/5.0 (compatible; RankActiveLinkBot; +https://rankactive.com/resources/rankactive-linkbot)
+Mozilla/5.0 (compatible; RankSonicSiteAuditor/1.0; +https://ranksonic.com/ranksonic_sab.html)
+RankurBot/3.3 (+http://rankur.com)
+Mozilla/5.0 (compatible; RavenCrawler/2.0; +https://raventools.com/seo-website-auditor/)
+rogerbot/1.1 (http://moz.com/help/guides/search-overview/crawl-diagnostics#more-help, rogerbot-crawler+pr2-crawler-05@moz.com)
+rogerbot/1.1 (http://moz.com/help/guides/search-overview/crawl-diagnostics#more-help, rogerbot-crawler+pr4-crawler-11@moz.com)
+Mozilla/5.0 (compatible; rogerBot/1.0; UrlCrawler; http://www.seomoz.org/dp/rogerbot)
+RyteBot/1.0.0 (+https://bot.ryte.com/)
+Screaming Frog SEO Spider/5.1
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Scrunchbot/1.0; +https://scrunchai.com/bots)
+SearchAtlas.com SEO Crawler
+Mozilla/5.0 (compatible; SearchmetricsBot; http://www.searchmetrics.com/en/searchmetrics-bot/)
+Mozilla/5.0 (compatible; SemrushBot-SA/0.97; +http://www.semrush.com/bot.html)
+Mozilla/5.0 (compatible; SemrushBot-SI/0.97; +http://www.semrush.com/bot.html)
+Mozilla/5.0 (compatible; SemrushBot/3~bl; +http://www.semrush.com/bot.html)
+Mozilla/5.0 (compatible; seo-audit-check-bot/1.0)
+SeobilityBot (SEO-Check; http://bit.ly/1dJuuzs)
+Seobility (SEO-Check; http://bit.ly/1dJuuzs)
+SeobilityBot (SEO Tool; https://www.seobility.net/sites/bot.html)
+SeoCheckBot (FischerNetzDesign Seo Checker, info@fischernetzdesign.de)
+SeoCheckBot (Seomira Seo Check, http://www.kfsw.de/bot.html)
+Mozilla/5.0 (compatible; SEOkicks-Robot; +http://www.seokicks.de/robot.html)
+Mozilla/5.0 (compatible; SEOkicks-Robot +http://www.seokicks.de/robot.html)
+Mozilla/5.0 (compatible; SEOkicks; +https://www.seokicks.de/robot.html)
+SEOlizer/1.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13
+SEOlizer/1.1 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13 (+https://www.seolizer.de/bot.html)
+Mozilla/5.0 (compatible; SEOlyticsCrawler/3.0; +http://crawler.seolytics.net/)
+Mozilla/5.0 (compatible; seoscanners.net/1; +spider@seoscanners.net)
+Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 SeoSiteCheckup (https://seositecheckup.co
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 SeoSiteCheckup (https://seositecheckup.com)
+ZoomBot (Linkbot 1.0 http://suite.seozoom.it/bot.html)
+serpstatbot/1.0 (advanced backlink tracking bot; http://serpstatbot.com/; abuse@serpstatbot.com)
+serpstatbot/1.0 (advanced backlink tracking bot; curl/7.58.0; http://serpstatbot.com/; abuse@serpstatbot.com)
+Mozilla/5.0 (compatible; SERPtimizerBot; +http://serptimizer.com/serptimizer-bot)
+Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)
+Mozilla/5.0 (compatible; SiteAuditBot/1.1; +https://siteauditbot.com)
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 (compatible; Sitebulb/1.1; +https://sitebulb.com)
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) SiteCheck-sitecrawl by Siteimprove.com
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) SiteCheck-sitecrawl
+SiteCheckerBotCrawler/1.0 (+http://sitechecker.pro)
+Mozilla/5.0 (compatible; SiteExplorer/1.1b; +http://siteexplorer.info/Backlink-Checker-Spider/)
+Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://siteexplorer.info/)
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) LinkCheck by Siteimprove.com
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.0) Match by Siteimprove.com
+Mozilla/5.0 (compatible; spbot/2.0.1; +http://www.seoprofiler.com/bot/ )
+Mozilla/5.0 (compatible; spbot/2.0.2; +http://www.seoprofiler.com/bot/ )
+Mozilla/5.0 (compatible; spbot/1.0; +http://www.seoprofiler.com/bot/ )
+Mozilla/5.0 (compatible; StatusNestBacklinkSpider; +https://statusnest.com/)
+Mozilla/5.0 (compatible; Sysomos/1.0; +http://www.sysomos.com/; Sysomos)
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.0; trendictionbot0.4.2; trendiction media ssppiiddeerr; http://www.trendiction.com/bot/; please let us know of any problems; ssppiiddeerr at trendiction.com) Gecko/20071127 Firefox/2.0.0.11
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.0; trendictionbot0.4.5; trendiction search; http://www.trendiction.de/bot; please let us know of any problems; web at trendiction.com) Gecko/20071127 Firefox/3.0.0.11
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.0; trendictionbot0.5.0; trendiction search; http://www.trendiction.de/bot; please let us know of any problems; web at trendiction.com) Gecko/20071127 Firefox/3.0.0.11
+Chrome/49.0.2623.87 (compatible; Wappalyzer; +https://github.com/AliasIO/Wappalyzer)
+Mozilla/5.0 (compatible; Wappalyzer; +https://github.com/AliasIO/Wappalyzer)
+Mozilla/5.0 (compatible; WISEbot/1.0; +http://www.cision.com)
+Mozilla/5.0 (compatible; woorankreview/2.0; +https://www.woorank.com/)
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 (compatible; woorankreview/2.0; +https://www.woorank.com/)
+Mozilla/5.0 (compatible; Yellowbrandprotectionbot/1.0; +https://www.yellowbp.com/bot.html)

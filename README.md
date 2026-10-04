@@ -47,6 +47,59 @@ if ($CrawlerDetect->isCrawler('Mozilla/5.0 (compatible; Sosospider/2.0; +http://
 echo $CrawlerDetect->getMatches();
 ```
 
+### Classifying the crawler
+
+Not every crawler deserves the same treatment. You may want to let search engines and social link previews through, block AI training crawlers, and let AI assistants fetching on behalf of a real person through. After a positive `isCrawler()` check, `getCategory()` tells you what kind of crawler it was:
+
+```php
+if ($CrawlerDetect->isCrawler($userAgent)) {
+    switch ($CrawlerDetect->getCategory()) {
+        case 'search':
+        case 'social':
+        case 'ai-user':
+            // let it through
+            break;
+        case 'ai-training':
+            // block, throttle, or serve a summary
+            break;
+    }
+}
+```
+
+| Category | What it covers | Examples |
+| --- | --- | --- |
+| `ai-user` | Fetches made on behalf of a live user by an AI assistant or browser agent | ChatGPT-User, Claude-User, Perplexity-User, Google-Agent |
+| `ai-search` | Crawlers that index content so an AI product can search or cite it | OAI-SearchBot, PerplexityBot, Claude-SearchBot |
+| `ai-training` | Crawlers collecting data to train AI models | GPTBot, ClaudeBot, Bytespider, CCBot, meta-externalagent |
+| `search` | Search engine indexers and their related fetchers | Googlebot, bingbot, DuckDuckBot, Applebot, Baiduspider |
+| `social` | Link preview fetchers of social networks and chat apps | facebookexternalhit, Twitterbot, LinkedInBot, Slackbot |
+| `feed` | Feed readers, aggregators and podcast apps | Feedly, Feedbin, NewsBlur, Inoreader |
+| `seo` | SEO, backlink and marketing intelligence crawlers | AhrefsBot, SemrushBot, MJ12bot, Screaming Frog |
+| `monitoring` | Uptime, performance and site-health tools | UptimeRobot, Pingdom, StatusCake, Chrome-Lighthouse |
+| `security` | Vulnerability and internet-wide scanners | Nuclei, zgrab, Expanse, Censys |
+| `archiver` | Web archives | ia_archiver, archive.org_bot, heritrix |
+| `scraper` | Offline downloaders and scraping frameworks | HTTrack, Scrapy, WebCopier |
+| `headless` | Headless browsers and automation frameworks | HeadlessChrome, PhantomJS |
+| `http-library` | Programmatic HTTP clients and language runtimes | curl, python-requests, Go-http-client, okhttp |
+
+`is()` answers the narrower question directly. It runs the detection itself, so it works on a fresh instance and follows the same user agent rules as `isCrawler()`. Pass an array to ask about any of several categories, which is also how you allow-list:
+
+```php
+$CrawlerDetect->is('ai-training', $userAgent);                  // a training crawler?
+$CrawlerDetect->is(['ai-training', 'ai-search'], $userAgent);  // either kind of AI crawler?
+
+// Treat every crawler as a bot except search engines, link previews and AI assistants
+if ($CrawlerDetect->isCrawler() && ! $CrawlerDetect->is(['search', 'social', 'ai-user'])) {
+    // block, throttle, or serve a lighter page
+}
+```
+
+An unrecognised category name throws an `InvalidArgumentException`, so a typo fails loudly rather than quietly returning false.
+
+A crawler that fits none of these reports `unknown`. When the last check was not a crawler, `getCategory()` returns `null`. Categories are checked in the order listed and the first match wins, which is why the AI categories sit above `search` (so Applebot-Extended is not reported as Applebot) and `http-library` sits last (many bots mention the library they are built on). `getCategories()` returns the list of names.
+
+Classification only runs after a positive match and only when you ask for it, so existing `isCrawler()` callers pay nothing extra.
+
 ### Passing headers from a request object
 
 With no arguments, CrawlerDetect reads `$_SERVER`. If your headers come from somewhere else — a PSR-7 request, Symfony's `HeaderBag`, Swoole, or a Lambda event — pass them in directly. Both real header names (`User-Agent`) and PHP's SAPI names (`HTTP_USER_AGENT`) are understood, and values may be strings or arrays of strings.
@@ -74,8 +127,9 @@ If you find a bot, spider or crawler that CrawlerDetect fails to detect, please 
 
 - adds the regex pattern to the `$data` array in `src/Fixtures/Crawlers.php`
 - adds the failing user agent string to `tests/data/user_agent/crawlers.txt`
+- optionally, if the bot fits a category in `src/Fixtures/Categories.php`, adds a pattern there and the same user agent string to `tests/data/categories/<category>.txt`
 
-The `raw/Crawlers.json` and `raw/Crawlers.txt` files are regenerated automatically by `export.php` after merge — no need to touch them.
+The `raw/Crawlers.json`, `raw/Crawlers.txt` and `raw/Categories.json` files are regenerated automatically by `export.php` after merge — no need to touch them.
 
 If you're not able to submit a PR, open an issue with the user agent string and we'll take it from there.
 

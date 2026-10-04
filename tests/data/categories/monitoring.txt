@@ -1,0 +1,163 @@
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.99 Safari/537.36 RuxitSynthetic/1.0 v119975163693 t1975984516666483988 ath87850d94 altpub cvcv=2 smf=0
+DynatraceSynthetic/
+RuxitSynthetic/1.0
+1Pilot Monitoring (+http://1pilot.io/)
+404 Checker [http://www.404checker.com/user-agent]
+Amazon-Route53-Health-Check-Service (ref c96ad03c-acdf-48c6-8ec7-45806bf08123; report http://amzn.to/1vsZADi)
+Mozilla/5.0 (compatible; AppBeat/1.0; +http://www.appbeat.io/)
+Better Uptime Bot Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Mozilla/4.0 (compatible; MSIE 7.0; Windows; Windows NT 5.1) BrokenLinkCheck.com/1.1
+Mozilla/5.0 (Windows NT 5.1) BrokenLinkCheck.com/1.1
+Mozilla/5.0 (Windows NT 5.1) brokenlinkcheck.com/1.2
+CheckHost (http://check-host.net/)
+CheckHost (https://check-host.net/)
+check_http/v2.0.3 (nagios-plugins 2.0.3)
+check_http/v2.2.1 (nagios-plugins 2.2.1)
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36(KHTML, like Gecko) Chrome/61.0.3116.0 Mobile Safari/537.36 Chrome-Lighthouse
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36 Chrome-Lighthouse
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Mobile Safari/537.36 Chrome-Lighthouse
+Mozilla/5.0 (compatible;Cloudflare-Healthchecks/1.0;+https://www.cloudflare.com/; healthcheck-id: 755842180c7ae904)
+Mozilla/5.0 (compatible; Cloudflare-Healthchecks/1.0; +https://www.cloudflare.com/; healthcheck-id: AAAAAAAAAAAAAAAA)
+CopperEgg/RevealUptime/AmsterdamNL(softlayer)
+CopperEgg/RevealUptime/AtlantaGA(linode)
+cron-job.org monitor
+Cronless/2.0 (+http://cronless.com)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36 DareBoost
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 DatadogSynthetics
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.168 Safari/537.36 DatadogSynthetics
+www.deadlinkchecker.com XMLHTTP/1.0 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+www.deadlinkchecker.com Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+www.deadlinkchecker.com XMLHTTP/1.0
+Mozilla/5.0 (Linux; Android 11.0; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36 DebugBear
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 DebugBear
+deepnoc - https://deepnoc.com/bot
+downnotifier.com monitoring
+DowntimeDetector/4.0 (+https://downforeveryoneorjustme.com)
+Mozilla/5.0 (compatible; dlcbot/0.1; +http://www.drlinkcheck.com/)
+EasyCron/1.0 (https://www.easycron.com/)
+elmahio-uptimebot/2.0
+EvoUptimeBot/1.0
+FreshpingBot/1.0 (+https://freshping.io/)
+GoogleCloudMonitoring
+GoogleStackdriverMonitoring-UptimeChecks(https://cloud.google.com/monitoring)
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11 GotSiteMonitor.com
+Mozilla/5.0 (Linux; Android 4.1.2; Galaxy Nexus Build/JZO54K; GTmetrix https://gtmetrix.com/) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.22
+Mozilla/5.0 (Linux; Android 4.1.2; Galaxy Nexus Build/JZO54K; GTmetrix http://gtmetrix.com/) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.22
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 GTmetrix
+HappyApps-WebCheck/1.0
+HetrixTools.COM Uptime Monitoring Bot. https://hetrixtools.com/uptime-monitoring-bot.html
+HetrixTools Uptime Monitoring Bot. https://hetrix.tools/uptime-monitoring-bot.html
+Honeybadger Uptime Check
+Mozilla/4.0 (compatible; HostTracker.com/1.0;+http://host-tracker.com/)
+Mozilla/4.0 (compatible;HostTracker/2.0;+http://www.host-tracker.com/)
+Mozilla/5.0 (compatible;HostTracker/2.0;+http://www.host-tracker.com/)
+HTTPing v2.5
+Inspingbot/1.0 (+https://www.insping.com/)
+internetVista monitor (Mozilla compatible)
+Irokez.cz monitoring v1.2 - (http://www.irokez.cz, Irokez.cz, crawl)
+Mozilla/5.0 (compatible; IsDownBot/1.0;)
+jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)
+keycdn-tools/speed
+Mozilla/5.0 (compatible; LinkCheckerBot/2.0; +https://linkchecker.pro/robot/)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 LinkTiger
+LinkWalker/3.0 (http://www.brandprotect.com)
+LinkWalker/2.0
+Mozilla/5.0 (compatible; LinkWalker/2.0; +http://www.seventwentyfour.com)
+LogicMonitor SiteMonitor/1.0
+MB-LinkChecker
+Mozilla/5.0 (compatible; monitis - premium monitoring service; http://www.monitis.com)
+Mozilla/5.0 (compatible; monitoring360bot/1.1; +https://app.360monitoring.com/bot.html)
+Mozilla/5.0+(compatible; Monitority/1.0; http://www.monitority.com/)
+Mozilla/5.0 (compatible; Monsidobot/2.2; +http://monsido.com/bot.html; info@monsido.com)
+Mozilla/5.0+(compatible; MonSpark/1.0; http://www.monspark.com/)
+montastic-monitor http://www.montastic.com
+montastic-monitor www.montastic.com
+Mozilla/5.0+(compatible; MxToolbox/Beta7; http://www.mxtoolbox.com/)
+NewRelicPinger/1.0 (543245)
+Mozilla/5.0 (compatible; NIXStatsbot/1.1; +http://www.nixstats.com/bot.html)
+NodePing
+Mozilla/5.0 (nomore404.com robot/1.1; +https://nomore404.com/)
+OhDear.app (+https://ohdear.app/docs/checks/uptime)
+OnlineOrNot.com_bot_1.0_(https://onlineornot.com)
+Mozilla/5.0 (compatible; Pagespeed/1.1 Fetcher; +http://www.pagespeed.de)
+Panopta v1.1
+Pingability.com Monitoring Service
+Mozilla/5.0 (compatible; PingAdmin.Ru/1.1; +http://pingadmin.ru/)
+Mozilla/5.0 (compatible; PingAdmin.Ru/1.2; +http://pingadmin.ru/free_test/)
+Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34
+Mozilla/5.0 (compatible; pingbot/2.0; +http://www.pingdom.com/)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/59.0.3071.109 Chrome/59.0.3071.109 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)
+PINGOMETER_BOT_(HTTPS://PINGOMETER.COM)
+Mozilla/5.0 (compatible; PRTG Network Monitor (www.paessler.com); Windows)
+Mozilla/5.0 (compatible; PRTG Network Monitor (www.paessler.com ); Windows)
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; Data Center; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; PTST 2.386)
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; GWX:RED; PTST 2.386)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 PTST/211202.211915
+pulsetic.com (+https://pulsetic.com)
+Rackspace Monitoring/1.1 (https://monitoring.api.rackspacecloud.com)
+ScoutURLMonitor/5.9.8
+SENTINEL-LinkCheck/1.0 (+https://sentinel.oblivionzone.com/bot)
+SentryUptimeBot/1.0 (+http://docs.sentry.io/product/alerts/uptime-monitoring/)
+Server Density Service Monitoring v2
+ServiceUptime.robot
+Site24x7 Agent
+Site24x7 Tools
+Site24x7
+SiteUptime.com
+Spectate/1.0 (+https://docs.spectate.net/faq/uptime-monitor-bot)
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake SSL Monitor)
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake)
+StatusCake_Uptime_Checker/1.0
+Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1) Streamline3Bot/1.0
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; +https://www.ubtsupport.com/legal/Streamline3Bot.php) Streamline3Bot/1.0
+Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 MSIE 7.0; Sucuri Integrity Monitor/2.4
+Super Monitoring
+SwifteqLinkChecker
+synthetic-monitoring-agent/v0.20.1-0-g66af84ad (linux amd64; 66af84ad6a8755895d4b69606281ca7354c1589a; 2024-02-12 16:50:07+00:00; +https://github.com/grafana/synthetic-monitoring-agent)
+Testomatobot/1.0 (Linux x86_64; +https://www.testomato.com/testomatobot) minicrawler/5.2.2
+Mozilla/5.0 (compatible; UASlinkChecker/1.0; +http://user-agent-string.info/UASlinkChecker)
+Mozilla/5.0 (compatible; UASlinkChecker/2.1; +https://udger.com/support/UASlinkChecker)
+updown.io daemon 2.2
+updown.io daemon 2.3
+updown.io daemon 2.11
+Uptime-Kuma/1.23.16
+Uptime-Kuma/1.23.15
+Uptime-Kuma/1.23.14
+Mozilla/5.0 (compatible; Uptimebot/0.1.38; +http://www.uptime.com/uptimebot)
+Mozilla/5.0 (compatible; Uptimebot/0.1.43; +http://www.uptime.com/uptimebot)
+Mozilla/5.0 (compatible; Uptimebot/1.0; +http://www.uptime.com/uptimebot)
+UptimeDog Robot (www.uptimedog.com)
+Mozilla/5.0 (compatible; UptimeRobot/1.0; http://www.uptimerobot.com/)
+Mozilla/5.0 (compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
+Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)
+Mozilla/5.0 (compatible; UptimeStatistics; +https://www.uptimestatistics.com/)
+Mozilla/5.0 (compatible; Uptimia; www.uptimia.com)
+Urlcheckr/2.0
+Validator.nu/LV
+Mozilla/5.0 (compatible; Vigil/1.0; +http://vigil-app.com/bot.html)
+W3C-checklink/4.2.1 [4.21] libwww-perl/5.803
+W3C-checklink/4.5 [4.154] libwww-perl/5.823
+W3C-checklink/2.90 libwww-perl/5.64
+W3C-mobileOK/DDC-1.0
+Jigsaw/2.3.0 W3C_CSS_Validator_JFouffa/2.0
+W3C_I18n-Checker/1.0
+W3C_Unicorn/1.0
+W3C_Validator/1.3
+Watchbot monitoring robot (https://watchbot.fflow.net)
+Mozilla/5.0 (compatible; WatchForBot/1.0; +https://watchfor.io/bot)
+WatchMouse/8.4.0.3 (http://watchmouse.com/ ; lvps91-250-96-109.dedicated.hosteurope.de)
+WatchMouse/8.4.0.3 (http://watchmouse.com/ ; chzrh01.watchmouse.net)
+WatchMouse (http://watchmouse.com/ ; HQ)
+websitepulse checker/1.1 (compatible; MSIE 5.5; Netscape 4.75; Linux)
+websitepulse checker/3.0 (compatible; MSIE 5.5; Netscape 4.75; Linux)
+WEDOS OnLine monitoring; https://www.wedos.online/
+worldping-api
+Mozilla/5.0 (compatible; WormlyBot; +http://wormly.com)
+WPMU DEV Broken Link Checker Spider
+WPMUDEV Uptime Monitor 5.0 (https://wpmudev.com)
+Xenu Link Sleuth/1.3.7
+Xenu Link Sleuth/1.3.8
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) YLT Chrome/85.0.4183.121 Safari/537.36
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0 Safari/537.36 YottaaMonitor
+Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0 Safari/537.36 YottaaMonitor
+Zabbix
