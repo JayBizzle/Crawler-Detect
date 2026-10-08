@@ -3186,7 +3186,6 @@ URL Verifier by Daanav.com
 trendspottr.com
 Kerrigan/2.0 (kerrigan@mashable.com)
 Keyword Extractor 5000; lucas@hyscore.io
-Citoid (Wikimedia tool; learn more at https://www.mediawiki.org/wiki/Citoid)
 grokkit (pdsupport@purediscovery.com)
 akka-http/10.0.10
 POE-Component-Client-HTTP/0.943 (perl; N; POE; en; rv:0.943000)
@@ -3552,7 +3551,6 @@ LinkPreview/1.5 (http://linkpreview.net)
 https://gdnplus.com:Gather Analyze Provide.
 Feedshow/x.0 (http://www.feedshow.com; 1 subscriber)
 apimon.de/http-apis#redirect
-ZoteroTranslationServer/WMF (mailto:services@lists.wikimedia.org)
 yomins.com/0.3
 WakeletLinkExpander/0.1
 ultimate_sitemap_parser/0.5

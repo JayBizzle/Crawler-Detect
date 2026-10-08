@@ -265,7 +265,6 @@ class Crawlers extends AbstractProvider
         'CirrusExplorer',
         'CISPA Vulnerability Notification',
         'CISPA Web Analyser',
-        'Citoid',
         'CJNetworkQuality',
         'Clarsentia',
         'Claude-User',
@@ -1488,7 +1487,6 @@ class Crawlers extends AbstractProvider
         'ZnHTTP',
         'Zombie\.js',
         'Zoom\.Mac',
-        'ZoteroTranslationServer',
         'ZyBorg',
         '[a-z0-9\-_]*(bot|crawl|headless|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
     ];
