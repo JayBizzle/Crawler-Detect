@@ -43,7 +43,7 @@ if ($CrawlerDetect->isCrawler('Mozilla/5.0 (compatible; Sosospider/2.0; +http://
     // true if a crawler user agent was detected
 }
 
-// Output the name of the bot that matched (if any)
+// Output the part of the user agent that matched (if any)
 echo $CrawlerDetect->getMatches();
 ```
 
