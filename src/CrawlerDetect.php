@@ -11,7 +11,9 @@
 
 namespace Jaybizzle\CrawlerDetect;
 
+use InvalidArgumentException;
 use Jaybizzle\CrawlerDetect\Fixtures\AbstractProvider;
+use Jaybizzle\CrawlerDetect\Fixtures\Categories;
 use Jaybizzle\CrawlerDetect\Fixtures\Crawlers;
 use Jaybizzle\CrawlerDetect\Fixtures\Exclusions;
 use Jaybizzle\CrawlerDetect\Fixtures\Headers;
@@ -61,6 +63,36 @@ class CrawlerDetect
     protected $uaHttpHeaders;
 
     /**
+     * Categories object.
+     *
+     * @var \Jaybizzle\CrawlerDetect\Fixtures\Categories
+     */
+    protected $categories;
+
+    /**
+     * The compiled category regex strings, keyed by category name and kept
+     * in the fixture's resolution order.
+     *
+     * @var array<string, string>
+     */
+    protected $compiledCategories = [];
+
+    /**
+     * The user agent string examined by the last isCrawler() call.
+     *
+     * @var string
+     */
+    protected $lastUserAgent = '';
+
+    /**
+     * The category resolved for the last isCrawler() call, or null while it
+     * has not been asked for yet.
+     *
+     * @var string|null
+     */
+    protected $category;
+
+    /**
      * The compiled regex string.
      *
      * @var string
@@ -84,6 +116,13 @@ class CrawlerDetect
     protected static $compileCache = [];
 
     /**
+     * Cache of compiled category regex strings keyed by fixture class name.
+     *
+     * @var array<string, array<string, string>>
+     */
+    protected static $categoryCompileCache = [];
+
+    /**
      * Class constructor.
      */
     public function __construct(?array $headers = null, $userAgent = null)
@@ -91,9 +130,11 @@ class CrawlerDetect
         $this->crawlers = new Crawlers;
         $this->exclusions = new Exclusions;
         $this->uaHttpHeaders = new Headers;
+        $this->categories = new Categories;
 
         $this->compiledRegex = $this->compileFixtureRegex($this->crawlers);
         $this->compiledExclusions = $this->compileFixtureRegex($this->exclusions);
+        $this->compiledCategories = $this->compileCategoryRegexes($this->categories);
 
         $this->setHttpHeaders($headers);
         $this->setUserAgent($userAgent);
@@ -116,6 +157,34 @@ class CrawlerDetect
         }
 
         return self::$compileCache[$class];
+    }
+
+    /**
+     * Compile and memoize one regex string per category.
+     *
+     * @return array<string, string>
+     */
+    protected function compileCategoryRegexes(Categories $fixture)
+    {
+        $class = get_class($fixture);
+
+        if (! isset(self::$categoryCompileCache[$class])) {
+            $compiled = [];
+
+            foreach ($fixture->getAll() as $name => $patterns) {
+                // An empty alternation matches everything, so a category
+                // with no patterns must not take part in resolution.
+                if ($patterns === []) {
+                    continue;
+                }
+
+                $compiled[$name] = $this->compileRegex($patterns);
+            }
+
+            self::$categoryCompileCache[$class] = $compiled;
+        }
+
+        return self::$categoryCompileCache[$class];
     }
 
     /**
@@ -245,11 +314,13 @@ class CrawlerDetect
     public function isCrawler($userAgent = null)
     {
         $this->matches = [];
+        $this->category = null;
+        $this->lastUserAgent = (string) ($userAgent ?: $this->userAgent ?: '');
 
         $agent = preg_replace(
             "/{$this->compiledExclusions}/i",
             '',
-            $userAgent ?: $this->userAgent ?: ''
+            $this->lastUserAgent
         );
 
         if ($agent === null || trim($agent) === '') {
@@ -285,5 +356,90 @@ class CrawlerDetect
     public function getUserAgent()
     {
         return $this->userAgent;
+    }
+
+    /**
+     * Return the category of the crawler matched by the last isCrawler() call.
+     *
+     * Category patterns are only consulted after a positive match, and only
+     * when asked for, so callers that never call this pay nothing extra.
+     * Categories are checked in the order the Categories fixture lists them
+     * and the first match wins.
+     *
+     * @return string|null A category name, Categories::UNKNOWN for a crawler
+     *                     that matched no category, or null when the last
+     *                     check was not a crawler.
+     */
+    public function getCategory()
+    {
+        if (! isset($this->matches[0])) {
+            return null;
+        }
+
+        if ($this->category === null) {
+            $this->category = Categories::UNKNOWN;
+
+            foreach ($this->compiledCategories as $name => $regex) {
+                if (preg_match("/{$regex}/i", $this->lastUserAgent) === 1) {
+                    $this->category = $name;
+
+                    break;
+                }
+            }
+        }
+
+        return $this->category;
+    }
+
+    /**
+     * Return the category names, in the order they are resolved.
+     *
+     * @return array<int, string>
+     */
+    public function getCategories()
+    {
+        return array_keys($this->compiledCategories);
+    }
+
+    /**
+     * Check whether the user agent is a crawler of the given category.
+     *
+     * This runs the detection itself, so it works on a fresh instance and
+     * follows the same user agent rules as isCrawler(). Pass an array of
+     * names to ask whether the crawler is in any of them, which is also the
+     * way to allow-list: isCrawler() && ! is(['search', 'social']).
+     *
+     * @param  string|array<int, string>  $category
+     * @param  string|null  $userAgent
+     * @return bool
+     *
+     * @throws \InvalidArgumentException when a category name is not known.
+     */
+    public function is($category, $userAgent = null)
+    {
+        $wanted = is_array($category) ? $category : [$category];
+
+        if ($wanted === []) {
+            throw new InvalidArgumentException('At least one crawler category is required.');
+        }
+
+        $known = $this->getCategories();
+        $known[] = Categories::UNKNOWN;
+
+        foreach ($wanted as $name) {
+            if (! in_array($name, $known, true)) {
+                throw new InvalidArgumentException(sprintf(
+                    'Unknown crawler category "%s". Known categories: %s.',
+                    $name,
+                    implode(', ', $known)
+                ));
+            }
+        }
+
+        if (! $this->isCrawler($userAgent)) {
+            return false;
+        }
+
+        return in_array($this->getCategory(), $wanted, true);
     }
 }
