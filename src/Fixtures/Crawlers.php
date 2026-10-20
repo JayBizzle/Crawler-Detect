@@ -310,6 +310,7 @@ class Crawlers extends AbstractProvider
         'curl',
         'cuwhois\/',
         'cybo\.com',
+        'CyberConvoyScout',
         'DAP\/NetHTTP',
         'DareBoost',
         'DatabaseDriverMysqli',
