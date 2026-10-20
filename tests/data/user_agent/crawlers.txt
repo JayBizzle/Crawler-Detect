@@ -3740,3 +3740,4 @@ IronFountain-Leads/1.0 (+https://www.ironfountain.com)
 TheWebReport/1.0; +https://theweb.report
 webshopok-kutatas/0.1 (+kapcsolat: test@datalistshop.eu; belso piackutatas, .nl webshopok)
 9bot/1.0 (+https://9bot.com.br/en/9bot-docs)
+Mozilla/5.0 (compatible; CyberConvoyScout/1.0; +https://scout.cyberconvoy.co)
