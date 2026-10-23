@@ -1,0 +1,38 @@
+Mozilla/5.0 (compatible; archive-com.com/1.1; +http://archive-com.com/bot)
+Mozilla/5.0 (X11; Linux x86_64; archive.org_bot; Archive-It; +http://archive-it.org/files/site-owners.html) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Mozilla/5.0 (compatible; archive.org_bot; Archive-It; +http://archive-it.org/files/site-owners.html)
+Mozilla/5.0 (compatible; archive.org_bot +http://archive.org/details/archive.org_bot)
+Mozilla/5.0 (compatible; archive.org_bot/3.3.0 +http://www.archive.org/details/archive.org_bot)
+ArchiveBox/0.5.3 (+https://github.com/ArchiveBox/ArchiveBox/)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)
+ArchiveTeam ArchiveBot/20170106.02 (wpull 2.0.2)
+Arquivo-web-crawler (compatible; heritrix/3.4.0-20200304 +https://arquivo.pt/faq-crawling)
+Arquivo-web-crawler (compatible; +https://arquivo.pt/robot)
+bl.uk_ldfc_bot/3.4.0-20220727 (+https://www.bl.uk/legal-deposit/web-archiving)
+bl.uk_lddc_bot/3.4.0-20220727 (+https://www.bl.uk/legal-deposit-web-archiving)
+Mozilla/5.0 (compatible; bne.es_bot; https://www.bne.es/es/colecciones/archivo-web-espanola/aviso-webmasters) Firefox/129.0.1
+Mozilla/5.0 (compatible; bnf.fr_bot; +http://bibnum.bnf.fr/robot/bnf.html)
+Mozilla/5.0 (compatible; bnf.fr_bot; +http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html)
+Arquivo-web-crawler (compatible; browsertrix/0.8 +https://arquivo.pt/faq-crawling)
+Arquivo-web-crawler (compatible; brozzler/1.5 +https://arquivo.pt/faq-crawling)
+Mozilla/5.0 (compatible; MSIE 7.0 +http://www.europarchive.org)
+Mozilla/5.0 (compatible; heritrix/3.1.1-SNAPSHOT-20120116.200628 +http://www.archive.org/details/archive.org_bot)
+Mozilla/5.0 (compatible; heritrix/1.12.1b +http://netarkivet.dk/website/info.html)
+ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)
+ia_archiver-web.archive.org
+Mozilla/5.0 (compatible; heritrix/3.10.0 +https://www.kb.dk/netarkivindsamling/) Firefox/144
+kb.dk_bot
+Mozilla/5.0 (compatible; memorybot/1.20.71 +http://archivethe.net/en/index.php/about/internet_memory1 on behalf of DNB)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 The National Archives UK Government Web Archive: http://www.nationalarchives.gov.uk/webarchive/; webarchive@nationalarchives.gov.uk
+Mozilla/5.0 (compatible; archive.org_bot/3.1.2 +http://natlib.govt.nz/about-us/current-initiatives/web-harvest-2012)
+Mozilla/5.0 (compatible; NLNZ_IAHarvester2024/3.3.0; +https://natlib.govt.nz/publishers-and-authors/web-harvesting/domain-harvest)
+Mozilla/5.0 (compatible; NLUX_IAHarvester/3.4.0; +http://crawl.bnl.lu/)
+PageFreezer (pagefreezer crawler; http://pagefreezer.com/pagefreezer-crawler/; info@pagefreezer.com)
+Mozilla/5.0 (compatible; archive.org_bot/3.3.0 +http://pandora.nla.gov.au/crawl.html)
+SmarshBot/1.0
+Mozilla/5.0 (compatible; special_archiver/3.3.0 bot@archive.org +https://archive.org/details/archive.org_bot)
+Mozilla/5.0 (compatible; special_archiver/3.2.0 +http://www.loc.gov/webarchiving/notice_to_webmasters.html)
+Mozilla/5.0 (compatible; archive.org_bot; Wayback Machine Live Record; +http://archive.org/details/archive.org_bot)
+Mozilla (+http://web.nli.org.il/sites/NLI/English/collections/israel-collection/internet_archive/Pages/default.aspx)
+Mozilla/5.0 (compatible; heritrix/1.12.1 +http://www.webarchiv.cz)
+Mozilla/5.0 (compatible; XY-Archive-Compliance-Crawler; +https://archive.xyplanningnetwork.com/)

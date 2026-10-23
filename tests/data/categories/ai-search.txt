@@ -1,0 +1,20 @@
+AIWebIndex/2.0 (+https://lyrenth.com/bot; AI-readable web index)
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amzn-SearchBot/0.1) Chrome/W.X.Y.Z Safari/537.36
+Andibot
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Aranet-SearchBot/1.0; +https://aranet.ai/bot) Chrome/131.0.0.0 Safari/537.36
+atlassian-bot
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; AzureAI-SearchBot/1.0;
+Mozilla/5.0 (compatible; Channel3Bot/1.0; +https://trychannel3.com/channel3bot)
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-SearchBot/1.0; +searchbot@anthropic.com)
+Mozilla/5.0 (compatible; ExaSearchBot/1.0; +https://crawler.exa.ai/)
+Kimi-SearchBot
+LinkupBot/1.0 (LinkupBot for web indexing; https://linkup.so/bot; bot@linkup.so)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; MistralAI-Index/1.0; +https://docs.mistral.ai/robots)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)
+Mozilla/5.0 (compatible; Querit-SearchBot/1.0; +https://www.querit.ai)
+Mozilla/5.0 (compatible; TalarionSearchBot/1.0; research; contact: contact@talarion.tech)
+Mozilla/5.0 (compatible; xAI-SearchBot/1.0; +https://x.ai)
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ZanistaBot/1.0; +https://zanista.ai/crawler-info) Chrome/W.X.Y.Z Safari/537.36
