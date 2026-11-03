@@ -42,7 +42,7 @@ jobs:
 
       - name: Install Composer dependencies
         run: |
-          composer install --prefer-dist --no-interaction --no-suggest
+          composer install --prefer-dist --no-interaction
 
       - name: Run Unit tests
         run: |
