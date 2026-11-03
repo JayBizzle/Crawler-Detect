@@ -1181,7 +1181,6 @@ class Crawlers extends AbstractProvider
         'SMUrlExpander',
         'Snake',
         'Snappy',
-        'snapscout-benchmark',
         'SnapSearch',
         'Snarfer\/',
         'SniffRSS',
