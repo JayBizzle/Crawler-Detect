@@ -629,6 +629,7 @@ class Crawlers extends AbstractProvider
         'ImageVisu\/',
         'Imagga',
         'imagineeasy',
+        'img2dataset',
         'imgproxy\/[0-9]',
         'imgsizer',
         'InAGist',
