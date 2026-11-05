@@ -172,12 +172,6 @@ class CrawlerDetect
             $compiled = [];
 
             foreach ($fixture->getAll() as $name => $patterns) {
-                // An empty alternation matches everything, so a category
-                // with no patterns must not take part in resolution.
-                if ($patterns === []) {
-                    continue;
-                }
-
                 $compiled[$name] = $this->compileRegex($patterns);
             }
 

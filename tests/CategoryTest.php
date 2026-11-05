@@ -89,6 +89,17 @@ final class CategoryTest extends TestCase
         $this->assertSame([], $dead, "Category patterns with no fixture line:\n".implode("\n", $dead));
     }
 
+    /**
+     * An empty category compiles to an empty alternation, which matches every
+     * user agent and would swallow everything ordered after it.
+     */
+    public function test_no_category_is_empty()
+    {
+        foreach ((new Categories)->getAll() as $category => $patterns) {
+            $this->assertNotEmpty($patterns, "Category $category has no patterns");
+        }
+    }
+
     public function test_category_patterns_are_valid_regexes()
     {
         foreach ((new Categories)->getAll() as $category => $patterns) {
