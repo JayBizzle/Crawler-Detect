@@ -100,6 +100,15 @@ A crawler that fits none of these reports `unknown`. When the last check was not
 
 Classification only runs after a positive match and only when you ask for it, so existing `isCrawler()` callers pay nothing extra.
 
+#### How reliable are categories?
+
+Categories are a best guess, not a guarantee:
+
+- **Category names are stable.** They won't be renamed or removed within a major version, so it's safe to `switch` on them.
+- **Which category a crawler lands in is best-effort.** Some crawlers sit between categories, and vendors change what their bots do. A crawler may move to a different category, or gain one, in a minor release.
+- **User agents can be spoofed.** Anyone can send `Googlebot` in a user agent. If a decision matters, such as letting a search engine past a paywall, verify the crawler by reverse DNS or the vendor's published IP ranges.
+- **Store the category, don't recompute it.** If you record categories for analytics, save the category at the time of the visit. Re-classifying old user agents after an upgrade can shift historical numbers.
+
 ### Passing headers from a request object
 
 With no arguments, CrawlerDetect reads `$_SERVER`. If your headers come from somewhere else — a PSR-7 request, Symfony's `HeaderBag`, Swoole, or a Lambda event — pass them in directly. Both real header names (`User-Agent`) and PHP's SAPI names (`HTTP_USER_AGENT`) are understood, and values may be strings or arrays of strings.

@@ -366,6 +366,11 @@ class CrawlerDetect
      * Categories are checked in the order the Categories fixture lists them
      * and the first match wins.
      *
+     * Category names are stable, but which category a crawler lands in is a
+     * best-effort judgement and may change in a minor release. User agents
+     * are self-reported, so verify crawlers that matter (Googlebot, for
+     * example) by reverse DNS before trusting them.
+     *
      * @return string|null A category name, Categories::UNKNOWN for a crawler
      *                     that matched no category, or null when the last
      *                     check was not a crawler.
@@ -408,6 +413,10 @@ class CrawlerDetect
      * follows the same user agent rules as isCrawler(). Pass an array of
      * names to ask whether the crawler is in any of them, which is also the
      * way to allow-list: isCrawler() && ! is(['search', 'social']).
+     *
+     * Like getCategory(), the result is a best-effort judgement: category
+     * names are stable, but a crawler's category may change in a minor
+     * release.
      *
      * @param  string|array<int, string>  $category
      * @param  string|null  $userAgent
