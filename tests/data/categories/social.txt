@@ -1,0 +1,70 @@
+LMArenaUnfurlBot/1.0 (Link preview bot for AI model comparison platform; +https://lmarena.ai) Mozilla/5.0 (compatible)
+ArenaUnfurlBot/1.0 (Link preview bot for AI model comparison platform; +https://arena.ai) Mozilla/5.0 (compatible)
+Asana/1.4.0 WebsiteMetadataRetriever
+BeeperBot/0 Matrix-Media-Repo/1
+BlueskyPreviewBot/1.0
+BufferLinkPreviewBot/1.0 (+https://scraper.buffer.com/about/bots/link-preview-bot)
+Chatwork LinkPreview v1
+CodaBot/1.0
+Dazzle BlueSky Bot/1.1
+Digg Deeper/v1 (http://digg.com/about)
+Mozilla/5.0 (compatible; Discordbot/1.0; +https://discordapp.com)
+Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)
+Discourse Forum Onebox v2.0.0.beta10
+Mozilla/5.0 (compatible; Embedly/0.2; +http://support.embed.ly/)
+Embedly +support@embed.ly
+EvernoteRichLinkBot/1.0 (+https://evernote.com)
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+facebookexternalhit/1.1
+facebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)
+Facebot/1.0
+Mozilla/5.0 (compatible; FlipboardProxy/1.1; +http://flipboard.com/browserproxy)
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (FlipboardBrowserProxy/0.0.5; +http://flipboard.com/browserproxy)
+Mozilla/5.0 (compatible; HubSpot Crawler; web-crawlers@hubspot.com)
+HubSpot Page Fetcher/1.0 http://www.hubspot.com/ web-crawlers@hubspot.com
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36 HubSpot Webcrawler - web-crawlers@hubspot.com
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36 HubSpot Marketing Grader
+Iframely/1.0.0 (+https://iframely.com/;)
+Iframely/1.3.1 (+https://iframely.com/docs/about) Atlassian
+facebookexternalhit/1.1;line-poker/1.0
+LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/4.3 +http://www.linkedin.com)
+LinkedInBot/1.0 (compatible; Mozilla/5.0; +http://www.linkedin.com)
+LoomlyBot
+http.rb/2.2.2 (Mastodon/1.5.1; +https://example-masto-instance.org/)
+http.rb/3.2.0 (Mastodon/2.4.3; +https://uwu.social/)
+mattermost-5.19.0
+Mattermost-Bot/1.1
+Mediumbot-MetaTagFetcher/0.3 (+https://medium.com/)
+Mediumbot-ProxyFetcher/0.1 (+https://medium.com/)
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; MicrosoftPreview/2.0; +https://aka.ms/MicrosoftPreview) Chrome/100.0.4896.127 Safari/537.36
+Mozilla/5.0 (compatible; MicrosoftPreview/2.0; +https://aka.ms/MicrosoftPreview)
+Nuzzel
+OdklBot/1.0 (share@odnoklassniki.ru)
+Mozilla/5.0 (compatible; OdklBot/1.0 like Linux; klass@odnoklassniki.ru)
+Orlo-LinkPreview/1.0
+Mozilla/5.0 (compatible; Pinterestbot/1.0; +https://www.pinterest.com/bot.html)
+Pinterest/0.2 (+https://www.pinterest.com/bot.html)
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Pinterestbot/1.0; +https://www.pinterest.com/bot.html)
+Quora Link Preview/1.0 (http://www.quora.com)
+Quora-Bot/1.0 (http://www.quora.com)
+Mozilla/5.0 (compatible; redditbot/1.0; +http://www.reddit.com/feedback)
+Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5
+Slack-ImgProxy 0.19 (+https://api.slack.com/robots)
+Slack-ImgProxy 1.106 (+https://api.slack.com/robots)
+Slackbot 1.0 (+https://api.slack.com/robots)
+Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)
+Snap URL Preview Service; bot; snapchat; https://developers.snap.com/robots
+Mozilla/5.0 (compatible; SnapchatAds/1.0; +https://businesshelp.snapchat.com/s/article/adsbot-crawler)
+SummalyBot/5.1.0
+Synapse (bot; +https://github.com/matrix-org/synapse)
+TelegramBot (like TwitterBot)
+Twitterbot/1.0
+Twitterbot/0.1
+Mozilla/5.0 (compatible; vkShare; +http://vk.com/dev/Share)
+WakeletLinkExpander/0.1
+WhatsApp/2.16.57 A
+WhatsApp/2.12.15/i
+XING-contenttabreceiver/2.0
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Xing Bot
+Mozilla/5.0 (compatible; Yahoo Link Preview; https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html)
+Mozilla/5.0 (Zoom.Mac 10.8.5 x86)
