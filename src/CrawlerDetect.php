@@ -129,7 +129,37 @@ class CrawlerDetect
      */
     public function compileRegex($patterns)
     {
-        return '(?:'.implode('|', $patterns).')';
+        return '(?:'.implode('|', array_map([$this, 'boundOpenPrefix'], $patterns)).')';
+    }
+
+    /**
+     * Stop a pattern with an open-ended prefix from being retried at every
+     * character of the same token.
+     *
+     * The catch-all starts with '[a-z0-9\-_]*' so that getMatches() returns
+     * the whole name ('somenaughtybot') and not just the keyword. Unanchored,
+     * the engine attempts it from each position in a run of those characters
+     * and rescans the rest of the run every time, which is quadratic in the
+     * length of the run. Without the PCRE JIT a few kilobytes of filler in a
+     * header costs seconds.
+     *
+     * Requiring that the prefix starts at the beginning of a token makes it
+     * linear. The leftmost match was always at the start of the token anyway,
+     * so results and getMatches() are unchanged.
+     *
+     * This is applied here and not in the fixture because the exported
+     * patterns are used by ports whose regex engines have no lookbehind.
+     *
+     * @param  string  $pattern
+     * @return string
+     */
+    protected function boundOpenPrefix($pattern)
+    {
+        if (strpos($pattern, '[a-z0-9\-_]*') === 0) {
+            return '(?<![a-z0-9\-_])'.$pattern;
+        }
+
+        return $pattern;
     }
 
     /**

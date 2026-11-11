@@ -307,6 +307,38 @@ final class UserAgentTest extends TestCase
     }
 
     /**
+     * The catch-all pattern starts with an open-ended character class. Left
+     * unanchored it is retried from every character of a long token, which is
+     * quadratic and, without the PCRE JIT, took over four seconds for the
+     * 8,000 characters that fit in a single request header.
+     */
+    public function test_long_tokens_are_matched_in_linear_time_without_jit()
+    {
+        $originalJit = ini_get('pcre.jit');
+        ini_set('pcre.jit', '0');
+
+        try {
+            $start = microtime(true);
+            $result = $this->crawlerDetect->isCrawler(str_repeat('a', 8000));
+            $elapsed = microtime(true) - $start;
+        } finally {
+            ini_set('pcre.jit', $originalJit);
+        }
+
+        $this->assertFalse($result);
+        $this->assertLessThan(1.0, $elapsed, 'isCrawler() took '.round($elapsed, 2).'s on an 8,000 character token.');
+    }
+
+    public function test_catch_all_still_returns_the_whole_token()
+    {
+        $this->assertTrue($this->crawlerDetect->isCrawler('Mozilla/5.0 (compatible; some-naughty_bot2/1.0)'));
+        $this->assertEquals('some-naughty_bot', $this->crawlerDetect->getMatches());
+
+        $this->assertTrue($this->crawlerDetect->isCrawler(str_repeat('a', 8000).'bot'));
+        $this->assertEquals(str_repeat('a', 8000).'bot', $this->crawlerDetect->getMatches());
+    }
+
+    /**
      * The exclusions strip browser tokens before the crawler regex runs, so a
      * sloppy exclusion can eat part of a signature: a wildcard '.' after
      * 'Firefox' once reduced a hypothetical 'FirefoxBot' to 'ot', and ' Intel'
