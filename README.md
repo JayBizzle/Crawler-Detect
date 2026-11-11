@@ -86,14 +86,23 @@ CrawlerDetect has been ported to a number of other languages and frameworks. If 
 | Platform | Project |
 | --- | --- |
 | Laravel | [Laravel-Crawler-Detect](https://github.com/JayBizzle/Laravel-Crawler-Detect) |
-| Symfony 2 / 3 / 4 | [CrawlerDetectBundle](https://github.com/nicolasmure/CrawlerDetectBundle) |
-| Yii2 | [yii2-crawler-detect](https://github.com/AlikDex/yii2-crawler-detect) |
 | Node.js / ES6 | [es6-crawler-detect](https://github.com/JefferyHus/es6-crawler-detect) |
 | Python | [crawlerdetect](https://github.com/moskrc/CrawlerDetect) |
-| JVM (Java, Scala, Kotlin) | [CrawlerDetect](https://github.com/nekosoftllc/crawler-detect) |
 | .NET / .NET Core | [NetCrawlerDetect](https://github.com/gplumb/NetCrawlerDetect) |
 | Ruby | [crawler_detect](https://github.com/loadkpi/crawler_detect) |
 | Go | [crawlerdetect](https://github.com/x-way/crawlerdetect) |
+
+These ports are no longer maintained and do not receive new crawler signatures:
+
+| Platform | Project | Last updated |
+| --- | --- | --- |
+| Symfony 2 / 3 / 4 | [CrawlerDetectBundle](https://github.com/nicolasmure/CrawlerDetectBundle) | 2021 |
+| Yii2 | [yii2-crawler-detect](https://github.com/AlikDex/yii2-crawler-detect) | 2016 |
+| JVM (Java, Scala, Kotlin) | [CrawlerDetect](https://github.com/nekosoftllc/crawler-detect) | 2022 |
+
+## Security
+
+Please don't report security issues in the public issue tracker. See [SECURITY.md](SECURITY.md) for how to report one privately.
 
 ## Credits
 
