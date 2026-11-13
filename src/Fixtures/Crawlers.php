@@ -250,7 +250,7 @@ class Crawlers extends AbstractProvider
         'CC Metadata Scaper',
         'Cegbfeieh',
         'censys',
-        'centuryb.o.t9[at]gmail.com',
+        'centuryb\.o\.t9\[at\]gmail\.com',
         'Cerberian Drtrs',
         'CERT\.at-Statistics-Survey',
         'cf-facebook',
@@ -599,7 +599,7 @@ class Crawlers extends AbstractProvider
         'http-request\/',
         'HTTP-Tiny',
         'HTTP::Lite',
-        'http:\/\/www.neomo.de\/', // 'Francis [Bot]'
+        'http:\/\/www\.neomo\.de\/', // 'Francis [Bot]'
         'HttpComponents',
         'httphr',
         'HTTPie',

@@ -3089,25 +3089,14 @@ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27
 b0t
 "echocrawl 2.0"
 masscan/1.0
-Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexBot/3.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexAccessibilityBot/3.0; +http://yandex.com/bots)
-Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safari/600.1.4 (compatible; YandexMobileBot/3.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexDirectDyn/1.0; +http://yandex.com/bots
-Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
-Mozilla/5.0 (compatible; YandexVideo/3.0; +http://yandex.com/bots)
-Mozilla/5.0 (compatible; YandexMedia/3.0; +http://yandex.com/bots)
-Mozilla/5.0 (compatible; YandexBlogs/0.99; robot; +http://yandex.com/bots)
-Mozilla/5.0 (compatible; YandexFavicons/1.0; +http://yandex.com/bots)
-Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexPagechecker/1.0; +http://yandex.com/bots)
-Mozilla/5.0 (compatible; YandexImageResizer/2.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YaDirectFetcher/1.0; Dyatel; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexCalendar/1.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexSitelinks; Dyatel; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexMetrika/3.0; +http://yandex.com/bots)
-Mozilla/5.0 (compatible; YandexAntivirus/2.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; YandexVertis/3.0; +http://yandex.com/bots)
-Mozilla/5.0 (compatible; YandexBot/3.0; MirrorDetector; +http://yandex.com/bots)
 jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)
 Mozilla/5.0 (compatible; Abonti/0.8 - http://www.abonti.com)
 CloudEndure Scanner (ops@cloudendure.com)
@@ -3147,9 +3136,6 @@ Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; .NET CLR 1.1.43
 keycdn-tools/perf
 keycdn-tools/br
 keycdn-tools/h2
-keycdn-tools/perf
-keycdn-tools/br
-keycdn-tools/h2
 KOCMOHABT (+https://kozmonavt.tk/) Mozilla/5.0 (compatible; Web Explorer 2)
 Donuts Content Explorer (www.donuts.domains)
 Netsparker
@@ -3172,7 +3158,6 @@ Mixnode/3.0.1 (+https://www.mixnode.com/; Speed analysis; no data is stored)
 Pingability.com Monitoring Service
 SiteSucker for macOS/2.10.6
 Mozilla/5.0 (compatible; PRTG Network Monitor (www.paessler.com); Windows)
-Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)
 Sideqik +http://www.sideqik.com
 SiteSucker/2.4.6
 Vulnbusters Meter (see http://vulnbusters.com for details)
@@ -3213,8 +3198,6 @@ NewRelicPinger/1.0 (543245)
 APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)
 updown.io daemon 2.2
 updown.io daemon 2.3
-updown.io daemon 2.2
-updown.io daemon 2.3
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36 PrintFriendly.com
 Unshorten.It!/1.0 (https://unshorten.it/)
 github-camo (65c9ebe0)
@@ -3243,7 +3226,6 @@ Mozilla/5.0 (compatible; Your-Website-Sucks/2.0; +http://www.Your-Website-Sucks.
 axios/0.17.1
 Wtrace
 PostmanRuntime/7.1.1
-hackney/1.11.0
 Lavf/57.25.100
 makecontact/1.0 (+https://makecontact.io)
 QrafterPro/4600 CFNetwork/889.9 Darwin/17.2.0
@@ -3262,16 +3244,12 @@ LWP::Simple/5.805
 Microsoft Data Access Internet Publishing Provider DAV
 MSFrontPage/4.0
 Microsoft Data Access Internet Publishing Provider Cache Manager
-VB Project
 eCatch/3.0
 MSFrontPage/12.0
 Mozilla/4.7 (compatible; OffByOne; Windows 2000) Webster Pro V3.4
 Mozilla/4.7 (compatible; OffByOne; Windows 98) Webster Pro V3.2
-webster-internet.de pad browser
-Trendsmap Resolver/0.0.1
 Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol 4.0.30319.17929)
 Arukereso/1.0
-Trendsmap Resolver/0.0.1
 AppStoreScraperZ/1 CFNetwork/889.9 Darwin/17.2.0 (x86_64)
 Everwall Link Expander ( http://everwall.com )
 Wfuzz/2.2.2
@@ -3376,9 +3354,7 @@ WWW::Document/0.02
 Y!J-BRW/1.0 (https://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716)
 YoYs.net
 YP.PL
-Mozilla/5.0 (Windows NT 6.1; rv:40.0; StumbleUpon; noc@stumbleupon.com) Gecko/20100101 Firefox/40.1
 Mozilla/5.0 (Windows NT 6.1; StumbleUpon; noc@stumbleupon.com) Chrome/58.0.3029.110 Safari/537.36
-Mozilla/5.0 (Windows NT 6.1; stumbleupon.com) Chrome/58.0.3029.110 Safari/537.36
 Mozilla/5.0 (compatible; tracemyfile/1.0)
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/66.0.3336.0 Safari/537.36
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 Pix/1.0 (Criteo; x64-criteo)
@@ -3467,7 +3443,6 @@ NotionEmbedder
 facebookexternalua
 Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012; DuplexWeb-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Mobile Safari/537.36
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)
-FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)
 Amazon Simple Notification Service Agent
 cortex/1.0
 AWS Security Scanner
@@ -3486,7 +3461,6 @@ ExoRank
 Fuzz Faster U Fool v1.0-rc1
 Hexometer
 longurl-r-package
-looid.com Search Engine/0.1
 Mozilla/5.0 (compatible; RyowlEngine/1.0; +https://ryowl.org)
 Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0; https://app.limber.io) Gecko/20100101 Firefox/25.0
 OSPScraper (+https://www.opensyllabusproject.org)
@@ -3673,8 +3647,6 @@ Verity/1.1 (gumgum.com/verity; verity-support@gumgum.com)
 Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GoogleOther) Chrome/117.0.5938.132 Safari/537.36
 Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Mobile Safari/537.36 (compatible; GoogleOther)
 Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.94 Mobile Safari/537.36 (compatible; GoogleOther)
-Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
-Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)
 symbolicator/24.11.1
 symbolicator/24.12.1
 Barracuda Sentinel (EE)
@@ -3821,3 +3793,4 @@ http://www.instabid.tech/ibbot/index.html?d=whatmyip.co
 NYU Internet Census (https://scan.lol; research@scan.lol)
 Download Demon/3.5.0.11
 webbandit/4.xx.0
+Mozilla/5.0 (compatible; +centuryb.o.t9[at]gmail.com)
