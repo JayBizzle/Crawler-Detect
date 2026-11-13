@@ -16,11 +16,12 @@ jobs:
                     ref: ${{ github.head_ref }}
 
             # Installed via setup-php at an exact version, like PHPStan in
-            # static-analysis.yml.
+            # static-analysis.yml. 7.4 is the oldest PHP php-cs-fixer 3.x
+            # runs on, the closest it can get to the 7.2 floor.
             -   name: Setup PHP, with php-cs-fixer
                 uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # 2.40.0
                 with:
-                    php-version: 8.4
+                    php-version: 7.4
                     tools: php-cs-fixer:3.95.30
                     coverage: none
 
