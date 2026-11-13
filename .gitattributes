@@ -1,9 +1,13 @@
 * text=auto
 
+/.github export-ignore
 /tests export-ignore
 .coveralls.yml export-ignore
 .gitattributes export-ignore
 .gitignore export-ignore
+.php-cs-fixer.dist.php export-ignore
 CONTRIBUTING.md export-ignore
+export.php export-ignore
 import-devices.php export-ignore
+phpstan.neon.dist export-ignore
 phpunit.xml export-ignore
