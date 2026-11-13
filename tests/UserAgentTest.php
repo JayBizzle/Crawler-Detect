@@ -258,10 +258,8 @@ final class UserAgentTest extends TestCase
     public function test_the_fixture_user_agents_are_unique()
     {
         foreach (glob(__DIR__.'/data/*/*.txt') as $file) {
-            $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-            $duplicates = array_keys(array_filter(array_count_values($lines), function ($count) {
-                return $count > 1;
-            }));
+            $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) ?: [];
+            $duplicates = array_values(array_unique(array_diff_key($lines, array_unique($lines))));
 
             $this->assertSame([], $duplicates, 'Duplicate lines in '.basename(dirname($file)).'/'.basename($file));
         }
