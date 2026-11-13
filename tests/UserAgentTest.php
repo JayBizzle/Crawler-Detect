@@ -367,6 +367,19 @@ final class UserAgentTest extends TestCase
         $this->assertEquals(str_repeat('a', 8000).'bot', $this->crawlerDetect->getMatches());
     }
 
+    public function test_stripping_exclusions_does_not_create_matches()
+    {
+        // The text either side of an exclusion must not join into a signature.
+        $this->assertFalse($this->crawlerDetect->isCrawler('boLinuxt'));
+        $this->assertFalse($this->crawlerDetect->isCrawler('crLinuxawl'));
+
+        // An exclusion at the start must not move a token to where an
+        // anchored pattern (^git\/) would match it.
+        $this->assertFalse($this->crawlerDetect->isCrawler('Mozilla/5.0 git/2.0'));
+        $this->assertTrue($this->crawlerDetect->isCrawler('git/2.0'));
+        $this->assertTrue($this->crawlerDetect->isCrawler('  git/2.0'));
+    }
+
     /**
      * The exclusions strip browser tokens before the crawler regex runs, so a
      * sloppy exclusion can eat part of a signature: a wildcard '.' after
@@ -378,7 +391,7 @@ final class UserAgentTest extends TestCase
     public function test_exclusions_do_not_damage_signatures()
     {
         $shell = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 %s (+http://example.com/info)';
-        $exclusions = '/'.$this->crawlerDetect->compileRegex((new Exclusions)->getAll()).'/i';
+        $exclusions = '/(?:\s*'.$this->crawlerDetect->compileRegex((new Exclusions)->getAll()).')+\s*/i';
 
         $damaged = [];
 
@@ -388,7 +401,7 @@ final class UserAgentTest extends TestCase
                 continue;
             }
 
-            $stripped = trim(preg_replace($exclusions, '', sprintf($shell, stripslashes($pattern))));
+            $stripped = preg_replace($exclusions, ' ', sprintf($shell, stripslashes($pattern)));
 
             if (! preg_match('/'.$pattern.'/i', $stripped)) {
                 $damaged[] = $pattern.' (became: '.$stripped.')';
