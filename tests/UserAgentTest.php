@@ -23,53 +23,60 @@ final class UserAgentTest extends TestCase
         $this->crawlerDetect = new CrawlerDetect;
     }
 
-    public function test_user_agents_are_bots()
+    /**
+     * Check every line of a fixture file and report all the lines that fail,
+     * not just the first.
+     */
+    private function assertFixtureDetection($file, $expected)
     {
-        $lines = file(__DIR__.'/data/user_agent/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $lines = file(__DIR__.'/data/'.$file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) ?: [];
+        $failures = [];
 
         foreach ($lines as $line) {
-            $test = $this->crawlerDetect->isCrawler($line);
-            $this->assertTrue($test, $line);
+            if ($this->crawlerDetect->isCrawler($line) !== $expected) {
+                $failures[] = $line;
+            }
         }
+
+        $shown = array_slice($failures, 0, 50);
+        $more = count($failures) - count($shown);
+
+        $this->assertSame([], $failures, sprintf(
+            "%d of %d lines in %s should %sbe detected as crawlers:\n%s%s",
+            count($failures),
+            count($lines),
+            $file,
+            $expected ? '' : 'not ',
+            implode("\n", $shown),
+            $more > 0 ? "\n...and {$more} more" : ''
+        ));
+    }
+
+    public function test_user_agents_are_bots()
+    {
+        $this->assertFixtureDetection('user_agent/crawlers.txt', true);
     }
 
     public function test_user_agents_are_devices()
     {
-        $lines = file(__DIR__.'/data/user_agent/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-
-        foreach ($lines as $line) {
-            $test = $this->crawlerDetect->isCrawler($line);
-            $this->assertFalse($test, $line);
-        }
+        $this->assertFixtureDetection('user_agent/devices.txt', false);
     }
 
     public function test_sec_ch_ua_are_bots()
     {
-        $lines = file(__DIR__.'/data/sec_ch_ua/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-
-        foreach ($lines as $line) {
-            $test = $this->crawlerDetect->isCrawler($line);
-            $this->assertTrue($test, $line);
-        }
+        $this->assertFixtureDetection('sec_ch_ua/crawlers.txt', true);
     }
 
     public function test_sec_ch_ua_are_devices()
     {
-        $lines = file(__DIR__.'/data/sec_ch_ua/devices.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-
-        foreach ($lines as $line) {
-            $test = $this->crawlerDetect->isCrawler($line);
-            $this->assertFalse($test, $line);
-        }
+        $this->assertFixtureDetection('sec_ch_ua/devices.txt', false);
     }
 
     public function test_it_returns_correct_matched_bot_name()
     {
         $this->crawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
 
-        $matches = $this->crawlerDetect->getMatches();
-
-        $this->assertEquals($this->crawlerDetect->getMatches(), 'monitoring', $matches);
+        $this->assertEquals('monitoring', $this->crawlerDetect->getMatches());
     }
 
     public function test_it_returns_user_agent()
@@ -77,16 +84,14 @@ final class UserAgentTest extends TestCase
         $ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)';
         $cd = new CrawlerDetect(null, $ua);
 
-        $this->assertEquals($cd->getUserAgent(), $ua);
+        $this->assertEquals($ua, $cd->getUserAgent());
     }
 
     public function test_it_returns_full_matched_bot_name()
     {
         $this->crawlerDetect->isCrawler('somenaughtybot');
 
-        $matches = $this->crawlerDetect->getMatches();
-
-        $this->assertEquals($this->crawlerDetect->getMatches(), 'somenaughtybot', $matches);
+        $this->assertEquals('somenaughtybot', $this->crawlerDetect->getMatches());
     }
 
     public function test_it_returns_null_when_no_bot_detected()
@@ -230,11 +235,9 @@ final class UserAgentTest extends TestCase
     public function test_matches_does_not_persist_across_multiple_calls()
     {
         $this->crawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
-        $matches = $this->crawlerDetect->getMatches();
-        $this->assertEquals($this->crawlerDetect->getMatches(), 'monitoring', $matches);
+        $this->assertEquals('monitoring', $this->crawlerDetect->getMatches());
 
         $this->crawlerDetect->isCrawler('This should not match');
-        $matches = $this->crawlerDetect->getMatches();
         $this->assertNull($this->crawlerDetect->getMatches());
 
         // Empty
