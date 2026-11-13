@@ -229,7 +229,7 @@ catexplorador
 CC Metadata Scaper
 Cegbfeieh
 censys
-centuryb.o.t9[at]gmail.com
+centuryb\.o\.t9\[at\]gmail\.com
 Cerberian Drtrs
 CERT\.at-Statistics-Survey
 cf-facebook
@@ -578,7 +578,7 @@ http-kit
 http-request\/
 HTTP-Tiny
 HTTP::Lite
-http:\/\/www.neomo.de\/
+http:\/\/www\.neomo\.de\/
 HttpComponents
 httphr
 HTTPie
