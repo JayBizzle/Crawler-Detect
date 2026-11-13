@@ -48,6 +48,24 @@ jobs:
         run: |
           vendor/bin/phpunit ${{ matrix.php == '8.4' && '--coverage-clover=tests/logs/clover.xml' || '' }}
 
+      - name: List uncovered lines
+        if: matrix.php == '8.4'
+        run: |
+          php -r '
+            $xml = simplexml_load_file("tests/logs/clover.xml");
+            $m = $xml->project->metrics;
+            echo "Statements: {$m["coveredstatements"]}/{$m["statements"]}\n";
+            foreach ($xml->xpath("//file") as $file) {
+                $src = file((string) $file["name"]);
+                foreach ($file->line as $line) {
+                    if ((string) $line["type"] === "stmt" && (int) $line["count"] === 0) {
+                        $n = (int) $line["num"];
+                        echo "UNCOVERED {$file["name"]}:$n: ".trim($src[$n - 1])."\n";
+                    }
+                }
+            }
+          '
+
       - name: Upload coverage results to Coveralls
         if: matrix.php == '8.4'
         env:
