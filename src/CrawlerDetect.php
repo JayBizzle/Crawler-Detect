@@ -276,17 +276,22 @@ class CrawlerDetect
     {
         $this->matches = [];
 
+        // Exclusions are replaced with a space rather than removed, and the
+        // result is not trimmed, so stripping can't join the text on either
+        // side into a new token ('boLinuxt' into 'bot') or move a token to
+        // the start or end of the string where an anchored pattern would
+        // match it ('Mozilla/5.0 git/2.0' into 'git/2.0'). A run of
+        // exclusions and the whitespace around it becomes a single space,
+        // which keeps the string as short as it was when they were removed.
         $agent = preg_replace(
-            "/{$this->compiledExclusions}/i",
-            '',
-            $userAgent ?: $this->userAgent ?: ''
+            "/(?:\s*{$this->compiledExclusions})+\s*/i",
+            ' ',
+            trim($userAgent ?: $this->userAgent ?: '')
         );
 
         if ($agent === null || trim($agent) === '') {
             return false;
         }
-
-        $agent = trim($agent);
 
         $result = preg_match("/{$this->compiledRegex}/i", $agent, $this->matches);
 

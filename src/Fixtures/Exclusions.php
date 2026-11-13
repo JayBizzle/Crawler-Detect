@@ -14,7 +14,8 @@ namespace Jaybizzle\CrawlerDetect\Fixtures;
 class Exclusions extends AbstractProvider
 {
     /**
-     * Strings removed from the user agent before the crawler regex runs.
+     * Strings replaced with a space in the user agent before the crawler
+     * regex runs.
      *
      * The list does two different jobs, so it is kept in two sections.
      *
