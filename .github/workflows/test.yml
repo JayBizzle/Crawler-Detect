@@ -44,6 +44,29 @@ jobs:
         run: |
           composer install --prefer-dist --no-interaction
 
+      - name: PCRE diagnostics (temporary)
+        if: matrix.php == '8.4'
+        run: |
+          php -r 'echo "PCRE_VERSION=", PCRE_VERSION, " jit=", ini_get("pcre.jit"), " backtrack=", ini_get("pcre.backtrack_limit"), "\n";'
+          php -i | grep -iE "pcre (library|jit)" || true
+          dpkg -l | grep -i pcre2 || true
+          apt-cache policy libpcre2-8-0 || true
+          grep -B4 -A2 -i pcre2 /var/log/apt/history.log || true
+          ldd "$(php -r 'echo PHP_BINARY;')" | grep -i pcre || echo "pcre bundled (not linked)"
+          php -r '
+            require "vendor/autoload.php";
+            $cd = new Jaybizzle\CrawlerDetect\CrawlerDetect;
+            $r = new ReflectionClass($cd);
+            $ex = $r->getProperty("compiledExclusions"); $ex->setAccessible(true);
+            $cr = $r->getProperty("compiledRegex"); $cr->setAccessible(true);
+            $ua = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)";
+            ini_set("pcre.backtrack_limit", "1");
+            $a = @preg_replace("/{$ex->getValue($cd)}/i", "", $ua);
+            echo "preg_replace exclusions: ", var_export($a !== null, true), " ", preg_last_error_msg(), "\n";
+            $b = @preg_match("/{$cr->getValue($cd)}/i", $ua);
+            echo "preg_match crawlers: ", var_export($b, true), " ", preg_last_error_msg(), "\n";
+          '
+
       - name: Run Unit tests
         run: |
           vendor/bin/phpunit ${{ matrix.php == '8.4' && '--coverage-clover=tests/logs/clover.xml' || '' }}
