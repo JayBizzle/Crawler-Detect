@@ -4,6 +4,7 @@
 ^Amazon-Route53-Health-Check-Service
 ^b0t$
 ^bluefish 
+^Bun\/[0-9]
 ^Calypso v\/
 ^COMODO DCV
 ^Corax
@@ -36,6 +37,7 @@
 ^NING\/
 ^npm\/
 ^Nuclei
+^opencode(\/|$)
 ^PHP-AYMAPI\/
 ^PHP\/
 ^pip\/
@@ -88,6 +90,7 @@ adstxt\.com
 Adyen HttpClient
 AffiliateLabz\/
 affilimate-puppeteer
+agent-browser\/
 agentslug
 AHC
 Ahrefs
@@ -104,6 +107,7 @@ allloadin
 AllSubmitter
 alyze\.info
 amagit
+amazon-Quick-on-behalf-of
 amphp\/http-client
 Anarchie
 AndroidDownloadManager
@@ -185,6 +189,7 @@ biz_Directory
 BKCTwitterUnshortener\/
 Black Hole
 Blackboard Safeassign
+blackboardally
 BlackWidow
 BlockNote\.Net
 BlogBridge
@@ -217,6 +222,7 @@ CAAM\/[0-9]
 caam dot crwlr at gmail dot com
 CakePHP
 Calculon
+Camoufox
 Canary%20Mail
 CaretNail
 catexplorador
@@ -524,6 +530,7 @@ GrapeFX
 GreatNews
 Gregarius
 GRequests
+grok-agent
 grokkit
 grouphigh
 grub-client
@@ -538,6 +545,7 @@ hackney\/
 Hadi Agent
 HappyApps-WebCheck
 Hardenize
+HatchFeed
 Hatena
 HaveInListEnricher
 Havij
@@ -659,6 +667,7 @@ javelin\.io
 Jbrofuzz
 Jersey\/
 JetCar
+Jetpack by WordPress
 Jigsaw
 Jobboerse
 JobFeed discovery
@@ -815,6 +824,7 @@ Morfeus Fucking Scanner
 Morning Paper
 MovableType
 mowser
+Mozlila\/
 Mrcgiguy
 Mr\.4x3 Powered
 MS Web Services Client Protocol
@@ -1055,6 +1065,7 @@ Robosourcer
 Robozilla
 ROI Hunter
 RPT-HTTPClient
+RSiteAuditor
 RSSMix\/
 RSSOwl
 RuxitSynthetic
@@ -1082,6 +1093,7 @@ ScreenShotService
 Scrubby
 Scrutiny\/
 Search37
+search\.marginalia\.nu
 searchenginepromotionhelp
 Searchestate
 SearchExpress
@@ -1116,6 +1128,7 @@ SEOstats
 servernfo
 sexsearcher
 Seznam
+Shap-User
 Shelob
 Shodan
 Shoppimon
@@ -1125,6 +1138,7 @@ shortURL lengthener
 shrinktheweb
 Sideqik
 Siege
+Silktide
 SimplePie
 SimplyFast
 Siphon
@@ -1416,6 +1430,7 @@ worldping-api
 wotbox
 WP Engine Install Performance API
 WP Rocket
+WP-Safe-Scanner
 wpif
 wprecon\.com survey
 WPScan
