@@ -89,6 +89,7 @@ class Exclusions extends AbstractProvider
         '; POWER BOT',
         'OCTOPUS-CORE',
         '; octopus Build\/',
+        'LibWeb\+LibJS',
         'htc_botdugls',
         'super\/\d+\/Android\/\d+',
         '"Yandex"',
