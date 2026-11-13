@@ -5,4 +5,5 @@
 .gitattributes export-ignore
 .gitignore export-ignore
 CONTRIBUTING.md export-ignore
+import-devices.php export-ignore
 phpunit.xml export-ignore

@@ -79,6 +79,8 @@ The `raw/Crawlers.json` and `raw/Crawlers.txt` files are regenerated automatical
 
 If you're not able to submit a PR, open an issue with the user agent string and we'll take it from there.
 
+If you have User-Agents from real visitor traffic, they help stop new signatures flagging real browsers. Share them using the "Contribute real browser user agents" issue form; see [CONTRIBUTING.md](CONTRIBUTING.md) for the format.
+
 ## Ports & Integrations
 
 CrawlerDetect has been ported to a number of other languages and frameworks. If you maintain a port not listed here, please open a PR.
