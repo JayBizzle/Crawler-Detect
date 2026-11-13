@@ -291,7 +291,12 @@ final class UserAgentTest extends TestCase
         $this->assertEquals($ua, $cd->getUserAgent());
     }
 
-    public function test_is_crawler_returns_false_when_preg_match_errors()
+    /**
+     * With a backtrack limit of 1, either the exclusions preg_replace or the
+     * crawler preg_match can be the call that fails, depending on PCRE's
+     * internal state, so this doesn't pin down which branch it covers.
+     */
+    public function test_is_crawler_returns_false_when_pcre_errors()
     {
         $originalLimit = ini_get('pcre.backtrack_limit');
         ini_set('pcre.backtrack_limit', '1');
@@ -304,6 +309,20 @@ final class UserAgentTest extends TestCase
         } finally {
             ini_set('pcre.backtrack_limit', $originalLimit);
         }
+    }
+
+    public function test_is_crawler_returns_false_when_crawler_regex_errors()
+    {
+        $property = new \ReflectionProperty($this->crawlerDetect, 'compiledRegex');
+        if (PHP_VERSION_ID < 80100) {
+            $property->setAccessible(true);
+        }
+        $property->setValue($this->crawlerDetect, '(unclosed');
+
+        $result = @$this->crawlerDetect->isCrawler('Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)');
+
+        $this->assertFalse($result);
+        $this->assertNull($this->crawlerDetect->getMatches());
     }
 
     /**
