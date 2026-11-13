@@ -1,0 +1,43 @@
+name: Contribute real browser user agents
+description: A batch of User-Agents from real visitor traffic, to stop new signatures flagging real browsers
+title: "Device user agents: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        These go into `tests/data/user_agent/devices.txt` and `tests/data/sec_ch_ua/devices.txt`, which every signature change is tested against. For a single browser that's being wrongly flagged, use the false positive form instead.
+
+        **Format:** a `.txt` file with one User-Agent per line, exactly as received. Or a `.csv` file with the User-Agent in the first column and, optionally, the client hint headers as a JSON object in the second, e.g. `{"Sec-CH-UA": "...", "Sec-CH-UA-Platform": "Android"}`. Duplicates are fine, they get removed on import.
+  - type: textarea
+    id: file
+    attributes:
+      label: File
+      description: Drag the file in here. GitHub accepts `.txt` and `.csv` attachments.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Where the traffic came from
+      description: The kind of site or app, the main countries its visitors are in, and the period it was collected over. This helps spot which browsers and regions are still missing.
+      placeholder: "News site, mostly Germany and Austria, January to October 2026"
+    validations:
+      required: true
+  - type: textarea
+    id: filtering
+    attributes:
+      label: How bots were filtered out
+      description: For example known crawler lists, JavaScript execution, mouse or scroll events, logged-in sessions, or reverse DNS checks.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: The User-Agents come from real visitors, not test tools or automated traffic.
+          required: true
+        - label: I've removed anything that could identify a person, such as account IDs or email addresses that some apps put in their User-Agent.
+          required: true
+        - label: I agree to this data being added to the repository under its MIT licence.
+          required: true
