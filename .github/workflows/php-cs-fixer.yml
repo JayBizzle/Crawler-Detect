@@ -2,22 +2,33 @@ name: Check & fix styling
 
 on: [ push ]
 
+permissions:
+    contents: write
+
 jobs:
     php-cs-fixer:
         runs-on: ubuntu-24.04
 
         steps:
             -   name: Checkout code
-                uses: actions/checkout@v5
+                uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
                 with:
                     ref: ${{ github.head_ref }}
 
-            -   name: Run PHP CS Fixer
-                uses: docker://oskarstark/php-cs-fixer-ga:3.26.0
+            # Installed via setup-php at an exact version, like PHPStan in
+            # static-analysis.yml. 7.4 is the oldest PHP php-cs-fixer 3.x
+            # runs on, the closest it can get to the 7.2 floor.
+            -   name: Setup PHP, with php-cs-fixer
+                uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # 2.40.0
                 with:
-                    args: --allow-risky=yes
+                    php-version: 7.4
+                    tools: php-cs-fixer:3.95.30
+                    coverage: none
+
+            -   name: Run PHP CS Fixer
+                run: php-cs-fixer fix --allow-risky=yes
 
             -   name: Commit changes
-                uses: stefanzweifel/git-auto-commit-action@v7
+                uses: stefanzweifel/git-auto-commit-action@d0b01107b5db882071f96de5dd4b54961ea93f4c # v7.2.1
                 with:
                     commit_message: Fix styling
