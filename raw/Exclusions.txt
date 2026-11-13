@@ -46,6 +46,7 @@ cubot
 ; ID bot
 ; POWER BOT
 OCTOPUS-CORE
+; octopus Build\/
 htc_botdugls
 super\/\d+\/Android\/\d+
 "Yandex"
