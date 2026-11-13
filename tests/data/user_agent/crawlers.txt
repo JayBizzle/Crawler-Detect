@@ -3768,3 +3768,56 @@ Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Shap-User/0.1.0
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Silktide
 Mozilla/5.0 (compatible; WP-Safe-Scanner/1.0)
 WP-Safe-Scanner/2.0
+Mozilla/5.0 (Windows NT 6.1; WOW64) acunetix-product/wvs (Acunetix Web Vulnerability Scanner - Free Edition)
+Apexoo Spider (http://www.apexoo.com/spider/)
+Mozilla/4.0 (compatible; MSIE 6.0 compatible; Asterias Crawler v4;  http://www.singingfish.com/help/spider.html; webmaster@singingfish.com); SpiderThread  Revision: 3.0
+Mozilla/5.0 (compatible; BazQux/2.4; +https://bazqux.com/fetcher; 1 subscribers)
+Bloglovin/1.0 (http://www.bloglovin.com; 1000 subscribers)
+Blogtrottr/2.0
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +Claude-User@anthropic.com)
+Claude-User (claude-code/2.1.86; +https://support.anthropic.com/)
+DirBuster-1.0-RC1 (http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)
+EMail Exractor
+EmailWolf 1.00
+Feed Wrangler/1.0 (3 subscribers; feed-id=248559; http://feedwrangler.net; Allow like Gecko)
+Fever/1.38 (Feed Parser; http://feedafever.com; Allow like Gecko)
+Mozilla/5.0 (compatible; Google-InspectionTool/1.0)
+google-xrawler
+HTTPMon/1.0b (http://www.httpmon.com)
+Mozilla/5.0 Jorgee
+kouio.com RSS reader - 6 subscribers
+lftp/4.7.7
+Lycos_Spider_(modspider)
+Mozilla/5.0 (compatible; Nessus; http://www.nessus.org)
+Mozilla/5.0 (X11; Linux x86_64) Nikto/2.5.0 (Evasions:None) (Test:Port Check)
+nibbler
+Octopus 1.0.2
+Mozilla/5.0 (compatible; phpservermon/3.1.1; +http://www.phpservermonitor.org)
+pulsetic.com (+https://pulsetic.com)
+ROI Hunter; https://api-dev.roihunter.com
+Screaming Frog SEO Spider/5.1
+Mozilla/5.0 (compatible; seoscanners.net/1; +spider@seoscanners.net)
+SottopopNone/1.0(+https://upcontent.com/robots)
+Spawning-AI
+Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 MSIE 7.0; Sucuri Integrity Monitor/2.4
+Tiny Tiny RSS/19.2 (b68db2d) (http://tt-rss.org/)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7; TSM-turingos-1253296984) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+WebZIP/7.0 (http://www.spidersoft.com)
+Zapier
+Mozilla/5.0 (compatible; BackupLand/1.0; https://go.backupland.com/; Domain check for viruses;)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BuiltWith/1.0; +http://builtwith.com/biup) Chrome/74.0.3729.131 Safari/537.36
+NewsBlur Feed Finder (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3)
+Shodan-Pull/1.0
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) WhatCMS/1.0
+Morfeus Fucking Scanner
+FlashGet
+GetRight/6.5 [Segment 1]
+RealDownload/4.0.0.40
+lwp-request/6.33 libwww-perl/6.33
+MagentaNews/6.0 www.magentanews.com
+mediawords bot (http://cyber.law.harvard.edu)
+Mozilla/5.0 (compatible; IDBot/1.1; +http://www.id-search.xyz/bot.html)
+http://www.instabid.tech/ibbot/index.html?d=whatmyip.co
+NYU Internet Census (https://scan.lol; research@scan.lol)
+Download Demon/3.5.0.11
+webbandit/4.xx.0
