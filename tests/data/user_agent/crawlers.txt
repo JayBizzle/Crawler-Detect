@@ -3742,3 +3742,29 @@ webshopok-kutatas/0.1 (+kapcsolat: test@datalistshop.eu; belso piackutatas, .nl 
 9bot/1.0 (+https://9bot.com.br/en/9bot-docs)
 Mozilla/5.0 (compatible; CyberConvoyScout/1.0; +https://scout.cyberconvoy.co)
 Mozilla/5.0 (compatible; snapscout-benchmark/1.0; img2dataset)
+Bun/1.3.12
+Bun/1.4.1
+Bun/1.3.9
+opencode
+opencode/latest/2.1.4/cli
+agent-browser/0.31.2 read
+agent-browser/0.33.0 read
+amazon-Quick-on-behalf-of-0a1b2c3d
+blackboardally
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/Camoufox Camoufox 140.0.0.0 Safari/537.36
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/Camoufox Camoufox 140.0.0.0 Safari/537.36 OPR/Camoufox Camoufox 140.0.0.0 (Edition utorrent)
+Mozilla/5.0 (Linux; Android 10; SM-G960U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/Camoufox Camoufox 140.0.6778.260 Mobile Safari/537.36
+Mozilla/5.0 (compatible; grok-agent/1.0; +https://x.ai)
+HatchFeed/1.0 (+https://agent.meta.ai; link preview)
+Jetpack by WordPress.com (Jetpack 12.1; WordPress 6.4)
+Jetpack by WordPress.com
+Jetpack by WordPress.com (Jetpack 12.1; WordPress 6.3)
+Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Moblie Safari/537.36
+Mozlila/5.0 (Linux; Android 7.0; SM-G892A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Mobile Safari/537.36
+Mozlila/5.0 (Linux; Android 7.0; SM-G892A Bulid/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.107 Moblie Safari/537.36Team Anon Force
+Mozilla/5.0 (compatible; RSiteAuditor)
+search.marginalia.nu
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Shap-User/0.1.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Silktide
+Mozilla/5.0 (compatible; WP-Safe-Scanner/1.0)
+WP-Safe-Scanner/2.0
