@@ -255,6 +255,18 @@ final class UserAgentTest extends TestCase
         $this->assertEquals(count($crawlers->getAll()), count(array_unique($crawlers->getAll())));
     }
 
+    public function test_the_fixture_user_agents_are_unique()
+    {
+        foreach (glob(__DIR__.'/data/*/*.txt') as $file) {
+            $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+            $duplicates = array_keys(array_filter(array_count_values($lines), function ($count) {
+                return $count > 1;
+            }));
+
+            $this->assertSame([], $duplicates, 'Duplicate lines in '.basename(dirname($file)).'/'.basename($file));
+        }
+    }
+
     public function test_there_are_no_regex_collisions()
     {
         $crawlers = new Crawlers;
