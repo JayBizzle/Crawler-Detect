@@ -16,6 +16,104 @@ use PHPUnit\Framework\TestCase;
 
 final class UserAgentTest extends TestCase
 {
+    /**
+     * Crawler patterns with no user agent in crawlers.txt yet. No real user
+     * agent could be found for these. See test_every_pattern_has_a_fixture_user_agent.
+     */
+    private const UNCOVERED_PATTERNS = [
+        '404enemy',
+        'AllSubmitter',
+        'BackStreet',
+        'BackWeb',
+        'BatchFTP',
+        'Battleztar Bazinga',
+        'BBBike',
+        'BlowFish',
+        'Cegbfeieh',
+        'CherryPicker',
+        'ChinaClaw',
+        'CopyRightCheck',
+        'Copyscape',
+        'Cosmos4j\\.feedback',
+        'Crescent',
+        'EyeNetIE',
+        'FeedViewer\\/',
+        'findthatfile',
+        'Freeuploader',
+        'g00g1e\\.net',
+        'Gotit',
+        'GrabNet',
+        'Grafula',
+        'Haansoft',
+        'HMView',
+        'Humanlinks',
+        'Iblog',
+        'iGooglePortal',
+        'Image Sucker',
+        'InfoTekies',
+        'InterGET',
+        'Internet Ninja',
+        'Iria',
+        'Joomla',
+        'JustView',
+        'Keyword Density',
+        'krawler\\.dk',
+        'LeechFTP',
+        'Likse',
+        'MarkMonitor',
+        'MarkWatch',
+        'Mass Downloader',
+        'MIDown tool',
+        'Name Intelligence',
+        'Navroad',
+        'NearSite',
+        'NetMechanic',
+        'Net Vampire',
+        'NICErsPRO',
+        'Offline Navigator',
+        'PageGrabber',
+        'PageScorer',
+        'Papa Foto',
+        'pcBrowser',
+        'Picscout',
+        'PictureFinder',
+        'Pimonster',
+        'plumanalytics',
+        'ProWebWalker',
+        'Searchestate',
+        'SEOGets',
+        'SEOsearch',
+        'sexsearcher',
+        'Sitebeam',
+        'Sitevigil',
+        'Sqlworm',
+        'Suzuran',
+        'sysscan',
+        'tAkeOut',
+        'Telesoft',
+        'The Intraformant',
+        'TheNomad',
+        'URLy Warning',
+        'VoidEYE',
+        'WallpapersHD',
+        'Wallpapers\\/[0-9]+',
+        'Web Auto',
+        'Web Enhancer',
+        'WebEnhancer',
+        'Web Fetch',
+        'Web Fuck',
+        'WebImageCollector',
+        'WebLeacher',
+        'Web Pix',
+        'Web Sauger',
+        'Website Quester',
+        'WebStripper',
+        'WebSucker',
+        'WebWhacker',
+        'WWW-Collector-E',
+        'Zauba',
+    ];
+
     protected $crawlerDetect;
 
     protected function setUp(): void
@@ -422,6 +520,49 @@ final class UserAgentTest extends TestCase
             $result = @preg_match('/'.$pattern.'/i', '');
             $this->assertNotFalse($result, 'Invalid regex pattern: '.$pattern);
         }
+    }
+
+    /**
+     * An empty alternative such as 'foo||bar' or '(|foo)' matches the empty
+     * string, and the patterns are compiled into a single alternation, so one
+     * of these would flag every user agent as a crawler.
+     */
+    public function test_no_pattern_has_an_empty_alternative()
+    {
+        foreach ([new Crawlers, new Exclusions] as $fixture) {
+            $empty = preg_grep('/(?<!\\\\)\|\||(?<!\\\\)\(\||(?<!\\\\)\|\)|^\||(?<!\\\\)\|$/', $fixture->getAll());
+
+            $this->assertSame([], array_values($empty), 'Empty alternatives in '.get_class($fixture));
+        }
+    }
+
+    /**
+     * Every crawler pattern must match at least one line in crawlers.txt, after
+     * exclusions are stripped the same way isCrawler() strips them. Otherwise
+     * nothing in the suite would notice a broken or deleted pattern.
+     *
+     * The patterns in UNCOVERED_PATTERNS are known to have no fixture yet. Add
+     * a real user agent for one and remove it from the list, which the second
+     * assertion enforces so the list can only shrink.
+     */
+    public function test_every_pattern_has_a_fixture_user_agent()
+    {
+        $exclusions = '/(?:\s*'.$this->crawlerDetect->compileRegex((new Exclusions)->getAll()).')+\s*/i';
+
+        $lines = array_map(function ($line) use ($exclusions) {
+            return preg_replace($exclusions, ' ', trim($line));
+        }, file(__DIR__.'/data/user_agent/crawlers.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) ?: []);
+
+        $uncovered = [];
+
+        foreach ((new Crawlers)->getAll() as $pattern) {
+            if (! preg_grep('/'.$pattern.'/i', $lines)) {
+                $uncovered[] = $pattern;
+            }
+        }
+
+        $this->assertSame([], array_values(array_diff($uncovered, self::UNCOVERED_PATTERNS)), 'These patterns have no user agent in crawlers.txt');
+        $this->assertSame([], array_values(array_diff(self::UNCOVERED_PATTERNS, $uncovered)), 'These patterns now have a user agent in crawlers.txt (or were removed), so take them out of UNCOVERED_PATTERNS');
     }
 
     /**

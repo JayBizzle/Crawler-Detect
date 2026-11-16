@@ -168537,3 +168537,5 @@ Mozilla/5.0 (Linux; Android 13; octopus Build/R152-16765.49.0) AppleWebKit/537.3
 Mozilla/5.0 (Linux; x86_64) LibWeb+LibJS/1.0 Ladybird/1.0
 Mozilla/5.0 (Linux; x86_64) Ladybird/1.0
 Mozilla/5.0 (macOS; AArch64) Ladybird/1.0 Chrome/146.0.0.0 AppleWebKit/537.36 Safari/537.36
+Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; ZEUS Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+MidnightBowling/1.1.6 CFNetwork/339.3 Darwin/9.4.1
