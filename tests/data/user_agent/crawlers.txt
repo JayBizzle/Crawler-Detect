@@ -4072,3 +4072,80 @@ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google-Si
 Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/537.36 (KHTML, like Gecko; GoogleAdSenseInfeed) Chrome/102.0.5005.61 Mobile Safari/537.36
 Mozilla/5.0 (compatible; NaverJapan/1.0; +http://corp.naver.jp/)
 Mozilla/5.0 (compatible; vuhuvRBT/2.0; +https://vuhuv.com/rbt.html)
+Google Chrome Mozilla/5.0 (Windows NT 10.0; Win64; x64; CONTACT; scan@aegis.network) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+Mozilla/5.0 ArtelLeadRadar/4.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BW/1.1; bit.ly/2W6Px8S) Chrome/84.0.4147.105 Safari/537.36
+Choosito/1.0 +http://www.choosito.com/
+Mozilla/5.0 (compatible; CopyvioDetector/0.4.dev0; +wikipedia.earwig[at]gmail.com)
+ds9 2.000.ec2(+http://www.deepsearchnine.com/ds9.html)
+ds9 2.000.ec2
+Mozilla/4.0 (compatible; DepSpid/5.07; +http://about.depspid.net)
+support@domainreanimator.com
+domain research project (+https://trentwil.es/domains.html)
+Mozilla/5.0 (compatible; Dormouse/1.0)
+Electronic Frontier Foundation's Do Not Track Verifier (for questions or concerns email dnt-policy@eff.org)
+Mozilla/5.0 (compatible; FinderGo/1.0)
+Mozilla/5.0 (compatible; FormFinder/1.0)
+Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Functionize
+Mozilla/5.0 (compatible; ImportDomains/1.0)
+Mozilla/6.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Inspici (www.inspici.com)
+Mozilla/5.0 (compatible; Kaupr/1.0)
+Mozilla/5.0 (compatible; KenyaDomainScorer/2.1)
+Mozilla/5.0 (compatible; LAC_IAHarvester/3.3.0; +https://library-archives.canada.ca/eng/services/government-canada/web-social-media-preservation-program/Pages/web-archive.aspx)
+LetrixLabs/1.0
+LinkBloom/2.7.11 (Educational Domain Discovery; +https://hamidsoltani.com/linkbloom)
+Mozilla/5.0 (compatible; LumeWebScan/2.0; +https://lumeweaver.com/)
+Mozilla/5.0 (compatible; MaCoCu; +https://www.clarin.si/info/macocu-massive-collection-and-curation-of-monolingual-and-bilingual-data/)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15 MarketGoo/2.1
+Mozilla/5.0 (Morningscore/1.0)
+Mozilla/4.0 (compatible; MuscatFerret/1.7; http://www.webtop.com/)
+Mozilla/5.0 (compatible; ORT/v1.0.0; visit ORTc.me )
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; pageburst) Chrome/98.0.4758.102 Safari/537.36
+Mozilla/5.0 (compatible; PhishBucketRust/1.0)
+Mozilla/5.0 (compatible; PostitLeadDiscovery/2.0; public business contact research)
+Mozilla/5.0 project_patchwatch
+Mozilla/5.0 (compatible; ProspectorBR/1.0; +prospeccao-adtech; contato via site) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36
+Mozilla/5.0 researchscan.comsys.rwth-aachen.de
+Rainmeter WebParser plugin
+Research JLU
+ScamadviserExternalHit/1.0
+Secweb-Sectxt/1.0
+Mozilla/5.0 (compatible; seolyt/1.1; +https://seolyt.com)
+Mozilla/5.0 (compatible; seoLyt/1.0; +https://seolyt.com)
+Simbiat Software
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36 +https://sitebulb.com
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Sparkler/0.2.0-SNAPSHOT
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) TagInspector/500.1 Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42
+Mozilla/5.0 (compatible; TTD-Content; +https://www.thetradedesk.com/general/ttd-content)
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0 UCSBNetworkMeasurement/2023 (contact; stijn; at; ucsb.edu;)
+sqalix-geral-worker/1.0
+xtate/2.12.4
+Mozilla/5.0 xtate/2.12.4
+Mozilla/5.0 (compatible; Authory/1.0; +https://authory.com/)
+Library Of Congress Web Archiving
+Download Master
+Download Ninja 3.0
+HiDownload
+Kapere (http://www.kapere.com)
+MFHttpScan
+UtilMind HTTPGet
+Web Image Collector
+DA 7.0
+colly/2.1.0
+iGetter/2 (Macintosh; U; PPC Mac OS X; en)
+puf/0.93.2a (Linux 2.4.18; i686)
+Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/15.2.1
+Apidog/1.0.0 (https://apidog.com)
+HTTP Retriever
+Java-http-client/11.0.13
+PHP-SOAP/8.5.6
+REST::Client/273
+insomnia/2022.6.0
+babashka.http-client/0.4.14
+cpprestsdk/2.8.0
+httprs/0.1.0
+perlclient/1.0
+uclient-fetch
+Deno/1.40
+Playwright/1.40
+node
