@@ -933,7 +933,7 @@ class Crawlers extends AbstractProvider
         'Norton-Safeweb',
         'Notifixious',
         'notifyninja',
-        'Notion\/[0-9]',
+        'Notion\/[0-9.]+ \(https:\/\/notion\.so',
         'NotionEmbedder',
         'NovaAct',
         'nuhk',
