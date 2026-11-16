@@ -1214,7 +1214,6 @@ class Crawlers extends AbstractProvider
         'SPDYCheck',
         'Specificfeeds',
         'SpeedKit',
-        'speedy',
         'SPEng',
         'Spinn3r',
         'spray-can',

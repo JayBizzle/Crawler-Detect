@@ -95,5 +95,14 @@ class Exclusions extends AbstractProvider
         'super\/\d+\/Android\/\d+',
         '"Yandex"',
         'YandexModule2',
+        'Yandex\.Music',
+        'Cronet',
+        '; VR BOT ',
+        'XBot_Senior',
+        'M_bot_tab_',
+        'Banca Caboto',
+        'TIANYU-KTOUCH',
+        'DESAY TS1008',
+        'AmigaVoyager',
     ];
 }
