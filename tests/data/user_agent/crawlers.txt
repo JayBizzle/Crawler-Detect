@@ -3794,3 +3794,77 @@ NYU Internet Census (https://scan.lol; research@scan.lol)
 Download Demon/3.5.0.11
 webbandit/4.xx.0
 Mozilla/5.0 (compatible; +centuryb.o.t9[at]gmail.com)
+BullsEye
+CSHttpClient/1.0b68
+EasyDL/3.04  http://keywen.com/Encyclopedia/Bot
+EirGrabber
+fimap.googlecode.com/v09 (For the Swarm)
+Go!Zilla 3.5 (www.gozilla.com)
+Gozilla/4.0 (compatible; MSIE 6.0; Windows 2k; .NET CLR 1.1.4322)
+GT::WWW/1.025
+HLoader
+Francis/1.0 (francis@neomo.de http://www.neomo.de/)
+JetCar
+LeechGet 2004 (www.leechget.net)
+litemage_walker
+Mata Hari/2.00
+MIIxpc/4.2
+pavuk/0.9pl29b i686-pc-linux-gnu
+DISCo Pump 3.1
+Mozilla/4.0 (compatible; <a href=http://www.reget.com>ReGet Deluxe 5.1</a>; Windows NT 5.1)
+SlySearch/1.0 http://www.plagiarism.org/crawler/robotinfo.html
+SpaceBison/0.01 [fu] (Win67; X; ShonenKnife)
+WebAuto/3.40 (WinNT; I)
+WebReaper [webreaper@otway.com]
+BlackWidow
+BunnySlippers
+DittoSpyder
+dragonfly(ebingbong@playstarmusic.com)
+Go-Ahead-Got-It/1.1
+User-Agent:  BoardReader Image Fetcher /1.0 info@boardreader.com
+Mozilla/4.7 (compatible; Intelliseek; http://www.intelliseek.com)
+libWeb/clsHTTP -- hiongun@kt.co.kr
+LinkScan/9.0g Unix
+lscache_runner
+MFC_Tear_Sample
+Mister Pix II 2.02a
+NPBot/3 (NPBot; http://www.nameprotect.com; npbot@nameprotect.com)
+Openfind data gatherer, Openbot/3.0+(robot-response@openfind.com.tw;+http://www.openfind.com.tw/robot.html)
+Pockey-GetHTML/4.12.0 (Win32; GUI; ix86)
+QueryN Metasearch
+RepoMonkey Bait & Tackle/v1.01
+EmailSiphon
+SiteSnagger
+SmartDownload/1.2.77 (Win32; Feb 1 2000)
+SuperHTTP/1.0
+Telesphoreo APT-HTTP/1.0.592
+WebSauger 1.20b
+Mozilla/5.0 (compatible; zermelo; +http://www.powerset.com) [email:paul@page-store.com,crawl@powerset.com]
+Alligator 1.31 (www.nearsoftware.com)
+ASPseek/1.2.9d
+Bitacle Robot (V:1.0;) (http://www.bitacle.com)
+DataCha0s/2.0
+Download Wonder
+ecxi/Nutch-1.0-dev (esCERT-UPC-ecxi; http://escert.upc.edu/; admin escert edu)
+Extreme Picture Finder
+Mozilla/5.0 (FHScan Core 1.1)
+GetWeb/0.1 libwww-perl/5.16
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) Havij
+HTTP::Lite/2.44
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10 (.NET CLR 3.5.30729) JBroFuzz/1.9
+Mozilla (libwhisker/2.4)
+Mozilla/5.0 (compatible; LinksManager.com_bot +http://linksmanager.com/linkchecker.html)
+Mag-Net
+muhstik-scan/1.0
+NetAnts/1.25
+PECL::HTTP/1.7.4 (PHP/5.4.4)
+Mozilla/5.0 (compatible; MSIE 7.0; MSIE 6.0; ScanAlert; +http://www.scanalert.com/bot.jsp) Firefox/2.0.0.3
+Teleport Pro/1.29
+Toata dragostea mea pentru diavola
+WebGo IS - 4488
+WebPix 1.0 (www.netwu.com)
+webshag/1.10
+WhoAPI/1.0 (whoapi.com)
+WWWOFFLE/2.9a
+Zeus 30747 Webster Pro V2.9 Win32
+}__test|O:21:\x22JDatabaseDriverMysqli\x22:3:{s:4:\x22\x5C0\x5C0\x5C0a\x22;O:17:\x22JSimplepieFactory\x22:0:{}s:21:\x22\x5C0\x5C0\x5C0disconnectHandlers\x22;a:1:{i:0;a:2:{i:0;O:9:\x22SimplePie\x22:5:{s:8:\x22sanitize\x22;O:20:\x22JDatabaseDriverMysql\x22:0:{}s:5:\x22cache\x22;b:1;s:19:\x22cache_name_function\x22;s:6:\x22assert\x22;s:10:\x22javascript\x22;i:9999;s:8:\x22feed_url\x22;s:54:\x22eval(base64_decode($_POST[111]));JFactory::get();exit;\x22;}i:1;s:4:\x22init\x22;}}s:13:\x22\x5C0\x5C0\x5C0connection\x22;i:1;}\xF0\x9D\x8C\x86
