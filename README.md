@@ -68,6 +68,18 @@ if ($CrawlerDetect->isCrawler()) {
 
 Prefer this over `isCrawler($request->getHeaderLine('User-Agent'))`. Some crawlers — Googlebot in particular — send a genuine browser `User-Agent` and identify themselves in another header such as `From` or `Sec-CH-UA`. Passing the full set lets CrawlerDetect check all of them; passing a single string can only ever check one.
 
+## What counts as a crawler
+
+CrawlerDetect flags any request that isn't a person viewing the page in a browser. That covers search engines, SEO tools and scrapers, and also some apps that fetch pages automatically on someone's behalf:
+
+- **Link previews.** WhatsApp, Slack and similar apps fetch a page to build the preview card when a link is shared.
+- **Office and email clients.** Word, Excel and PowerPoint visit a link themselves before opening it in the browser, and Outlook and mail apps load images when an email is opened.
+- **Feed readers, podcast apps and download tools.** These fetch on a schedule or download files rather than show a page to a reader.
+
+These are flagged on purpose. They aren't someone reading the page, and counting them would inflate page views and click counts. If you want to treat any of them as real visitors, check `getMatches()` and allow the ones you care about.
+
+A browser that a real person is using should never be flagged, even if an add-on or toolbar puts its name in the `User-Agent`. If you find one that is, please open an issue.
+
 ## Contributing
 
 If you find a bot, spider or crawler that CrawlerDetect fails to detect, please open a pull request that:
