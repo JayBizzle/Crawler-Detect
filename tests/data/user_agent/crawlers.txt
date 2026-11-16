@@ -3794,3 +3794,36 @@ NYU Internet Census (https://scan.lol; research@scan.lol)
 Download Demon/3.5.0.11
 webbandit/4.xx.0
 Mozilla/5.0 (compatible; +centuryb.o.t9[at]gmail.com)
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Bluesky Cardyb/1.1; +mailto:support@bsky.app) Chrome/W.X.Y.Z Safari/537.36
+bluesky-domain-status-classifier/1.0
+ClickUpLinkUnfurler/1.0 (+https://clickup.com)
+FediList Agent/3 (https://fediverse.one/)
+FediList Agent/3 (https://fedilist.com/)
+Friendica 'The Tazmans Flax-lily' 2019.01-1293; https://hoyer.xyz
+kakaotalk-scrap/1.0; +https://devtalk.kakao.com/t/scrap/33984
+Mozilla/5.0 (compatible; Meta-ExternalHit/1.1; +http://www.facebook.com/externalhit_uatext.php)
+meta-externalads
+Notion/1.0 (https://notion.so; team@makenotion.com)
+Mozilla/5.0 (compatible; OpenGraph.io/1.1; +https://opengraph.io/;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Mozilla/5.0 (compatible; Shareaholic/1.0; +http://www.shareaholic.com/steve)
+Mozilla/5.0 (compatible; SnapURLPreview/1.0; +https://www.snapchat.com)
+SteamChatImageProxy
+Valve/Steam HTTP Client 1.0 (SteamChatURLLookup)
+ViberUrlDownloader
+workona-favicon-service/1.0.0
+Yahoo:LinkExpander:Slingstone
+Zendesk Webhook
+RamblerMail/6.0 (incompatible; ImageProxy/6.0)
+Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 (via secureurl.fwdcdn.com - mail.ukr.net proxy)
+Mozilla/5.0 (en-US) AppleWebKit/537.36 (KHTML, like Gecko; Google-Assess) Chrome/34.0.1847.116 Safari/537.36
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google-BusinessLinkVerification) Chrome/143.0.7499.192 Safari/537.36
+Google-Cloud-Scheduler
+Mozilla/5.0 (compatible; Google-CWS)
+Google-ilp
+Google-Lens
+Google-Safety
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Shopping-Quality +http://www.google.com/merchants/tos/extend/DE/tos.html)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google-Sites-Thumbnails) Chrome/120.0.6099.71 Safari/537.36
+Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/537.36 (KHTML, like Gecko; GoogleAdSenseInfeed) Chrome/102.0.5005.61 Mobile Safari/537.36
+Mozilla/5.0 (compatible; NaverJapan/1.0; +http://corp.naver.jp/)
+Mozilla/5.0 (compatible; vuhuvRBT/2.0; +https://vuhuv.com/rbt.html)
