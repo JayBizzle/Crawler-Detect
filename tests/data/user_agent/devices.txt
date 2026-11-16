@@ -168574,3 +168574,6 @@ Linux; U; Android 12; fa_US; NETBOX-ShineS; Build/SP1A.211105.004; Cronet/114.0.
 Linux; U; Android 10; pt_PT; MEO TV Box 4K (DIW3930); Build/QTG1.230301.001; Cronet/114.0.5735.33
 Linux; U; Android 10; TEST (DIW3930); Build/QTG1.230301.001; Cronet/114.0.5735.33
 Linux; U; Android 11; tr_TR; SN01DNGL300; Build/RTT0.210618.003; Cronet/114.0.5735.33
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; QQDownload 1.7; .NET CLR 2.0.50727)
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; QQDownload 663; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET CLR 1.1.4322)
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; QQDownload 760; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; .NET4.0E; .NET4.0C; .NET CLR 1.1.4322)
