@@ -57,5 +57,16 @@ XBot_Senior
 M_bot_tab_
 Banca Caboto
 TIANYU-KTOUCH
-DESAY TS1008
 AmigaVoyager
+XBot Junior
+; C Bot Tab
+; Spider 8
+X428 Astute
+OPPO A33[a-z]
+BOTECH
+yandexstation
+(com|ru)\.yandex\.[a-z\.]+
+mojeek-app
+libwww-FM
+libwww\/[\d\.]+[_ ](Mosaic|modified)
+amaya\/[\d\.]+ libwww\/[\d\.]+
