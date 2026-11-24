@@ -1036,7 +1036,6 @@ class Crawlers extends AbstractProvider
         'Python-urllib',
         'Python-xmlrpc',
         'Qirina Hurdler',
-        'QQDownload',
         'QrafterPro',
         'Qseero',
         'Qualidator',
