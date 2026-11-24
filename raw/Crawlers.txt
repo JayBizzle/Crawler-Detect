@@ -224,6 +224,8 @@ BlogPulseLive
 BlogSearch
 Blogtrottr
 BlowFish
+Bluesky Cardyb
+bluesky-domain-status-classifier
 boitho\.com-dc
 Boost\.Beast
 BPImageWalker
@@ -287,6 +289,7 @@ CJNetworkQuality
 Clarsentia
 Claude-User
 claude-web
+ClickUpLinkUnfurler
 clips\.ua\.ac\.be
 Cloud mapping
 CloudEndure
@@ -451,6 +454,7 @@ faviconarchive
 faviconkit
 FavOrg
 FediAct Service
+FediList Agent
 Feed Wrangler
 Feedable\/
 Feedbin
@@ -496,6 +500,7 @@ free thumbnails
 FreePBX-Scanner
 Freeuploader
 FreshRSS
+Friendica
 frontman
 Funnelback
 Fuzz Faster U Fool
@@ -554,24 +559,34 @@ Google-Adwords
 Google-Agent
 Google-AMPHTML
 Google-Apps-Script
+Google-Assess
+Google-BusinessLinkVerification
 Google-Calendar-Importer
+Google-Cloud-Scheduler
+Google-CWS
 Google-Firebase
 Google-HotelAdsVerifier
 Google-HTTP-Java-Client
+Google-ilp
 Google-InspectionTool
 Google-NotebookLM
 Google-Pinpoint
+Google-Lens
 Google-Podcast
 Google-Publisher-Plugin
 Google-Read-Aloud
+Google-Safety
 Google-SearchByImage
+Google-Shopping-Quality
 Google-Site-Verification
+Google-Sites-Thumbnails
 Google-SMTP-STS
 Google-speakr
 Google-Structured-Data-Testing-Tool
 Google-Transparency-Report
 google-xrawler
 Google-Youtube-Links
+GoogleAdSenseInfeed
 GoogleAgent-Mariner
 GoogleAgent-URLContext
 GoogleAssociationService
@@ -683,6 +698,7 @@ IlTrovatore
 Image Fetch
 Image Sucker
 ImageEngine\/
+ImageProxy\/
 ImageVisu\/
 Imagga
 imagineeasy
@@ -755,6 +771,7 @@ Jorgee
 JS-Kit
 JungleKeyThumbnail
 JustView
+kakaotalk-scrap
 Kaspersky Lab CFR link resolver
 Kelny\/
 Kerrigan\/
@@ -866,8 +883,10 @@ MegaIndex\.ru
 MeltwaterNews
 Melvil Rawi
 MemGator
+meta-externalads
 meta-externalagent
 Metacast
+Meta-ExternalHit\/
 Metaspinner
 MetaURI
 MFC_Tear_Sample
@@ -928,6 +947,7 @@ Name Intelligence
 NameFo\.com
 Nameprotect
 nationalarchives
+NaverJapan
 Navroad
 nbertaupete95
 NearSite
@@ -984,6 +1004,7 @@ nominet\.uk
 Norton-Safeweb
 Notifixious
 notifyninja
+Notion\/[0-9.]+ \(https:\/\/notion\.so
 NotionEmbedder
 NovaAct
 nuhk
@@ -1009,6 +1030,7 @@ Online Domain Tools
 Open Source RSS
 OpenCalaisSemanticProxy
 Openfind
+OpenGraph\.io
 OpenLinkProfiler
 OpenRSS
 Openstat\/
@@ -1222,6 +1244,7 @@ securitee\.org
 SecurityHeaders
 SecurityScanner\/
 Sectigo DCV
+secureurl\.fwdcdn\.com
 Seeker
 semanticdiscovery
 semanticjuice
@@ -1253,6 +1276,7 @@ servernfo
 sexsearcher
 Seznam
 Shap-User
+Shareaholic
 Shelob
 Shodan
 Shoppimon
@@ -1296,6 +1320,7 @@ SlySearch
 SmartDownload
 SMRF URL Expander
 SMUrlExpander
+Snap ?URL ?Preview
 Snappy
 SnapSearch
 Snarfer\/
@@ -1332,6 +1357,8 @@ StackRambler
 Statastico\/
 Statically-
 StatusCake
+SteamChatImageProxy
+SteamChatURLLookup
 Steeler
 Stratagems Kumo
 Stripe\/
@@ -1454,6 +1481,7 @@ vBSEO
 Verity
 via ggpht\.com GoogleImageProxy
 Vienna\/[0-9]
+ViberUrlDownloader
 Virusdie
 visionutils
 Visual Rights Group
@@ -1465,6 +1493,7 @@ voyager\/
 VSAgent\/
 VSB-TUO\/
 vu-server-health-scanner
+vuhuvRBT
 Vulnbusters Meter
 VYU2
 w3af\.org
@@ -1561,6 +1590,7 @@ woorankreview
 WordPress\/
 WordupinfoSearch
 Word\/
+workona-favicon-service
 worldping-api
 wotbox
 WP Engine Install Performance API
@@ -1587,6 +1617,7 @@ Y!J-[A-Z][A-Z][A-Z]
 Yaanb
 yacy
 Yahoo Link Preview
+Yahoo:LinkExpander
 YahooCacheSystem
 YahooMailProxy
 YahooYSMcm
@@ -1611,6 +1642,7 @@ zelist\.ro
 Zemanta Aggregator
 Zend\\Http\\Client
 Zend_Http_Client
+Zendesk Webhook
 Zermelo
 zgrab
 ZnajdzFoto
