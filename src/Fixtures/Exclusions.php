@@ -83,7 +83,6 @@ class Exclusions extends AbstractProvider
         // false positives and are not performance related.
         'cubot',
         '; M bot',
-        '; CRONO',
         '; B bot',
         '; IDbot',
         '; ID bot',
@@ -96,7 +95,6 @@ class Exclusions extends AbstractProvider
         '"Yandex"',
         'YandexModule2',
         'Yandex\.Music',
-        'Cronet',
         '; VR BOT ',
         'XBot_Senior',
         'M_bot_tab_',
