@@ -63,6 +63,7 @@
 192\.comAgent
 2GDPR\/
 2ip\.ru
+360JK
 404enemy
 7Siters
 80legs
@@ -102,6 +103,7 @@ Airmail
 akka-http\/
 akula\/
 alertra
+AlertSite
 alexa site audit
 Alibaba\.Security\.Heimdall
 Alligator
@@ -111,6 +113,7 @@ alyze\.info
 amagit
 amazon-kendra
 amazon-QBusiness
+Amazon Route 53 Health Check
 amazon-Quick-on-behalf-of
 AmazonBuyForMe
 amphp\/http-client
@@ -138,6 +141,7 @@ APIs-Google
 AportWorm\/
 AppBeat\/
 AppEngine-Google
+AppInsights
 AppleSyndication
 Aprc\/[0-9]
 Arachmo
@@ -163,6 +167,7 @@ awin\.com
 AWS Security Scanner
 axios\/
 a\.pr-cy\.ru
+azure-logic-apps
 B-l-i-t-z-B-O-T
 Backlink-Ceck
 BacklinkHttpStatus
@@ -179,6 +184,7 @@ Battleztar Bazinga
 baypup\/
 BazQux
 BBBike
+BBC-Forge-URL-Monitor
 BCKLINKS
 BDFetch
 BegunAdvertising
@@ -188,6 +194,7 @@ BigBozz
 biglotron
 bigsur\.ai
 Bilbo\/
+BinaryCanary
 BingLocalSearch
 BingPreview
 binlar
@@ -199,6 +206,7 @@ biz_Directory
 BKCTwitterUnshortener\/
 Blackboard Safeassign
 blackboardally
+Blackbox Exporter
 BlackWidow
 BlockNote\.Net
 BlogBridge
@@ -234,6 +242,7 @@ Calculon
 Camoufox
 Canary%20Mail
 CaretNail
+Catchpoint
 catexplorador
 CC Metadata Scaper
 Cegbfeieh
@@ -257,6 +266,7 @@ Chirp\/
 chkme\.com
 Chlooe
 Chromaxa
+Chrome Privacy Preserving Prefetch Proxy
 CirrusExplorer
 CISPA Vulnerability Notification
 CISPA Web Analyser
@@ -268,10 +278,13 @@ claude-web
 clips\.ua\.ac\.be
 Cloud mapping
 CloudEndure
+Cloudflare Custom Hostname Verification
+Cloudflare-?Diagnostics
 CloudFlare-AlwaysOnline
 Cloudflare-AutoRAG
 Cloudflare-Healthchecks
 Cloudflare-Radar-Scanner
+Cloudflare-Smart-Transit
 Cloudflare-SSLDetector
 CloudflareRadarURLScanner
 Cloudinary
@@ -282,6 +295,7 @@ cognitiveseo
 cohere-ai
 Cohere-Command
 ColdFusion
+collectd\/
 colly -
 CommaFeed
 Commons-HttpClient
@@ -319,6 +333,8 @@ DAP\/NetHTTP
 DareBoost
 DatabaseDriverMysqli
 DataCha0s
+Datadog Agent
+Datadog\/Synthetics
 DatadogSynthetics
 Datafeedwatch
 Datanyze
@@ -334,6 +350,7 @@ delve\.ai
 Demon
 Detectify
 DeuSu
+developers\.cloudflare\.com\/security-center
 developers\.google\.com\/\+\/web\/snippet\/
 Devin\/
 Digg
@@ -378,6 +395,7 @@ eCatch
 ECCP
 eContext\/
 Ecxi
+EdgeWatch
 EirGrabber
 ElectricMonk
 elefent
@@ -387,6 +405,7 @@ Embarcadero
 Embed PHP Library
 Embedly
 endo\/
+Episode Duration Lookup
 europarchive\.org
 evc-batch
 EventMachine HttpClient
@@ -403,6 +422,7 @@ Exploratodo
 Express WebPictures
 Extreme Picture Finder
 EyeNetIE
+Ezgif\/
 ezooms
 facebookcatalog
 facebookexternalhit
@@ -552,6 +572,7 @@ Gotit
 GoZilla
 grabify
 GrabNet
+Grafana\/
 Grafula
 Grammarly
 GrapeFX
@@ -626,6 +647,7 @@ huaweisymantec
 HubSpot 
 HubSpot-Link-Resolver
 Humanlinks
+Hydrozen\.io
 i2kconnect\/
 IAB-Tech-Lab
 Iblog
@@ -665,6 +687,7 @@ Integrity
 integromedb
 Intelliseek
 InterGET
+internal dummy connection
 Internet Ninja
 InternetMeasurement
 InternetSeer
@@ -720,6 +743,7 @@ Keywords Research
 khttp\/
 KickFire
 KimonoLabs\/
+kiwitcms-gitops
 Kml-Google
 knows\.is
 KOCMOHABT
@@ -797,8 +821,10 @@ Mail::STS
 MailChimp
 Mail\.Ru
 Mailpit\/
+MainWP
 Majestic12
 makecontact\/
+ManageWP
 Mandrill
 Manus-User
 MapperCmd
@@ -866,6 +892,7 @@ MSFrontPage
 mShots
 MuckRack\/
 muhstik-scan
+munin\/
 MVAClient
 MxToolbox\/
 myseosnapshot
@@ -895,7 +922,9 @@ Netsparker
 NetSystemsResearch
 nettle
 NetTrack
+Netumo
 Netvibes
+NETVIGIE
 NetworkingExtension
 Neustar WPM
 NeutrinoAPI
@@ -943,6 +972,7 @@ Offline Explorer
 Offline Navigator
 odin\.com
 OgScrper
+Oh Dear
 okhttp
 omgili
 OMSC
@@ -995,6 +1025,7 @@ PhantomJS Screenshoter
 PhantomJS\/
 Photon\/
 php-requests
+phpMyAdmin
 phpservermon
 Pi-Monster
 Picscout
@@ -1005,6 +1036,7 @@ Pingability
 PingAdmin\.Ru
 Pingdom
 Pingoscope
+pingping\.io
 PingSpot
 ping\.blo\.gs
 pinterest\.com
@@ -1042,6 +1074,7 @@ probely\.com
 probethenet
 Project ?25499
 Project-Resonance
+Prometheus\/
 prospectb2b
 Protopage
 ProWebWalker
@@ -1095,6 +1128,7 @@ Riddler
 Rival IQ
 Robosourcer
 Robozilla
+rocketmonitor
 ROI Hunter
 RootEvidence
 RPT-HTTPClient
@@ -1138,6 +1172,7 @@ search\.thunderstone
 securitee\.org
 SecurityHeaders
 SecurityScanner\/
+Sectigo DCV
 Seeker
 semanticdiscovery
 semanticjuice
@@ -1163,6 +1198,8 @@ seoscanners
 SEOsearch
 seositecheckup
 SEOstats
+SerpReputationManagementAgent
+Server ?Density
 servernfo
 sexsearcher
 Seznam
@@ -1200,6 +1237,7 @@ SiteSucker
 SiteTruth
 Sitevigil
 sitexy\.com
+sixy\.ch
 SkypeUriPreview
 Slack\/
 sli-systems\.com
@@ -1218,6 +1256,7 @@ SnoopSecInspect
 Snoopy
 SnowHaze Search
 sogou web
+solarwinds
 SortSite
 Sottopop
 sovereign\.ai
@@ -1288,6 +1327,7 @@ The Knowledge AI
 theinternetrules
 TheNomad
 Thinklab
+ThousandEyes
 Thumbor
 Thumbshots
 ThumbSniper
@@ -1310,6 +1350,7 @@ trendspottr
 truwoGPS
 TryJsoup
 TulipChain
+TuneIn-DirMon
 Turingos
 Turnitin
 tweetedtimes
@@ -1341,6 +1382,7 @@ updated
 updown\.io daemon
 Upflow
 Uptimia
+uptrends
 URL Verifier
 Urlcheckr
 URLitor
@@ -1352,6 +1394,7 @@ URLy Warning
 URL\/Emacs
 UseAI\/
 Vagabondo
+Valimail\/
 VB Project
 vBSEO
 Verity
@@ -1415,6 +1458,7 @@ webkit2png
 WebLeacher
 webmastercoffee
 webmon 
+WebMon\/
 WebPix
 WebReaper
 WebSauger
@@ -1445,6 +1489,7 @@ WhatsApp
 WhatsMyIP
 WhatWeb
 WhereGoes\?
+wheresitup
 Whibse
 WhoAPI\/
 WhoRunsCoinHive
@@ -1470,6 +1515,7 @@ wp2shell-check
 wpif
 wprecon\.com survey
 WPScan
+WPUmbrella
 wscheck
 Wtrace
 WWW-Collector-E
