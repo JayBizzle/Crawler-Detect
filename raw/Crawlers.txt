@@ -25,6 +25,7 @@
 ^HTTPClient\/
 ^HTTPing
 ^IronFountain-Leads
+^iTMS
 ^Java\/
 ^Jeode\/
 ^Jetty\/
@@ -44,6 +45,7 @@
 ^pnpm\/
 ^RMA\/
 ^Ruby|Ruby\/[0-9]
+^Spotify\/1\.0$
 ^symbolicator\/
 ^Swurl 
 ^TheWebReport
@@ -95,12 +97,14 @@ AffiliateLabz\/
 affilimate-puppeteer
 agent-browser\/
 agentslug
+Aggrivator
 AHC
 Ahrefs
 aihit
 aiohttp\/
 Airmail
 akka-http\/
+Akregator\/
 akula\/
 alertra
 AlertSite
@@ -114,6 +118,7 @@ amagit
 amazon-kendra
 amazon-QBusiness
 Amazon Route 53 Health Check
+Amazon Music Podcast
 amazon-Quick-on-behalf-of
 AmazonBuyForMe
 amphp\/http-client
@@ -123,6 +128,8 @@ Anemone
 AngleSharp
 annotate_google
 Anomura
+AnnounceCast\/
+AntennaPod\/
 Anthill
 anthropic-ai
 Anthropic-Claude
@@ -160,6 +167,7 @@ Asterias
 Astute
 asynchttp
 attohttpc
+audiobookshelf
 autocite
 AutomaticWPTester
 Autonomy
@@ -234,6 +242,7 @@ Bullseye
 BunnySlippers
 Burf Search
 Butterfly\/
+Buttondown RSS
 BuzzSumo
 CAAM\/[0-9]
 caam dot crwlr at gmail dot com
@@ -243,6 +252,9 @@ Camoufox
 Canary%20Mail
 CaretNail
 Catchpoint
+Castamatic\/
+CastboxFeedParser
+Castopod\/
 catexplorador
 CC Metadata Scaper
 Cegbfeieh
@@ -346,6 +358,7 @@ dBpoweramp
 ddline
 DebugBear$
 deeris
+Deezer Podcasters
 delve\.ai
 Demon
 Detectify
@@ -374,6 +387,7 @@ Domains Project\/
 Donuts Content Explorer
 dotMailer content retrieval
 dotSemantic
+Downcast\/
 downforeveryoneorjustme
 Download Wonder
 downnotifier
@@ -440,10 +454,12 @@ FediAct Service
 Feed Wrangler
 Feedable\/
 Feedbin
+FeedBlitz
 FeedBooster
 FeedBucket
 FeedBunch\/
 FeedBurner
+Feeddler(RSS|Pro)
 feeder
 Feedly
 FeedshowOnline
@@ -452,6 +468,7 @@ Feedspot
 FeedViewer\/
 Feedwind\/
 FeedZcollector
+feeeed\/
 feeltiptop
 Fetch API
 Fetch\/[0-9]
@@ -570,6 +587,7 @@ GoSpotCheck
 gosquared-thumbnailer
 Gotit
 GoZilla
+gPodder\/
 grabify
 GrabNet
 Grafana\/
@@ -590,6 +608,7 @@ GuzzleHttp
 gvfs\/
 HAA(A)?RTLAND http client
 Haansoft
+hackermention
 hackney\/
 Hadi Agent
 HappyApps-WebCheck
@@ -657,6 +676,7 @@ IdeelaborPlagiaat
 IDG Twitter Links Resolver
 IDwhois\/
 Iframely
+IFTTT\/
 igdeSpyder
 iGooglePortal
 IlTrovatore
@@ -709,6 +729,7 @@ isitup\.org
 iskanie
 isUp\.li
 iThemes Sync\/
+iVoox
 IZaBEE
 iZSearch
 JAHHO
@@ -793,6 +814,7 @@ LinkTiger
 LinkWalker
 link_thumbnailer
 Lipperhey
+ListenNotes
 Litemage_walker
 livedoor ScreenShot
 LoadImpactRload
@@ -805,6 +827,7 @@ lscache_runner
 ltx71
 lua-resty-http
 Lucee \(CFML Engine\)
+Luminary\/[0-9]
 Lush Http Client
 lwp-request
 lwp-trivial
@@ -844,6 +867,7 @@ MeltwaterNews
 Melvil Rawi
 MemGator
 meta-externalagent
+Metacast
 Metaspinner
 MetaURI
 MFC_Tear_Sample
@@ -876,6 +900,7 @@ Mollie
 monitis
 Monitority\/
 Monit\/
+MonitoRSS\/
 montastic
 MonSpark
 MonTools
@@ -929,12 +954,16 @@ NetworkingExtension
 Neustar WPM
 NeutrinoAPI
 NewRelicPinger
+newsbeuter\/
 NewsBlur .*Finder
+Newsboat\/
 NewsGator
 newsme
 newspaper\/
+newsrdr
 Nexgate Ruby Client
 Next\.js Middleware
+NextCloud-News
 NG-Search
 nghttp2
 Nibbler
@@ -981,6 +1010,7 @@ Open Source RSS
 OpenCalaisSemanticProxy
 Openfind
 OpenLinkProfiler
+OpenRSS
 Openstat\/
 OpenVAS
 OPPO A33
@@ -990,6 +1020,7 @@ OrgProbe\/
 orion-semantics
 Outlook-Express
 Outlook-iOS
+Overcast\/
 Owler
 ownCloud News
 ow\.ly
@@ -1043,15 +1074,29 @@ pinterest\.com
 Pixray
 Pizilla
 Plagger\/
+Playapod\/
 PlayStore-Google
 Pleroma 
 Ploetz \+ Zeller
 Plukkie
 plumanalytics
+PocketCasts\/
 PocketImageCache
 PocketParser
 Pockey
+Podbay\/
+Podbean
 PodcastAddict\/
+PodcastGuru\/
+PodcastRepublic\/
+Podcasts\/[0-9]+.*CFNetwork
+Podchaser
+Podfriend\/
+Podimo\/
+Podplay-Podcast-Sync
+Podscribe\/
+Podtrac
+Podverse
 POE-Component-Client-HTTP
 Polymail\/
 Pompos
@@ -1107,9 +1152,11 @@ RankActive
 RankFlex
 RankSonicSiteAuditor
 RapidLoad\/
+RawVoice Generator
 Re-re Studio
 ReactorNetty
 Readability
+ReadKit\/
 RealDownload
 RealPlayer%20Downloader
 RebelMouse
@@ -1118,6 +1165,7 @@ redback\/
 ReederForMac
 Reeder\/
 ReGet
+Rephonic\/
 RepoMonkey
 request\.js
 reqwest\/
@@ -1133,6 +1181,7 @@ ROI Hunter
 RootEvidence
 RPT-HTTPClient
 RSiteAuditor
+RSSAPI\/
 RSSMix\/
 RSSOwl
 RuxitSynthetic
@@ -1251,6 +1300,7 @@ Snappy
 SnapSearch
 Snarfer\/
 SniffRSS
+Snipd\/
 sniptracker
 SnoopSecInspect
 Snoopy
@@ -1260,6 +1310,7 @@ solarwinds
 SortSite
 Sottopop
 sovereign\.ai
+SPAA\/[0-9]
 SpaceBison
 SpamExperts
 Spawning-AI
@@ -1314,6 +1365,7 @@ Teleport Pro
 Telesoft
 Telesphoreo
 Tenon\.io
+Tentacles, Like iTunes
 teoma
 terrainformatica
 Test Certificate Info
@@ -1343,6 +1395,7 @@ Traackr\.com
 tracemyfile
 Trackuity
 Trae-Agent
+Transistor\.fm\/
 TrapitAgent
 Trendiction
 Trendsmap
@@ -1351,6 +1404,7 @@ truwoGPS
 TryJsoup
 TulipChain
 TuneIn-DirMon
+TuneIn-?RssParser
 Turingos
 Turnitin
 tweetedtimes
@@ -1399,6 +1453,7 @@ VB Project
 vBSEO
 Verity
 via ggpht\.com GoogleImageProxy
+Vienna\/[0-9]
 Virusdie
 visionutils
 Visual Rights Group
@@ -1552,6 +1607,7 @@ Zabbix
 Zao
 Zapier
 Zauba
+zelist\.ro
 Zemanta Aggregator
 Zend\\Http\\Client
 Zend_Http_Client
