@@ -107,13 +107,20 @@ allloadin
 AllSubmitter
 alyze\.info
 amagit
+amazon-kendra
+amazon-QBusiness
 amazon-Quick-on-behalf-of
+AmazonBuyForMe
 amphp\/http-client
+Amzn-User
 AndroidDownloadManager
 Anemone
 AngleSharp
 annotate_google
+Anomura
 Anthill
+anthropic-ai
+Anthropic-Claude
 Anturis Agent
 Ant\.com
 AnyEvent-HTTP\/
@@ -175,6 +182,7 @@ Bewica-security-scan
 Bidtellect
 BigBozz
 biglotron
+bigsur\.ai
 BingLocalSearch
 BingPreview
 binlar
@@ -231,6 +239,7 @@ cf-facebook
 cg-eye
 changedetection
 ChangesMeter
+Character-AI
 Charlotte
 ChatGPT-User
 chatterino-api-cache
@@ -254,12 +263,15 @@ clips\.ua\.ac\.be
 Cloud mapping
 CloudEndure
 CloudFlare-AlwaysOnline
+Cloudflare-AutoRAG
 Cloudflare-Healthchecks
 Cloudflare-SSLDetector
 Cloudinary
 cmcm\.com
 coccoc
 cognitiveseo
+cohere-ai
+Cohere-Command
 ColdFusion
 colly -
 CommaFeed
@@ -310,6 +322,7 @@ delve\.ai
 Demon
 DeuSu
 developers\.google\.com\/\+\/web\/snippet\/
+Devin\/
 Digg
 Digincore
 DigitalPebble
@@ -439,6 +452,7 @@ gdnplus\.com
 GeedoProductSearch
 GeedoShopProductFinder
 geek-tools
+Gemini-Deep-Research
 Genieo
 GentleSource
 GetCode
@@ -453,6 +467,7 @@ Geziyor
 Ghost Inspector
 GigablastOpenSource
 GIS-LABS
+GitHubCopilotChat
 GitLab\/
 github-camo
 GitHub-Hookshot
@@ -490,6 +505,8 @@ Google-Firebase
 Google-HotelAdsVerifier
 Google-HTTP-Java-Client
 Google-InspectionTool
+Google-NotebookLM
+Google-Pinpoint
 Google-Podcast
 Google-Publisher-Plugin
 Google-Read-Aloud
@@ -502,6 +519,7 @@ Google-Transparency-Report
 google-xrawler
 Google-Youtube-Links
 GoogleAgent-Mariner
+GoogleAgent-URLContext
 GoogleAssociationService
 GoogleDocs
 GoogleHC\/
@@ -695,6 +713,8 @@ kubectl
 kulturarw3
 KumKie
 l9tcpid\/
+laion-huggingface-processor
+LAIONDownloader
 Larbin
 Lavf\/
 leakix\.net
@@ -709,6 +729,7 @@ libwww
 Licorne
 Liferea\/
 Lighthouse
+Lightpanda
 Lightspeedsystems
 Likse
 limber\.io
@@ -760,6 +781,7 @@ Mailpit\/
 Majestic12
 makecontact\/
 Mandrill
+Manus-User
 MapperCmd
 marketinggrader
 MarkMonitor
@@ -1059,6 +1081,7 @@ RSSOwl
 RuxitSynthetic
 RyowlEngine
 safe-agent-scanner
+SalamandraVLM
 SalesIntelligent
 Saleslift
 SAP NetWeaver Application Server
@@ -1250,6 +1273,7 @@ touche\.com
 Traackr\.com
 tracemyfile
 Trackuity
+Trae-Agent
 TrapitAgent
 Trendiction
 Trendsmap
@@ -1265,12 +1289,14 @@ Tweezler\/
 twibble
 Twice
 Twikle
+TwinAgent
 Twingly
 Twisted PageGetter
 Typhoeus
 ubermetrics-technologies
 uclassify
 UdmSearch
+UdV-AI-Research
 ultimate_sitemap_parser
 unchaos
 undici
@@ -1293,6 +1319,7 @@ URLTester
 UrlTrends Ranking Updater
 URLy Warning
 URL\/Emacs
+UseAI\/
 Vagabondo
 VB Project
 vBSEO
