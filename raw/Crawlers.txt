@@ -56,6 +56,7 @@
 ^WordPress\.com
 ^XRL\/[0-9]
 ^ZmEu
+\$\{jndi:
 008\/
 1Pilot
 13TABS
@@ -70,6 +71,7 @@ A6-Indexer
 Abonti
 Aboundex
 aboutthedomain
+abuse\.xmco\.fr
 Accoona-AI-Agent
 acebookexternalhit\/
 acme\.sectigo\.com
@@ -139,6 +141,7 @@ AppEngine-Google
 AppleSyndication
 Aprc\/[0-9]
 Arachmo
+Arachni\/
 arachnode
 Arachnophilia
 aria2
@@ -148,6 +151,7 @@ Asana\/
 Ask Jeeves
 AskQuickly
 ASPSeek
+Assetnote\/
 Asterias
 Astute
 asynchttp
@@ -183,11 +187,13 @@ Bidtellect
 BigBozz
 biglotron
 bigsur\.ai
+Bilbo\/
 BingLocalSearch
 BingPreview
 binlar
 biNu image cacher
 Bitacle
+bitdiscovery
 Bitrix link preview
 biz_Directory
 BKCTwitterUnshortener\/
@@ -265,9 +271,12 @@ CloudEndure
 CloudFlare-AlwaysOnline
 Cloudflare-AutoRAG
 Cloudflare-Healthchecks
+Cloudflare-Radar-Scanner
 Cloudflare-SSLDetector
+CloudflareRadarURLScanner
 Cloudinary
 cmcm\.com
+CMSLookup
 coccoc
 cognitiveseo
 cohere-ai
@@ -294,6 +303,7 @@ Craw\/
 Crescent
 Criteo
 Crowsnest
+CSE-Scanner
 CSHttp
 CSSCheck
 Cula\/
@@ -301,8 +311,10 @@ curb
 Curious George
 curl
 cuwhois\/
+cyberscan\.io
 cybo\.com
 CyberConvoyScout
+cypex\.ai\/scanning
 DAP\/NetHTTP
 DareBoost
 DatabaseDriverMysqli
@@ -320,6 +332,7 @@ DebugBear$
 deeris
 delve\.ai
 Demon
+Detectify
 DeuSu
 developers\.google\.com\/\+\/web\/snippet\/
 Devin\/
@@ -338,6 +351,7 @@ DNSPod-reporting
 docoloc
 Dolphin http client
 DomainAppender
+DomainDrift\/
 DomainLabz
 Domains Project\/
 Donuts Content Explorer
@@ -382,6 +396,7 @@ Evrinid
 ExactSearch
 ExaleadCloudview
 Excel\/
+Exchange check
 exif
 ExoRank
 Exploratodo
@@ -421,6 +436,7 @@ feeltiptop
 Fetch API
 Fetch\/[0-9]
 Fever\/[0-9]
+fhms-its-research-scanner
 FHscan
 Fiery%20Feeds
 Filestack
@@ -440,6 +456,7 @@ ForusP
 FoundSeoTool
 fragFINN\.de
 free thumbnails
+FreePBX-Scanner
 Freeuploader
 FreshRSS
 frontman
@@ -636,6 +653,7 @@ InDesign%20CC
 Indy Library
 InetURL
 infegy
+InfoGuardDisclosureResearch
 infohelfer
 InfoTekies
 InfoWizards Reciprocal Link
@@ -712,6 +730,7 @@ kube-probe
 kubectl
 kulturarw3
 KumKie
+l9explore
 l9tcpid\/
 laion-huggingface-processor
 LAIONDownloader
@@ -870,6 +889,7 @@ NetMechanic
 NetNewsWire
 Netpursual
 netresearch
+NetScope-DomainScanner
 NetShelter ContentScan
 Netsparker
 NetSystemsResearch
@@ -1040,6 +1060,7 @@ Qirina Hurdler
 QrafterPro
 Qseero
 Qualidator
+Qualys
 QueryN Metasearch
 queuedriver
 quic-go-HTTP\/
@@ -1067,6 +1088,7 @@ ReGet
 RepoMonkey
 request\.js
 reqwest\/
+researchcyber\.net
 ResponseCodeTest
 RestSharp
 Riddler
@@ -1074,6 +1096,7 @@ Rival IQ
 Robosourcer
 Robozilla
 ROI Hunter
+RootEvidence
 RPT-HTTPClient
 RSiteAuditor
 RSSMix\/
@@ -1092,6 +1115,7 @@ scalaj-http
 Scamadviser-Frontend
 ScanAlert
 scan\.lol
+scanner\.ducks\.party
 Scoop
 scooter
 ScopeContentAG-HTTP-Client
@@ -1111,6 +1135,9 @@ SearchExpress
 SearchSight
 SearchWP
 search\.thunderstone
+securitee\.org
+SecurityHeaders
+SecurityScanner\/
 Seeker
 semanticdiscovery
 semanticjuice
@@ -1187,6 +1214,7 @@ SnapSearch
 Snarfer\/
 SniffRSS
 sniptracker
+SnoopSecInspect
 Snoopy
 SnowHaze Search
 sogou web
@@ -1266,6 +1294,7 @@ ThumbSniper
 timewe\.net
 TinEye
 Tiny Tiny RSS
+TLM-Audit-Scanner
 TLSProbe\/
 Toata
 topster
@@ -1291,12 +1320,14 @@ Twice
 Twikle
 TwinAgent
 Twingly
+TwinWaveScanner
 Twisted PageGetter
 Typhoeus
 ubermetrics-technologies
 uclassify
 UdmSearch
 UdV-AI-Research
+UGAResearchAgent
 ultimate_sitemap_parser
 unchaos
 undici
@@ -1335,6 +1366,7 @@ voltron
 voyager\/
 VSAgent\/
 VSB-TUO\/
+vu-server-health-scanner
 Vulnbusters Meter
 VYU2
 w3af\.org
@@ -1434,6 +1466,7 @@ wotbox
 WP Engine Install Performance API
 WP Rocket
 WP-Safe-Scanner
+wp2shell-check
 wpif
 wprecon\.com survey
 WPScan
