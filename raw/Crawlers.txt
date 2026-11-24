@@ -1015,7 +1015,6 @@ python-requests
 Python-urllib
 Python-xmlrpc
 Qirina Hurdler
-QQDownload
 QrafterPro
 Qseero
 Qualidator
