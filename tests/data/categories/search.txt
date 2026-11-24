@@ -76,3 +76,14 @@ Mozilla/5.0 (compatible; YandexWebmaster/2.0; +http://yandex.com/bots)
 Mozilla/5.0 (compatible; Yeti/1.1; +http://help.naver.com/robots/)
 YisouSpider
 Mozilla/5.0 (compatible; ZumBot/1.0; http://help.zum.com/inquiry)
+Mozilla/5.0 (en-US) AppleWebKit/537.36 (KHTML, like Gecko; Google-Assess) Chrome/34.0.1847.116 Safari/537.36
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google-BusinessLinkVerification) Chrome/143.0.7499.192 Safari/537.36
+Mozilla/5.0 (compatible; Google-CWS)
+Google-ilp
+Google-Lens
+Google-Safety
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36 (compatible; Google-Shopping-Quality +http://www.google.com/merchants/tos/extend/DE/tos.html)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google-Sites-Thumbnails) Chrome/120.0.6099.71 Safari/537.36
+Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/537.36 (KHTML, like Gecko; GoogleAdSenseInfeed) Chrome/102.0.5005.61 Mobile Safari/537.36
+Mozilla/5.0 (compatible; NaverJapan/1.0; +http://corp.naver.jp/)
+Mozilla/5.0 (compatible; vuhuvRBT/2.0; +https://vuhuv.com/rbt.html)

@@ -146,3 +146,12 @@ Mozilla/5.0 (compatible; WISEbot/1.0; +http://www.cision.com)
 Mozilla/5.0 (compatible; woorankreview/2.0; +https://www.woorank.com/)
 Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 (compatible; woorankreview/2.0; +https://www.woorank.com/)
 Mozilla/5.0 (compatible; Yellowbrandprotectionbot/1.0; +https://www.yellowbp.com/bot.html)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15 MarketGoo/2.1
+Mozilla/5.0 (Morningscore/1.0)
+Mozilla/5.0 (compatible; seolyt/1.1; +https://seolyt.com)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) TagInspector/500.1 Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko; compatible; BW/1.1; bit.ly/2W6Px8S) Chrome/84.0.4147.105 Safari/537.36
+Mozilla/5.0 (compatible; SerpReputationManagementAgent/1.0)
+Mozilla/5.0 (compatible; TTD-Content; +https://www.thetradedesk.com/general/ttd-content)
+Domain Re-Animator Bot (http://domainreanimator.com) - support@domainreanimator.com
+support@domainreanimator.com

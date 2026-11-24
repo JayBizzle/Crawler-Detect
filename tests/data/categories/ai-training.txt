@@ -68,3 +68,12 @@ WARDBot
 webzio-extended (+https://webz.io/bot.html)
 WRTNBot
 Mozilla/5.0 (compatible; YandexAdditional/1.0; +http://yandex.com/bots)
+anthropic-ai
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Anthropic-Claude/1.0; +https://www.anthropic.com)
+cohere-ai
+Mozilla/5.0 (compatible; Cohere-AI)
+Mozilla/5.0 (compatible; Cohere-Command/1.0; +https://cohere.com/)
+laion-huggingface-processor
+LAIONDownloader
+SalamandraVLM
+Mozilla/5.0 (compatible; UdV-AI-Research/1.0)

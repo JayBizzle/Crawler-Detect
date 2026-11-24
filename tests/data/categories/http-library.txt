@@ -148,3 +148,16 @@ WWW-Mechanize/1.73
 WWW::Document/0.02
 Zend\Http\Client
 Zend_Http_Client
+Java-http-client/11.0.13
+PHP-SOAP/8.5.6
+REST::Client/273
+cpprestsdk/2.8.0
+babashka.http-client/0.4.14
+httprs/0.1.0
+perlclient/1.0
+HTTP Retriever
+uclient-fetch
+insomnia/2022.6.0
+Apidog/1.0.0 (https://apidog.com)
+Deno/1.40
+node

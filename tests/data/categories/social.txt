@@ -68,3 +68,22 @@ XING-contenttabreceiver/2.0
 Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Xing Bot
 Mozilla/5.0 (compatible; Yahoo Link Preview; https://help.yahoo.com/kb/mail/yahoo-link-preview-SLN23615.html)
 Mozilla/5.0 (Zoom.Mac 10.8.5 x86)
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Bluesky Cardyb/1.1; +mailto:support@bsky.app) Chrome/W.X.Y.Z Safari/537.36
+bluesky-domain-status-classifier/1.0
+ClickUpLinkUnfurler/1.0 (+https://clickup.com)
+FediList Agent/3 (https://fediverse.one/)
+FediList Agent/3 (https://fedilist.com/)
+Friendica 'The Tazmans Flax-lily' 2019.01-1293; https://hoyer.xyz
+RamblerMail/6.0 (incompatible; ImageProxy/6.0)
+kakaotalk-scrap/1.0; +https://devtalk.kakao.com/t/scrap/33984
+meta-externalads
+Mozilla/5.0 (compatible; Meta-ExternalHit/1.1; +http://www.facebook.com/externalhit_uatext.php)
+Notion/1.0 (https://notion.so; team@makenotion.com)
+Mozilla/5.0 (compatible; OpenGraph.io/1.1; +https://opengraph.io/;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 (via secureurl.fwdcdn.com - mail.ukr.net proxy)
+Mozilla/5.0 (compatible; Shareaholicbot/1.0; +http://www.shareaholic.com/bot)
+Mozilla/5.0 (compatible; Shareaholic/1.0; +http://www.shareaholic.com/steve)
+SteamChatImageProxy
+Valve/Steam HTTP Client 1.0 (SteamChatURLLookup)
+ViberUrlDownloader
+Yahoo:LinkExpander:Slingstone

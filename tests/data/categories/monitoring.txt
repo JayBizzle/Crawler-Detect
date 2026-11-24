@@ -161,3 +161,44 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like 
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0 Safari/537.36 YottaaMonitor
 Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0 Safari/537.36 YottaaMonitor
 Zabbix
+Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322) 360JK yunjiankong 427691
+Mozilla/5.0 (compatible; AlertSite; +https://www.alertsite.com/)
+Amazon Route 53 Health Check Service; ref:xxxxxxxx-xxxx-xxxxxxxxx-xxxxxxxxxxxx; report http://amzn.to/xxxxxxx
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; AppInsights)
+BBC-Forge-URL-Monitor-Twisted
+Mozilla/5.0 (compatible; Chirp/1.0; +http://www.binarycanary.com)
+BinaryCanary/1.0 (+https://www.binarycanary.com)
+Blackbox Exporter/0.24.0
+Blackbox Exporter/0.20.0-rc.0
+Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0; Catchpoint) like Gecko
+Mozilla/5.0 (compatible; Windows NT 6.1; Catchpoint) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+Cloudflare Custom Hostname Verification
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36 CloudflareDiagnostics/1.0
+Cloudflare-diagnostics
+Mozilla/5.0 (compatible; Cloudflare-Smart-Transit/1.0; +https://www.cloudflare.com/
+collectd/5.5.1
+Mozilla/5.0 (compatible; EdgeWatch/1.1; https://about.edgewatch.com/)
+Grafana/11.1.0
+Hydrozen.io/1.0
+Mozilla/5.0 (compatible; MainWP/4.2.7.1; +http://mainwp.com)
+ManageWP
+munin/http_loadtime
+Netumo/0.2 (+https://www.netumo.app/)
+NETVIGIE
+pingping.io/1.0
+Prometheus/2.40.5
+rocketmonitor 1.0
+sixy.ch/1.0
+solarwinds/1.0 ( www.solarwinds.com/solarwinds-observability)
+ThousandEyes-Dragonfly-x1
+uptrends
+WebMon/2.0.0
+wheresitup.com/1.1
+WPUmbrella
+Mozilla/4.0 (compatible; cron-job.org; http://cron-job.org/abuse/)
+SetCronJob/1.0 (+http://www.setcronjob.com/)
+CronDroid v0.80a http://www.crondroid.com
+k6/0.31.1 (https://k6.io/)
+Page Monitor (https://confluence.dev.bbc.co.uk/display/men/Page+Monitor)
+Mozilla/5.0 (compatible; Cloudflare-Traffic-Manager/1.0; +https://www.cloudflare.com/traffic-manager/; pool-id: xxxxxxxxxxxxxxxx)
+Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Functionize

@@ -36,3 +36,6 @@ Mozilla/5.0 (compatible; archive.org_bot; Wayback Machine Live Record; +http://a
 Mozilla (+http://web.nli.org.il/sites/NLI/English/collections/israel-collection/internet_archive/Pages/default.aspx)
 Mozilla/5.0 (compatible; heritrix/1.12.1 +http://www.webarchiv.cz)
 Mozilla/5.0 (compatible; XY-Archive-Compliance-Crawler; +https://archive.xyplanningnetwork.com/)
+Mozilla/5.0 (compatible; LAC_IAHarvester/3.3.0; +https://library-archives.canada.ca/eng/services/government-canada/web-social-media-preservation-program/Pages/web-archive.aspx)
+Library Of Congress Web Archiving
+Mozilla/5.0 (compatible; Authory/1.0; +https://authory.com/)

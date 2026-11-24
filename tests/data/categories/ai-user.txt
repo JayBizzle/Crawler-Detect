@@ -27,3 +27,22 @@ Poggio-Citations 1.0 (+https://docs.poggio.io/api/robots)
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.29 QualifiedBot/1.0 +https://www.qualified.com/legal/qualified-crawler-user-agent Safari/537.36
 TongyiBot
 YiyanBot
+amazon-QBusiness
+Agent/AmazonBuyForMe
+AmazonBuyForMe
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amzn-User/0.1) Chrome/119.0.6045.214 Safari/537.36
+Mozilla/5.0 (compatible; bigsur.ai/1.0)
+bigsur.ai
+Mozilla/5.0 (compatible; Character-AI/1.0; +https://character.ai/)
+Mozilla/5.0 (compatible; Devin/1.0)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36; Devin/1.0; +devin.ai
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Gemini-Deep-Research; +https://gemini.google/overview/deep-research/) Chrome/135.0.0.0 Safari/537.36
+GitHubCopilotChat/0.8.0
+Google-NotebookLM
+Google-Pinpoint
+GoogleAgent-URLContext
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36; Manus-User/1.0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36; Manus-User/1.0
+Trae-Agent
+TwinAgent
+Mozilla/5.0 (compatible; UseAI/1.0; +https://agents.urls.use.ai) AppleWebKit/537.36

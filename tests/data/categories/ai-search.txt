@@ -18,3 +18,6 @@ Mozilla/5.0 (compatible; TalarionSearchBot/1.0; research; contact: contact@talar
 Mozilla/5.0 (compatible; xAI-SearchBot/1.0; +https://x.ai)
 Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36
 Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ZanistaBot/1.0; +https://zanista.ai/crawler-info) Chrome/W.X.Y.Z Safari/537.36
+amazon-kendra
+Anomura/1.2 (+https://www.direqt-search.com)
+Cloudflare-AutoRAG
