@@ -33,6 +33,7 @@
 ^Java\/
 ^Jeode\/
 ^Jetty\/
+^k6\/
 ^Mail\/
 ^Mget
 ^Microsoft URL Control
@@ -44,6 +45,7 @@
 ^npm\/
 ^Nuclei
 ^opencode(\/|$)
+^Page Monitor \(
 ^PHP-AYMAPI\/
 ^PHP\/
 ^pip\/
@@ -313,6 +315,7 @@ Cloudflare-Healthchecks
 Cloudflare-Radar-Scanner
 Cloudflare-Smart-Transit
 Cloudflare-SSLDetector
+Cloudflare-Traffic-Manager
 CloudflareRadarURLScanner
 Cloudinary
 cmcm\.com
@@ -358,6 +361,7 @@ curb
 Curious George
 curl
 cuwhois\/
+CybaaAgent
 cyberscan\.io
 cybo\.com
 CyberConvoyScout
@@ -407,6 +411,7 @@ domain research project
 DomainAppender
 DomainDrift\/
 DomainLabz
+DomainProbe
 domainreanimator
 Domains Project\/
 Donuts Content Explorer
@@ -716,6 +721,7 @@ Humanlinks
 Hydrozen\.io
 i2kconnect\/
 IAB-Tech-Lab
+IAS Wombles
 Iblog
 ichiro
 Id-search
@@ -989,6 +995,7 @@ munin\/
 MuscatFerret
 MVAClient
 MxToolbox\/
+MyCellar\/
 myseosnapshot
 nagios
 Najdi\.si
@@ -1269,6 +1276,7 @@ RSiteAuditor
 RSSAPI\/
 RSSMix\/
 RSSOwl
+RSSRadio
 RuxitSynthetic
 RyowlEngine
 safe-agent-scanner
@@ -1555,6 +1563,7 @@ Valimail\/
 VB Project
 vBSEO
 Verity
+veryhip
 via ggpht\.com GoogleImageProxy
 Vienna\/[0-9]
 ViberUrlDownloader
