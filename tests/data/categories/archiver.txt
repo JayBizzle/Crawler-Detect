@@ -1,0 +1,77 @@
+Mozilla/5.0 (compatible; archive-com.com/1.1; +http://archive-com.com/bot)
+Mozilla/5.0 (X11; Linux x86_64; archive.org_bot; Archive-It; +http://archive-it.org/files/site-owners.html) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Mozilla/5.0 (compatible; archive.org_bot; Archive-It; +http://archive-it.org/files/site-owners.html)
+Mozilla/5.0 (compatible; archive.org_bot +http://archive.org/details/archive.org_bot)
+Mozilla/5.0 (compatible; archive.org_bot/3.3.0 +http://www.archive.org/details/archive.org_bot)
+ArchiveBox/0.5.3 (+https://github.com/ArchiveBox/ArchiveBox/)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 ArchiveBox/0.7.2 (+https://github.com/ArchiveBox/ArchiveBox/)
+ArchiveTeam ArchiveBot/20170106.02 (wpull 2.0.2)
+Arquivo-web-crawler (compatible; heritrix/3.4.0-20200304 +https://arquivo.pt/faq-crawling)
+Arquivo-web-crawler (compatible; +https://arquivo.pt/robot)
+bl.uk_ldfc_bot/3.4.0-20220727 (+https://www.bl.uk/legal-deposit/web-archiving)
+bl.uk_lddc_bot/3.4.0-20220727 (+https://www.bl.uk/legal-deposit-web-archiving)
+Mozilla/5.0 (compatible; bne.es_bot; https://www.bne.es/es/colecciones/archivo-web-espanola/aviso-webmasters) Firefox/129.0.1
+Mozilla/5.0 (compatible; bnf.fr_bot; +http://bibnum.bnf.fr/robot/bnf.html)
+Mozilla/5.0 (compatible; bnf.fr_bot; +http://www.bnf.fr/fr/outils/a.dl_web_capture_robot.html)
+Arquivo-web-crawler (compatible; browsertrix/0.8 +https://arquivo.pt/faq-crawling)
+Arquivo-web-crawler (compatible; brozzler/1.5 +https://arquivo.pt/faq-crawling)
+Mozilla/5.0 (compatible; MSIE 7.0 +http://www.europarchive.org)
+Mozilla/5.0 (compatible; heritrix/3.1.1-SNAPSHOT-20120116.200628 +http://www.archive.org/details/archive.org_bot)
+Mozilla/5.0 (compatible; heritrix/1.12.1b +http://netarkivet.dk/website/info.html)
+ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)
+ia_archiver-web.archive.org
+Mozilla/5.0 (compatible; heritrix/3.10.0 +https://www.kb.dk/netarkivindsamling/) Firefox/144
+kb.dk_bot
+Mozilla/5.0 (compatible; memorybot/1.20.71 +http://archivethe.net/en/index.php/about/internet_memory1 on behalf of DNB)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 The National Archives UK Government Web Archive: http://www.nationalarchives.gov.uk/webarchive/; webarchive@nationalarchives.gov.uk
+Mozilla/5.0 (compatible; archive.org_bot/3.1.2 +http://natlib.govt.nz/about-us/current-initiatives/web-harvest-2012)
+Mozilla/5.0 (compatible; NLNZ_IAHarvester2024/3.3.0; +https://natlib.govt.nz/publishers-and-authors/web-harvesting/domain-harvest)
+Mozilla/5.0 (compatible; NLUX_IAHarvester/3.4.0; +http://crawl.bnl.lu/)
+PageFreezer (pagefreezer crawler; http://pagefreezer.com/pagefreezer-crawler/; info@pagefreezer.com)
+Mozilla/5.0 (compatible; archive.org_bot/3.3.0 +http://pandora.nla.gov.au/crawl.html)
+SmarshBot/1.0
+Mozilla/5.0 (compatible; special_archiver/3.3.0 bot@archive.org +https://archive.org/details/archive.org_bot)
+Mozilla/5.0 (compatible; special_archiver/3.2.0 +http://www.loc.gov/webarchiving/notice_to_webmasters.html)
+Mozilla/5.0 (compatible; archive.org_bot; Wayback Machine Live Record; +http://archive.org/details/archive.org_bot)
+Mozilla (+http://web.nli.org.il/sites/NLI/English/collections/israel-collection/internet_archive/Pages/default.aspx)
+Mozilla/5.0 (compatible; heritrix/1.12.1 +http://www.webarchiv.cz)
+Mozilla/5.0 (compatible; XY-Archive-Compliance-Crawler; +https://archive.xyplanningnetwork.com/)
+Mozilla/5.0 (compatible; LAC_IAHarvester/3.3.0; +https://library-archives.canada.ca/eng/services/government-canada/web-social-media-preservation-program/Pages/web-archive.aspx)
+Library Of Congress Web Archiving
+Mozilla/5.0 (compatible; Authory/1.0; +https://authory.com/)
+awin.com - site screen shotter
+Browsershots
+Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +http://www.cloudflare.com/always-online) AppleWebKit/534.34
+Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +http://www.cloudflare.com/always-online)
+Easy-Thumb (https://www.easy-thumb.net/)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535. Safari/535.22+; (+http://immediatenet.com/thumbnail_api.html; free thumbnails)
+Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13
+Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Version/4.0 Mobile Safari/537.36
+gosquared-thumbnailer/1.0
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.17) Gecko/20110515 HeartRails_Capture/1.0.4 (+http://capture.heartrails.com/) Namoroka/3.6.17
+Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.20) Gecko/20090429 HeartRails_Capture/0.6 (+http://capture.heartrails.com/) BonEcho/2.0.0.20
+Mozilla/5.0 (compatible; imbot/0.1 +http://internetmemory.org/en/
+Mozilla/5.0 (compatible; imbot/0.1 +http://internetmemory.org/en/)
+Mozilla/5.0 (compatible; JungleKeyThumbnail/1.1; +http://www.junglekey.fr/)
+Mozilla/5.0 (compatible; kulturarw3 +http://www.kb.se/om/projekt/Svenska-webbsidor---Kulturarw3/)
+livedoor ScreenShot/0.10
+Miniature.io/2.0 (Linux; en-us)
+Mozilla/5.0 (X11; Linux x86_64; rv:10.0.12) Gecko/20100101 Firefox/21.0 WordPress.com mShots
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) WordPress.com mShots Safari/537.36
+PagePeeker.com (info: http://pagepeeker.com/robots)
+PagePeeker.com
+PDF24 URL To PDF
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 (https://shrinktheweb.com)
+Mozilla/5.0 AppleWebkit/537.36 (KHTML, like Gecko) Trident/7.0; rv:11.0, Chrome/42.0.2311.135, Edge/12.10136, http://www.shrinktheweb.com/, Webshot/0.9
+thumbshots-de-bot (+http://www.thumbshots.de/)
+Mozilla/5.0 (compatible; Thumbshots.ru; +http://thumbshots.ru/bot) Firefox/3
+ThumbSniper (http://thumbsniper.com)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) web-capture.net/0.9 Safari/537.21
+Webshot/0.9 ( http://www.shrinktheweb.com/ )
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) Websnapr/3.0 Safari/534.34
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36 Webthumb/2.0
+Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.9.2.19) Gecko WebThumb/1.0
+Mozilla/5.0 (compatible; WebThumbnail/2.2; Website Thumbnail Generator; +http://webthumbnail.org)
+Mozilla/5.0 (compatible; WebThumbnail/3.x; Website Thumbnail Generator; +http://webthumbnail.org)
+wikiwix-bot-3.0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/124.0.6367.207 Safari/537.36 WordPress.com mShots

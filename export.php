@@ -11,11 +11,13 @@
 
 require 'src/Fixtures/AbstractProvider.php';
 require 'src/Fixtures/Crawlers.php';
+require 'src/Fixtures/Categories.php';
 require 'src/Fixtures/Exclusions.php';
 require 'src/Fixtures/Headers.php';
 
 $src = [
     'Crawlers',
+    'Categories',
     'Exclusions',
     'Headers',
 ];
@@ -36,6 +38,13 @@ function outputJson($object)
 
 function outputTxt($object)
 {
+    $data = $object->getAll();
+
+    // Categories is a map of lists, which has no sensible flat text form.
+    if (is_array(reset($data))) {
+        return;
+    }
+
     $className = (new ReflectionClass($object))->getShortName();
-    file_put_contents("raw/$className.txt", implode(PHP_EOL, $object->getAll()).PHP_EOL);
+    file_put_contents("raw/$className.txt", implode(PHP_EOL, $data).PHP_EOL);
 }
