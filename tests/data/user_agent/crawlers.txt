@@ -4149,3 +4149,12 @@ uclient-fetch
 Deno/1.40
 Playwright/1.40
 node
+Mozilla/5.0 (compatible; Cloudflare-Traffic-Manager/1.0; +https://www.cloudflare.com/traffic-manager/; pool-id: xxxxxxxxxxxxxxxx)
+RSSRadio (Push Notification Scanner;support@dorada.co.uk)
+veryhip (http://veryhip.com/)
+k6/0.31.1 (https://k6.io/)
+Page Monitor (https://confluence.dev.bbc.co.uk/display/men/Page+Monitor)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 CybaaAgent
+IAS Wombles (ias_wombles; http://integralads.com/site-indexing-policy/)
+Mozilla/5.0 (compatible; DomainProbe/1.1; +https://example.local)
+MyCellar/1.0 (https://www.mycellar.world)
