@@ -39,3 +39,39 @@ Mozilla/5.0 (compatible; XY-Archive-Compliance-Crawler; +https://archive.xyplann
 Mozilla/5.0 (compatible; LAC_IAHarvester/3.3.0; +https://library-archives.canada.ca/eng/services/government-canada/web-social-media-preservation-program/Pages/web-archive.aspx)
 Library Of Congress Web Archiving
 Mozilla/5.0 (compatible; Authory/1.0; +https://authory.com/)
+awin.com - site screen shotter
+Browsershots
+Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +http://www.cloudflare.com/always-online) AppleWebKit/534.34
+Mozilla/5.0 (compatible; CloudFlare-AlwaysOnline/1.0; +http://www.cloudflare.com/always-online)
+Easy-Thumb (https://www.easy-thumb.net/)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535. Safari/535.22+; (+http://immediatenet.com/thumbnail_api.html; free thumbnails)
+Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13
+Mozilla/5.0 (Linux; U; Android 2.3.4; generic) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Version/4.0 Mobile Safari/537.36
+gosquared-thumbnailer/1.0
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.17) Gecko/20110515 HeartRails_Capture/1.0.4 (+http://capture.heartrails.com/) Namoroka/3.6.17
+Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.8.1.20) Gecko/20090429 HeartRails_Capture/0.6 (+http://capture.heartrails.com/) BonEcho/2.0.0.20
+Mozilla/5.0 (compatible; imbot/0.1 +http://internetmemory.org/en/
+Mozilla/5.0 (compatible; imbot/0.1 +http://internetmemory.org/en/)
+Mozilla/5.0 (compatible; JungleKeyThumbnail/1.1; +http://www.junglekey.fr/)
+Mozilla/5.0 (compatible; kulturarw3 +http://www.kb.se/om/projekt/Svenska-webbsidor---Kulturarw3/)
+livedoor ScreenShot/0.10
+Miniature.io/2.0 (Linux; en-us)
+Mozilla/5.0 (X11; Linux x86_64; rv:10.0.12) Gecko/20100101 Firefox/21.0 WordPress.com mShots
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) WordPress.com mShots Safari/537.36
+PagePeeker.com (info: http://pagepeeker.com/robots)
+PagePeeker.com
+PDF24 URL To PDF
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 (https://shrinktheweb.com)
+Mozilla/5.0 AppleWebkit/537.36 (KHTML, like Gecko) Trident/7.0; rv:11.0, Chrome/42.0.2311.135, Edge/12.10136, http://www.shrinktheweb.com/, Webshot/0.9
+thumbshots-de-bot (+http://www.thumbshots.de/)
+Mozilla/5.0 (compatible; Thumbshots.ru; +http://thumbshots.ru/bot) Firefox/3
+ThumbSniper (http://thumbsniper.com)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) web-capture.net/0.9 Safari/537.21
+Webshot/0.9 ( http://www.shrinktheweb.com/ )
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) Websnapr/3.0 Safari/534.34
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36 Webthumb/2.0
+Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.9.2.19) Gecko WebThumb/1.0
+Mozilla/5.0 (compatible; WebThumbnail/2.2; Website Thumbnail Generator; +http://webthumbnail.org)
+Mozilla/5.0 (compatible; WebThumbnail/3.x; Website Thumbnail Generator; +http://webthumbnail.org)
+wikiwix-bot-3.0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/124.0.6367.207 Safari/537.36 WordPress.com mShots

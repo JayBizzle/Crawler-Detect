@@ -46,3 +46,5 @@ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/14
 Trae-Agent
 TwinAgent
 Mozilla/5.0 (compatible; UseAI/1.0; +https://agents.urls.use.ai) AppleWebKit/537.36
+amazon-Quick-on-behalf-of-0a1b2c3d
+Mozilla/5.0 (compatible; grok-agent/1.0; +https://x.ai)

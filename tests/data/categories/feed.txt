@@ -143,3 +143,47 @@ zelist.ro feed parser (+http://www.zelist.ro)
 RSSRadio (Push Notification Scanner;support@dorada.co.uk)
 Castro 2, Episode Duration Lookup
 TuneIn-DirMon/1.0
+AppleNewsBot
+AppleSyndication/52.8
+BlogBridge 2.13 (http://www.blogbridge.com/)
+Bloglovin/1.0 (http://www.bloglovin.com; 1000 subscribers)
+Feed Wrangler/1.0 (3 subscribers; feed-id=248559; http://feedwrangler.net; Allow like Gecko)
+FeedCatBot/3.0 (+http://www.feedcat.net/)
+Feedfetcher-Nuesbyte; (+http://www.nuesbyte.com)
+Feedreader 3.xx (Powered by Newsbrain)
+Feedshow/x.0 (http://www.feedshow.com; 1 subscriber)
+FeedZcollector v1.x (Platinum) http://www.feeds4all.com/feedzcollector
+FFbot/1.0; +http://feedfury.com
+g2reader-bot/1.0 (+http://www.g2reader.com/)
+GreatNews/1.0
+Gregarius/0.5.2 ( http://devlog.gregarius.net/docs/ua)
+Mozilla/5.0 (compatible; U; Hootsuite-WebFeed/1.0; mailto:abuse@hootsuite.com)
+intraVnews/1.x
+kouio.com RSS reader - 6 subscribers
+LinqiaRSSBot/1.0 (eng@linqia.com)
+Netvibes (http://www.netvibes.com)
+nWormFeedFinder (http://www.nworm.com)
+ownCloud News/5.3.6 (+https://owncloud.org/; 1 subscriber;)
+Mozilla/5.0 (compatible;  Page2RSS/0.7; +http://page2rss.com/)
+Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)
+ping.blo.gs/2.0
+Plagger/0.x.xx (http://plagger.org/)
+RSSMix/3.0
+RssReader/1.0.xx.x (http://www.rssreader.com) Microsoft Windows NT 5.1.2600.0
+SilverReader/1.0; http://silverreader.com
+SniffRSS/0.5beta (+http://www.blogator.com/)
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.16) Gecko/2009121601 Ubuntu/9.04 (jaunty) Firefox/3.0.16 Specificfeeds- http://www.specificfeeds.com
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36 Specificfeeds- http://www.specificfeeds.com
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.2.1; aggregator:Spinn3r (Spinn3r 3.1); http://spinn3r.com/robot) Gecko/20021130
+Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.19; aggregator:Spinn3r (Spinn3r 3.1); http://spinn3r.com/robot) Gecko/2010040121 Firefox/3.0.19
+Summify (Summify/1.0.1; +http://summify.com)
+Syndirella/0.91pre 
+Technoratibot/8.0
+Technoratibot/7.0
+TrapitAgent/0.1 (feed processor; +http://trapit.com/about)
+Mozilla/5.0 (TweetmemeBot/4.0; +http://datasift.com/bot.html) Gecko/20100101 Firefox/31.0
+Mozilla/5.0 (compatible; TweetmemeBot/3.0; +http://tweetmeme.com/)
+Mozilla/5.0 (compatible; Twingly Recon; twingly.com)
+WikioFeedBot 1.0 (http://www.wikio.com)
+WinPodder (http://winpodder.com)
+Zemanta Aggregator/0.9 +http://www.zemanta.com

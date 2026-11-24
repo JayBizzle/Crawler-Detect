@@ -87,3 +87,51 @@ SteamChatImageProxy
 Valve/Steam HTTP Client 1.0 (SteamChatURLLookup)
 ViberUrlDownloader
 Yahoo:LinkExpander:Slingstone
+acebookexternalhit/1.0 (+http://www.facebook.com/externalhit_uatext.php)
+AddThis.com (http://support.addthis.com/)
+AddThis.com robot tech.support@clearspring.com
+bitlybot/3.0 (+http://bit.ly/)
+bitlybot
+Bitrix link preview
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google (+https://developers.google.com/+/web/snippet/)
+Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google (+https://developers.google.com/+/web/snippet/)
+Disqus/1.0
+Mozilla/5.0 (compatible; DripfeedBot/2.0; +http://dripfeedbookmark.com/bot.html
+Everwall Link Expander ( http://everwall.com )
+facebookcatalog/1.0
+facebookexternalua
+facebookplatform/1.0 (+http://developers.facebook.com)
+FediAct Service
+Mozilla/5.0 (compatible; XmarksFetch/1.0; +http://www.xmarks.com/about/crawler; info@xmarks.com)
+github-camo (65c9ebe0)
+github-camo (abb93c82)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 GoogleMessages/15.1
+HatchFeed/1.0 (+https://agent.meta.ai; link preview)
+Hatena Antenna/0.5 (http://a.hatena.ne.jp/help)
+DoCoMo/2.0 D903i(c100;TB;W28H20) (compatible; Hatena-Mobile-Gateway/1.2; +http://mgw.hatena.ne.jp/help)
+Mozilla/5.0 (compatible; historious/2.0; +http://historio.us/)
+HootSuite Image proxy (hosting@hootsuite.com)
+IDG Twitter Links Resolver
+InAGist URL Resolver (http://inagist.com)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 1068) AppleWebKit/534.50 (KHTML like Gecko) Version/5.1 Instapaper/4.0 (+http://www.instapaper.com/)
+JS-Kit URL Resolver http://js-kit.com/
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) Qt/4.8.3 Safari/534.34 https://linkpeek.com
+SSI-LinkPreviewGenerator/1.0
+Mixmax-LinkPreview 1.0 (+https://sdk.mixmax.com)
+NotionEmbedder
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.4) Gecko/2008102920 http://ow.ly web crawler (.NET CLR 3.5.30729)
+Pearltrees
+Pleroma 2.1.50-495-gf9ece1a7-develop+dev; https://search.fedi.app <pleroma@search.fedi.app>; Bot
+RebelMouse/0.1 Mozilla/5.0 (compatible; http://rebelmouse.com) Gecko/20100101 Firefox/7.0.1
+RecurPost/1.0 https://recurpost.com (KHTML, like Gecko)
+SiteBar/3.3.5 (Bookmark Server; http://sitebar.org/)
+SiteBar/3.3.8 (Bookmark Server; http://sitebar.org/)
+Mozilla/5.0 (compatible; socialbm_bot/1.0; +http://spider.socialbm.net)
+socialbm_bot http://spider.socialbm.net
+Mozilla/5.0 (Windows NT 6.1; rv:12.0; StumbleUpon; noc@stumbleupon.com) Gecko/20100101 Firefox/12.0
+Mozilla/5.0 (Windows NT 6.1; rv:40.0; StumbleUpon; noc@stumbleupon.com) Gecko/20100101 Firefox/40.1
+Taringa UGC www.taringa.net/shared-link.php
+TeamSpeak3-ImageFetcher-1.0
+Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+WhatsApp
+YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html

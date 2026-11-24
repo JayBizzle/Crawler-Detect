@@ -86,3 +86,40 @@ DA 7.0
 colly/2.1.0
 puf/0.93.2a (Linux 2.4.18; i686)
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Sparkler/0.2.0-SNAPSHOT
+Mozilla/5.0 (compatible; 008/0.83; http://www.80legs.com/spider.html;) Gecko/2008032620
+Mozilla/5.0 (compatible; 008/0.83; http://www.80legs.com/webcrawler.html;) Gecko/2008032620
+AndroidDownloadManager/6.0.1 (Linux; U; Android 6.0.1; SM-G900F Build/MMB29M)
+AndroidDownloadManager/4.4.2 (Linux; U; Android 4.4.2; SM-T310 Build/KOT49H)
+http://arachnode.net 1.4
+http://arachnode.net 1.2
+Mozilla/5.0 (compatible; BIXOCRAWLER; +http://wiki.github.com/bixo/bixo/bixocrawler; bixo-dev@yahoogroups.com)
+CC Metadata Scaper http://wiki.creativecommons.org/Metadata_Scraper
+Citoid (Wikimedia tool; learn more at https://www.mediawiki.org/wiki/Citoid)
+DAP/NetHTTP
+Download Demon/3.5.0.11
+Download Wonder
+EMail Exractor
+EmailWolf 1.00
+Favicon downloader (+https://favico.be/bot.html)
+Favicon downloader (http://favicon.netk6.com/)
+Go!Zilla 3.5 (www.gozilla.com)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11 KimonoLabs/0.2
+LeechGet 2004 (www.leechget.net)
+LinqiaScrapeBot/1.0 (eng@linqia.com)
+NetAnts/1.25
+PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36 PrintFriendly.com
+pyspider/0.3.9 (+http://pyspider.org/)
+Readability/740ec9 - http://readability.com/about/
+Readability/1900e6 - http://readability.com/about/
+RealDownload/4.0.0.40
+RealPlayer%20Downloader/1569 CFNetwork/720.3.13 Darwin/14.3.0 (x86_64)
+RealPlayer%20Downloader/1701 CFNetwork/760.5.1 Darwin/15.5.0 (x86_64)
+Mozilla/4.0 (compatible; <a href=http://www.reget.com>ReGet Deluxe 5.1</a>; Windows NT 5.1)
+EmailSiphon
+StormCrawler/1.0 (a Storm-based crawler; https://github.com/DigitalPebble/storm-crawler; stormcrawler@digitalpebble.com)
+VidibleScraper/1.0
+WebReaper [webreaper@otway.com]
+WebSauger 1.20b
+WWWOFFLE/2.9a
+ZoteroTranslationServer/WMF (mailto:services@lists.wikimedia.org)

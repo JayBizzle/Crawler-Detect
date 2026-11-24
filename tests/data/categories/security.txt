@@ -145,3 +145,45 @@ Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0 UCS
 ScamadviserExternalHit/1.0
 xtate/2.12.4
 Mozilla/5.0 xtate/2.12.4
+acme.sectigo.com/v2/DV
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall)
+asafaweb.com
+Mozilla/5.0 (compatible; BackupLand/1.0; https://go.backupland.com/; Domain check for viruses;)
+Barracuda Sentinel (EE)
+CERT.at-Statistics-Survey/1.0 (http://www.cert.at/about/consec/content.html)
+CISPA Vulnerability Notification (https://notify.mmci.uni-saarland.de)
+COMODO DCV
+Comodo-Certificates-Spider
+Comodo-Webinspector-Crawler 2.2.0, http://www.comodorobot.com
+Comodo-Webinspector-Crawler 2.1
+DataCha0s/2.0
+Mozilla/5.0 (compatible; DNS-Digger-Explorer/1.0; +http://www.dnsdigger.com)
+Mozilla/5.0 (compatible; DNS-Digger/1.0; +http://www.dnsdigger.com)
+DirBuster-1.0-RC1 (http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)
+Mozilla/5.0 (FHScan Core 1.1)
+fimap.googlecode.com/v09 (For the Swarm)
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) Havij
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10 (.NET CLR 3.5.30729) JBroFuzz/1.9
+Mozilla/5.0 Jorgee
+Kaspersky Lab CFR link resolver cfradmins@kaspersky.com
+Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
+Morfeus Fucking Scanner
+muhstik-scan/1.0
+Norton-Safeweb
+NYU Internet Census (https://scan.lol; research@scan.lol)
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:82.0) Gecko/20100101 Firefox/82.0 Observatory/82.0
+www.probethenet.com scanner
+SafeDNSBot (https://www.safedns.com/searchbot)
+Scamadviser-Frontend
+Mozilla/5.0 (compatible; MSIE 7.0; MSIE 6.0; ScanAlert; +http://www.scanalert.com/bot.jsp) Firefox/2.0.0.3
+Sectigo DCV
+SpamExperts/128741 (Virus Scan)
+SSL Labs (https://www.ssllabs.com/about/assessment.html)
+Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36; SSL-Crawler: http://crawler.dcsec.uni-hannover.de
+ssl-tools.net
+Mozilla/5.0 (compatible; SSLBot/1.0;  http://www.sslstats.com/sslbot)
+Valimail/1.0 (domain scanner)
+Virusdie crawler/2.1
+webshag/1.10
+Mozilla/5.0 (compatible; WP-Safe-Scanner/1.0)
+WP-Safe-Scanner/2.0

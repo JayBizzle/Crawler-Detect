@@ -161,3 +161,35 @@ insomnia/2022.6.0
 Apidog/1.0.0 (https://apidog.com)
 Deno/1.40
 node
+Adyen HttpClient 1.0
+Amazon Simple Notification Service Agent
+Apache Ant/1.10.9
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0 AppEngine-Google; (+http://code.google.com/appengine; appid: s~aeshortener)
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1 AppEngine-Google; (+http://code.google.com/appengine; appid: s~metacdn-hr)
+asynchttp
+azure-logic-apps/1.0 (workflow xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx; version xxxxxxxxxxxxxxxxxxxx) microsoft-flow/1.0
+Braintree-Webhooks
+Bun/1.3.12
+Bun/1.4.1
+ColdFusion
+CSHttpClient/1.0b68
+DavClnt
+docker/19.03.8 go/go1.12.17 git-commit/afacb8b7f0 kernel/4.19.123-coreos os/linux arch/amd64 UpstreamClient(Docker-Client/19.03.8 \(linux\))
+Dolphin http client/11.2.8(385) (Android)
+Dolphin http client/11.3.4(405) (Android)
+GT::WWW/1.025
+HAAARTLAND http client
+HAARTLAND http client
+HTTP::Lite/2.44
+Jetty/9.3.z-SNAPSHOT
+Jetty/9.3.z-SNAPSHOT, SMUrlExpander
+kubectl/v1.12.0 (linux/amd64) kubernetes/0ed3388
+Lavf/57.25.100
+lftp/4.7.7
+Lucee (CFML Engine)
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Lush Http Client
+Mikrotik/6.x Fetch
+Mikrotik/7.x Fetch
+PECL::HTTP/1.7.4 (PHP/5.4.4)
+pnpm/6.18.0 npm/? node/v16.11.1 linux x64
+URL/Emacs Emacs/26.1 (X11; x86_64-pc-linux-gnu)

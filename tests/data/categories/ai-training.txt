@@ -77,3 +77,10 @@ laion-huggingface-processor
 LAIONDownloader
 SalamandraVLM
 Mozilla/5.0 (compatible; UdV-AI-Research/1.0)
+CCResearchBot/1.0 commoncrawl.org/research//Nutch-1.7-SNAPSHOT
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0) commoncrawl.org/research//Nutch-1.7-SNAPSHOT
+Mozilla/5.0 (Mobile; rv:18.0) Gecko/18.0 Firefox/18.0 commoncrawl.org/research//Nutch-1.7-SNAPSHOT
+Mozilla/5.0 (compatible; snapscout-benchmark/1.0; img2dataset)
+Mozilla/5.0 (compatible; MaCoCu; +https://www.clarin.si/info/macocu-massive-collection-and-curation-of-monolingual-and-bilingual-data/)
+SmerBot/0.1 (smerity@smerity.com) Language Model Dataset Fetcher
+Spawning-AI
