@@ -367,6 +367,9 @@ class Crawlers extends AbstractProvider
         'Craw\/',
         'Crescent',
         'Criteo',
+        'cron-?job',
+        'CronDroid',
+        'Cronless',
         'Crowsnest',
         'CSE-Scanner',
         'CSHttp',
@@ -447,6 +450,7 @@ class Crawlers extends AbstractProvider
         'DynatraceSynthetic',
         'EARTHCOM',
         'Easy-Thumb',
+        'EasyCron',
         'EasyDL',
         'Ebingbong',
         'ec2linkfinder',
@@ -1746,6 +1750,6 @@ class Crawlers extends AbstractProvider
         'Zoom\.Mac',
         'ZoteroTranslationServer',
         'ZyBorg',
-        '[a-z0-9\-_]*(bot|crawl|headless|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
+        '[a-z0-9\-_]*(bot|crawl|headless|archiver|transcoder|spider|uptime|validator|fetcher|checker|reader|extractor|monitoring|analyzer|scraper)',
     ];
 }
