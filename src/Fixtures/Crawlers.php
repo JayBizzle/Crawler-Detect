@@ -86,7 +86,7 @@ class Crawlers extends AbstractProvider
         '^XRL\/[0-9]',
         '^ZmEu',
         '\$\{jndi:',
-        '008\/',
+        '(^| )008\/',
         '1Pilot',
         '13TABS',
         '192\.comAgent',
