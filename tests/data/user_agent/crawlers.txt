@@ -3982,3 +3982,60 @@ pingping.io/1.0
 solarwinds/1.0 ( www.solarwinds.com/solarwinds-observability)
 uptrends
 wheresitup.com/1.1
+iTMS
+Aggrivator (PodcastIndex.org)/v0.1.10
+Akregator/4.12.3; syndication SUSE
+Amazon Music Podcast
+AnnounceCast/3.4.1
+AntennaPod/3.12.1
+Buttondown RSS-Feed-Parser/1.0 (https://buttondown.com)
+Castamatic/13.2.1 (com.gunpmedia.Castamatic; build:6672; iOS 26.6.1)
+CastboxFeedParser/1.0
+Castopod/1.0
+Deezer Podcasters/1.0
+Downcast/2.11.33 (iPhone; iOS 26.6.1; Scale/3.00)
+FeedBlitz/1.0
+FeeddlerRSS/2.4 CFNetwork/548.1.4 Darwin/11.0.0
+hackermention <https://hackermention.appspot.com/>
+IFTTT/1.0 (https://ifttt.com/support)
+iVoox Global Podcasting Service
+ListenNotes/3.0 (id=c70675c6b3a84e26b0764575b61edb92; https://www.listennotes.com/about/)
+Luminary/1.0
+Mozilla/5.0 (compatible; Metacast/1.0 metacast.app)
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0 MonitoRSS/1.0
+NextCloud-News/1.0
+newsrdr (https://newsrdr.us/)
+Newsboat/2.44.0 (Macintosh; Mac OS X)
+newsbeuter/2.7 (Linux x86_64)
+OpenRSS
+Overcast/3.0 (+http://overcast.fm/; iOS podcast app)
+Playapod/2.6
+PocketCasts/1.0 (Pocket Casts Feed Parser; +http://pocketcasts.com/)
+Podbay/2.9 RSS Sync
+Podbean/FeedUpdate 2.1
+PodcastGuru/1.0.38 (com.reallybadapps.podcastguru; build:132; iOS 26.6.1) Alamofire/5.11.2
+PodcastRepublic/18.0
+Podcasts/1440.4 CFNetwork/1128.0.1 Darwin/19.6.0 (x86_64)
+Podcasts/4024.230.1 CFNetwork/1568.200.51 Darwin/24.1.0
+PodchaserParser/2.0 (https://podchaser.com)
+Podfriend/1.0
+Podimo/1.0 (+https://podimo.com/)
+Podplay-Podcast-Sync/1.0 (+https://podplay.com/articles/contact)
+Podscribe/1.1 https://podscribe.com
+Podtrac Feed Scanner
+Podverse/Feed Parser
+RawVoice Generator/2.93.5 (https://blubrry.com/)
+ReadKit/2.4.0 (Mac OS X Version 10.9.2 (Build 13C64))
+Rephonic/1.0
+RSSAPI/2.0 (+https://rssapi.net/)
+Snipd/1.0 Podcast Sync (https://www.snipd.com)
+Mozilla/5.0 (compatible; SPAA/1.0; http://adanalytics.spotify.com/)
+Spotify/1.0
+Tentacles, Like iTunes
+Transistor.fm/1.0
+TuneInRssParser/1.0
+Vienna/9196 (Macintosh; Intel macOS 26_6_2)
+audiobookshelf (+https://audiobookshelf.org; like iTMS)
+feeeed/35 CFNetwork/3860.500.112 Darwin/25.4.0
+gPodder/3.11.5 (+http://gpodder.org/) Windows
+zelist.ro feed parser (+http://www.zelist.ro)
