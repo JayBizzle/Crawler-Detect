@@ -168539,3 +168539,38 @@ Mozilla/5.0 (Linux; x86_64) Ladybird/1.0
 Mozilla/5.0 (macOS; AArch64) Ladybird/1.0 Chrome/146.0.0.0 AppleWebKit/537.36 Safari/537.36
 Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; ZEUS Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
 MidnightBowling/1.1.6 CFNetwork/339.3 Darwin/9.4.1
+AmigaVoyager/3.2 (AmigaOS/MC680x0)
+Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; Banca Caboto s.p.a.; rv:11.0) like Gecko
+Speedy/138 CFNetwork/596.2.3 Darwin/12.2.0 (x86_64) (Macmini5%2C3)
+TIANYU-KTOUCH/A930/Screen-240X320
+com.google.android.apps.searchlite/101032 (Linux; U; Android 8.1.0; ru_RU; M580; Build/O11019; Cronet/74.0.3729.182)
+com.google.android.apps.searchlite/57825 (Linux; U; Android 8.1.0; ru_RU; INOI_5i_Lite; Build/O11019; Cronet/80.0.3987.149)
+TikTok 17.8.1 rv:178102 (iPhone; iOS 14.1; ja_JP) Cronet
+CronetSnapDevSheldon/1
+Yandex.Music/2019-11-01.trunk.5885661
+com.google.android.apps.youtube.music/62354340 (Linux; U; Android 14; en_US; Pixel 7 Pro; Build/UP1A.231105.002; Cronet/114.0.5735.84)
+com.google.android.apps.searchlite/114914 (Linux; U; Android 8.1.0; it_IT; W_C200SN; Build/O11019; Cronet/74.0.3729.182)
+com.google.android.apps.searchlite/47202 (Linux; U; Android 8.1.0; en_US; X_TIGI_V19; Build/O11019; Cronet/66.0.3359.100)
+Dalvik/2.1.0 (Linux; U; Android 6.0; SMART_4G_Speedy_5inch Build/MRA58K)
+Mozilla/5.0 (Linux; Android 6.0; SMART 4G Speedy 5.0 Plus Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Mobile Safari/537.36
+com.google.android.apps.searchlite/94333 (Linux; U; Android 9; bn_IN; LN9910; Build/PPR1.180610.011; Cronet/85.0.4183.127)
+com.google.android.apps.searchlite/173804 (Linux; U; Android 8.1.0; es_ES; Stella XS; Build/O11019; Cronet/76.0.3809.111)
+com.google.android.apps.searchlite/63665 (Linux; U; Android 8.1.0; ru_UA; Ulefone_S1; Build/O11019; Cronet/90.0.4430.82)
+Mozilla/5.0 (Linux; Android 8.1.0; XBot_Senior Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 6.0; VR BOT 552) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 6.0; VR BOT 552 PLUS) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Mobile Safari/537.36
+DESAY TS1008/1.0 Release/07.12.2013 Mozilla/5.0 (Linux; U; Android 4.0.3; zh-cn) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+com.sidhbalitech.ninexplayer/30 (Linux; U; Android 15; es_US; SM-A166M; Build/AP3A.240905.015.A2; Cronet/140.0.7289.0)
+Mozilla/5.0 (Linux; Android 7.1.1; M_bot_tab_1150 Build/N9F27F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+Mozilla/5.0 (Linux; Android 7.1.2; M_bot_tab_71 Build/NHG47K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Safari/537.36
+com.devcoder.iptvxtreamplayer/111 (Linux; U; Android 12; en; Philips Google TV TA1; Build/STT2.220929.001; Cronet/114.0.5735.33)
+com.tcl.browser/660067 (Linux; U; Android 12; tr_TR; Chromecast HD; Build/STTK.230808.004; Cronet/114.0.5735.33)
+com.tcl.browser/660067 (Linux; U; Android 12; tr_TR; Chromecast; Build/STTK.230808.004; Cronet/114.0.5735.33)
+com.tcl.browser/660067 (Linux; U; Android 9; tr_TR; HKC 4K AI Smart TV; Build/PTO5.220304.001; Cronet/114.0.5735.33)
+Linux; U; Android 7.1.2; es_US; Black Box Tv Pro; Build/Black_Box_Tv_Pro; Cronet/64.0.3282.137
+Linux; U; Android 10; tr_TR; Box Q; Build/QTT8.201201.002; Cronet/114.0.5735.33
+Linux; U; Android 11; en_GB; Box R 4K; Build/RTT0.211009.001; Cronet/114.0.5735.33
+Linux; U; Android 12; fa_US; NETBOX-ShineS; Build/SP1A.211105.004; Cronet/114.0.5735.33
+Linux; U; Android 10; pt_PT; MEO TV Box 4K (DIW3930); Build/QTG1.230301.001; Cronet/114.0.5735.33
+Linux; U; Android 10; TEST (DIW3930); Build/QTG1.230301.001; Cronet/114.0.5735.33
+Linux; U; Android 11; tr_TR; SN01DNGL300; Build/RTT0.210618.003; Cronet/114.0.5735.33
