@@ -109,7 +109,6 @@ alyze\.info
 amagit
 amazon-Quick-on-behalf-of
 amphp\/http-client
-Anarchie
 AndroidDownloadManager
 Anemone
 AngleSharp
@@ -145,7 +144,6 @@ ASPSeek
 Asterias
 Astute
 asynchttp
-Attach
 attohttpc
 autocite
 AutomaticWPTester
@@ -161,7 +159,6 @@ BackStreet
 BackupLand
 BackWeb
 Bad-Neighborhood
-Badass
 baidu\.com
 Bandit
 Barracuda Sentinel \(EE\)
@@ -177,7 +174,6 @@ BegunAdvertising
 Bewica-security-scan
 Bidtellect
 BigBozz
-Bigfoot
 biglotron
 BingLocalSearch
 BingPreview
@@ -187,7 +183,6 @@ Bitacle
 Bitrix link preview
 biz_Directory
 BKCTwitterUnshortener\/
-Black Hole
 Blackboard Safeassign
 blackboardally
 BlackWidow
@@ -315,11 +310,11 @@ delve\.ai
 Demon
 DeuSu
 developers\.google\.com\/\+\/web\/snippet\/
-Devil
 Digg
 Digincore
 DigitalPebble
 Dirbuster
+DISCo Pump
 Discourse Forum Onebox
 Dispatch\/
 Disqus\/
@@ -360,7 +355,6 @@ EirGrabber
 ElectricMonk
 elefent
 EMail Exractor
-EMail Wolf
 EmailWolf
 Embarcadero
 Embed PHP Library
@@ -426,7 +420,6 @@ FlipboardProxy
 FlipboardRSS
 Florienzh\/
 fluffy
-Flunky
 flynxapp
 foda-scanner\/[0-9]
 forensiq
@@ -862,7 +855,6 @@ nettle
 NetTrack
 Netvibes
 NetworkingExtension
-NetZIP
 Neustar WPM
 NeutrinoAPI
 NewRelicPinger
@@ -927,7 +919,6 @@ orion-semantics
 Outlook-Express
 Outlook-iOS
 Owler
-Owlin
 ownCloud News
 ow\.ly
 OxfordCloudService
@@ -1018,7 +1009,6 @@ pshtt, https scanning
 PTST 
 PTST\/[0-9]+
 pulsetic\.com
-Pump
 Python-httplib2
 python-httpx
 python-requests
@@ -1048,7 +1038,6 @@ Readability
 RealDownload
 RealPlayer%20Downloader
 RebelMouse
-Recorder
 RecurPost\/
 redback\/
 ReederForMac
@@ -1143,7 +1132,6 @@ SimplePie
 SimplyFast
 Siphon
 SISTRIX
-Site Sucker
 Site-Shot\/
 Site24x7
 SiteBar
@@ -1172,7 +1160,6 @@ SlySearch
 SmartDownload
 SMRF URL Expander
 SMUrlExpander
-Snake
 Snappy
 SnapSearch
 Snarfer\/
@@ -1186,8 +1173,6 @@ Sottopop
 sovereign\.ai
 SpaceBison
 SpamExperts
-Spammen
-Spanner
 Spawning-AI
 spaziodati
 SPDYCheck
@@ -1237,10 +1222,9 @@ Taringa UGC
 TarmotGezgin
 tchelebi\.io
 techiaith\.cymru
-Teleport
+Teleport Pro
 Telesoft
 Telesphoreo
-Telesphorep
 Tenon\.io
 teoma
 terrainformatica
@@ -1310,13 +1294,10 @@ Urlstat
 URLTester
 UrlTrends Ranking Updater
 URLy Warning
-URLy\.Warning
 URL\/Emacs
-Vacuum
 Vagabondo
 VB Project
 vBSEO
-VCI
 Verity
 via ggpht\.com GoogleImageProxy
 Virusdie
@@ -1345,7 +1326,6 @@ WatchMouse
 WbSrch\/
 WDT\.io
 Web Auto
-Web Collage
 Web Downloader\/[0-9]
 Web Enhancer
 Web Fetch
@@ -1353,7 +1333,6 @@ Web Fuck
 Web Pix
 Web Sauger
 Web spyder
-Web Sucker
 web-capture\.net
 Web-sniffer
 Webalta
@@ -1387,7 +1366,6 @@ Webshag
 Webshot
 Website Quester
 websitepulse agent
-WebsiteQuester
 Websnapr
 WebSniffer
 Webster
@@ -1439,11 +1417,8 @@ Wtrace
 WWW-Collector-E
 WWW-Mechanize
 WWW::Document
-WWW::Mechanize
 WWWOFFLE
 www\.monitor\.us
-x09Mozilla
-x22Mozilla
 XaxisSemanticsClassifier
 XenForo\/
 Xenu Link Sleuth
@@ -1470,7 +1445,6 @@ yourls\.org
 YoYs\.net
 YP\.PL
 Zabbix
-Zade
 Zao
 Zapier
 Zauba
@@ -1478,7 +1452,6 @@ Zemanta Aggregator
 Zend\\Http\\Client
 Zend_Http_Client
 Zermelo
-Zeus 
 zgrab
 ZnajdzFoto
 ZnHTTP
