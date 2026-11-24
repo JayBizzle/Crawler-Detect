@@ -26,6 +26,13 @@ class CrawlerDetect
     protected $userAgent;
 
     /**
+     * Whether the user agent was passed in rather than built from the headers.
+     *
+     * @var bool
+     */
+    protected $userAgentIsExplicit = false;
+
+    /**
      * Headers that contain a user agent.
      *
      * @var array
@@ -170,6 +177,9 @@ class CrawlerDetect
      * HttpFoundation, Swoole or a Lambda event ('User-Agent'). Both are stored
      * under the canonical HTTP_ form so lookups stay uniform.
      *
+     * The user agent is rebuilt from the new headers, unless one was passed to
+     * the constructor or to setUserAgent(), in which case it is kept.
+     *
      * @param  array|null  $httpHeaders
      */
     public function setHttpHeaders($httpHeaders = null)
@@ -195,6 +205,12 @@ class CrawlerDetect
             if (strpos(strtoupper((string) $key), 'HTTP_') === 0 || isset($uaHeaders[$name])) {
                 $this->httpHeaders['HTTP_'.$name] = $this->normaliseHeaderValue($value);
             }
+        }
+
+        // A user agent that was built from the previous headers is stale now.
+        // One that was passed in explicitly is left alone.
+        if (! $this->userAgentIsExplicit) {
+            $this->setUserAgent();
         }
     }
 
@@ -242,12 +258,16 @@ class CrawlerDetect
     }
 
     /**
-     * Set the user agent.
+     * Set the user agent. With no argument it is built from the headers, and
+     * follows them again the next time setHttpHeaders() is called.
      *
      * @param  string|null  $userAgent
+     * @return string|null
      */
     public function setUserAgent($userAgent = null)
     {
+        $this->userAgentIsExplicit = ! is_null($userAgent);
+
         if (is_null($userAgent)) {
             $userAgent = '';
 

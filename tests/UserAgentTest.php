@@ -330,6 +330,41 @@ final class UserAgentTest extends TestCase
         $this->assertContains('HTTP_FROM', $this->crawlerDetect->getUaHttpHeaders());
     }
 
+    public function test_set_http_headers_refreshes_the_user_agent()
+    {
+        $cd = new CrawlerDetect(['User-Agent' => 'Googlebot/2.1']);
+        $this->assertTrue($cd->isCrawler());
+
+        $cd->setHttpHeaders(['User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0']);
+
+        $this->assertStringContainsString('Firefox/130.0', $cd->getUserAgent());
+        $this->assertFalse($cd->isCrawler());
+    }
+
+    public function test_set_http_headers_keeps_an_explicit_user_agent()
+    {
+        $cd = new CrawlerDetect(['User-Agent' => 'Googlebot/2.1'], 'curl/8.4.0');
+        $cd->setHttpHeaders(['User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0']);
+
+        $this->assertSame('curl/8.4.0', $cd->getUserAgent());
+
+        $cd->setUserAgent('Wget/1.21');
+        $cd->setHttpHeaders(['User-Agent' => 'Googlebot/2.1']);
+
+        $this->assertSame('Wget/1.21', $cd->getUserAgent());
+    }
+
+    public function test_user_agent_follows_the_headers_again_once_reset()
+    {
+        $cd = new CrawlerDetect(['User-Agent' => 'Googlebot/2.1'], 'curl/8.4.0');
+
+        $cd->setUserAgent();
+        $this->assertStringContainsString('Googlebot/2.1', $cd->getUserAgent());
+
+        $cd->setHttpHeaders(['User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0']);
+        $this->assertStringContainsString('Firefox/130.0', $cd->getUserAgent());
+    }
+
     public function test_matches_does_not_persist_across_multiple_calls()
     {
         $this->crawlerDetect->isCrawler('Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile (compatible; Yahoo Ad monitoring; https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html)');
