@@ -8,7 +8,7 @@ The `raw/Crawlers.json` and `raw/Crawlers.txt` files are regenerated automatical
 ### Real browser user agents
 `tests/data/user_agent/devices.txt` and `tests/data/sec_ch_ua/devices.txt` hold real browser traffic, and the test suite checks none of it is flagged. If you have User-Agents from real visitors, especially recent browsers, in-app webviews or regions that aren't well covered yet, please share them using the "Contribute real browser user agents" issue form.
 
-The form takes either a `.txt` file with one User-Agent per line, or a `.csv` file with the User-Agent in the first column and, optionally, the client hint headers as a JSON object in the second.
+The form takes either a `.txt` file with one User-Agent per line, or a `.csv` file with the User-Agent in the first column and, optionally, the client hint headers as a JSON object in the second. Columns can be separated by commas or semicolons.
 
 To import a submission:
 
