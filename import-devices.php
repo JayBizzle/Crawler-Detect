@@ -15,8 +15,8 @@
  *   composer import-devices -- path/to/file [--dry-run]
  *
  * A .csv file has the User-Agent in the first column and, optionally, the
- * client hint headers as a JSON object in the second. Any other file is read
- * as one User-Agent per line.
+ * client hint headers as a JSON object in the second. Columns can be separated
+ * by commas or semicolons. Any other file is read as one User-Agent per line.
  *
  * Entries already in the test data are skipped. Anything CrawlerDetect flags
  * is listed for review instead of being added, since it's either a false
@@ -104,9 +104,10 @@ function readSubmission($path)
     $warnings = [];
     $isCsv = strtolower(pathinfo($path, PATHINFO_EXTENSION)) === 'csv';
     $handle = fopen($path, 'r');
+    $delimiter = $isCsv ? detectDelimiter($handle) : null;
     $row = 0;
 
-    while (($fields = readRow($handle, $isCsv)) !== null) {
+    while (($fields = readRow($handle, $delimiter)) !== null) {
         $row++;
         $userAgent = trim($fields[0] ?? '');
 
@@ -119,20 +120,17 @@ function readSubmission($path)
             continue;
         }
 
-        $userAgents[$userAgent] = true;
-
         $hints = trim($fields[1] ?? '');
+        $decoded = $hints === '' ? [] : json_decode($hints, true);
 
-        if ($hints === '') {
-            continue;
-        }
-
-        $decoded = json_decode($hints, true);
-
+        // If the second column isn't JSON the row was probably split in the
+        // wrong place, so the User-Agent can't be trusted either.
         if (! is_array($decoded)) {
-            $warnings[] = "row $row has client hints that aren't a JSON object, ignored";
+            $warnings[] = "row $row has client hints that aren't a JSON object, skipped";
             continue;
         }
+
+        $userAgents[$userAgent] = true;
 
         foreach ($decoded as $header => $value) {
             if (strcasecmp($header, 'Sec-CH-UA') === 0 && is_string($value) && trim($value) !== '') {
@@ -146,10 +144,40 @@ function readSubmission($path)
     return [array_keys($userAgents), array_keys($secChUa), $warnings];
 }
 
-function readRow($handle, $isCsv)
+function detectDelimiter($handle)
 {
-    if ($isCsv) {
-        $fields = fgetcsv($handle, 0, ',', '"', '');
+    // Read the first rows both ways and keep whichever gives more rows that
+    // split into exactly two columns, the second empty or a JSON object.
+    // Commas win a tie, as User-Agents are full of semicolons and aren't
+    // always quoted.
+    $scores = [];
+
+    foreach ([',', ';'] as $delimiter) {
+        rewind($handle);
+        $scores[$delimiter] = 0;
+
+        for ($row = 1; $row <= 50 && ($fields = fgetcsv($handle, 0, $delimiter, '"', '')) !== false; $row++) {
+            if ($row === 1 && preg_match('/^user[-_ ]?agent/i', trim($fields[0] ?? ''))) {
+                continue;
+            }
+
+            $hints = trim($fields[1] ?? '');
+
+            if (count($fields) === 2 && ($hints === '' || is_array(json_decode($hints, true)))) {
+                $scores[$delimiter]++;
+            }
+        }
+    }
+
+    rewind($handle);
+
+    return $scores[';'] > $scores[','] ? ';' : ',';
+}
+
+function readRow($handle, $delimiter)
+{
+    if ($delimiter !== null) {
+        $fields = fgetcsv($handle, 0, $delimiter, '"', '');
 
         return $fields === false ? null : $fields;
     }
