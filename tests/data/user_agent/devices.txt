@@ -168593,3 +168593,4 @@ Mozilla/5.0 (Linux; Android 7.0; C Bot Tab 100) AppleWebKit/537.36 (KHTML, like 
 Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 HbbTV/1.6.1 (+DRM; LGE/KTC/BOTECH; 58BSE9503; WEBOS22 04.42.26; W22_K8LP; DTV_C22P;)
 amaya/9.51 libwww/5.4.0
 Lynx/2.8.8pre.3 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/1.0.1e
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ladybird/2026.47.8 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36

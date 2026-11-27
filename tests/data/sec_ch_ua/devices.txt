@@ -274,3 +274,4 @@
 "Samsung Internet";v="24.0", "Chromium";v="117", "Not;A=Brand";v="8"
 "Samsung Internet";v="30.0", "Chromium";v="143", "Not A(Brand";v="24"
 "XiaoMiBrowser";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+"Ladybird";v="2026", "Not_A Brand";v="8", "Chromium";v="153"
